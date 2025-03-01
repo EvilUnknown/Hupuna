@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="/css/detailcategories.css" rel="stylesheet">
+    <link href="../css/base-style.css" rel="stylesheet">
+    <link href="../css/detailcategories.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -48,25 +48,25 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE NHỎ</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
                         </div>
@@ -84,25 +84,25 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE NHỎ</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="/images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
                             <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
                         </div>
@@ -116,7 +116,7 @@
         <div class="row selectCategory">
             <div class="col-3">
                 <div class="d-flex align-items-center">
-                    <img class="iconMenu" src="/images/icons/menu-svgrepo-com.svg">
+                    <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
                     <h2 class="fs-20 fw-600">Tất cả danh mục</h2>
                 </div>
                 <div class="row">
@@ -169,7 +169,7 @@
                 </div>
                 <div class="row cartonBox openClose" style="display: none;">
                     <div class="d-flex align-items-center">
-                        <img class="iconMenu iconFilter" src="/images/icons/filter-svgrepo-com.svg">
+                        <img class="iconMenu iconFilter" src="../icons/filter-svgrepo-com.svg">
                         <h2 class="fs-20">HỘP CARTON</h2>
                     </div>
                     <div id="filterStatus" class="mt-3">
@@ -360,7 +360,7 @@
 
                 <div class="row ofsetBox openClose" style="display: none;">
                     <div class="d-flex align-items-center">
-                        <img class="iconMenu iconFilter" src="/images/icons/filter-svgrepo-com.svg">
+                        <img class="iconMenu iconFilter" src="../icons/filter-svgrepo-com.svg">
                         <h2 class="fs-20">HỘP IN OFSET</h2>
                     </div>
                     <div id="filterStatus" class="mt-3">
@@ -586,7 +586,7 @@
                     <ul class=" d-flex align-items-center ">
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -606,7 +606,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -626,7 +626,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -646,7 +646,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -666,7 +666,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -686,7 +686,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -706,7 +706,7 @@
                         </li>
                         <li>
                             <div class="img-100 imgProduct">
-                                <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -766,7 +766,7 @@
                     </div>
                     <div>
                         <div class="bannerFooter img-100 mt-5">
-                            <img src="/images/bannerFooter.jfif" alt="Banner Footer">
+                            <img src="../images/bannerFooter.jfif" alt="Banner Footer">
                         </div>
 
                     </div>
