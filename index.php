@@ -19,8 +19,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- FlexSlider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="base-style.css">
+    <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/home.css">
+    
     <title>Hupuna</title>
 </head>
 
@@ -818,7 +819,7 @@
         </section>
     </div>
 </body>
-<script src="/home.js"></script>
+<script src="js/home.js"></script>
 
 </html>
 
