@@ -155,7 +155,7 @@ p {
     flex-wrap: wrap;
 }
 .box-benefit {
-    background-image: url('img/banner-ceo-1920x537.png');
+    background-image: url('../images/banner-ceo-1920x537.png');
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,6 +238,66 @@ img {
 }
 .card:hover img {
     transform: scale(1.2);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        overflow: hidden;
+    }
+    .col-6 {
+        width: 100%;
+    }
+    .col-4 {
+        width: 33.333%;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .col-12 {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .item-category {
+        max-width: 49%;
+    }
+    .container-product-library .product-item-left {
+        width: 100%;
+    }
+    .carousel-wrapper .item-category {
+        width: 100%;
+    }
+    .product-list-right .product-item-right {
+        width: 50%;
+    }
+    .product-list-left .product-item-left {
+        width: 50%;
+    }
+    .wrap-content-besiness .content-besiness {
+        width: 48%;
+    }
+    .wrap-content-besiness {
+        justify-content: space-between;
+        gap: 25px;
+    }
+    .wrap-content-feedback {
+        gap: 10px;
+        justify-content: space-between;
+    }
+    .wrap-content-feedback .box-feedback {
+        width: 49%;
+    }
+ 
+    .contact .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .video-contact iframe {
+        width: 100%;
+        height: auto;
+    }
+    .card {
+        width: 49%;
+    }
 }
 
 @media (max-width: 760px) {
@@ -369,65 +429,5 @@ img {
     .more-product {
         text-align: center;
         margin-top: 10px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .container {
-        overflow: hidden;
-    }
-    .col-6 {
-        width: 100%;
-    }
-    .col-4 {
-        width: 33.333%;
-    }
-    .col-8 {
-        width: 100%;
-    }
-    .col-12 {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .item-category {
-        max-width: 49%;
-    }
-    .container-product-library .product-item-left {
-        width: 100%;
-    }
-    .carousel-wrapper .item-category {
-        width: 100%;
-    }
-    .product-list-right .product-item-right {
-        width: 50%;
-    }
-    .product-list-left .product-item-left {
-        width: 50%;
-    }
-    .wrap-content-besiness .content-besiness {
-        width: 48%;
-    }
-    .wrap-content-besiness {
-        justify-content: space-between;
-        gap: 25px;
-    }
-    .wrap-content-feedback {
-        gap: 10px;
-        justify-content: space-between;
-    }
-    .wrap-content-feedback .box-feedback {
-        width: 49%;
-    }
- 
-    .contact .col-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .video-contact iframe {
-        width: 100%;
-        height: auto;
-    }
-    .card {
-        width: 49%;
     }
 }

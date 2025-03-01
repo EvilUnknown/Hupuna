@@ -774,7 +774,7 @@
                     <div class="news-content d-flex gap-3">
                         <div class="card col-4">
                             <div class="date">30 Jan</div>
-                            <a href=""><img src="images/banner-ceo-1920x537.png" alt="Bài viết 1"></a>
+                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
                             <div class="actions">
                                 <span><i class="fa-regular fa-comment"></i>0</span>
                                 <span><i class="fa-solid fa-eye"></i>48</span>
