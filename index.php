@@ -818,7 +818,7 @@
         </section>
     </div>
 </body>
-<script src="/home.js"></script>
+<script src="js/home.js"></script>
 
 </html>
 
