@@ -1,0 +1,242 @@
+@media all and (max-width: 768) {
+  .breadcrumb  li{
+    font-size: 15px !important;
+  }
+
+  .container .fs-30{
+    font-size: 12px !important;
+  }
+
+  .container p.fs-24{
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .listProduct ul li{
+    width: 45% !important;
+    flex: 0 0 45% !important;
+  }
+}
+
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+  .listProduct ul li{
+    width: 22% !important;
+    flex: 0 0 22% !important;
+  }
+
+}
+
+
+
+.fw-600{
+  font-weight: 600 !important;
+}
+/* breadcrumb */
+.breadcrumb{
+  background: #E9EEFF !important;
+}
+
+.breadcrumb ul {
+  padding: 10px 16px;
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.breadcrumb ul li {
+  display: inline;
+  font-size: 25px;
+}
+
+.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+.breadcrumb  li a {
+  color: #70757a;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* category */
+.imgdetaisCategory{
+  padding-bottom: 56%;
+  border-radius: 7px;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.owl-carousel .item {
+  background: #fff;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  margin: 2px;
+  cursor: pointer;
+}
+.owl-carousel .item p{
+  color: #0060A5;
+  margin: 8px 0px 8px 0px;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.owl-theme .owl-nav button {
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: 0.3s;
+  pointer-events: all;
+  border: none;
+  cursor: pointer;
+}
+.owl-theme .owl-nav button.owl-prev, .owl-theme .owl-nav button.owl-next{
+  background: none !important;
+  color: #000 !important;
+}
+.owl-theme .owl-nav .fa{
+  font-size: 35px !important;
+  opacity: 0.5;
+}
+.owl-theme .owl-nav .fa:hover{
+  opacity: 1;
+  background: none;
+}
+/* filter */
+.selectCategory .iconMenu{
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
+}
+.selectCategory h2.fs-20{
+  margin: 0px;
+  padding: 0px 0px 2px 0px;
+  border-bottom:1px solid rgba(0, 0, 0, .7);
+}
+#filterContent .category-item, .category-item .subcategory input, .category-item .subcategory label{
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.category-item .subcategory{
+  padding: 0 0 0 20px !important;
+}
+.category-item .subcategory li{
+  display: flex!important;
+  gap: 5px;
+}
+.subcategory li input {
+  width: auto;
+}
+
+/* button sort */
+.selectCategory .filterProduct p{
+  margin: auto !important;
+} 
+
+.filterProduct button:hover{
+  background: #e1dfdf;
+}
+.filterProduct button.active {
+  background-color: var(--background-color-primary);
+  color: white;
+}
+.selectCategory select{
+  width: auto;
+  border-radius: 34px;
+  padding: 5px 10px;
+  margin-right: 5px !important
+}
+.selectCategory button{
+  border-radius: 34px;
+  padding: 5px 10px;
+  margin-right: 5px !important
+}
+
+.filterProduct select:hover{
+  background: #e1dfdf;
+  cursor: pointer;
+}
+
+/* ListProduct */
+.listProduct ul{
+  flex-wrap: wrap;
+}
+
+.listProduct ul li{
+  width: 18%;
+  flex: 0 0 18%;
+  margin: 9px 9px;
+  cursor: pointer;
+}
+
+.imgProduct{
+  padding-bottom: 95%;
+  border-radius: 7px;
+}
+
+
+.contentProduct .btn{
+  padding: 0px 2px;
+}
+
+.contentProduct p{
+  margin: 0px;
+}
+
+.checked {
+  color: blue;
+}
+
+.contentProduct .fa-star{
+  font-size: 10px;
+}
+
+/* panigation */
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  margin: 0 3px;
+}
+
+.pagination a.active {
+  background-color: var(--background-color-primary);
+  color: white;
+  border: 1px solid var(--background-color-primary);
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* cuối trang */
+
+.describeCategory p{
+  font-weight: 400;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.bannerFooter{
+  padding-bottom: 57%;
+}
+
