@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/css/style.css" rel="stylesheet">
-    <link href="/css/categories.css" rel="stylesheet">
+    <link href="../css/categories.css" rel=" stylesheet">
+    <link href="../css/base-style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -35,49 +35,49 @@
                         <ul class="slides">
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">HỘP CARTON</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">HỘP IN OFFSET</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">BĂNG DÍNH</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">MÀNG PE- MÀNG CHÍT</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">XỐP FOAM</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">XỐP KHÍ - BÓNG KHÍ</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">HỘP CARTON</p>
                             </li>
                             <li>
                                 <div class="img-100 imgCategory">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <p class="fw-bold nameCategory">HỘP CARTON</p>
                             </li>
@@ -97,7 +97,7 @@
                         <ul class="slides">
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -117,7 +117,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -137,7 +137,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -157,7 +157,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -178,29 +178,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -222,7 +200,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -244,7 +222,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -266,7 +244,29 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/hopcarton.jfif" alt="Product 1">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
+                                </div>
+                                <div class="contentProduct mt-2">
+                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
+                                    </p>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img-100 imgProduct">
+                                    <img src="../images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -297,7 +297,7 @@
         <div class="mt-4 border-bottom">
             <h4 class="btn btn-primary fs-30">Hộp Carton</h4>
             <div class="bannerCategories img-100">
-                <img src="/images/bannerhopcarton.jfif">
+                <img src="../images/bannerhopcarton.jfif">
             </div>
             <div class="row mt-2">
                 <div class="flex-container">
@@ -305,7 +305,7 @@
                         <ul class="slides">
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -325,7 +325,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -345,7 +345,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -365,7 +365,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -386,29 +386,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -430,7 +408,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -452,7 +430,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -474,7 +452,29 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                                </div>
+                                <div class="contentProduct mt-2">
+                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
+                                    </p>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img-100 imgProduct">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -506,7 +506,7 @@
         <div class="mt-4 border-bottom">
             <h4 class="btn btn-primary fs-30">Hộp In Offset</h4>
             <div class="bannerCategories img-100">
-                <img src="/images/bannerhopcarton.jfif">
+                <img src="../images/bannerhopcarton.jfif">
             </div>
             <div class="row mt-2">
                 <div class="flex-container">
@@ -514,7 +514,7 @@
                         <ul class="slides">
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -534,7 +534,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -554,7 +554,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -574,7 +574,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -595,29 +595,7 @@
                             </li>
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -639,7 +617,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -661,7 +639,7 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
@@ -683,7 +661,29 @@
 
                             <li>
                                 <div class="img-100 imgProduct">
-                                    <img src="/images/bannerhopcarton.jfif" alt="Product 1">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                                </div>
+                                <div class="contentProduct mt-2">
+                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                    <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
+                                    </p>
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="img-100 imgProduct">
+                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
                                     <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
