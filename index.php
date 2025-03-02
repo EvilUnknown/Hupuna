@@ -11,21 +11,19 @@
         crossorigin="anonymous"></script>
     <!-- font-anwsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        
-    <!-- CSS FlexSlider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- slickslider css and slickslider js  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- FlexSlider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
     <link rel="stylesheet" href="css/base-style.css">
-    <link rel="stylesheet" href="css/home.css">
-    
+    <link rel="stylesheet" href="css/home.css"> 
     <title>Hupuna</title>
 </head>
 
 <body>
+
     <section class="section sc-box-banner">
         <div class="row">
             <div class="col-12">
