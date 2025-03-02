@@ -46,6 +46,12 @@ $('.slickslide').slick({
                 slidesToShow: 4
             }
         },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 3
+            }
+        },
     ]
 });
 
@@ -97,28 +103,22 @@ $('.thumbnail-slide').slick({
                 slidesToShow: 3
             }
         },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2
+            }
+        },
     ]
 });
 
 $('.partner-1').slick({
-    slidesToShow: 7,
+    slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
     responsive: [
         {
-            breakpoint: 1520,
-            settings: {
-                slidesToShow: 6
-            }
-        },
-        {
             breakpoint: 1280,
-            settings: {
-                slidesToShow: 5
-            }
-        },
-        {
-            breakpoint: 992,
             settings: {
                 slidesToShow: 4
             }
@@ -126,33 +126,21 @@ $('.partner-1').slick({
         {
             breakpoint: 767,
             settings: {
-                slidesToShow: 7
+                slidesToShow: 3
             }
         },
     ]
 });
 
 $('.partner-2').slick({
-    slidesToShow: 6,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
     responsive: [
         {
-            breakpoint: 1280,
-            settings: {
-                slidesToShow: 5
-            }
-        },
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 4
-            }
-        },
-        {
             breakpoint: 767,
             settings: {
-                slidesToShow: 6
+                slidesToShow: 3
             }
         },
     ]
