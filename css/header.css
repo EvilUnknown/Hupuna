@@ -11,21 +11,25 @@
     font-size: 24px;
     font-weight: bold;
 }
+
 /* Button Search ================================= */
-.search-box{
+.search-box {
     width: 40%;
     background: #fff;
     border-radius: 20px;
     border: none;
 }
-.search-box input{
+
+.search-box input {
     border-radius: 20px;
     padding: 8px;
     border: none;
 }
-.search-box button{
+
+.search-box button {
     border: none;
 }
+
 .user-options {
     display: flex;
     align-items: center;
@@ -38,7 +42,8 @@
     cursor: pointer;
     margin-left: 10px;
 }
-.cart{
+
+.cart {
     color: #fff;
     border: none;
     padding: 5px 10px;
@@ -89,35 +94,48 @@
     display: none;
     z-index: 999;
     flex-direction: column;
-    gap: 8px;
+    border: 1px solid #6e6e6e;
 }
+
 .main-menu .dropdown:hover ul {
     display: flex;
 }
-.main-menu .dropdown ul li a{
+
+.main-menu .dropdown ul li a {
     color: #000;
     font-weight: 700;
 }
+
 .main-menu .dropdown ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 /* Mega Menu Item==============================================*/
-.main-menu .dropdown ul li{
-    padding: 0;
-    position: relative;
+.main-menu .dropdown ul li {
+    position: static;
+    padding: 14.5px 0;
     display: inline-block;
 }
-.main-menu .dropdown ul li div{
+
+.main-menu .dropdown ul li .menu-items {
     position: absolute;
     top: 0;
     left: 100%;
-    width: 150px;
+    width: 1200px;
+    max-width: 1200px;
+    height: 655px;
     padding: 10px;
     display: none;
     background: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-.main-menu .dropdown ul li:hover div {
+
+.main-menu .dropdown ul li:hover .menu-items {
     display: block;
+}
+
+.menu-items p{
+    text-align: center;
+    padding: 10px 0 20px 0;
 }
