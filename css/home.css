@@ -273,7 +273,9 @@ img {
     outline: none;
     background: rgb(0 0 0 / 50%);
 }
-
+.slick-track {
+    padding: 15px 0;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
         overflow: hidden;
@@ -391,9 +393,16 @@ img {
         margin-bottom: 15px;
         width: 50%;
     }
+    .slick-next, .slick-prev {
+        display: none!important;
+    }
     .navigation {
         display: none;
     }
+    .box-product-best-seller .pro-tab-title {
+        display: block!important;
+    }
+
     .product-list-best-seller .col-4, 
     .product-list-hight .col-4, 
     .product-list-left .col-4, 
@@ -446,19 +455,36 @@ img {
     .form-contact-content form button {
         align-self: center;
     }
-    .pro-tab-title ul {
-        flex-direction: column;
-        gap: 10px;
+    .pro-tab-title,
+    .product-library-title {
+        width: 100%;
     }
-    .pro-tab-title ul li {
+    .tab-title {
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto; /* Cho phép cuộn ngang */
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+    .pro-tab-title .tab-title {
+        gap: 10px!important;
+    }
+    .pro-tab-title .title,
+    .product-library-title .title{
         margin-bottom: 5px;
+        width: 100%;
+        background-color: #e9e9e9;
+        padding: 5px 15px;
+        border-radius: 8px;
     }
-    .product-library-title ul {
-        flex-direction: column;
+    .pro-tab-title .title.active {
+        background-color: #007bff;
+    }
+    .pro-tab-title .title.active p {
+        color: #fff;
+    }
+    .product-library-title .tab-title {
         gap: 10px;
-    }
-    .product-library-title ul li {
-        margin-bottom: 5px;
     }
     .more-product {
         text-align: center;
