@@ -1,0 +1,139 @@
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0a2144;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Button Search ================================= */
+.search-box{
+    width: 40%;
+    background: #fff;
+    border-radius: 20px;
+    border: none;
+}
+.search-box input{
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+}
+.search-box button{
+    border: none;
+}
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    background: #ffcc00;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.cart{
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Main Menu =====================================*/
+.main-menu {
+    background: #003366;
+    padding: 10px 0px 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-btn {
+    background: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu li {
+    position: relative;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+.main-menu a:hover {
+    background: #f0f0f0;
+}
+
+/* Mega Menu ==============================================*/
+.mega-menu {
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    background: white;
+    display: none;
+    padding: 15px;
+    z-index: 999;
+}
+
+.main-menu .dropdown:hover .mega-menu {
+    display: flex;
+}
+
+.menu-left {
+    width: 20%;
+    background: #fff;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.menu-left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu-left li {
+    
+}
+
+.menu-left a {
+    color: #000;
+}
+
+.menu-left li:hover {
+    background: #f0f0f0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-right {
+    width: 80%;
+    padding: 20px;
+}
+
+.menu-right.active {
+    display: block;
+}
+
+.submenu {
+    display: none;
+}
+
+.submenu.active {
+    display: block;
+}
