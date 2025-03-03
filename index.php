@@ -9,10 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <!-- font-anwsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- slickslider css and slickslider js  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -23,7 +20,7 @@
 </head>
 
 <body>
-
+    <?php include('header.php') ?>
     <section class="section sc-box-banner">
         <div class="row">
             <div class="col-12">
@@ -149,8 +146,8 @@
                         </div>
                     </div>
                     <div class="carousel-container">
-                        <button class="navigation prev">❮</button>
-                        <div class="carousel-wrapper">
+                        <!-- <button class="navigation prev">❮</button> -->
+                        <div class="custom_slider">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
@@ -188,7 +185,7 @@
                                 <button class="carousel-button yellow-button">Thiết kế lịch Tết</button>
                             </div>
                         </div>
-                        <button class="navigation next">❯</button>
+                        <!-- <button class="navigation next">❯</button> -->
                     </div>
                 </div>
             </div>
@@ -817,6 +814,7 @@
         </section>
     </div>
 </body>
+<script src="js/base.js"></script>
 <script src="js/home.js"></script>
 
 </html>

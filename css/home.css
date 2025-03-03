@@ -239,6 +239,40 @@ img {
 .card:hover img {
     transform: scale(1.2);
 }
+/* css-slickslider */
+.custom_slider {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+}
+.custom_slider .item-category{
+    width: 100%;
+    border-radius: 10px;
+}
+.custom_slider .slick-slide {
+    margin: 0 10px;
+}
+.slick-prev {
+    left: -16px;
+}
+.slick-next {
+    right: -16px;
+}
+.slick-prev, .slick-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 9999;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: rgb(0 0 0 / 50%);
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
