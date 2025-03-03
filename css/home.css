@@ -441,6 +441,9 @@ img {
     .product-list-best {
         width: 100%;
     }
+    .product-item-right {
+        width: 100%;
+    }
     .content-besiness .col-8 {
         width: 100%;
     }
@@ -489,6 +492,8 @@ img {
         overflow-x: auto; /* Cho phép cuộn ngang */
         white-space: nowrap;
         scrollbar-width: none;
+        display: flex;
+        flex-wrap: nowrap!important;
     }
     .pro-tab-title .tab-title {
         gap: 10px!important;

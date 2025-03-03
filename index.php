@@ -150,7 +150,7 @@
                     </div>
                     <div class="carousel-container">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1">
+                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile = "1">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
@@ -372,7 +372,7 @@
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <div class="d-flex gap-5">
                         <h2 class="fs-4">THƯ VIỆN</h2>
-                        <ul class="nav nav-tabs" id="productTabs">
+                        <ul class="nav nav-tabs tab-title" id="productTabs">
                             <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-calendar">LỊCH TẾT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-gift">HỘP QUÀ TẾT</a></li>
@@ -682,7 +682,7 @@
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
-                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1">
+                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="4">
                                 <li><img src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yellow-page-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yadea-1000x400-1-300x120.jpg" alt=""></li>

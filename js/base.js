@@ -5,6 +5,8 @@ $(document).ready(function(){
         var $this = $(this);
         var slidesToShow = $this.data('slides-to-show') || 4;
         var slidesToScroll = $this.data('slides-to-scroll') || 4;
+        var slidesToShowMobile = $this.data('slides-to-show-mobile') || 1;
+        console.log(slidesToShowMobile)
 
         $this.slick({
             slidesToShow: slidesToShow,
@@ -27,8 +29,8 @@ $(document).ready(function(){
                 {
                     breakpoint: 760,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
+                        slidesToShow: slidesToShowMobile,
+                        slidesToScroll: slidesToShowMobile,
                     }
                 }
             ]
