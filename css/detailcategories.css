@@ -1,3 +1,10 @@
+/* @media all and (max-width: 480px){
+  .listProduct ul li{
+    width: 44.5% !important;
+    flex: 0 0 44.5% !important;
+  }
+} */
+
 @media all and (max-width: 767px) {
   .breadcrumb  li{
     font-size: 15px !important;
@@ -32,13 +39,10 @@
   .pagination{
     font-size: 14px;
   }
-  .describeCategory .fs-18{
-    font-size: 15px !important;
-  }
 
 /* mega menu mobile */
 
-.mega-menu {
+.category-mega-menu {
   overflow-y: auto;
   position: fixed;
   top: 0;
@@ -50,28 +54,28 @@
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
-.mega-menu.show {
+.category-mega-menu.show {
   transform: translateY(0);
 }
-.mega-menu .close-btn {
+.category-mega-menu .close-btn {
   position: absolute;
   top: 10px;
   right: 20px;
   font-size: 24px;
   cursor: pointer;
 }
-.mega-menu .iconMenu {
+.category-mega-menu .iconMenu {
   width: 18px;
   height: 18px;
 }
 
-.mega-menu .categoryList{
+.category-mega-menu .categoryList{
   padding: 0 1rem 0 1rem;
 }
-.mega-menu .categoryList .subCategory{
+.category-mega-menu .categoryList .subCategory{
   padding: 0px 5px 0px 5px;
 }
-.mega-menu .subCategory button{
+.category-mega-menu .subCategory button{
   font-size: 15px;
   font-weight: 400;
   border-radius: 9px;
@@ -83,11 +87,11 @@
   margin-left: 12px !important;
 }
 
-.mega-menu .buttonFilter{
+.category-mega-menu .buttonFilter{
   padding: 0px 15px 0px 15px;
 }
 
-.mega-menu .buttonFilter button{
+.category-mega-menu .buttonFilter button{
   font-size: 15px;
   font-weight: 400;
   border-radius: 9px;
@@ -126,6 +130,16 @@
     flex: 0 0 17.8% !important;
   }
 
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  max-width: 100%;
 }
 
 

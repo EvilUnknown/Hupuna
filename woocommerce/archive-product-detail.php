@@ -34,6 +34,7 @@
 </head>
 
 <body>
+    <?php include '.././header.php'; ?>
     <div class="breadcrumb">
         <ul class="container">
             <li><a href="#">Trang chủ</a></li>
@@ -51,25 +52,25 @@
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE NHỎ</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE VỪA</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
                     </div>
                 </div>
@@ -82,30 +83,68 @@
             <h4 class="btn btn-primary fs-18">Hộp carton nắp gài</h4>
             <div class="row mt-2">
                 <div class="carousel-container">
+                    <!-- <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1">
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
+                            <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
+                            <div class="carousel-text">121 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button yellow-button">Bao bì sản phẩm</button>
+                        </div>
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
+                            <div class="carousel-title">THIẾT KẾ BAO BÌ OCOP</div>
+                            <div class="carousel-text">140 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
+                        </div>
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-tet-750x531.jpg" alt="">
+                            <div class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</div>
+                            <div class="carousel-text">200 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button yellow-button">Thiết kế lịch Tết</button>
+                        </div>
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
+                            <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
+                            <div class="carousel-text">121 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button yellow-button">Bao bì sản phẩm</button>
+                        </div>
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
+                            <div class="carousel-title">THIẾT KẾ BAO BÌ OCOP</div>
+                            <div class="carousel-text">140 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
+                        </div>
+                        <div class="item-category col-4">
+                            <img src="images/bao-bi-tet-750x531.jpg" alt="">
+                            <div class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</div>
+                            <div class="carousel-text">200 sản phẩm đã thiết kế</div>
+                            <button class="carousel-button yellow-button">Thiết kế lịch Tết</button>
+                        </div>
+                    </div> -->
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE NHỎ</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ </p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE VỪA</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
                     </div>
                 </div>
@@ -570,7 +609,7 @@
                     <nav class="navbar navbar-expand-lg bg-light">
                         <div class="container">
                             <!-- Nút mở Mega Menu -->
-                            <div id="megaMenuBtn" class=" d-flex align-items-center">
+                            <div id="categoryMegaMenuBtn" class=" d-flex align-items-center">
                                 <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
                                 <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
                             </div>
@@ -579,7 +618,7 @@
                     </nav>
 
                     <!-- Mega Menu Toàn Màn Hình -->
-                    <div id="megaMenu" class="mega-menu">
+                    <div id="categoryMegaMenu" class="category-mega-menu">
                         <span id="closeMegaMenu" class="close-btn">&times;</span>
                         <div class="container py-3">
                             <div class="d-flex align-items-center">
@@ -615,7 +654,7 @@
                                     </li>
                                     <li class="category-item fs-15 fw-600 mt-2" onclick="toggleSubmenu('ofsetBox')">Hộp
                                         in ofset
-                                        <div class="cartonBox openClose" style="display: none;">
+                                        <div class="ofsetBox openClose" style="display: none;">
                                             <div class="row">
                                                 <div class="col-6 subCategory mt-2">
                                                     <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
@@ -853,7 +892,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -873,7 +912,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -893,7 +932,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -913,7 +952,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -933,7 +972,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -953,7 +992,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -973,7 +1012,7 @@
                             </div>
                             <div class="contentProduct mt-2">
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                <p class="fw-bolder fs-14">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
                                 <div>
                                     <span class="fa fa-star checked"></span>
@@ -1004,7 +1043,7 @@
 
                 <div class="row mt-3">
                     <div class="describeCategory">
-                        <p class="fs-18">
+                        <p class="fs-15">
                             Hộp carton là dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                             tincidunt ut laoreet
                             dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -1095,18 +1134,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        document.getElementById("megaMenuBtn").addEventListener("click", function() {
-            document.getElementById("megaMenu").classList.add("show");
+        document.getElementById("categoryMegaMenuBtn").addEventListener("click", function() {
+            document.getElementById("categoryMegaMenu").classList.add("show");
         });
 
         document.getElementById("closeMegaMenu").addEventListener("click", function() {
-            document.getElementById("megaMenu").classList.remove("show");
+            document.getElementById("categoryMegaMenu").classList.remove("show");
         });
 
         // Đóng menu khi click ra ngoài
         document.addEventListener("click", function(event) {
-            let menu = document.getElementById("megaMenu");
-            let button = document.getElementById("megaMenuBtn");
+            let menu = document.getElementById("categoryMegaMenu");
+            let button = document.getElementById("categoryMegaMenuBtn");
             if (!menu.contains(event.target) && !button.contains(event.target)) {
                 menu.classList.remove("show");
             }
@@ -1116,9 +1155,3 @@
 </body>
 
 </html>
-
-
-<!-- Sửa lại padding của đề mục padding right leff 20px
- font size bé lại
- tên của sản phẩm để tối đa 2 dòng
- chữ miêu tả tầm 15 size -->
