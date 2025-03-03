@@ -10,12 +10,15 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <!-- slickslider css and slickslider js  -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/base-style.css">
-    <link rel="stylesheet" href="css/home.css"> 
+    <link rel="stylesheet" href="css/home.css">
     <title>Hupuna</title>
 </head>
 
@@ -44,7 +47,7 @@
                         <div class="col-6">
                             <div class="box-ceo text-center rounded">
                                 <div class="info-block bg-ceo p-3">
-                                    <img src="/images/ceo-120x120.png" alt="">
+                                    <img src="images/ceo-120x120.png" alt="">
                                 </div>
                                 <div class="text-block-content">
                                     <div class="info-content-title">
@@ -69,7 +72,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="/images/offset-mem-80x80.png" alt="">
+                                                <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <h4>Hộp Carton chuyển nhà</h4>
@@ -79,7 +82,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="/images/offset-mem-80x80.png" alt="">
+                                                <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <h4>Hộp Carton</h4>
@@ -89,7 +92,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="/images/offset-mem-80x80.png" alt="">
+                                                <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <h4>Hộp in Offset</h4>
@@ -142,12 +145,12 @@
                             <p>LỰA CHỌN GÓI THIÊT KẾ PHÙ HỢP VỚI NHU CẦU CỦA BẠN</p>
                         </div>
                         <div class="title-degin">
-                            <h2>SÀN THIẾT KẾ</h2>
+                            <h2 class="fs-24">SÀN THIẾT KẾ</h2>
                         </div>
                     </div>
                     <div class="carousel-container">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show = "3" data-slides-to-scroll = "1">
+                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
@@ -197,14 +200,14 @@
                     <div class="pro-tab-title d-flex justify-content-between align-items-center">
                         <h2 class="fs-4">SẢN PHẨM BÁN CHẠY</h2>
                         <div class="d-flex gap-5 tab-title">
-                            <div class="title active"><p>MẪU MÃ PHONG PHÚ</p></div>
-                            <div class="title"><p>ĐƠN GIẢN TIỆN LỢI</p></div>
-                            <div class="title"><p>GIÁ TỐT</p></div>
-                            <div class="title"><p>MẪU MÃ PHONG PHÚ</p></div>
-                            <div class="title"><p>XEM THÊM</p></div>
+                            <div class="title active"><a href="#product-best-diversity">MẪU MÃ PHONG PHÚ</a></div>
+                            <div class="title"><a>ĐƠN GIẢN TIỆN LỢI</a></div>
+                            <div class="title"><a>GIÁ TỐT</a></div>
+                            <div class="title"><a>MẪU MÃ PHONG PHÚ</a></div>
+                            <div class="title"><a>XEM THÊM</a></div>
                         </div>
                     </div>
-                    <div class="row product-list-best-seller">
+                    <div id="product-best-diversity" class="row product-list-best-seller">
                         <div class="col-4 product-img">
                             <div class="img-100 product-item-left-img">
                                 <img src="images/sp-best-seller.jpg" alt="product-best-seller">
@@ -291,7 +294,7 @@
                             <div class="row product-list-left d-flex">
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item3.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
                                         <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
@@ -301,50 +304,50 @@
                                 </div>
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item1.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
-                                        <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
+                                        <h4 class="fs-5 py-3">Hộp Offset</h4>
                                         <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                 class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                     </div>
                                 </div>
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item5.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
-                                        <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
+                                        <h4 class="fs-5 py-3">Hộp Nắp Gài</h4>
                                         <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                 class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                     </div>
                                 </div>
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item4.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
-                                        <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
+                                        <h4 class="fs-5 py-3">Hộp Nắp Đổi</h4>
                                         <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                 class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                     </div>
                                 </div>
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item7.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
-                                        <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
+                                        <h4 class="fs-5 py-3">Hộp Bánh Trung Thu</h4>
                                         <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                 class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                     </div>
                                 </div>
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
-                                        <img src="images/sp-best-seller.jpg" alt="">
+                                        <img src="images/product-item8.png" alt="">
                                     </div>
                                     <div class="product-item-left-content">
-                                        <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
+                                        <h4 class="fs-5 py-3">Hộp Đựng Nông Sản</h4>
                                         <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                 class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                     </div>
@@ -365,98 +368,217 @@
         </section>
 
         <section class="section box-library">
-            <div class="row justify-content-center">
-                <div class="col-12 container-product-library d-flex justify-content-between">
-                    <div class="product-library-title d-flex justify-content-between align-items-center gap-5">
-                        <h2 class="fs-4">THƯ VIỆN</h2>
-                        <div class="d-flex justify-content-between gap-5 tab-title">
-                            <div class="title active"><p>SẢN PHẨM NỔI BẬT</p></div>
-                            <div class="title"><p>LỊCH TẾT</p></div>
-                            <div class="title"><p>HỘP QUÀ TẾT</p></div>
-                            <div class="title"><p>LÌ XÌ</p></div>
-                            <div class="title"><p>HỘP TRÀ</p></div>
-                            <div class="title"><p>HỘP RƯỢU</p></div>
+            <div class="container mt-4">
+                <div class="d-flex justify-content-between align-items-center mb-3 tab-title-library">
+                    <div class="d-flex gap-5 title-library">
+                        <h2 class="fs-4 library">THƯ VIỆN</h2>
+                        <div class="mobile-library d-flex justify-content-between">
+                            <h2 class="fs-4">THƯ VIỆN</h2>
+                            <li class="see-more"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
+                        <ul class="nav nav-tabs tab-title" id="productTabs">
+                            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-calendar">LỊCH TẾT</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-gift">HỘP QUÀ TẾT</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-li-xi">LÌ XÌ</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-tea">HỘP TRÀ</a></li>
+                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-wine">HỘP RƯỢU</a></li>
+                        </ul>
                     </div>
-                    <div class="more-product">
-                        <h4>XEM THÊM</h4>
-                    </div>
+                    <li class="see-more see-more-desk"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                 </div>
-                <div class="col-12 container-product-library">
-                    <div class="row product-list-left d-flex">
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
+                <div class="tab-content">
+                    <div id="product-most" class="tab-pane fade show active">
+                        <div class="row product-list-right d-flex">
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
                             </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                    <img src="images/pro-1.1.jpg " alt="" class="hover-img">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/pro-2-2.jpg" alt="">
+                                    <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
+                    </div>
+                    <div id="product-calendar" class="tab-pane fade">
+                        <div class="row product-list-right d-flex">
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
                             </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
+                            </div>
+                            <div class="col-3 product-item-right pb-5">
+                                <div class="product-item-right-img img-100">
+                                    <img src="images/sp-best-seller.jpg" alt="">
+                                </div>
+                                <div class="product-item-right-content">
+                                    <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
+                                    <div>
+                                        <img src="images/rating.png" alt="" class="img-rating">
+                                    </div>
+                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            class="text-danger">2.160.000đ</span>/10 Hộp</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
-                            </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                            </div>
-                        </div>
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
-                            </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                            </div>
-                        </div>
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
-                            </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                            </div>
-                        </div>
-                        <div class="col-3 product-item-left pb-5">
-                            <div class="product-item-left-img img-100">
-                                <img src="images/sp-best-seller.jpg" alt="">
-                            </div>
-                            <div class="product-item-left-content">
-                                <h4 class="fs-5 py-3">Hộp Carton chuyển nhà</h4>
-                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                            </div>
-                        </div>
+                    </div>
+                    <div id="product-gift" class="tab-pane fade">
+                        <p>Nội dung hộp quà Tết...</p>
+                    </div>
+                    <div id="product-li-xi" class="tab-pane fade">
+                        <p>Nội dung lì xì...</p>
+                    </div>
+                    <div id="product-tea" class="tab-pane fade">
+                        <p>Nội dung hộp trà...</p>
+                    </div>
+                    <div id="product-wine" class="tab-pane fade">
+                        <p>Nội dung hộp rượu...</p>
                     </div>
                 </div>
             </div>
         </section>
-
         <section class="box-banner-slide">
             <div class="row banner-slide justify-content-center">
-                <div class="col-12 d-flex gap-4">
-                    <div class="col-6 slide-left">
-                        <img src="images/banner-ceo-1920x537.png" alt="">
+                <div class="col-12 d-flex">
+                    <div class="col-5 slide-left img-100">
+                        <img src="images/bao-chi-01-600x200.jpg" alt="">
                     </div>
-                    <div class="col-6 slide-right">
-                        <img src="images/banner-ceo-1920x537.png" alt="">
+                    <div class="col-7 slide-right img-100">
+                        <img src="images/bao-chi-02-1200x200.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -468,13 +590,13 @@
                     <div class="besiness-title">
                         <h2>LĨNH VỰC KINH DOANH</h2>
                     </div>
-                    <div class="wrap-content-besiness d-flex">
+                    <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
                         <div class="col-4 content-besiness content-besiness1">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-my-pham-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-9">
                                     <h3>MỸ PHẨM</h3>
                                     <P class="text-justify">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
                                         đổi.
@@ -485,10 +607,10 @@
                         </div>
                         <div class="col-4 content-besiness content-besiness2">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-nong-san-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-9">
                                     <h3>NÔNG SẢN - OCOP</h3>
                                     <P class="text-justify">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
                                         nhiều thị trường thế giới.
@@ -498,10 +620,10 @@
                         </div>
                         <div class="col-4 content-besiness content-besiness3">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-duoc-pham-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-9">
                                     <h3>DƯỢC</h3>
                                     <P class="text-justify">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
                                         sức khỏe con người.
@@ -511,11 +633,11 @@
                         </div>
                         <div class="col-4 content-besiness content-besiness4">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-quan-ao-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
-                                    <h3>THỜI GIAN</h3>
+                                <div class="col-9">
+                                    <h3>THỜI TRANG</h3>
                                     <P class="text-justify">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
                                         của thị trường.
                                         Giá trị của món hàng thời trang được nâng lên khi mẫu mã được ...</P>
@@ -524,10 +646,10 @@
                         </div>
                         <div class="col-4 content-besiness content-besiness5">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-su-kien-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-9">
                                     <h3>SỰ KIỆN</h3>
                                     <P class="text-justify">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
                                         trong xã hội.
@@ -537,10 +659,10 @@
                         </div>
                         <div class="col-4 content-besiness content-besiness6">
                             <div class="row">
-                                <div class="col-4">
-                                    <img src="images/offset-mem-80x80.png" alt="offset-mem-80x80">
+                                <div class="col-3">
+                                    <img src="images/icon-le-tet-80x80.png" alt="offset-mem-80x80">
                                 </div>
-                                <div class="col-8">
+                                <div class="col-9">
                                     <h3>LỄ TẾT</h3>
                                     <P class="text-justify">Lễ Tết là một trong những ngày quan trọng đối với người dân
                                         Việt Nam.
@@ -604,7 +726,7 @@
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
-                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1">
+                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3">
                                 <li><img src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yellow-page-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yadea-1000x400-1-300x120.jpg" alt=""></li>
@@ -620,74 +742,74 @@
                                 <li><img src="images/brand-dt-bao-viet-bank-1000x400-1-300x120.jpg" alt=""></li>
                             </ul>
                         </div>
-                        <div class="feedback wrap-content-feedback d-flex">
+                        <div class="feedback wrap-content-feedback custom_slider" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                             <div class="col-4 box-feedback">
                                 <p>“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
                                     Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
                                 </p>
                                 <ul class="row align-items-center pt-3">
                                     <li class="col-3">
-                                        <img src="images/ceo-120x120.png" alt="">
+                                        <img src="images/khach-hang-11-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>CEO NGUYỄN TIẾN HUY</h4>
-                                        <p>Tổng Giám Đốc Hupuna</p>
+                                        <h4>Mrs. Hoàng Thu Thảo</h4>
+                                        <p>Chủ cửa hàng bánh kẹo</p>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback">
-                                <p>“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
-                                    Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
+                                <p>“Hupuna giao hàng rất nhanh, đặc biệt là luôn có đủ mọi kích thước
+                                    mà Shop quà lưu niệm Lingzaca cần. 5* Hupuna ơi!”
                                 </p>
                                 <ul class="row align-items-center pt-3">
                                     <li class="col-3">
-                                        <img src="images/ceo-120x120.png" alt="">
+                                        <img src="images/khach-hang-12-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>CEO NGUYỄN TIẾN HUY</h4>
-                                        <p>Tổng Giám Đốc Hupuna</p>
+                                        <h4>Mrs. Hương Nguyễn</h4>
+                                        <p>Chủ shop quà lưu niệm</p>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback">
-                                <p>“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
-                                    Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
+                                <p>“Dịch vụ của Hupuna rất chuyên nghiệp.
+                                    Luôn đáp ứng nhanh chóng và linh hoạt với mọi yêu cầu của chúng tôi.”
                                 </p>
                                 <ul class="row align-items-center pt-3">
                                     <li class="col-3">
-                                        <img src="images/ceo-120x120.png" alt="">
+                                        <img src="images/khach-hang-15-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>CEO NGUYỄN TIẾN HUY</h4>
-                                        <p>Tổng Giám Đốc Hupuna</p>
+                                        <h4>Mrs. Lan Hoàng</h4>
+                                        <p>Chủ shop mỹ phẩm</p>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback">
-                                <p>“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
-                                    Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
+                                <p>“Tôi rất ấn tượng về khả năng thiết kế linh hoạt của Hupuna.
+                                    Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu cầu nào.”
                                 </p>
                                 <ul class="row align-items-center pt-3">
                                     <li class="col-3">
-                                        <img src="images/ceo-120x120.png" alt="">
+                                        <img src="images/ceo-giaohangtietkiem-pham-hong-quan-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>CEO NGUYỄN TIẾN HUY</h4>
-                                        <p>Tổng Giám Đốc Hupuna</p>
+                                        <h4>Mr. Phạm Hồng Quân</h4>
+                                        <p>CEO giao hàng tiết kiệm</p>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback">
-                                <p>“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
-                                    Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
+                                <p>“Rất hài lòng về khả năng sản xuất số lượng lớn.
+                                    Hupuna có khả năng sản xuất hàng loạt hộp carton trong thời gian ngắn mà không ảnh hưởng đến chất lượng.”
                                 </p>
                                 <ul class="row align-items-center pt-3">
                                     <li class="col-3">
-                                        <img src="images/ceo-120x120.png" alt="">
+                                        <img src="images/ceo-giaohangnhanh-luong-duy-hoai-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>CEO NGUYỄN TIẾN HUY</h4>
-                                        <p>Tổng Giám Đốc Hupuna</p>
+                                        <h4>Mr. Lương Duy Hoài</h4>
+                                        <p>CEO giao hàng nhanh</p>
                                     </li>
                                 </ul>
                             </div>
@@ -789,7 +911,7 @@
                             </div>
                             <div class="content">
                                 <div class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</div>
-                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>                               
+                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
                         </div>
@@ -817,4 +939,3 @@
 <script src="js/home.js"></script>
 
 </html>
-
