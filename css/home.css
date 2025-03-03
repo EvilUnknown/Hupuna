@@ -29,7 +29,7 @@ p {
     margin: auto;
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    padding: 0 20px;
 }
 .carousel-wrapper {
     display: flex;
@@ -115,9 +115,46 @@ p {
 .pro-img-hight-right {
     padding-bottom: 83%;
 }
-.product-item-right-content, 
+/* .product-item-right-content, 
 .product-item-left-content {
     text-align: center;
+} */
+.img-100:hover .hover-img {
+    opacity: 1;
+}
+.img-100 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-100 .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.product-item-right-content a {
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+    font-size: 14px;
+    color: rgba(45, 45, 45, 1);
+    font-weight: 700;
+    padding: 10px 0px 3px;
+    text-align: justify;
+    text-align: left;
+}
+.mobile-library {
+    display: none;
+}
+.img-rating {
+    width: 80px;
+    height: auto;
+    padding: 0 0 20px;
 }
 .nav-tabs .nav-item.show .nav-link,
  .nav-tabs .nav-link.active {
@@ -135,6 +172,14 @@ p {
 .wrap-content-besiness, 
 .wrap-content-feedback {
     gap: 30px;
+}
+.brands ul li {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px!important;
+}
+.brands li img:hover {
+    transform: scale(1.2);
 }
 .form-contact {
     background-color: #d2d2d2;
@@ -358,6 +403,21 @@ img {
     .card {
         width: 49%;
     }
+    .library, .see-more-desk, .product-img {
+        display: none;
+    }
+    .tab-title-library, .title-library {
+        display: block!important;
+    }
+    .tab-title {
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto; /* Cho phép cuộn ngang */
+        white-space: nowrap;
+        scrollbar-width: none;
+        display: flex;
+        flex-wrap: nowrap!important;
+    }
 }
 
 @media (max-width: 760px) {
@@ -509,7 +569,7 @@ img {
     .pro-tab-title .title.active {
         background-color: #007bff;
     }
-    .pro-tab-title .title.active p {
+    .pro-tab-title .title.active a {
         color: #fff;
     }
     .product-library-title .tab-title {
@@ -518,5 +578,11 @@ img {
     .more-product {
         text-align: center;
         margin-top: 10px;
+    }
+    .library, .see-more-desk {
+        display: none;
+    }
+    .tab-title-library, .title-library {
+        display: block!important;
     }
 }
