@@ -36,3 +36,18 @@ $(document).ready(function(){
         })
     })
 })
+
+// code jquery reponsive iframe(video youtube)
+$(document).ready(function() {
+    function resizeIframe() {
+        $("iframe").each(function() {
+            var width = $(this).width();
+            var height = width * 9 / 16; // Tỷ lệ 16:9
+            $(this).css("height", height + "px");
+        });
+    }
+
+    resizeIframe();
+    $(window).resize(resizeIframe);
+});
+
