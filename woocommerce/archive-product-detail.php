@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/base-style.css" rel="stylesheet">
     <link href="../css/detailcategories.css" rel="stylesheet">
+    <!-- <link href="../css/header.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -42,7 +43,7 @@
     </div>
     <div class="container">
         <div class="category mb-5">
-            <h4 class="btn btn-primary fs-30">Hộp carton nắp đối</h4>
+            <h4 class="btn btn-primary fs-18">Hộp carton nắp đối</h4>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="owl-carousel owl-theme">
@@ -50,25 +51,25 @@
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE NHỎ</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE NHỎ</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE VỪA</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@
 
         </div>
         <div class="category mb-5">
-            <h4 class="btn btn-primary fs-30">Hộp carton nắp gài</h4>
+            <h4 class="btn btn-primary fs-18">Hộp carton nắp gài</h4>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="owl-carousel owl-theme">
@@ -86,25 +87,25 @@
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE NHỎ</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE NHỎ</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE VỪA</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                             </div>
-                            <p class="fw-bold mt-2 fs-24">HỘP SIZE LỚN</p>
+                            <p class="fw-bold mt-2 fs-18">HỘP SIZE LỚN</p>
                         </div>
                     </div>
                 </div>
@@ -114,7 +115,8 @@
 
         </div>
         <div class="row selectCategory">
-            <div class="col-3">
+            <!--Start select desktop -->
+            <div class="col-3 desktop">
                 <div class="d-flex align-items-center">
                     <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
                     <h2 class="fs-20 fw-600">Tất cả danh mục</h2>
@@ -560,8 +562,271 @@
                     </div>
                 </div>
             </div>
+            <!-- End select desktop -->
+
             <div class="col-9 filterProduct">
-                <div class="row d-flex fs-18 align-items-center justify-content-center">
+                <div class=" mobile">
+                    <!-- Start select -->
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container">
+                            <!-- Nút mở Mega Menu -->
+                            <div id="megaMenuBtn" class=" d-flex align-items-center">
+                                <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
+                                <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
+                            </div>
+                            <p class="fs-15">1-60/103 kết quả</p>
+                        </div>
+                    </nav>
+
+                    <!-- Mega Menu Toàn Màn Hình -->
+                    <div id="megaMenu" class="mega-menu">
+                        <span id="closeMegaMenu" class="close-btn">&times;</span>
+                        <div class="container py-3">
+                            <div class="d-flex align-items-center">
+                                <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
+                                <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="filterContent">
+                                <ul class="categoryList">
+                                    <li class="category-item fs-15 fw-600 mt-2" onclick="toggleSubmenu('cartonBox')">Hộp
+                                        carton
+                                        <div class="cartonBox openClose" style="display: none;">
+                                            <div class="row">
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp carton
+                                                        nắp đối</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp carton
+                                                        nắp gài</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp carton
+                                                        chuyển nhà</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp viên kê
+                                                        bê tông</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-15 fw-600 mt-2" onclick="toggleSubmenu('ofsetBox')">Hộp
+                                        in ofset
+                                        <div class="cartonBox openClose" style="display: none;">
+                                            <div class="row">
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
+                                                        trà</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
+                                                        bánh trung thu</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Hộp đựng quà
+                                                        tặng</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Thùng đựng
+                                                        nông sản</button>
+                                                </div>
+                                                <div class="col-6 subCategory mt-2">
+                                                    <button class="w-100" onclick="event.stopPropagation()">Thùng đựng
+                                                        hàng gia dụng</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-15 fw-600 mt-2">Túi giấy</li>
+                                    <li class="category-item fs-15 fw-600 mt-2">Màng PE - Màng chít</li>
+                                    <li class="category-item fs-15 fw-600 mt-2">Xốp Foam</li>
+                                    <li class="category-item fs-15 fw-600 mt-2">Xốp khí - Bóng khí</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row cartonBox openClose" style="display: none;">
+                            <div class="container">
+                                <!-- Nút mở Mega Menu -->
+                                <div class="d-flex align-items-center mb-2">
+                                    <img class="iconMenu iconFilter" src="../icons/filter-svgrepo-com.svg">
+                                    <h2 class="fs-20">HỘP CARTON</h2>
+                                </div>
+                            </div>
+                            <div id="filterStatus" class="mb-3">
+                                <ul class="categoryList">
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo cấu tạo nắp
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Nắp đối</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Nắp gài</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo kích thước
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp size nhỏ</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp size vừa</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp size lớn</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo màu sắc
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Mặt nâu, đáy mộc</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">2 mặt nâu</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Mặt trắng, đáy nâu</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Mặt trắng, đáy mộc</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo số lớp
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">3 lớp</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">5 lớp</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">7 lớp</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo loại sóng
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng A</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng B</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng C</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng E</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng AB</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Sóng AE</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo định lượng giấy
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">70 gsm</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">100 gsm</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">120 gsm</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">150 gsm</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo khu vực
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Miền Bắc</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Miền Nam</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row ofsetBox openClose" style="display: none;">
+                            <div class="container">
+                                <!-- Nút mở Mega Menu -->
+                                <div class="d-flex align-items-center mb-2">
+                                    <img class="iconMenu iconFilter" src="../icons/filter-svgrepo-com.svg">
+                                    <h2 class="fs-20">HỘP IN OFFSET</h2>
+                                </div>
+                            </div>
+                            <div id="filterStatus" class="mb-3">
+                                <ul class="categoryList">
+                                    <li class="category-item fs-18 fw-600 mt-2">Lọc theo loại sản phẩm
+                                        <div class="row">
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp đựng trà</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp đựng bánh trung thu</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp đựng quà tặng</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Hộp đựng nông sản</button>
+                                            </div>
+                                            <div class="col-6 subCategory mt-2">
+                                                <button class="w-100">Thùng đựng hàng gia dụng</button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row buttonFilter">
+                            <div class="col-6 p-1">
+                                <button class="btn btn-primary w-100">Thiết lập lại</button>
+                            </div>
+                            <div class="col-6 p-1">
+                                <button class="btn btn-primary w-100">Áp dụng</button>
+                            </div>
+                            <div class="col-12 p-1">
+                                <button class="btn btn-primary w-100">ĐẶT HÀNG THEO YÊU CẦU</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3 d-flex fs-18 align-items-center justify-content-center">
+                        <div class="col-4">
+                            <p class="fs-15">Sắp xếp theo</p>
+                        </div>
+                        <div class="col-8 d-flex align-items-center justify-content-center fs-15">
+                            <select>
+                                <option selected>Phổ biến</option>
+                                <option value="1">Xem nhiều</option>
+                                <option value="2">Mua nhiều</option>
+                                <option value="3">Mới nhất</option>
+                            </select>
+                            <select>
+                                <option selected>Giá</option>
+                                <option value="1">Thấp đến cao</option>
+                                <option value="2">Cao đến thấp</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- End select -->
+                </div>
+                <div class="row desktop d-flex fs-18 align-items-center justify-content-center">
                     <div class="col-2">
                         <p>Sắp xếp theo</p>
                     </div>
@@ -569,13 +834,11 @@
                         <button>Phổ biến</button>
                         <button>Mới nhất</button>
                         <button>Bán chạy</button>
-                        <!-- <button> -->
                         <select>
                             <option selected>Giá</option>
                             <option value="1">Thấp đến cao</option>
                             <option value="2">Cao đến thấp</option>
                         </select>
-                        <!-- </button> -->
                     </div>
                     <div class="col-2">
                         <p>1-60/103 kết quả</p>
@@ -741,7 +1004,7 @@
 
                 <div class="row mt-3">
                     <div class="describeCategory">
-                        <p class="fs-25">
+                        <p class="fs-18">
                             Hộp carton là dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                             tincidunt ut laoreet
                             dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -776,60 +1039,86 @@
     </div>
 
     <script>
-    $(document).ready(function() {
-        $(".owl-carousel").owlCarousel({
-            loop: true,
-            margin: 15,
-            nav: true,
-            dots: false,
-            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-            responsive: {
-                0: {
-                    items: 2
-                },
-                1024: {
-                    items: 3
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 15,
+                nav: true,
+                dots: false,
+                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    }
                 }
-            }
-        });
-    });
-    </script>
-
-    <script>
-    function toggleSubmenu(className) {
-        const allSubmenus = document.getElementsByClassName("openClose");
-        const submenu = document.getElementsByClassName(className);
-
-        // Nếu submenu đang mở, đóng nó lại
-        let isCurrentlyOpen = submenu.length > 0 && window.getComputedStyle(submenu[0]).display === "block";
-
-        // Đóng tất cả submenu
-        for (let i = 0; i < allSubmenus.length; i++) {
-            allSubmenus[i].style.display = "none";
-        }
-
-        // Nếu submenu được chọn trước đó không mở, mở nó
-        if (!isCurrentlyOpen) {
-            for (let i = 0; i < submenu.length; i++) {
-                submenu[i].style.display = "block";
-            }
-        }
-    }
-    </script>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const buttons = document.querySelectorAll(".filterProduct .col-8 button");
-
-        buttons.forEach(button => {
-            button.addEventListener("click", function() {
-                buttons.forEach(btn => btn.classList.remove("active"));
-                this.classList.add("active");
             });
         });
-    });
+    </script>
+
+    <script>
+        function toggleSubmenu(className) {
+            const allSubmenus = document.getElementsByClassName("openClose");
+            const submenu = document.getElementsByClassName(className);
+
+            // Nếu submenu đang mở, đóng nó lại
+            let isCurrentlyOpen = submenu.length > 0 && window.getComputedStyle(submenu[0]).display === "block";
+
+            // Đóng tất cả submenu
+            for (let i = 0; i < allSubmenus.length; i++) {
+                allSubmenus[i].style.display = "none";
+            }
+
+            // Nếu submenu được chọn trước đó không mở, mở nó
+            if (!isCurrentlyOpen) {
+                for (let i = 0; i < submenu.length; i++) {
+                    submenu[i].style.display = "block";
+                }
+            }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll(".filterProduct .col-8 button");
+
+            buttons.forEach(button => {
+                button.addEventListener("click", function() {
+                    buttons.forEach(btn => btn.classList.remove("active"));
+                    this.classList.add("active");
+                });
+            });
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("megaMenuBtn").addEventListener("click", function() {
+            document.getElementById("megaMenu").classList.add("show");
+        });
+
+        document.getElementById("closeMegaMenu").addEventListener("click", function() {
+            document.getElementById("megaMenu").classList.remove("show");
+        });
+
+        // Đóng menu khi click ra ngoài
+        document.addEventListener("click", function(event) {
+            let menu = document.getElementById("megaMenu");
+            let button = document.getElementById("megaMenuBtn");
+            if (!menu.contains(event.target) && !button.contains(event.target)) {
+                menu.classList.remove("show");
+            }
+        });
     </script>
 
 </body>
 
 </html>
+
+
+<!-- Sửa lại padding của đề mục padding right leff 20px
+ font size bé lại
+ tên của sản phẩm để tối đa 2 dòng
+ chữ miêu tả tầm 15 size -->
