@@ -299,7 +299,7 @@
             <div class="bannerCategories img-100">
                 <img src="../images/bannerhopcarton.jfif">
             </div>
-            <div class="row mt-2">
+            <div class="row mt-3">
                 <div class="flex-container">
                     <div class="flexslider" data-max="8" data-min="8" data-width="100">
                         <ul class="slides">
@@ -508,7 +508,7 @@
             <div class="bannerCategories img-100">
                 <img src="../images/bannerhopcarton.jfif">
             </div>
-            <div class="row mt-2">
+            <div class="row mt-3">
                 <div class="flex-container">
                     <div class="flexslider" data-max="8" data-min="8" data-width="100">
                         <ul class="slides">
