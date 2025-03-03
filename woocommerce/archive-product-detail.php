@@ -12,29 +12,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css"> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Owl Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome (for nav icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" /> -->
     <title>Document</title>
 </head>
 
 <body>
-    <?php include '.././header.php'; ?>
     <div class="breadcrumb">
         <ul class="container">
             <li><a href="#">Trang chủ</a></li>
@@ -47,7 +44,7 @@
             <h4 class="btn btn-primary fs-18">Hộp carton nắp đối</h4>
             <div class="row mt-2">
                 <div class="carousel-container">
-                    <div class="owl-carousel owl-theme">
+                    <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1">
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
@@ -56,93 +53,19 @@
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
                             </div>
                             <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                             </div>
                             <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                            </div>
-                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-        <div class="category mb-5">
-            <h4 class="btn btn-primary fs-18">Hộp carton nắp gài</h4>
-            <div class="row mt-2">
-                <div class="carousel-container">
-                    <!-- <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1">
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
-                            <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
-                            <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button yellow-button">Bao bì sản phẩm</button>
-                        </div>
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
-                            <div class="carousel-title">THIẾT KẾ BAO BÌ OCOP</div>
-                            <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
-                        </div>
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-tet-750x531.jpg" alt="">
-                            <div class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</div>
-                            <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button yellow-button">Thiết kế lịch Tết</button>
-                        </div>
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
-                            <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
-                            <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button yellow-button">Bao bì sản phẩm</button>
-                        </div>
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
-                            <div class="carousel-title">THIẾT KẾ BAO BÌ OCOP</div>
-                            <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
-                        </div>
-                        <div class="item-category col-4">
-                            <img src="images/bao-bi-tet-750x531.jpg" alt="">
-                            <div class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</div>
-                            <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                            <button class="carousel-button yellow-button">Thiết kế lịch Tết</button>
-                        </div>
-                    </div> -->
-                    <div class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                            </div>
-                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ </p>
-                        </div>
-                        <div class="item">
-                            <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                            </div>
-                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
-                        </div>
-                        <div class="item">
-                            <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                            </div>
-                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
-                        </div>
-                        <div class="item">
-                            <div class="img-100 imgdetaisCategory">
-                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                             </div>
                             <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
                         </div>
@@ -626,7 +549,7 @@
                                 <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row container">
                             <div id="filterContent">
                                 <ul class="categoryList">
                                     <li class="category-item fs-15 fw-600 mt-2" onclick="toggleSubmenu('cartonBox')">Hộp
@@ -1077,25 +1000,11 @@
         </div>
     </div>
 
-    <script>
-        $(document).ready(function() {
-            $(".owl-carousel").owlCarousel({
-                loop: true,
-                margin: 15,
-                nav: true,
-                dots: false,
-                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
-                responsive: {
-                    0: {
-                        items: 2
-                    },
-                    1024: {
-                        items: 3
-                    }
-                }
-            });
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+    <script src="../js/base.js"></script>
+
 
     <script>
         function toggleSubmenu(className) {

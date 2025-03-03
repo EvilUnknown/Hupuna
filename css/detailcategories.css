@@ -20,8 +20,8 @@
   }
 
   .listProduct ul li{
-    width: 44.5% !important;
-    flex: 0 0 44.5% !important;
+    width: 42.5% !important;
+    flex: 0 0 42.5% !important;
   }
 
   .selectCategory .desktop{
@@ -43,11 +43,11 @@
 /* mega menu mobile */
 
 .category-mega-menu {
-  overflow-y: auto;
+  /* overflow-y: auto; */
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: #fff;
   z-index: 100;
@@ -193,49 +193,51 @@
   position: relative;
 }
 
-.owl-carousel .item {
+.custom_slider .item {
   background: #fff;
   padding: 10px;
   border-radius: 7px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-  margin: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
+  margin: 10px;
   cursor: pointer;
 }
-.owl-carousel .item p{
+.slick-next:before, .slick-prev::before{
+  font-size: 30px !important;
+  color: #70757a !important;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    /* background: rgb(0 0 0 / 50%)!important; */
+}
+.custom_slider .item p {
   color: #0060A5;
-  margin: 8px 0px 8px 0px;
+  margin: 8px 0;
 }
 
-.owl-theme .owl-nav {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  transform: translateY(-50%);
-  display: flex;
-  justify-content: space-between;
-  pointer-events: none;
-}
-
-.owl-theme .owl-nav button {
+/* Custom arrows */
+.slick-prev, .slick-next {
+  /* background-color: #fff !important; */
   border-radius: 50%;
-  padding: 10px 14px;
-  transition: 0.3s;
-  pointer-events: all;
-  border: none;
-  cursor: pointer;
+  width: 40px!important;
+  height: 40px!important;
+  z-index: 100;
 }
-.owl-theme .owl-nav button.owl-prev, .owl-theme .owl-nav button.owl-next{
-  background: none !important;
-  color: #000 !important;
-}
-.owl-theme .owl-nav .fa{
-  font-size: 35px !important;
-  opacity: 0.5;
-}
-.owl-theme .owl-nav .fa:hover{
+
+.slick-prev:hover, .slick-next:hover {
   opacity: 1;
-  background: none;
+}
+
+.slick-prev {
+  left: -10px !important;
+}
+
+.slick-next {
+  right: -10px !important;
 }
 /* filter */
 .selectCategory .iconMenu{
