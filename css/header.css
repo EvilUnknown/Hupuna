@@ -69,71 +69,55 @@
     position: relative;
 }
 
-.main-menu a {
+.main-menu .dropdown a {
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     display: block;
+    font-weight: 700;
 }
 
 .main-menu a:hover {
-    background: #f0f0f0;
+    color: yellow;
 }
 
 /* Mega Menu ==============================================*/
-.mega-menu {
+.main-menu .dropdown ul {
     position: absolute;
     left: 0;
-    width: 100vw;
     background: white;
     display: none;
-    padding: 15px;
     z-index: 999;
-}
-
-.main-menu .dropdown:hover .mega-menu {
-    display: flex;
-}
-
-.menu-left {
-    width: 20%;
-    background: #fff;
-    border-right: 1px solid #ddd;
-    padding: 10px;
-}
-
-.menu-left ul {
-    display: flex;
     flex-direction: column;
     gap: 8px;
 }
-
-.menu-left li {
-    
+.main-menu .dropdown:hover ul {
+    display: flex;
 }
-
-.menu-left a {
+.main-menu .dropdown ul li a{
     color: #000;
+    font-weight: 700;
 }
-
-.menu-left li:hover {
+.main-menu .dropdown ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-.menu-right {
-    width: 80%;
-    padding: 20px;
+/* Mega Menu Item==============================================*/
+.main-menu .dropdown ul li{
+    padding: 0;
+    position: relative;
+    display: inline-block;
 }
-
-.menu-right.active {
-    display: block;
-}
-
-.submenu {
+.main-menu .dropdown ul li div{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    padding: 10px;
     display: none;
+    background: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
-
-.submenu.active {
+.main-menu .dropdown ul li:hover div {
     display: block;
 }
