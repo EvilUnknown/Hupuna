@@ -36,8 +36,10 @@
     height: 15px;
   }
 
-  .pagination{
-    font-size: 14px;
+  .pagination a{
+    font-size: 12px !important;
+    padding: 8px 10px !important;
+    margin: 0px !important;
   }
 
 /* mega menu mobile */
