@@ -579,7 +579,7 @@ video{
 .cus-modal{
     display: none;
     position: fixed;
-    top: 15%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow-x: hidden;
@@ -681,6 +681,10 @@ video{
 
 .fst-italic{
     font-style: italic;
+}
+
+.hidden{
+    display: none;
 }
 
 .zoom-infinite{

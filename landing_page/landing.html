@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -26,6 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/wow.js"></script>
 
     <title>Hupuna</title>
 
@@ -40,12 +42,48 @@
                     <div class="header-wrapper">
                         <div class="header-top">
                             <div class="top-bar-nav">
-                                <a href="" class="table-price">
-                                    <img src="images/location.svg" alt="">
+                                <a href="https://hupuna.com/" class="table-price" title="Table price">
+                                    <img src="images/location.svg" alt="Location">
                                     Viet Nam
                                 </a>
-                                <div class="language">
-                                    VI
+                                <div id="google_translate_element2" class="hidden"></div>
+                                <div class="language" data-bs-toggle="dropdown" aria-expanded="false" id="contry">
+                                    <div class="country vi">
+                                        VI
+                                    </div>
+                                    <div class="country en hidden">
+                                        EN
+                                    </div>
+                                    <div class="country fr hidden">
+                                        FR
+                                    </div>
+                                    <div class="country ja hidden">
+                                        JA
+                                    </div>
+                                </div>
+                                <div class="country-list dropdown-menu" aria-labelledby="contry">
+                                    <div class="country-wrap" id="select-language">
+                                        <div class="country language-selected" onclick="cl()">
+                                            <img src="images/flag-vi.svg" alt="VI">
+                                            Viet Nam
+                                        </div>
+
+                                        <div class="country" onclick="changeGTLanguage('vi|en', this);return false;" data-key="en">
+                                            <img src="images/flag-eng.svg" alt="EN">
+                                            English
+                                        </div>
+
+                                        <div class="country" onclick="changeGTLanguage('vi|fr', this);return false;" data-key="fr">
+                                            <img src="images/flag-fr.svg" alt="FR">
+                                            French
+                                        </div>
+
+                                        <div class="country" onclick="changeGTLanguage('vi|ja', this);return false;" data-key="ja">
+                                            <img src="images/flag-ja.svg" alt="JA">
+                                            Japanese
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +91,7 @@
                             <div class="row">
                                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                                     <div class="logo">
-                                        <a href="" title="Logo" class="wrap-img img-100">
+                                        <a href="https://hupuna.com/" title="Logo" class="wrap-img img-100">
                                             <img src="images/logo.svg" alt="Logo" class="see-first">
                                             <img src="images/hupuna-affix.svg" alt="Logo" class="see-affix">
                                         </a>
@@ -63,137 +101,231 @@
                                     <div class="header-right">
                                         
                                         <div class="top-bar-nav">
-                                            <a href="" class="table-price">
-                                                <img src="images/location.svg" alt="" class="see-first">
-                                                <img src="images/location-affix.svg" alt="" class="see-affix">
+                                            <a href="https://hupuna.com/" class="table-price" title="Table price">
+                                                <img src="images/location.svg" alt="Location" class="see-first">
+                                                <img src="images/location-affix.svg" alt="Location" class="see-affix">
                                                 Viet Nam
                                             </a>
-                                            <div class="language">
-                                                VI
+                                            <div class="language" data-bs-toggle="dropdown" aria-expanded="false" id="contry">
+                                                <div class="country vi">
+                                                    VI
+                                                </div>
+                                                <div class="country en hidden">
+                                                    EN
+                                                </div>
+                                                <div class="country fr hidden">
+                                                    FR
+                                                </div>
+                                                <div class="country ja hidden">
+                                                    JA
+                                                </div>
+                                            </div>
+                                            <div class="country-list dropdown-menu" aria-labelledby="contry">
+                                                <div class="country-wrap" id="select-language">
+                                                    <div class="country language-selected" onclick="cl()">
+                                                        <img src="images/flag-vi.svg" alt="VI">
+                                                        Viet Nam
+                                                    </div>
+            
+                                                    <div class="country" onclick="changeGTLanguage('vi|en', this);return false;" data-key="en">
+                                                        <img src="images/flag-eng.svg" alt="EN">
+                                                        English
+                                                    </div>
+            
+                                                    <div class="country" onclick="changeGTLanguage('vi|fr', this);return false;" data-key="fr">
+                                                        <img src="images/flag-fr.svg" alt="FR">
+                                                        French
+                                                    </div>
+            
+                                                    <div class="country" onclick="changeGTLanguage('vi|ja', this);return false;" data-key="ja">
+                                                        <img src="images/flag-ja.svg" alt="JA">
+                                                        Japanese
+                                                    </div>
+            
+                                                </div>
                                             </div>
                                         </div>
                                         
                                         <ul class="header-menu">
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/ve-chung-toi/" title="Về chúng tôi" class="name-menu-level1">
                                                     Về chúng tôi
                                                 </a>
                                             </li>
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/cua-hang/" title="Sản phẩm" class="name-menu-level1">
                                                     Sản phẩm
-                                                    <img src="images/Chervon-down.svg" alt="" class="chervon-down see-first">
-                                                    <img src="images/Chervon-down-affix.svg" alt="" class="chervon-down see-affix">
+                                                    <img src="images/Chervon-down.svg" alt="Chervon" class="chervon-down see-first">
+                                                    <img src="images/Chervon-down-affix.svg" alt="Chervon" class="chervon-down see-affix">
                                                 </a>
                                                 <ul class="sub-menu menu-level2">
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/hop-carton/" title="Hộp carton" class="name-menu-level2 name-sub">
                                                             Hộp carton
-                                                            <img src="images/Chervon-right.svg" alt="" class="visible-first">
-                                                            <img src="images/Chervon-right-active.svg" alt="" class="visible-active">
+                                                            <img src="images/Chervon-right.svg" alt="Chervon" class="visible-first">
+                                                            <img src="images/Chervon-right-active.svg" alt="Chervon" class="visible-active">
                                                         </a>
                                                         <ul class="sub-menu menu-level3">
                                                             <li class="item-menu-level3">
-                                                                <a href="" title="" class="name-menu-level3 name-sub">
+                                                                <a href="https://hupuna.com/hop-carton/" title="Hàng có sẵn" class="name-menu-level3 name-sub">
                                                                     Hàng có sẵn
                                                                 </a>
                                                             </li>
                                                             <li class="item-menu-level3">
-                                                                <a href="" title="" class="name-menu-level3 name-sub">
+                                                                <a href="https://hupuna.com/san-xuat-hop-carton-so-luong-lon/" title="Sản xuất theo yêu cầu" class="name-menu-level3 name-sub">
                                                                     Sản xuất theo yêu cầu
                                                                 </a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/hop-nap-gai/" title="Hộp nắp gài" class="name-menu-level2 name-sub">
                                                             Hộp nắp gài
                                                         </a>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/hop-carton-chuyen-nha/" title="Hộp carton chuyển nhà" class="name-menu-level2 name-sub">
                                                             Hộp carton chuyển nhà
                                                         </a>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/hop-in-offset/" title="Hộp in offset" class="name-menu-level2 name-sub">
                                                             Hộp in offset
+                                                            <img src="images/Chervon-right.svg" alt="Chervon" class="visible-first">
+                                                            <img src="images/Chervon-right-active.svg" alt="Chervon" class="visible-active">
                                                         </a>
+                                                        <ul class="sub-menu menu-level3">
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/hop-dung-tra/" title="Hộp giấy đựng trà" class="name-menu-level3 name-sub">
+                                                                    Hộp giấy đựng trà
+                                                                </a>
+                                                            </li>
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/hop-banh-trung-thu/" title="Hộp đựng bánh trung thu" class="name-menu-level3 name-sub">
+                                                                    Hộp đựng bánh trung thu
+                                                                </a>
+                                                            </li>
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/thung-carton-hang-gia-dung/" title="Thùng carton hàng gia dụng" class="name-menu-level3 name-sub">
+                                                                    Thùng carton hàng gia dụng
+                                                                </a>
+                                                            </li>
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/thung-carton-dung-nong-san/" title="Thùng carton đựng nông sản" class="name-menu-level3 name-sub">
+                                                                    Thùng carton đựng nông sản
+                                                                </a>
+                                                            </li>
+                                                        </ul>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/tui-giay/" title="Túi giấy" class="name-menu-level2 name-sub">
                                                             Túi giấy
                                                             <img src="images/Chervon-right.svg" alt="" class="visible-first">
                                                             <img src="images/Chervon-right-active.svg" alt="" class="visible-active">
                                                         </a>
                                                         <ul class="sub-menu menu-level3">
                                                             <li class="item-menu-level3">
-                                                                <a href="" title="" class="name-menu-level3 name-sub">
+                                                                <a href="https://hupuna.com/tui-giay-kraft-co-san/" title="Túi giấy Kraft có sẵn" class="name-menu-level3 name-sub">
                                                                     Túi giấy Kraft có sẵn
                                                                 </a>
                                                             </li>
                                                             <li class="item-menu-level3">
-                                                                <a href="" title="" class="name-menu-level3 name-sub">
+                                                                <a href="https://hupuna.com/tui-giay-san-xuat-theo-yeu-cau/" title="Túi giấy SX theo yêu cầu" class="name-menu-level3 name-sub">
                                                                     Túi giấy SX theo yêu cầu
                                                                 </a>
                                                             </li>
                                                         </ul>
                                                     </li>
+                                                    <li class="item-menu-level2">
+                                                        <a href="https://hupuna.com/bang-dinh/" title="Băng dính" class="name-menu-level2 name-sub">
+                                                            Băng dính
+                                                            <img src="images/Chervon-right.svg" alt="" class="visible-first">
+                                                            <img src="images/Chervon-right-active.svg" alt="" class="visible-active">
+                                                        </a>
+                                                        <ul class="sub-menu menu-level3">
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/bang-dinh/" title="Hàng có sẵn" class="name-menu-level3 name-sub">
+                                                                    Hàng có sẵn
+                                                                </a>
+                                                            </li>
+                                                            <li class="item-menu-level3">
+                                                                <a href="https://hupuna.com/san-xuat-bang-dinh-so-luong-lon/" title="Sản xuất theo yêu cầu" class="name-menu-level3 name-sub">
+                                                                    Sản xuất theo yêu cầu
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="item-menu-level2">
+                                                        <a href="https://hupuna.com/mang-pe/" title="Mang PE - Màng chít" class="name-menu-level2 name-sub">
+                                                            Mang PE - Màng chít
+                                                        </a>
+                                                    </li>
+                                                    <li class="item-menu-level2">
+                                                        <a href="https://hupuna.com/xop-foam/" title="Xốp Foam chống sốc" class="name-menu-level2 name-sub">
+                                                            Xốp Foam chống sốc
+                                                        </a>
+                                                    </li>
+                                                    <li class="item-menu-level2">
+                                                        <a href="https://hupuna.com/bong-khi/" title="Xốp khí - Bóng khi" class="name-menu-level2 name-sub">
+                                                            Xốp khí - Bóng khi
+                                                        </a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/ho-so-nang-luc/" class="name-menu-level1" title="Hồ sơ năng lực">
                                                     Hồ sơ năng lực
                                                 </a>
                                             </li>
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/bo-suu-tap/" class="name-menu-level1" title="Bộ sưu tập">
                                                     Bộ sưu tập
                                                 </a>
                                             </li>
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/tin-tuc-va-su-kien/" class="name-menu-level1" title="Tin tức">
                                                     Tin tức
                                                     <img src="images/Chervon-down.svg" alt="" class="chervon-down see-first">
                                                     <img src="images/Chervon-down-affix.svg" alt="" class="chervon-down see-affix">
                                                 </a>
                                                 <ul class="sub-menu menu-level2">
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/kien-thuc-bao-bi-giay/" title="Kiến thức bao bì giấy" class="name-menu-level2 name-sub">
                                                             Kiến thức bao bì giấy
                                                         </a>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/tin-noi-bo/" title="Tin nội bộ" class="name-menu-level2 name-sub">
                                                             Tin nội bộ
                                                         </a>
                                                     </li>
                                                     <li class="item-menu-level2">
-                                                        <a href="" title="" class="name-menu-level2 name-sub">
+                                                        <a href="https://hupuna.com/tin-tuyen-dung/" title="Tin tuyển dụng" class="name-menu-level2 name-sub">
                                                             Tin tuyển dụng
                                                         </a>
                                                     </li>   
                                                 </ul>
                                             </li>
                                             <li class="item-menu-level1">
-                                                <a href="" class="name-menu-level1">
+                                                <a href="https://hupuna.com/lien-he/" title="Liên hệ" class="name-menu-level1">
                                                     Liên hệ
                                                 </a>
                                             </li>
                                         </ul>
-                                        <form class="form-search">
-                                            <input type="text" placeholder="Bạn tìm gì...">
+                                        <form action="https://hupuna.com/" class="form-search">
+                                            <input type="text" name="s" placeholder="Bạn tìm gì...">
+                                            <input type="text" hidden name="post_type" value="product">
                                             <button>
                                                 <img class="icon-search" src="images/search.svg" alt="Search">
                                             </button>
                                         </form>
-                                        <a href="" class="cart">
-                                            <img class="icon-cart see-first" src="images/shopping-cart.svg" alt="">
-                                            <img class="icon-cart see-affix" src="images/shopping-cart-affix.svg" alt="">
+                                        <a href="https://hupuna.com/gio-hang/" title="Giỏ hàng" class="cart">
+                                            <img class="icon-cart see-first" src="images/shopping-cart.svg" alt="cart">
+                                            <img class="icon-cart see-affix" src="images/shopping-cart-affix.svg" alt="cart">
                                         </a>
-                                        <a href="javascript:;" title="" class="icon-menu-mobile">
-                                            <img src="images/icon-menu-m.svg" alt="" class="see-first">
-                                            <img src="images/icon-menu-m-affix.svg" alt="" class="see-affix">
+                                        <a href="javascript:;" title="Menu mobile" class="icon-menu-mobile" onclick="open_menu_mobile()">
+                                            <img src="images/icon-menu-m.svg" alt="Menu mobile" class="see-first">
+                                            <img src="images/icon-menu-m-affix.svg" alt="Menu mobile" class="see-affix">
                                         </a>
                                     </div>
                                     
@@ -209,7 +341,7 @@
         <!-- Banner  -->
         <section class="banner position-relative">
             <div class="overlay-header"></div>
-            <img class="img-banner position-relative object-fit-cover" src="images/banner-landing.png" alt="">
+            <img class="img-banner position-relative object-fit-cover" src="images/banner-landing.png" alt="Banner">
             <div class="order-wrap margin-auto position-absolute translate-middle text-end start-50">
                 <div class="order-now">
                     <div class="text text-uppercase">
@@ -219,10 +351,10 @@
                         <h2 class="fw-900">Thông minh</h2>
                     </div>
                     <div class="button-wrap">
-                        <a href="" title="Hotline" class="fw-700 text-uppercase zoom-infinite">
+                        <a href="tel:0889363889" title="Hotline" class="fw-700 text-uppercase zoom-infinite">
                             Hotline: 0889.363.889
                         </a>
-                        <a href="" title="Order now" class="fw-700 text-uppercase zoom-infinite">
+                        <a href="javascript:;" title="Order now" class="fw-700 text-uppercase zoom-infinite" onclick="open_form_order()">
                             Đặt hàng ngay
                         </a>
                     </div>
@@ -232,10 +364,10 @@
                 <h3 class="fw-900">Welcome to</h3>
                 <h1 class="fw-900 text-uppercase">Hupuna</h1>
                 <div class="button-wrap">
-                    <a href="" title="Hotline" class="fw-700 text-uppercase zoom-infinite">
+                    <a href="tel:0889363889" title="Hotline" class="fw-700 text-uppercase zoom-infinite">
                         Hotline: 0889.363.889
                     </a>
-                    <a href="" title="Order now" class="fw-700 text-uppercase zoom-infinite">
+                    <a href="javascript:;" title="Order now" class="fw-700 text-uppercase zoom-infinite" onclick="open_form_order()">
                         Đặt hàng ngay
                     </a>
                 </div>
@@ -244,11 +376,11 @@
         <!-- End banner  -->
 
         <!-- Certificate -->
-        <section class="certificate">
+        <section class="certificate wow animate__bounceInUp">
             <div class="wrap-fix">
                 <div class="container-fluid">
                     <div class="title-wrap text-center">
-                        <img src="images/box.svg" alt="">
+                        <img src="images/box.svg" alt="Box">
                         <h2>Chứng chỉ & tiêu chuẩn chất lượng</h2>
                     </div>
     
@@ -257,60 +389,60 @@
                                 
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan1.svg" />
+                                    <img src="images/chungnhan1.svg" alt="certificate" />
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Chứng nhận FSC</div>
                             </div>
                         
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan2.svg" />
+                                    <img src="images/chungnhan2.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Tiêu chuẩn BRC</div>
                             </div>
                         
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan3.svg" />
+                                    <img src="images/chungnhan3.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Tiêu chuẩn ISO 12647</div>
                             </div>
                         
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan4.svg" />
+                                    <img src="images/chungnhan4.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Tiêu chuẩn ISO 22000</div>
                             </div>
                     
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan5.svg" />
+                                    <img src="images/chungnhan5.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Tiêu chuẩn G7</div>
                             </div>
                         
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan6.svg" />
+                                    <img src="images/chungnhan6.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Tiêu chuẩn GMI</div>
                             </div>
                         
                             <div class="item-certificate text-center position-relative">
                                 <div class="wrap-img img-100">
-                                    <img src="images/chungnhan1.svg" />
+                                    <img src="images/chungnhan1.svg" alt="certificate"/>
                                 </div>
                                 <div class="name text-center fw-500 text-line-clamp">Chứng nhận FSC</div>
                             </div>
                                     
                         </div>
                         <div class="custom-navigation">
-                            <a href="javascript:;" class="custom-prev position-absolute translate-middle-y top-50" data-slide="cus-nav">
-                                <img src="images/flexslide-prev.svg" alt="">
+                            <a href="javascript:;" title="nav" class="custom-prev position-absolute translate-middle-y top-50" data-slide="cus-nav">
+                                <img src="images/flexslide-prev.svg" alt="Prev">
                             </a>
-                            <a href="javascript:;" class="custom-next position-absolute translate-middle-y top-50" data-slide="cus-nav">
-                                <img src="images/flexslide-next.svg" alt="">
+                            <a href="javascript:;" title="nav" class="custom-next position-absolute translate-middle-y top-50" data-slide="cus-nav">
+                                <img src="images/flexslide-next.svg" alt="Next">
                             </a>
                         </div>
                     </div>
@@ -325,15 +457,15 @@
                 <div class="container-fluid">
                     <div class="bg-featured-product">
                         <div class="title-wrap text-center">
-                            <img src="images/box.svg" alt="">
+                            <img src="images/box.svg" alt="Box">
                             <h2>Sản phẩm hàng đầu của Hupuna</h2>
                         </div>
         
-                        <div class="product-slide-wrap">
+                        <div class="product-slide-wrap wow animate__backInLeft">
                             <div class="product-slide product-slide-1">
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item1.png" alt="">
+                                        <img src="images/product-item1.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp in offset
@@ -341,7 +473,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item2.png" alt="">
+                                        <img src="images/product-item2.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp ship COD
@@ -349,7 +481,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item3.png" alt="">
+                                        <img src="images/product-item3.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Thùng carton chuyển nhà
@@ -357,7 +489,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item4.png" alt="">
+                                        <img src="images/product-item4.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp nắp đổi
@@ -365,7 +497,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item1.png" alt="">
+                                        <img src="images/product-item1.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp in offset
@@ -373,20 +505,20 @@
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="product-slide-1">
-                                    <img src="images/flexslide-prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="product-slide-1">
+                                    <img src="images/flexslide-prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="product-slide-1">
-                                    <img src="images/flexslide-next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="product-slide-1">
+                                    <img src="images/flexslide-next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
         
-                        <div class="product-slide-wrap">
+                        <div class="product-slide-wrap wow animate__backInRight">
                             <div class="product-slide product-slide-2">
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item5.png" alt="">
+                                        <img src="images/product-item5.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp nắp gài
@@ -394,7 +526,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item6.png" alt="">
+                                        <img src="images/product-item6.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp nắp rời
@@ -402,7 +534,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item7.png" alt="">
+                                        <img src="images/product-item7.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp bánh trung thu
@@ -410,7 +542,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item8.png" alt="">
+                                        <img src="images/product-item8.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Thùng đựng nông sản
@@ -418,7 +550,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/product-item5.png" alt="">
+                                        <img src="images/product-item5.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         Hộp nắp gài
@@ -426,15 +558,15 @@
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="product-slide-2">
-                                    <img src="images/flexslide-prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="product-slide-2">
+                                    <img src="images/flexslide-prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="product-slide-2">
-                                    <img src="images/flexslide-next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="product-slide-2">
+                                    <img src="images/flexslide-next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
-                        <a href="" class="buy-now zoom-infinite-transform">
+                        <a href="javascript:;" title="Order Now" class="buy-now zoom-infinite-transform" onclick="open_form_order()">
                             Đặt hàng ngay
                         </a>
                     </div>
@@ -444,7 +576,7 @@
         <!-- End featured product -->
 
         <!-- Mission -->
-        <section class="mission">
+        <section class="mission wow animate__bounceInUp">
             <img src="images/mission.png" alt="Mission" class="img-mission">
             <div class="box-mission zoom">
                 <img src="images/box-speak.svg" alt="Speak">
@@ -454,11 +586,11 @@
                     <h3>Hupuna</h3>
                 </div>
             </div>
-            <img src="images/mission-girl.png" alt="" class="mission-girl">
+            <img src="images/mission-girl.png" alt="Girl" class="mission-girl">
             <div class="list-mission">
                 <div class="item item-1 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission1.svg" alt="">
+                        <img src="images/mission1.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -471,7 +603,7 @@
                 </div>
                 <div class="item item-2 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission2.svg" alt="">
+                        <img src="images/mission2.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -484,7 +616,7 @@
                 </div>
                 <div class="item item-3 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission3.svg" alt="">
+                        <img src="images/mission3.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -498,7 +630,7 @@
                 </div>
                 <div class="item item-4 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission4.svg" alt="">
+                        <img src="images/mission4.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -511,7 +643,7 @@
                 </div>
                 <div class="item item-5 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission5.svg" alt="">
+                        <img src="images/mission5.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -525,7 +657,7 @@
                 </div>
                 <div class="item item-6 zoom">
                     <div class="wrap-img">
-                        <img src="images/mission6.svg" alt="">
+                        <img src="images/mission6.svg" alt="Mission">
                     </div>
                     <div class="content">
                         <div class="number">
@@ -543,12 +675,12 @@
   
         <!-- Vision -->
         <section class="vision">
-            <img src="images/Ellipse.svg" alt="" class="bg-vision">
+            <img src="images/Ellipse.svg" alt="Ellipse" class="bg-vision">
             <div class="wrap-fix">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-5 col-sm-5">
-                            <div class="vision-left">
+                        <div class="col-12 col-sm-5">
+                            <div class="vision-left wow animate__backInLeft">
                                 <div class="title">
                                     <h2>Tầm nhìn</h2>
                                     <h2><span>của</span>Hupuna</h2>
@@ -565,30 +697,30 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-7 col-sm-7">
-                            <div class="vision-right">
+                        <div class="col-12 col-sm-7">
+                            <div class="vision-right wow animate__backInRight">
                                 <div class="wrap-img img-100">
-                                    <img src="images/vision.png" alt="">
+                                    <img src="images/vision.png" alt="Vision">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="images/bg-box-vision.svg" alt="" class="img-box-vision">
+            <img src="images/bg-box-vision.svg" alt="Bg-box" class="img-box-vision">
         </section>
         <!-- End vision  -->
 
         <!-- Sales process -->
-        <section class="sales-process">
+        <section class="sales-process wow animate__lightSpeedInLeft">
             <div class="wrap-fix">
                 <div class="container-fluid">
                     <div class="sales-process-inner">
-                        <img src="images/sales-process.png" alt="">
+                        <img src="images/sales-process.png" alt="Sales process">
                     </div>
                 </div>
             </div>
-            <img src="images/bg-box-process.svg" alt="" class="img-box-process">
+            <img src="images/bg-box-process.svg" alt="Bg-box" class="img-box-process">
         </section>
         <!-- End sales process  -->
 
@@ -598,15 +730,15 @@
                 <div class="container-fluid">
                     <div class="bg-featured-product">
                         <div class="title-wrap text-center">
-                            <img src="images/box.svg" alt="">
+                            <img src="images/box.svg" alt="Box">
                             <h2>Công nghệ in ấn</h2>
                         </div>
         
-                        <div class="product-slide-wrap">
+                        <div class="product-slide-wrap wow animate__backInRight">
                             <div class="product-slide printing-technology-1">
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in1.png" alt="">
+                                        <img src="images/in1.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN OFFSET
@@ -614,7 +746,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in2.png" alt="">
+                                        <img src="images/in2.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN FLEXO
@@ -622,7 +754,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in3.png" alt="">
+                                        <img src="images/in3.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN LƯỚI
@@ -630,7 +762,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in4.png" alt="">
+                                        <img src="images/in4.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN PHỦ UV
@@ -638,7 +770,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in1.png" alt="">
+                                        <img src="images/in1.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN OFFSET
@@ -646,20 +778,20 @@
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="printing-technology-1">
-                                    <img src="images/flexslide-prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="printing-technology-1">
+                                    <img src="images/flexslide-prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="printing-technology-1">
-                                    <img src="images/flexslide-next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="printing-technology-1">
+                                    <img src="images/flexslide-next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
         
-                        <div class="product-slide-wrap">
+                        <div class="product-slide-wrap wow animate__backInLeft">
                             <div class="product-slide printing-technology-2">
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in5.png" alt="">
+                                        <img src="images/in5.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN ÉP KIM
@@ -667,7 +799,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in6.png" alt="">
+                                        <img src="images/in6.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN KỸ THUẬT SỐ
@@ -675,7 +807,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in7.png" alt="">
+                                        <img src="images/in7.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN METALIZE
@@ -683,7 +815,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in8.png" alt="">
+                                        <img src="images/in8.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN DECAL
@@ -691,7 +823,7 @@
                                 </div>
                                 <div class="item-product">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/in5.png" alt="">
+                                        <img src="images/in5.png" alt="Product">
                                     </div>
                                     <div class="name">
                                         IN ÉP KIM
@@ -699,15 +831,15 @@
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="printing-technology-2">
-                                    <img src="images/flexslide-prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="printing-technology-2">
+                                    <img src="images/flexslide-prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="printing-technology-2">
-                                    <img src="images/flexslide-next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="printing-technology-2">
+                                    <img src="images/flexslide-next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
-                        <a href="" class="buy-now zoom-infinite-transform">
+                        <a href="javascript:;" title="Order now" class="buy-now zoom-infinite-transform" onclick="open_form_order()">
                             Đặt hàng ngay
                         </a>
                     </div>
@@ -722,32 +854,32 @@
             <div class="slideshow">
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory1.png" alt="">
+                        <img src="images/factory1.png" alt="Factory">
                     </div>
                 </div>
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory2.png" alt="">
+                        <img src="images/factory2.png" alt="Factory">
                     </div>
                 </div>
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory3.png" alt="">
+                        <img src="images/factory3.png" alt="Factory">
                     </div>
                 </div>
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory4.png" alt="">
+                        <img src="images/factory4.png" alt="Factory">
                     </div>
                 </div>
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory5.png" alt="">
+                        <img src="images/factory5.png" alt="Factory">
                     </div>
                 </div>
                 <div class="item">
                     <div class="wrap-img img-100">
-                        <img src="images/factory1.png" alt="">
+                        <img src="images/factory1.png" alt="Factory">
                     </div>
                 </div>
             </div>
@@ -764,44 +896,44 @@
                             <div class="thumbnail-slide">
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory1.png" alt="">
+                                        <img src="images/factory1.png" alt="Factory">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory2.png" alt="">
+                                        <img src="images/factory2.png" alt="Factory">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory3.png" alt="">
+                                        <img src="images/factory3.png" alt="Factory">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory4.png" alt="">
+                                        <img src="images/factory4.png" alt="Factory">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory5.png" alt="">
+                                        <img src="images/factory5.png" alt="Factory">
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="wrap-img img-100">
-                                        <img src="images/factory1.png" alt="">
+                                        <img src="images/factory1.png" alt="Factory">
                                     </div>
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="thumbnail-slide">
-                                    <img src="images/prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="thumbnail-slide">
+                                    <img src="images/prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="thumbnail-slide">
-                                    <img src="images/next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="thumbnail-slide">
+                                    <img src="images/next.svg" alt="Next">
                                 </a>
                             </div>
-                            <a href="" class="buy-now zoom-infinite-transform">
+                            <a href="javascript:;" title="Order now" class="buy-now zoom-infinite-transform" onclick="open_form_order()">
                                 Đặt hàng ngay
                             </a>
                         </div>
@@ -817,97 +949,97 @@
                 <div class="container-fluid">
                     <div class="bg-partner">
                         <div class="title-wrap text-center">
-                            <img src="images/box.svg" alt="">
+                            <img src="images/box.svg" alt="Box">
                             <h2>Đối tác</h2>
                         </div>
 
-                        <div class="partner-1-wrap partner-slide">
+                        <div class="partner-1-wrap partner-slide wow animate__backInLeft">
                             <div class="partner-1">
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-1.svg" alt="">
+                                        <img src="images/partner-1.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-2.svg" alt="">
+                                        <img src="images/partner-2.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-3.svg" alt="">
+                                        <img src="images/partner-3.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-4.svg" alt="">
+                                        <img src="images/partner-4.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-5.svg" alt="">
+                                        <img src="images/partner-5.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-6.svg" alt="">
+                                        <img src="images/partner-6.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-7.svg" alt="">
+                                        <img src="images/partner-7.svg" alt="Partner">
                                     </div>
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="partner-1">
-                                    <img src="images/prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="partner-1">
+                                    <img src="images/prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="partner-1">
-                                    <img src="images/next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="partner-1">
+                                    <img src="images/next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
 
-                        <div class="partner-2-wrap partner-slide">
+                        <div class="partner-2-wrap partner-slide wow animate__backInRight">
                             <div class="partner-2">
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-8.svg" alt="">
+                                        <img src="images/partner-8.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-9.svg" alt="">
+                                        <img src="images/partner-9.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-10.svg" alt="">
+                                        <img src="images/partner-10.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-11.svg" alt="">
+                                        <img src="images/partner-11.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-12.svg" alt="">
+                                        <img src="images/partner-12.svg" alt="Partner">
                                     </div>
                                 </div>
                                 <div class="item-partner">
                                     <div class="wrap-img img-100 zoom">
-                                        <img src="images/partner-13.svg" alt="">
+                                        <img src="images/partner-13.svg" alt="Partner">
                                     </div>
                                 </div>
                             </div>
                             <div class="custom-navigation">
-                                <a href="javascript:;" class="custom-prev" data-slide="partner-2">
-                                    <img src="images/prev.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-prev" data-slide="partner-2">
+                                    <img src="images/prev.svg" alt="Prev">
                                 </a>
-                                <a href="javascript:;" class="custom-next" data-slide="partner-2">
-                                    <img src="images/next.svg" alt="">
+                                <a href="javascript:;" title="nav" class="custom-next" data-slide="partner-2">
+                                    <img src="images/next.svg" alt="Next">
                                 </a>
                             </div>
                         </div>
@@ -924,12 +1056,12 @@
                                 </div>
                             </div>
                         </div>
-                        <img src="images/partner-girl.png" alt="" class="partner-girl">
+                        <img src="images/partner-girl.png" alt="Girl" class="partner-girl">
                         <div class="benefit">
-                            <div class="benefit-left">
+                            <div class="benefit-left wow animate__bounceInLeft">
                                 <div class="item-benefit item-benefit-1 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit.svg" alt="">
+                                        <img src="images/icon-benefit.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Giá cả</div>
@@ -944,7 +1076,7 @@
 
                                 <div class="item-benefit item-benefit-2 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit2.svg" alt="">
+                                        <img src="images/icon-benefit2.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Thời gian</div>
@@ -959,7 +1091,7 @@
 
                                 <div class="item-benefit item-benefit-3 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit3.svg" alt="">
+                                        <img src="images/icon-benefit3.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Chuyên môn</div>
@@ -972,10 +1104,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="benefit-right">
+                            <div class="benefit-right wow animate__bounceInRight">
                                 <div class="item-benefit item-benefit-4 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit4.svg" alt="">
+                                        <img src="images/icon-benefit4.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Chất lượng</div>
@@ -990,7 +1122,7 @@
 
                                 <div class="item-benefit item-benefit-5 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit5.svg" alt="">
+                                        <img src="images/icon-benefit5.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Dịch vụ</div>
@@ -1005,7 +1137,7 @@
 
                                 <div class="item-benefit item-benefit-6 zoom">
                                     <div class="icon">
-                                        <img src="images/icon-benefit6.svg" alt="">
+                                        <img src="images/icon-benefit6.svg" alt="benefit">
                                     </div>
                                     <div class="content">
                                         <div class="title">Hỗ trợ 24/7</div>
@@ -1027,13 +1159,13 @@
         <!-- End partner  -->
 
         <!-- Footer -->
-        <footer class="footer">
+        <footer class="footer wow animate__bounceInUp">
             <div class="wrap-fix">
                 <div class="container-fluid">
                     <div class="logo-footer">
-                        <a href="" title="Logo">
-                            <img src="images/logo-footer.png" alt="" class="logo-footer-pc">
-                            <img src="images/logo-footer-m.svg" alt="" class="logo-footer-m">
+                        <a href="https://hupuna.com/" title="Logo">
+                            <img src="images/logo-footer.png" alt="Logo" class="logo-footer-pc">
+                            <img src="images/logo-footer-m.svg" alt="Logo" class="logo-footer-m">
                         </a>
                     </div>
                     <div class="row">
@@ -1086,17 +1218,17 @@
                                         <div class="hr-line"></div>
                                     </div>
                                     <div class="contact-icon">
-                                        <a href="" title="">
-                                            <img src="images/mess.svg" alt="">
+                                        <a href="https://www.facebook.com/messages/t/107273232012888" title="Messenger">
+                                            <img src="images/mess.svg" alt="Messenger">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/sms.svg" alt="">
+                                        <a href="mailto:ceohupuna@gmail.com" title="SMS">
+                                            <img src="images/sms.svg" alt="SMS">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/phone.svg" alt="">
+                                        <a href="tel:0889736889" title="Phone">
+                                            <img src="images/phone.svg" alt="Phone">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/zalo.svg" alt="">
+                                        <a href="https://zalo.me/0889736889" title="Zalo">
+                                            <img src="images/zalo.svg" alt="Zalo">
                                         </a>
                                     </div>
                                     <ul>
@@ -1117,17 +1249,17 @@
                                         <div class="hr-line"></div>
                                     </div>
                                     <div class="contact-icon">
-                                        <a href="" title="">
-                                            <img src="images/facebook.svg" alt="">
+                                        <a href="https://www.facebook.com/profile.php?id=100069245741636" title="Facebook">
+                                            <img src="images/facebook.svg" alt="Facebook">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/youtube.svg" alt="">
+                                        <a href="https://www.youtube.com/channel/UCtscaCyP6KFBE4EBa6KgYhA" title="Youtube">
+                                            <img src="images/youtube.svg" alt="Youtube">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/twitter.svg" alt="">
+                                        <a href="https://hupuna.com/" title="twitter">
+                                            <img src="images/twitter.svg" alt="twitter">
                                         </a>
-                                        <a href="" title="">
-                                            <img src="images/pinterest.svg" alt="">
+                                        <a href="https://hupuna.com/" title="pinterest">
+                                            <img src="images/pinterest.svg" alt="pinterest">
                                         </a>
                                     </div>
                                 </div>
@@ -1141,19 +1273,19 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="" title="">Giới thiệu về Hupuna</a>
+                                        <a href="https://hupuna.com/ve-chung-toi/" title="Về chúng tôi">Giới thiệu về Hupuna</a>
                                     </li>
                                     <li>
-                                        <a href="" title="">Hướng dẫn mua hàng</a>
+                                        <a href="https://hupuna.com/huong-dan-mua-hang/" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a>
                                     </li>
                                     <li>
-                                        <a href="" title="">Chính sách đổi trả</a>
+                                        <a href="https://hupuna.com/chinh-sach-doi-tra-hupuna/" title="Chính sách đổi trả">Chính sách đổi trả</a>
                                     </li>
                                     <li>
-                                        <a href="" title="">Chính sách bảo mật</a>
+                                        <a href="https://hupuna.com/chinh-sach-bao-mat-thong-tin/" title="Chính sách bảo mật">Chính sách bảo mật</a>
                                     </li>
                                     <li>
-                                        <a href="" title="">Chế độ bảo hành</a>
+                                        <a href="https://hupuna.com/chinh-sach-bao-hanh/" title="Chế độ bảo hành">Chế độ bảo hành</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1173,20 +1305,20 @@
             <div class="wrap-fix">
                 <div class="container-fluid">
                     <div class="support">
-                        <a href="" title="">
-                            <img src="images/dathang.svg" alt="">
+                        <a href="javascript:;" title="Đặt hàng" onclick="open_form_order()">
+                            <img src="images/dathang.svg" alt="Đặt hàng">
                             <span>Đặt hàng</span>
                         </a>
-                        <a href="" title="">
-                            <img src="images/hotline.svg" alt="">
+                        <a href="tel:0889736889" title="Hotline">
+                            <img src="images/hotline.svg" alt="Hotline">
                             <span>Hotline: 0889 363 889</span>
                         </a>
-                        <a href="" title="">
-                            <img src="images/Z.svg" alt="">
+                        <a href="https://zalo.me/0889736889" title="Zalo">
+                            <img src="images/Z.svg" alt="Zalo">
                             <span>Zalo</span>
                         </a>
-                        <a href="" title="">
-                            <img src="images/table price.svg" alt="">
+                        <a href="https://hupuna.com/" title="Bảng giá">
+                            <img src="images/table price.svg" alt="Bảng giá">
                             <span>Bảng giá</span>
                         </a>
                     </div>
@@ -1197,30 +1329,265 @@
 
         <!-- Menu mobile  -->
         <section class="menu-m">
-            <ul class="menu-m-level1">
-                <li class="item-menu-m-level1">
-                    <a href="" title="" class="name-menu-m-level1">
+            <ul class="menu-level1">
+                <li>
+                    <div class="formSearch">
+                        <form action="https://hupuna.com/" class="form-search">
+                            <input type="text" name="s" placeholder="Bạn tìm gì...">
+                            <input type="text" hidden name="post_type" value="product">
+                            <button>
+                                <img class="icon-search" src="images/search.svg" alt="Search">
+                            </button>
+                        </form>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://hupuna.com/ve-chung-toi/" title="Về chúng tôi">
                         Về chúng tôi
                     </a>
                 </li>
-                <li class="item-menu-level1">
-                    <a href="" title="" class="name-menu-m-level1">
+                <li>
+                    <a href="https://hupuna.com/cua-hang/" title="Sản phẩm">
                         Sản phẩm
                     </a>
+                    <span class="next-menu-level1">
+                        <img src="images/Chervon-right.svg" alt="Chervon">
+                    </span>
+                    <ul class="menu-level2">
+                        <li>
+                            <a href="javascript:;" title="Tiêu đề" class="back-menu-level1">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                                Sản phẩm
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/hop-carton/" title="Hộp carton">
+                                Hộp carton
+                            </a>
+                            <span class="next-menu-level2">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                            </span>
+                            <ul class="menu-level3">
+                                <li>
+                                    <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                        <img src="images/Chervon-right.svg" alt="Chervon">
+                                        Hộp carton
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/hop-carton/" title="Hàng có sẵn">
+                                        Hàng có sẵn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/san-xuat-hop-carton-so-luong-lon/" title="Sản xuất theo yêu cầu">
+                                        Sản xuất theo yêu cầu
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/hop-nap-gai/" title="Hộp nắp gài">
+                                Hộp nắp gài
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/hop-carton-chuyen-nha/" title="Hộp carton chuyển nhà">
+                                Hộp carton chuyển nhà
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/hop-in-offset/" title="Hộp in offset">
+                                Hộp in offset
+                            </a>
+                            <span class="next-menu-level2">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                            </span>
+                            <ul class="menu-level3">
+                                <li>
+                                    <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                        <img src="images/Chervon-right.svg" alt="Chervon">
+                                        Hộp in offset
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/hop-dung-tra/" title="Hộp giấy đựng trà">
+                                        Hộp giấy đựng trà
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/hop-banh-trung-thu/" title="Hộp đựng bánh trung thu">
+                                        Hộp đựng bánh trung thu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/thung-carton-hang-gia-dung/" title="Thùng carton hàng gia dụng">
+                                        Thùng carton hàng gia dụng
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/thung-carton-dung-nong-san/" title="Thùng carton đựng nông sản">
+                                        Thùng carton đựng nông sản
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/tui-giay/" title="Túi giấy">
+                                Túi giấy
+                            </a>
+                            <span class="next-menu-level2">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                            </span>
+                            <ul class="menu-level3">
+                                <li>
+                                    <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                        <img src="images/Chervon-right.svg" alt="Chervon">
+                                        Túi giấy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/tui-giay-kraft-co-san/" title="Túi giấy Kraft có sẵn">
+                                        Túi giấy Kraft có sẵn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/hop-banh-trung-thu/" title="Túi giấy SX theo yêu cầu">
+                                        Túi giấy SX theo yêu cầu
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/bang-dinh/" title="Băng dính">
+                                Băng dính
+                            </a>
+                            <span class="next-menu-level2">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                            </span>
+                            <ul class="menu-level3">
+                                <li>
+                                    <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                        <img src="images/Chervon-right.svg" alt="Chervon">
+                                        Băng dính
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/bang-dinh/" title="Hàng có sẵn">
+                                        Hàng có sẵn
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://hupuna.com/san-xuat-bang-dinh-so-luong-lon/" title="Sản xuất theo yêu cầu">
+                                        Sản xuất theo yêu cầu
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/mang-pe/" title="Màng PE - Màng chít">
+                                Màng PE - Màng chít
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/xop-foam/" title="Xốp Foam chống sốc">
+                                Xốp Foam chống sốc
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/bong-khi/" title="Xốp khí - Bóng khí">
+                                Xốp khí - Bóng khí
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="item-menu-level1">
-                    <a href="" title="" class="name-menu-m-level1">
-                        Về chúng tôi
+                <li>
+                    <a href="https://hupuna.com/bo-suu-tap/" title="Bộ sưu tập">
+                        Bộ sưu tập
                     </a>
                 </li>
-                <li class="item-menu-level1">
-                    <a href="" title="" class="name-menu-m-level1">
-                        Về chúng tôi
+                <li>
+                    <a href="https://hupuna.com/ho-so-nang-luc/" title="Hồ sơ năng lực">
+                        Hồ sơ năng lực
+                    </a>
+                </li>
+                <li>
+                    <a href="https://hupuna.com/tin-tuc-va-su-kien/" title="Tin tức">
+                        Tin tức
+                    </a>
+                    <span class="next-menu-level2">
+                        <img src="images/Chervon-right.svg" alt="Chervon">
+                    </span>
+                    <ul class="menu-level3">
+                        <li>
+                            <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                <img src="images/Chervon-right.svg" alt="Chervon">
+                                Tin tức
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/kien-thuc-bao-bi-giay/" title="Kiến thức bao bì giấy">
+                                Kiến thức bao bì giấy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/tin-noi-bo/" title="Tin nội bộ">
+                                Tin nội bộ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hupuna.com/tin-tuyen-dung/" title="Tin tuyển dụng">
+                                Tin tuyển dụng
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://hupuna.com/lien-he/" title="Liên hệ">
+                        Liên hệ
                     </a>
                 </li>
             </ul>
         </section>
+
+        <div class="overlay-menu-m" onclick="close_menu_mobile()"></div>
         <!-- End menu mobile  -->
+
+        <!-- Form đặt hàng  -->
+        <div class="cus-modal form-order">
+            <div class="close" onclick="close_form_order()">
+                <img src="images/close.svg" alt="">
+            </div>
+            <div class="title">Đặt hàng nhanh</div>
+            <div class="row">
+                <div class="col-6">
+                    <input type="text" placeholder="Họ và tên*">
+                </div>
+                <div class="col-6">
+                    <input type="text" placeholder="Địa chỉ*">
+                </div>
+                <div class="col-6">
+                    <input type="text" placeholder="Số điện thoại*">
+                </div>
+                <div class="col-6">
+                    <input type="text" placeholder="Kích thước*">
+                </div>
+                <div class="col-6">
+                    <input type="text" placeholder="Yêu cầu của khách*">
+                </div>
+                <div class="col-6">
+                    <input type="text" placeholder="Số lượng sản phẩm*">
+                </div>
+            </div>
+            <div class="text-center">
+                <button>
+                    Gửi ngay
+                </button>
+            </div>
+        </div>
+
+        <div class="overlay-modal" onclick="close_form_order()"></div>
+        <!-- End form đặt hàng  -->
     </div>
 
     <script src="js/app.js"></script>
