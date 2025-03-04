@@ -67,6 +67,8 @@
     border-radius: 7px;
   }
 
+  .contentProduct{margin: 10px;}
+
   .contentProduct .btn{
     padding: 0px 2px;
   }
@@ -75,8 +77,9 @@
     margin: 0px;
   }
   
-  .checked {
-    color: blue;
+  .contentProduct img.star{
+    height: 10px !important;
+    width: 10px !important;
   }
   
   .contentProduct .fa-star{
@@ -89,6 +92,10 @@
     }
     .container p.nameCategory{
         font-size: 14px !important;
+    }
+
+    .bannerCategories{
+      border-radius: 10px;
     }
   }
 

@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Document</title>
 </head>
@@ -38,7 +39,44 @@
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
-                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1">
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="1500">
+                        <div class="item">
+                            <div class="img-100 imgdetaisCategory">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgdetaisCategory">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgdetaisCategory">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgdetaisCategory">
+                                <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="category mb-5">
+            <h4 class="btn btn-primary fs-18">Hộp carton nắp gài</h4>
+            <div class="row mt-2">
+                <div class="carousel-container">
+                    <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2000">
                         <div class="item">
                             <div class="img-100 imgdetaisCategory">
                                 <img src="../images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
@@ -604,7 +642,7 @@
                             </div>
                         </div>
 
-                        <div class="row cartonBox openClose" style="display: none;">
+                        <div class="row cartonBox openClose container" style="display: none;">
                             <div class="container">
                                 <!-- Nút mở Mega Menu -->
                                 <div class="d-flex align-items-center mb-2">
@@ -717,7 +755,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="row ofsetBox openClose" style="display: none;">
+                        <div class="row ofsetBox openClose container" style="display: none;">
                             <div class="container">
                                 <!-- Nút mở Mega Menu -->
                                 <div class="d-flex align-items-center mb-2">
@@ -749,7 +787,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="row buttonFilter">
+                        <div class="row buttonFilter container">
                             <div class="col-6 p-1">
                                 <button class="btn btn-primary w-100">Thiết lập lại</button>
                             </div>
@@ -762,7 +800,7 @@
                         </div>
                     </div>
 
-                    <div class="row mt-3 d-flex fs-18 align-items-center justify-content-center">
+                    <div class=" row mt-3 d-flex fs-18 align-items-center justify-content-center">
                         <div class="col-4">
                             <p class="fs-15">Sắp xếp theo</p>
                         </div>
@@ -811,14 +849,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -831,14 +868,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -851,14 +887,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -871,14 +906,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -891,14 +925,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -911,14 +944,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
@@ -931,14 +963,13 @@
                                 <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
                                 <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
                                 <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                <div>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
+                                <div class="d-flex align-items-center">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/starblue.svg" alt="star">
+                                    <img class="star" src="../icons/star.svg" alt="star">
                                     <span class="text-primary fs-10">Đã bán 200 SP</span>
-
                                 </div>
 
                             </div>
