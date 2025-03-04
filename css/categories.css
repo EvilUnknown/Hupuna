@@ -1,4 +1,16 @@
 /* Danh mục */
+.container .see-more {
+  display: inline-block;
+  padding: 12px 20px 12px 20px;
+  background: #ffcc00!important;
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+  clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
+  float: right;
+}
 
 .container p.nameCategory{
   text-align: center;
@@ -13,7 +25,7 @@
   font-weight: bold;
   position: relative;
   border-radius: 5px;
-  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
 }
 .categories .imgCategory{
     padding-bottom: 94%;
@@ -31,7 +43,7 @@
     cursor: pointer;
   }
   .slick-next:before, .slick-prev::before{
-    font-size: 30px !important;
+    font-size: 50px !important;
     color: #70757a !important;
   }
   .slick-prev:hover,
@@ -43,7 +55,7 @@
       /* background: rgb(0 0 0 / 50%)!important; */
   }
   .custom_slider .item .nameCategory {
-    color: #0060A5;
+    color: #003366;
     margin: 8px 0;
   }
   

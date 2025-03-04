@@ -35,7 +35,10 @@
     </div>
     <div class="container">
         <div class="category mb-5">
-            <a href="#" class="btn btn-primary fs-18">Hộp carton nắp đối</a>
+            <div class="border-bottom">
+                <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp đối</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
@@ -72,7 +75,10 @@
 
         </div>
         <div class="category mb-5">
-            <a href="#" class="btn btn-primary fs-18">Hộp carton nắp gài</a>
+            <div class="border-bottom">
+                <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp đối</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
@@ -112,13 +118,15 @@
             <!--Start select desktop -->
             <div class="col-3 desktop">
                 <div class="d-flex align-items-center">
-                    <img class="iconMenu" src="./icons/menu-svgrepo-com.svg">
+                    <img class="iconMenu" src="./icons/menu-blue.svg">
                     <h2 class="fs-20 fw-600">Tất cả danh mục</h2>
                 </div>
                 <div class="row">
                     <div id="filterContent" class="mt-3">
                         <ul class="categoryList">
-                            <li class="category-item" onclick="toggleSubmenu('cartonBox')">▸ Hộp carton
+                            <li class="category-item" onclick="toggleSubmenu('cartonBox')"><img class="icon-right"
+                                    src="./icons/right-svgrepo-com.svg" alt=""> Hộp
+                                carton
                                 <ul class="subcategory cartonBox openClose" style="display: none;">
                                     <li>
                                         <input type="checkbox" id="v1" name="v1" value="v1"
@@ -137,7 +145,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item" onclick="toggleSubmenu('ofsetBox')">▸ Hộp in ofset
+                            <li class="category-item" onclick="toggleSubmenu('ofsetBox')"><img class="icon-right"
+                                    src="./icons/right-svgrepo-com.svg" alt=""> Hộp in ofset
                                 <ul class="subcategory ofsetBox openClose" style="display: none;">
                                     <li>
                                         <input type="checkbox" id="v4" name="v4" value="v4"
@@ -156,10 +165,14 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Băng dính</li>
-                            <li class="category-item">▸ Màng PE - Màng chít</li>
-                            <li class="category-item">▸ Xốp Foam</li>
-                            <li class="category-item">▸ Xốp khí - Bóng khí</li>
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Băng dính</li>
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Màng PE - Màng chít</li>
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Xốp Foam</li>
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Xốp khí - Bóng khí</li>
                         </ul>
                     </div>
                 </div>
@@ -170,7 +183,8 @@
                     </div>
                     <div id="filterStatus" class="mt-3">
                         <ul class="categoryList">
-                            <li class="category-item">▸ Lọc theo cấu tạo nắp
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo cấu tạo nắp
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v8" name="v8" value="Hộp carton nắp đối">
@@ -182,7 +196,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo kích thước
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo kích thước
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v9" name="v9" value="Hộp carton nắp đối">
@@ -198,7 +213,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo số lớp
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo số lớp
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v12" name="v12" value="Hộp carton nắp đối">
@@ -214,7 +230,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo loại sóng
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo loại sóng
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v15" name="v15" value="Hộp carton nắp đối">
@@ -258,7 +275,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo màu sắc
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo màu sắc
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v25" name="v25" value="Hộp carton nắp đối">
@@ -278,7 +296,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo định lượng giấy
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo định lượng giấy
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v29" name="v29" value="Hộp carton nắp đối">
@@ -338,7 +357,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo khu vực
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo khu vực
                                 <ul id="giay" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="v43" name="v43" value="Hộp dựng trà">
@@ -361,7 +381,8 @@
                     </div>
                     <div id="filterStatus" class="mt-3">
                         <ul class="categoryList">
-                            <li class="category-item">▸ Lọc theo cấu tạo nắp
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo cấu tạo nắp
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -373,7 +394,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo kích thước
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo kích thước
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -389,7 +411,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo số lớp
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo số lớp
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -405,7 +428,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo loại sóng
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo loại sóng
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -449,7 +473,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo màu sắc
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo màu sắc
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -469,7 +494,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo định lượng giấy
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo định lượng giấy
                                 <ul id="carton" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="Hộp carton nắp đối">
@@ -529,7 +555,8 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="category-item">▸ Lọc theo khu vực
+                            <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                    alt=""> Lọc theo khu vực
                                 <ul id="giay" class="subcategory">
                                     <li>
                                         <input type="checkbox" id="vehicle4" name="vehicle4" value="Hộp dựng trà">
@@ -546,13 +573,13 @@
                 </div>
                 <div class="row buttonSelect">
                     <div class="col-6 p-1">
-                        <button class="btn btn-primary w-100">Thiết lập lại</button>
+                        <button class="btn btn-primary w-100 border-0">Thiết lập lại</button>
                     </div>
                     <div class="col-6 p-1">
-                        <button class="btn btn-primary w-100">Áp dụng</button>
+                        <button class="btn btn-primary w-100 border-0">Áp dụng</button>
                     </div>
                     <div class="col-12 p-1">
-                        <button class="btn btn-primary w-100">ĐẶT HÀNG THEO YÊU CẦU</button>
+                        <button class="btn btn-primary w-100 border-0">ĐẶT HÀNG THEO YÊU CẦU</button>
                     </div>
                 </div>
             </div>
@@ -565,7 +592,7 @@
                         <div class="container">
                             <!-- Nút mở Mega Menu -->
                             <div id="categoryMegaMenuBtn" class=" d-flex align-items-center">
-                                <img class="iconMenu" src="./icons/menu-svgrepo-com.svg">
+                                <img class="iconMenu" src="./icons/menu-white.svg">
                                 <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
                             </div>
 
@@ -573,7 +600,7 @@
                     </nav>
 
                     <!-- Mega Menu Toàn Màn Hình -->
-                    <div id="categoryMegaMenu" class="category-mega-menu">
+                    <div id="categoryMegaMenu" class="category-mega-menu ">
                         <span id="closeMegaMenu" class="close-btn">&times;</span>
                         <div class="container py-3">
                             <div class="d-flex align-items-center">
@@ -789,13 +816,13 @@
                         </div>
                         <div class="row buttonFilter buttonSelect container">
                             <div class="col-6 p-1">
-                                <button class="btn btn-primary w-100">Thiết lập lại</button>
+                                <button class="btn btn-primary w-100 border-0">Thiết lập lại</button>
                             </div>
                             <div class="col-6 p-1">
-                                <button class="btn btn-primary w-100">Áp dụng</button>
+                                <button class="btn btn-primary w-100 border-0">Áp dụng</button>
                             </div>
                             <div class="col-12 p-1">
-                                <button class="btn btn-primary w-100">ĐẶT HÀNG THEO YÊU CẦU</button>
+                                <button class="btn btn-primary w-100 border-0">ĐẶT HÀNG THEO YÊU CẦU</button>
                             </div>
                         </div>
                     </div>
@@ -827,7 +854,7 @@
                 </div>
                 <div class="row desktop d-flex fs-18 align-items-center justify-content-center">
                     <div class="col-2">
-                        <p>Sắp xếp theo</p>
+                        <p class="fs-15">Sắp xếp theo</p>
                     </div>
                     <div class="col-8 d-flex align-items-center justify-content-center">
                         <button>Phổ biến</button>
@@ -839,7 +866,7 @@
                             <option value="2">Cao đến thấp</option>
                         </select>
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 fs-15">
                         <p>1-60/103 kết quả</p>
                     </div>
                 </div>

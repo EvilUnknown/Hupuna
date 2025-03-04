@@ -29,7 +29,11 @@
     <div class="container">
         <!-- Start categories -->
         <div class="categories border-bottom">
-            <a href="#" class="btn btn-primary mt-4 fs-18">Danh mục</a>
+            <div class="border-bottom mt-4">
+                <a href="#" class="btn btn-primary fs-18 border-0">Danh mục</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
+            <!-- <a href="#" class="btn btn-primary mt-4 fs-18 border-0">Danh mục</a> -->
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="6" data-slides-to-scroll="1"
@@ -84,7 +88,11 @@
         <!-- End Categories -->
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <a href="#" class="btn btn-primary fs-18">Sản phẩm nổi bật</a>
+            <div class="border-bottom mt-4">
+                <a href="#" class="btn btn-primary fs-18 border-0">Sản phẩm nổi bật</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
+            <!-- <a href="#" class="btn btn-primary fs-18 border-0">Sản phẩm nổi bật</a> -->
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1"
@@ -277,7 +285,10 @@
         <!-- End -->
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <a href="#" class="btn btn-primary fs-18">Hộp Carton</a>
+            <div class="border-bottom mt-4">
+                <a href="#" class="btn btn-primary fs-18 border-0">Hộp Carton</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
             <div class="bannerCategories img-100 mt-3">
                 <img src="./images/bannerhopcarton.jfif">
             </div>
@@ -474,7 +485,10 @@
 
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <a href="#" class="btn btn-primary fs-18">Hộp In Offset</a>
+            <div class="border-bottom mt-4">
+                <a href="#" class="btn btn-primary fs-18 border-0">Hộp In Offset</a>
+                <a href="#" class="see-more">XEM THÊM</a>
+            </div>
             <div class="bannerCategories img-100 mt-3">
                 <img src="./images/bannerhopcarton.jfif">
             </div>
