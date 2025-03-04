@@ -15,7 +15,7 @@
   }
 
   .container p.fs-18{
-    font-size: 15px !important;
+    font-size: 14px !important;
     margin-bottom: 0px !important;
   }
 
@@ -321,13 +321,11 @@
   margin: 0px;
 }
 
-.checked {
-  color: blue;
+ img.star{
+  height: 10px !important;
+  width: 10px !important;
 }
 
-.contentProduct .fa-star{
-  font-size: 10px;
-}
 
 /* panigation */
 .pagination a {
