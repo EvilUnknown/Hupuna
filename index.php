@@ -931,18 +931,20 @@
                         </div>
 
                         <div class="card list-news col-4">
-                            <div class="list-content-news">
-                                <div class="content">
-                                    <a href="#" class="title">Top 100 những giỏ quà tết</a>
-                                    <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">Hộp Carton đựng Pizza</a>
-                                    <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
-                                </div>
-                                <div class="content">
-                                    <a href="#" class="title">In hộp giỏ quà trung thu</a>
-                                    <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                            <div class="list-content-news d-flex">
+                                <div>
+                                    <div class="content">
+                                        <a href="#" class="title">Top 100 những giỏ quà tết</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Hộp Carton đựng Pizza</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">In hộp giỏ quà trung thu</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
                                 </div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>

@@ -348,6 +348,12 @@ img {
     padding: 10px 15px;
     transform: skew(-10deg);
 }
+.list-content-news {
+    height: 100%;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .list-content-news .content .title {
     color: rgb(0 43 197);
 }
