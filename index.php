@@ -954,6 +954,12 @@
             </div>
         </section>
     </div>
+
+    <section class="section box-banner-footer">
+        <div class="banner-footer">
+            <img src="images/footer-slider-1-3840x1280.jpg" alt="">
+        </div>
+    </section>
 </body>
 <script src="js/base.js"></script>
 <script src="js/home.js"></script>
