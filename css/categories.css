@@ -1,6 +1,19 @@
 /* Danh mục */
+
 .container p.nameCategory{
   text-align: center;
+}
+
+.container a.btn-primary {
+  display: inline-block;
+  padding: 12px 50px 12px 20px;
+  background: #003366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
 }
 .categories .imgCategory{
     padding-bottom: 94%;
