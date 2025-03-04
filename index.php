@@ -285,7 +285,7 @@
         <section class="section box-product-hight">
             <div class="row justify-content-center">
                 <div class="col-12 container-product-hight">
-                    <div class="product-hight-title d-flex justify-content-between">
+                    <div class="product-hight-title pb-2 d-flex justify-content-between">
                         <h2 class="fs-4">SẢN PHẨM NỔI BẬT</h2>
                         <h4 class="see-more">XEM THÊM</h4>
                     </div>
@@ -588,7 +588,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="besiness-title">
-                        <h2>LĨNH VỰC KINH DOANH</h2>
+                        <h2 class="fs-24 pb-2 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
                     </div>
                     <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
                         <div class="col-4 content-besiness content-besiness1">
@@ -881,9 +881,9 @@
 
     <div class="container">
         <section class="section box-news py-5">
-            <div class="row justify-content-center text-center">
+            <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="news-title">
+                    <div class="news-title text-center pb-3">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
                     </div>
@@ -896,7 +896,7 @@
                                 <span><i class="fa-solid fa-eye"></i>48</span>
                             </div>
                             <div class="content">
-                                <div class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</div>
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                 <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
@@ -910,7 +910,7 @@
                                 <span><i class="fa-solid fa-eye"></i>27</span>
                             </div>
                             <div class="content">
-                                <div class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</div>
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                 <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
@@ -924,8 +924,28 @@
                                 <span><i class="fa-solid fa-eye"></i>26</span>
                             </div>
                             <div class="content">
-                                <div class="title">Những loại máy in phổ biến hiện nay</div>
+                                <a href="#" class="title">Những loại máy in phổ biến hiện nay</a>
                                 <div class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</div>
+                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                            </div>
+                        </div>
+
+                        <div class="card list-news col-4">
+                            <div class="list-content-news d-flex">
+                                <div>
+                                    <div class="content">
+                                        <a href="#" class="title">Top 100 những giỏ quà tết</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Hộp Carton đựng Pizza</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">In hộp giỏ quà trung thu</a>
+                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                    </div>
+                                </div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
                         </div>
