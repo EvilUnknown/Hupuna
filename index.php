@@ -956,8 +956,12 @@
     </div>
 
     <section class="section box-banner-footer">
-        <div class="banner-footer">
-            <img src="images/footer-slider-1-3840x1280.jpg" alt="">
+        <div class="row">
+            <div class="colo-12">
+                <div class="banner-footer">
+                    <img src="images/footer-slider-1-3840x1280.jpg" width="100%" alt="">
+                </div>
+            </div>
         </div>
     </section>
 </body>
