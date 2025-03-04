@@ -15,7 +15,7 @@
   }
 
   .container p.fs-18{
-    font-size: 15px !important;
+    font-size: 14px !important;
     margin-bottom: 0px !important;
   }
 
@@ -36,8 +36,10 @@
     height: 15px;
   }
 
-  .pagination{
-    font-size: 14px;
+  .pagination a{
+    font-size: 12px !important;
+    padding: 8px 10px !important;
+    margin: 0px 2px 0px 2px !important;
   }
 
 /* mega menu mobile */
@@ -96,6 +98,10 @@
   font-weight: 400;
   border-radius: 9px;
   padding: 8px;
+}
+
+.selectCategory select{
+  width: 100% !important;
 }
 
 }
@@ -321,13 +327,11 @@
   margin: 0px;
 }
 
-.checked {
-  color: blue;
+ img.star{
+  height: 10px !important;
+  width: 10px !important;
 }
 
-.contentProduct .fa-star{
-  font-size: 10px;
-}
 
 /* panigation */
 .pagination a {

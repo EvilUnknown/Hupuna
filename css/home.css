@@ -29,7 +29,7 @@ p {
     margin: auto;
     overflow: hidden;
     position: relative;
-    padding: 20px;
+    padding: 0 20px;
 }
 .carousel-wrapper {
     display: flex;
@@ -112,12 +112,58 @@ p {
 .btn-best-seller:hover span {
     color: #fff!important;
 }
+.tab-title {
+    align-items: center;
+}
 .pro-img-hight-right {
     padding-bottom: 83%;
 }
-.product-item-right-content, 
+/* .product-item-right-content, 
 .product-item-left-content {
     text-align: center;
+} */
+.img-100:hover .hover-img {
+    opacity: 1;
+}
+.img-100 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-100 .hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.video-contact iframe {
+    height: 100%!important;
+}
+.product-item-right-content a {
+    display: block;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: initial;
+    font-size: 14px;
+    color: rgba(45, 45, 45, 1);
+    font-weight: 700;
+    padding: 10px 0px 3px;
+    text-align: justify;
+    text-align: left;
+}
+.mobile-library {
+    display: none!important;
+}
+.img-rating {
+    width: 80px;
+    height: auto;
+    padding: 0 0 20px;
+}
+.nav-item a {
+    font-weight: 700;
 }
 .nav-tabs .nav-item.show .nav-link,
  .nav-tabs .nav-link.active {
@@ -135,6 +181,14 @@ p {
 .wrap-content-besiness, 
 .wrap-content-feedback {
     gap: 30px;
+}
+.brands ul li {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px!important;
+}
+.brands li img:hover {
+    transform: scale(1.2);
 }
 .form-contact {
     background-color: #d2d2d2;
@@ -295,11 +349,34 @@ img {
 }
 
 .see-more {
-    background-color: #ff0000;
+    background-color: #ff0000!important;
     color: #fff;
     padding: 10px 15px;
     transform: skew(-10deg);
 }
+.list-content-news {
+    height: 100%;
+    padding: 15px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-content-news .content .title {
+    color: rgb(0 43 197);
+}
+.list-content-news .content {
+    padding: 15px 15px 0;
+}
+.list-content-news .content:nth-of-type(1),
+.list-content-news .content:nth-of-type(2){
+    border-bottom: 1px dotted #4b4b4b;
+}
+.card {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
         overflow: hidden;
@@ -316,6 +393,9 @@ img {
     .col-12 {
         flex-wrap: wrap;
         width: 100%;
+    }
+    .wrap-ceo {
+        padding: 0px;
     }
     .item-category {
         max-width: 49%;
@@ -358,6 +438,25 @@ img {
     .card {
         width: 49%;
     }
+    .library, .see-more-desk, .product-img {
+        display: none;
+    }
+    .tab-title-library, .title-library {
+        display: block!important;
+    }
+    .tab-title, 
+    .news-content {
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto; /* Cho phép cuộn ngang */
+        white-space: nowrap;
+        scrollbar-width: none;
+        display: flex;
+        flex-wrap: nowrap!important;
+    }
+    .mobile-library {
+        display: flex!important;
+    }
 }
 
 @media (max-width: 760px) {
@@ -370,6 +469,9 @@ img {
     }
     .ceo-box {
         padding-bottom: 0!important;
+    }
+    .wrap-ceo {
+        padding: 0px;
     }
     .info-content-text p {
         padding: 20px 0!important;
@@ -441,6 +543,9 @@ img {
     .product-list-best {
         width: 100%;
     }
+    .product-item-right {
+        width: 100%;
+    }
     .content-besiness .col-8 {
         width: 100%;
     }
@@ -483,12 +588,15 @@ img {
     .product-library-title {
         width: 100%;
     }
-    .tab-title {
+    .tab-title, 
+    .news-content {
         width: 100%;
         padding: 10px;
         overflow-x: auto; /* Cho phép cuộn ngang */
         white-space: nowrap;
         scrollbar-width: none;
+        display: flex;
+        flex-wrap: nowrap!important;
     }
     .pro-tab-title .tab-title {
         gap: 10px!important;
@@ -504,8 +612,12 @@ img {
     .pro-tab-title .title.active {
         background-color: #007bff;
     }
-    .pro-tab-title .title.active p {
+    .pro-tab-title .title.active a {
         color: #fff;
+    }
+    .wrap-feedback {
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
     }
     .product-library-title .tab-title {
         gap: 10px;
@@ -513,5 +625,14 @@ img {
     .more-product {
         text-align: center;
         margin-top: 10px;
+    }
+    .library, .see-more-desk {
+        display: none;
+    }
+    .tab-title-library, .title-library {
+        display: block!important;
+    }
+    .mobile-library {
+        display: flex!important;
     }
 }
