@@ -7,7 +7,9 @@ $(document).ready(function(){
         var slidesToScroll = $this.data('slides-to-scroll') || 4;
         var slidesToShowMobile = $this.data('slides-to-show-mobile') || 1;
         var slidesToScrollMobile = $this.data('slides-to-scroll-mobile') || 1;
-
+        var slidesToShowTablet = $this.data('slides-to-show-tablet') || 2;
+        var slidesToScrollTablet = $this.data('slides-to-scroll-tablet') || 2;
+        var slidesSpeed = $this.data('slides-to-speed') || 3000;
 
         $this.slick({
             slidesToShow: slidesToShow,
@@ -16,14 +18,14 @@ $(document).ready(function(){
             dots: false,
             infinity: true,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: slidesSpeed,
 
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
+                        slidesToShow: slidesToShowTablet,
+                        slidesToScroll: slidesToScrollTablet,
                     }
                 },
 

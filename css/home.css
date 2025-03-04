@@ -149,7 +149,7 @@ p {
     text-align: left;
 }
 .mobile-library {
-    display: none;
+    display: none!important;
 }
 .img-rating {
     width: 80px;
@@ -340,7 +340,7 @@ img {
 }
 
 .see-more {
-    background-color: #ff0000;
+    background-color: #ff0000!important;
     color: #fff;
     padding: 10px 15px;
     transform: skew(-10deg);
@@ -362,8 +362,15 @@ img {
         flex-wrap: wrap;
         width: 100%;
     }
+    .wrap-ceo {
+        padding: 0px;
+    }
     .item-category {
         max-width: 49%;
+    }
+    .product-hight-title {
+        padding: 0 0 10px;
+        align-items: center;
     }
     .container-product-library .product-item-left {
         width: 100%;
@@ -409,7 +416,8 @@ img {
     .tab-title-library, .title-library {
         display: block!important;
     }
-    .tab-title {
+    .tab-title, 
+    .news-content {
         width: 100%;
         padding: 10px;
         overflow-x: auto; /* Cho phép cuộn ngang */
@@ -417,6 +425,9 @@ img {
         scrollbar-width: none;
         display: flex;
         flex-wrap: nowrap!important;
+    }
+    .mobile-library {
+        display: flex!important;
     }
 }
 
@@ -430,6 +441,9 @@ img {
     }
     .ceo-box {
         padding-bottom: 0!important;
+    }
+    .wrap-ceo {
+        padding: 0px;
     }
     .info-content-text p {
         padding: 20px 0!important;
@@ -497,6 +511,10 @@ img {
     .product-img, .pro-img-hight-right {
         display: none;
     }
+    .product-hight-title {
+        padding: 0 0 10px;
+        align-items: center;
+    }
     .product-list-hight, 
     .product-list-best {
         width: 100%;
@@ -546,7 +564,8 @@ img {
     .product-library-title {
         width: 100%;
     }
-    .tab-title {
+    .tab-title, 
+    .news-content {
         width: 100%;
         padding: 10px;
         overflow-x: auto; /* Cho phép cuộn ngang */
@@ -572,6 +591,10 @@ img {
     .pro-tab-title .title.active a {
         color: #fff;
     }
+    .wrap-feedback {
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
     .product-library-title .tab-title {
         gap: 10px;
     }
@@ -584,5 +607,8 @@ img {
     }
     .tab-title-library, .title-library {
         display: block!important;
+    }
+    .mobile-library {
+        display: flex!important;
     }
 }

@@ -44,7 +44,7 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 wrap-ceo">
                             <div class="box-ceo text-center rounded">
                                 <div class="info-block bg-ceo p-3">
                                     <img src="images/ceo-120x120.png" alt="">
@@ -150,7 +150,7 @@
                     </div>
                     <div class="carousel-container">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <div class="carousel-title">BAO BÌ MỸ PHẨM</div>
@@ -204,7 +204,7 @@
                             <div class="title"><a>ĐƠN GIẢN TIỆN LỢI</a></div>
                             <div class="title"><a>GIÁ TỐT</a></div>
                             <div class="title"><a>MẪU MÃ PHONG PHÚ</a></div>
-                            <div class="title"><a>XEM THÊM</a></div>
+                            <div class="title see-more"><a>XEM THÊM</a></div>
                         </div>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
@@ -287,7 +287,7 @@
                 <div class="col-12 container-product-hight">
                     <div class="product-hight-title d-flex justify-content-between">
                         <h2 class="fs-4">SẢN PHẨM NỔI BẬT</h2>
-                        <h4>XEM THÊM</h4>
+                        <h4 class="see-more">XEM THÊM</h4>
                     </div>
                     <div class="row box-product-list-hight">
                         <div class="col-8 product-list-hight">
@@ -717,7 +717,7 @@
     </div>
     <section class="section box-active">
         <div class="container">
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-5 wrap-feedback">
                 <div class="col-12">
                     <div class="cutomer-feedback">
                         <div class="text-title text-center">
@@ -726,7 +726,7 @@
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
-                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3">
+                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3" data-slides-to-show-tablet="4">
                                 <li><img src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yellow-page-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yadea-1000x400-1-300x120.jpg" alt=""></li>
