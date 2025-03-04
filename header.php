@@ -10,11 +10,11 @@
     <header class="header-desktop">
         <div class="top-bar">
             <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-3">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-2">
                         <img class="logo-header" src="images/logo.png" alt="Logo trang chủ">
                     </div>
-                    <div class="input-group mb-3 search-box d-flex flex-row col-5">
+                    <div class="input-group mb-3 search-box d-flex flex-row justify-content-between col-6 ">
                         <input type="text" class="form-control border-0 bg-transparent"
                             placeholder="Tìm kiếm từ khóa, thông tin, công dụng..." aria-label="Recipient's username"
                             aria-describedby="btn-search">
@@ -23,8 +23,14 @@
                     </div>
 
                     <div class="user-options col-4 d-flex flex-row align-items-center justify-content-end">
-                        <span class="text-white">0889.363.889</span>
-                        <button class="login-btn">Đăng Nhập</button>
+                        <button class="text-white login-btn d-flex justify-content-between align-items-center">
+                            <img src="icons/phone-icon.svg" alt="icon giỏ hàng">
+                            <spam>0889.363.889</spam>
+                        </button>
+                        <button class="text-white login-btn d-flex justify-content-between align-items-center">
+                            <img src="icons/lock-icon.svg" alt="icon giỏ hàng">
+                            <spam>Đăng Nhập</spam>
+                        </button>
                         <button class="cart">
                             <img src="icons/cart-icon.svg" alt="icon giỏ hàng">
                         </button>
@@ -34,7 +40,7 @@
         </div>
         </div>
         <nav class="main-menu">
-            <div class="container">
+            <div class="container d-flex justify-content-between align-items-center">
                 <ul>
                     <li class="dropdown">
                         <button class="menu-btn">☰ DANH MỤC SẢN PHẨM</button>
@@ -641,7 +647,7 @@
                     </li>
                     <li class="dropdown">
                         <button class="menu-btn">DỊCH VỤ IN ẤN ▼</button>
-                        <div class="menu-icon-service">
+                        <div class="menu-items-service">
                             <div class="row text-center">
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
@@ -677,15 +683,45 @@
                                 </div>
                             </div>
                             <div class="row text-center">
+                            <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Vàng Đục</p>
+                                </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Màng PE Trắng</p>
+                                    <p>Vàng Chanh</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
+                                </div>
+                                <div class="col">
+                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
+                                    <p>Trắng Trong</p>
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="dropdown"><button class="menu-btn">VỀ CHÚNG TÔI</button></li>
                     <li class="dropdown"><button class="menu-btn">TIN TỨC</button></li>
+                </ul>
+                <ul>
                     <li class="dropdown"><button class="menu-btn">📹 VIDEO NỔI BẬT</button></li>
                 </ul>
             </div>
@@ -693,7 +729,7 @@
     </header>
     <header class="header-mobile">
         <nav class="navbar navbar-expand-lg">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="logo-header" src="images/logo.png"
                         alt="Logo trang chủ"></a>
                 <button class="navbar-toggler btn-header-mb" type="button" data-bs-toggle="offcanvas"
