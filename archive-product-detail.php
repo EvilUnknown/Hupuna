@@ -35,7 +35,7 @@
     </div>
     <div class="container">
         <div class="category mb-5">
-            <h4 class="btn btn-primary fs-18">Hộp carton nắp đối</h4>
+            <a href="#" class="btn btn-primary fs-18">Hộp carton nắp đối</a>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
@@ -72,7 +72,7 @@
 
         </div>
         <div class="category mb-5">
-            <h4 class="btn btn-primary fs-18">Hộp carton nắp gài</h4>
+            <a href="#" class="btn btn-primary fs-18">Hộp carton nắp gài</a>
             <div class="row mt-2">
                 <div class="carousel-container">
                     <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
@@ -544,7 +544,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row buttonSelect">
                     <div class="col-6 p-1">
                         <button class="btn btn-primary w-100">Thiết lập lại</button>
                     </div>
@@ -787,7 +787,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="row buttonFilter container">
+                        <div class="row buttonFilter buttonSelect container">
                             <div class="col-6 p-1">
                                 <button class="btn btn-primary w-100">Thiết lập lại</button>
                             </div>
@@ -1109,7 +1109,7 @@
 
                 <div class="row mt-3">
                     <div class="describeCategory">
-                        <p class="fs-15">
+                        <p class="fs-15 text-content">
                             Hộp carton là dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                             tincidunt ut laoreet
                             dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -1131,6 +1131,7 @@
                             exerci tation
                             ullamcorper suscipit lobortis.
                         </p>
+                        <button class=" mt-2 toggle-text w-100">Xem thêm</button>
                     </div>
                     <div>
                         <div class="bannerFooter img-100 mt-5">
@@ -1202,6 +1203,23 @@
             if (!menu.contains(event.target) && !button.contains(event.target)) {
                 menu.classList.remove("show");
             }
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleBtn = document.querySelector(".toggle-text");
+            const textContent = document.querySelector(".text-content");
+
+            toggleBtn.addEventListener("click", function() {
+                if (textContent.classList.contains("expanded")) {
+                    textContent.classList.remove("expanded");
+                    toggleBtn.textContent = "Xem thêm";
+                } else {
+                    textContent.classList.add("expanded");
+                    toggleBtn.textContent = "Thu gọn";
+                }
+            });
         });
     </script>
 
