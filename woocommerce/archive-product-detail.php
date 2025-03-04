@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Document</title>
 </head>
@@ -568,7 +567,7 @@
                                 <img class="iconMenu" src="../icons/menu-svgrepo-com.svg">
                                 <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
                             </div>
-                            <p class="fs-15">1-60/103 kết quả</p>
+
                         </div>
                     </nav>
 
@@ -801,16 +800,21 @@
                     </div>
 
                     <div class=" row mt-3 d-flex fs-18 align-items-center justify-content-center">
-                        <div class="col-4">
+                        <div class="col-6">
                             <p class="fs-15">Sắp xếp theo</p>
                         </div>
-                        <div class="col-8 d-flex align-items-center justify-content-center fs-15">
+                        <div class="col-6">
+                            <p class="fs-15">1-60/103 kết quả</p>
+                        </div>
+                        <div class="col-6 d-flex align-items-center justify-content-center fs-15">
                             <select>
                                 <option selected>Phổ biến</option>
                                 <option value="1">Xem nhiều</option>
                                 <option value="2">Mua nhiều</option>
                                 <option value="3">Mới nhất</option>
                             </select>
+                        </div>
+                        <div class="col-6 d-flex align-items-center justify-content-center fs-15">
                             <select>
                                 <option selected>Giá</option>
                                 <option value="1">Thấp đến cao</option>
@@ -977,14 +981,13 @@
 
 
                     </ul>
-                    <div class="pagination d-flex justify-content-center align-items-center">
+                    <div class=" pagination d-flex justify-content-center align-items-center">
                         <a href="#">&laquo;</a>
                         <a href="#">1</a>
                         <a href="#" class="active">2</a>
                         <a href="#">3</a>
                         <a href="#">4</a>
                         <a href="#">5</a>
-                        <a href="#">6</a>
                         <a href="#">&raquo;</a>
                     </div>
                 </div>
