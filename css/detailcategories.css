@@ -375,9 +375,6 @@
   font-weight: 400;
   text-align: justify;
   line-height: 30px;
-}
-
-.text-content {
   max-height: 100px;
   overflow: hidden;
   position: relative;
