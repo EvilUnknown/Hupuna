@@ -11,14 +11,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
     <!-- CSS FlexSlider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css"> -->
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- FlexSlider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
@@ -30,59 +39,51 @@
         <div class="categories border-bottom">
             <h4 class="btn btn-primary mt-4 fs-18">Danh mục</h4>
             <div class="row mt-2">
-                <div class="flex-container">
-                    <div class="flexslider" data-max="6" data-min="6" data-width="120">
-                        <ul class="slides">
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">HỘP CARTON</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">HỘP IN OFFSET</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">BĂNG DÍNH</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">MÀNG PE- MÀNG CHÍT</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">XỐP FOAM</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">XỐP KHÍ - BÓNG KHÍ</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">HỘP CARTON</p>
-                            </li>
-                            <li>
-                                <div class="img-100 imgCategory">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <p class="fw-bold nameCategory line-clamp">HỘP CARTON</p>
-                            </li>
-
-                        </ul>
+                <div class="carousel-container">
+                    <div class="custom_slider" data-slides-to-show="6" data-slides-to-scroll="1"
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1">
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">HỘP CARTON</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">HỘP IN OFFSET</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">BĂNG DÍNH</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">MÀNG PE- MÀNG CHÍT</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">XỐP FOAM</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">XỐP KHÍ - BÓNG KHÍ</p>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgCategory">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <p class="fw-bold mt-2 fs-18 line-clamp nameCategory">HỘP CARTON</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,210 +93,197 @@
         <div class="mt-4 border-bottom">
             <h4 class="btn btn-primary fs-18">Sản phẩm nổi bật</h4>
             <div class="row mt-2">
-                <div class="flex-container">
-                    <div class="flexslider" data-max="8" data-min="8" data-width="100">
-                        <ul class="slides">
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+                <div class="carousel-container">
+                    <div class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1"
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1">
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
 
-                                    </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
 
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/hopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/hopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -309,210 +297,197 @@
                 <img src="../images/bannerhopcarton.jfif">
             </div>
             <div class="row mt-3">
-                <div class="flex-container">
-                    <div class="flexslider" data-max="8" data-min="8" data-width="100">
-                        <ul class="slides">
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+                <div class="carousel-container">
+                    <div class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1"
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1">
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
 
-                                    </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
 
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -527,210 +502,197 @@
                 <img src="../images/bannerhopcarton.jfif">
             </div>
             <div class="row mt-3">
-                <div class="flex-container">
-                    <div class="flexslider" data-max="8" data-min="8" data-width="100">
-                        <ul class="slides">
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
+                <div class="carousel-container">
+                    <div class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1"
+                        data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1">
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
 
-                                    </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá</p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
 
-                                    </div>
-
-                                </div>
-                            </li>
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                            <li>
-                                <div class="img-100 imgProduct">
-                                    <img src="../images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10 pl-3">25%</span>
-                                    </p>
-                                    <div>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
 
                                 </div>
-                            </li>
 
-                        </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="img-100 imgProduct">
+                                <img src="../images/bannerhopcarton.jfif" alt="Product 1">
+                            </div>
+                            <div class="contentProduct mt-2">
+                                <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
+                                <p class="fw-bolder fs-14 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
+                                </p>
+                                <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
+                                <div>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="text-primary fs-10">Đã bán 200 SP</span>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -740,46 +702,11 @@
 
     </div>
 
-    <script>
-        $(document).ready(function() {
-            function initFlexSlider() {
-                $(".flexslider").each(function() {
-                    if (window.innerWidth <= 768) {
-                        max = 2;
-                        min = 2;
-                    } else if (window.innerWidth <= 1024) {
-                        max = 3;
-                        min = 3;
-                    } else {
-                        max = $(this).data("max");
-                        min = $(this).data("min");
-                    }
-                    width = eval($(this).data("width"));
-                    if (typeof max === "undefined") {
-                        max = "6";
-                    }
-                    $(this).flexslider({
-                        animation: "slide",
-                        animationLoop: false,
-                        itemWidth: width,
-                        itemMargin: 20,
-                        minItems: min,
-                        maxItems: max,
-                        controlNav: false,
-                        directionNav: true,
-                        touch: true
-                    });
-                })
-            }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
 
-            initFlexSlider();
+    <script src="../js/base.js"></script>
 
-            $(window).resize(function() {
-                $(".flexslider").flexslider("destroy");
-                initFlexSlider();
-            });
-        });
-    </script>
 </body>
 
 </html>
