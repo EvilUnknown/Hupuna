@@ -32,14 +32,22 @@
   }
 
   .mobile nav .iconMenu{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .mobile .bg-light{
+    background-color: #003366 !important;
+    border-radius: 7px;
+    color: white;
+    padding: 12px 0px 12px 0px;
+    cursor: pointer;
   }
 
   .pagination a{
     font-size: 12px !important;
-    padding: 8px 10px !important;
-    margin: 0px 2px 0px 2px !important;
+    padding: 8px 15px !important;
+    margin: 2px 2px 2px 2px !important;
   }
 
 /* mega menu mobile */
@@ -102,7 +110,9 @@
 
 .selectCategory select{
   width: 100% !important;
+  padding: 10px 20px !important;
 }
+
 
 }
 
@@ -186,10 +196,37 @@
 }
 
 /* category */
-.container .category h4{
-  padding-left: 20px;
-  padding-right: 20px;
+
+.category .see-more {
+  display: inline-block;
+  padding: 12px 20px 12px 20px;
+  background: #ffcc00!important;
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+  clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
+  float: right;
 }
+
+
+.category a {
+  display: inline-block;
+  padding: 12px 50px 12px 20px;
+  background: #003366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  border-radius: 5px;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+}
+
+.category a:hover{
+  background: #003366;
+}
+
 .imgdetaisCategory{
   padding-bottom: 56%;
   border-radius: 7px;
@@ -209,7 +246,7 @@
   cursor: pointer;
 }
 .slick-next:before, .slick-prev::before{
-  font-size: 30px !important;
+  font-size: 50px !important;
   color: #70757a !important;
 }
 .slick-prev:hover,
@@ -221,7 +258,7 @@
     /* background: rgb(0 0 0 / 50%)!important; */
 }
 .custom_slider .item p {
-  color: #0060A5;
+  color: #003366;
   margin: 8px 0;
 }
 
@@ -246,6 +283,16 @@
   right: -10px !important;
 }
 /* filter */
+#filterContent ul{
+  padding-left: 0px;
+}
+#filterContent ul li{
+  margin: 5px;
+}
+.icon-right{
+  width: 20px;
+  height: 20px;
+}
 .selectCategory .iconMenu{
   height: 22px;
   width: 22px;
@@ -255,15 +302,20 @@
   margin: 0px;
   padding: 0px 0px 2px 0px;
   border-bottom:1px solid rgba(0, 0, 0, .7);
+  color: #003366;
 }
 #filterContent .category-item, .category-item .subcategory input, .category-item .subcategory label{
   cursor: pointer;
   font-size: 17px;
 }
-
-.category-item .subcategory{
-  padding: 0 0 0 20px !important;
+.categoryList{
+  padding: 0px;
 }
+
+.categoryList li ul li{
+  margin: 3px 1px !important;
+}
+
 .category-item .subcategory li{
   display: flex!important;
   gap: 5px;
@@ -281,19 +333,32 @@
   background: #e1dfdf;
 }
 .filterProduct button.active {
-  background-color: var(--background-color-primary);
+  background: #003366 !important;
   color: white;
 }
 .selectCategory select{
+  font-size: 15px;
   width: auto;
   border-radius: 34px;
-  padding: 5px 10px !important;
+  padding: 12px 20px;
   margin-right: 5px !important
 }
 .selectCategory button{
+  font-size: 15px;
   border-radius: 34px;
-  padding: 5px 10px;
-  margin-right: 5px !important
+  padding: 12px 20px;
+  margin-right: 5px !important;
+}
+
+.selectCategory .buttonSelect button{
+  background: #003366 !important;
+  border-radius: 12px !important;
+}
+
+.buttonSelect .col-12 button{
+  background: #ffcc00 !important;
+  padding: 15px 20px;
+  color: #000;
 }
 
 .filterProduct select:hover{
@@ -304,6 +369,7 @@
 /* ListProduct */
 .listProduct ul{
   flex-wrap: wrap;
+  justify-content: center !important;
 }
 
 .listProduct ul li{
@@ -311,6 +377,10 @@
   flex: 0 0 17%;
   margin: 9px 9px;
   cursor: pointer;
+  /* border: 1px solid #70757a; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
+  border-radius: 7px;
+  padding: 2px;
 }
 
 .imgProduct{
@@ -346,9 +416,8 @@
 }
 
 .pagination a.active {
-  background-color: var(--background-color-primary);
+  background: #003366 !important;
   color: white;
-  border: 1px solid var(--background-color-primary);
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
@@ -359,6 +428,28 @@
   font-weight: 400;
   text-align: justify;
   line-height: 30px;
+  max-height: 100px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.text-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+}
+
+.text-content.expanded {
+  max-height: 1000px; 
+}
+
+.text-content.expanded::after {
+  display: none;
 }
 
 .bannerFooter{
