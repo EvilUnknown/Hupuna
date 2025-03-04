@@ -39,7 +39,7 @@
   .pagination a{
     font-size: 12px !important;
     padding: 8px 10px !important;
-    margin: 0px !important;
+    margin: 0px 2px 0px 2px !important;
   }
 
 /* mega menu mobile */
@@ -98,6 +98,10 @@
   font-weight: 400;
   border-radius: 9px;
   padding: 8px;
+}
+
+.selectCategory select{
+  width: 100% !important;
 }
 
 }

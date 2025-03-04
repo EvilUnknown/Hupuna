@@ -801,7 +801,7 @@
 
                     <div class=" row mt-3 d-flex fs-18 align-items-center justify-content-center">
                         <div class="col-6">
-                            <p class="fs-15">Sắp xếp theo</p>
+                            <p class="fs-15" style="margin-left: 10px !important;">Sắp xếp theo</p>
                         </div>
                         <div class="col-6">
                             <p class="fs-15">1-60/103 kết quả</p>
