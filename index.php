@@ -25,7 +25,6 @@
 <body>
     <?php include('header.php') ?>
     <section class="section sc-box-banner">
-        <div class="row">
             <div class="col-12">
                 <div class="banner">
                     <div class="banner-bg-video">
@@ -36,7 +35,6 @@
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <div class="container container-home">
@@ -78,7 +76,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Hộp Carton chuyển nhà</h4>
+                                                <a href="#">Hộp Carton chuyển nhà</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -88,7 +86,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Hộp Carton</h4>
+                                                <a href="#">Hộp Carton</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -98,7 +96,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Hộp in Offset</h4>
+                                                <a href="#">Hộp in Offset</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -108,7 +106,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Túi giấy Kraft</h4>
+                                                <a href="#">Túi giấy Kraft</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -118,7 +116,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Hộp nắp gài</h4>
+                                                <a href="#">Hộp nắp gài</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -128,7 +126,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <h4>Xốp khí - Bóng khí</h4>
+                                                <a href="#">Xốp khí - Bóng khí</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -211,12 +209,12 @@
                         <li class="see-more see-more-desk "><a class="nav-link text-white" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
-                        <div class="col-4 product-img">
+                        <div class="col-3 product-img">
                             <div class="img-100 product-banner-left-img">
                                 <img src="images/pexels-photo-5025500.webp" alt="product-best-seller">
                             </div>
                         </div>
-                        <div class="col-8 product-list-best">
+                        <div class="col-9 product-list-best">
                             <div class="tab-content">
                                 <div id="product-popular" class="tab-pane fade show active">
                                     <div class="row product-list-right d-flex">
@@ -573,7 +571,7 @@
                         <a href="#" class="see-more">XEM THÊM</a>
                     </div>
                     <div class="row box-product-list-hight">
-                        <div class="col-8 product-list-hight">
+                        <div class="col-9 product-list-hight">
                             <div class="row product-list-left d-flex text-center">
                                 <div class="col-4 product-item-left pb-5">
                                     <div class="product-item-left-img img-100">
@@ -637,7 +635,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 product-img">
+                        <div class="col-3 product-img">
                             <div class="img-100 pro-img-hight-right">
                                 <img src="images/qua-tet.jpg" alt="product-best-seller">
                             </div>
@@ -1190,10 +1188,10 @@
             <div class="row banner-slide justify-content-center">
                 <div class="col-12 d-flex">
                     <div class="col-5 slide-left img-100">
-                        <img src="images/bao-chi-01-600x200.jpg" alt="">
+                        <img src="images/banner1.jpeg" alt="">
                     </div>
                     <div class="col-7 slide-right img-100">
-                        <img src="images/bao-chi-02-1200x200.jpg" alt="">
+                        <img src="images/banner1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -1500,15 +1498,15 @@
                 <div class="col-12">
                     <div class="news-title text-center pb-3">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
-                        <h2 class="fs-22 pb-3">CÂU CHUYỆN ĐỒ HỌA</h2>
+                        <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
                     </div>
-                    <div class="news-content d-flex gap-3">
+                    <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1"> 
                         <div class="card col-4">
                             <div class="date">30 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                            <a href="" class="zoom-img"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
                             <div class="actions">
-                                <span><i class="fa-regular fa-comment"></i>0</span>
-                                <span><i class="fa-solid fa-eye"></i>48</span>
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                             </div>
                             <div class="content">
                                 <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
@@ -1521,8 +1519,63 @@
                             <div class="date">20 Jan</div>
                             <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
                             <div class="actions">
-                                <span><i class="fa-regular fa-comment"></i>0</span>
-                                <span><i class="fa-solid fa-eye"></i>27</span>
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                            </div>
+                            <div class="content">
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                            </div>
+                        </div>
+                        <div class="card col-4">
+                            <div class="date">30 Jan</div>
+                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                            <div class="actions">
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                            </div>
+                            <div class="content">
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-4">
+                            <div class="date">20 Jan</div>
+                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                            <div class="actions">
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                            </div>
+                            <div class="content">
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card col-4">
+                            <div class="date">30 Jan</div>
+                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                            <div class="actions">
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                            </div>
+                            <div class="content">
+                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                            </div>
+                        </div>
+
+                        <div class="card col-4">
+                            <div class="date">20 Jan</div>
+                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                            <div class="actions">
+                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                             </div>
                             <div class="content">
                                 <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
@@ -1531,21 +1584,9 @@
                             </div>
                         </div>
 
-                        <div class="card col-4">
-                            <div class="date">14 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 3"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"></i>0</span>
-                                <span><i class="fa-solid fa-eye"></i>26</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Những loại máy in phổ biến hiện nay</a>
-                                <div class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
+                     
 
-                        <div class="card list-news col-4">
+                        <!-- <div class="card list-news col-4">
                             <div class="list-content-news d-flex">
                                 <div>
                                     <div class="content">
@@ -1563,7 +1604,7 @@
                                 </div>
                                 <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -1571,14 +1612,13 @@
     </div>
 
     <section class="section box-banner-footer">
-        <div class="row">
             <div class="colo-12">
                 <div class="banner-footer">
-                    <img src="images/footer-slider-1-3840x1280.jpg" width="100%" alt="">
+                    <img src="images/footer-slider-0-3840x1280.jpg" width="100%" alt="">
                 </div>
             </div>
-        </div>
     </section>
+    <?php include('footer.php') ?>
 </body>
 <script src="js/base.js"></script>
 <script src="js/home.js"></script>
