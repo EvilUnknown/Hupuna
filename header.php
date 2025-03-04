@@ -23,9 +23,9 @@
                     </div>
 
                     <div class="user-options col-4 d-flex flex-row align-items-center justify-content-end">
-                        <button class="text-white login-btn d-flex justify-content-between align-items-center">
+                        <button class="text-white login-btn d-flex justify-content-between align-items-center" onclick="window.location.href='tel:0889736889'">
                             <img src="icons/phone-icon.svg" alt="icon giỏ hàng">
-                            <spam>0889.363.889</spam>
+                            <spam>0889.736.889</spam>
                         </button>
                         <button class="text-white login-btn d-flex justify-content-between align-items-center">
                             <img src="icons/lock-icon.svg" alt="icon giỏ hàng">
