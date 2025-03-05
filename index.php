@@ -151,7 +151,7 @@
                     </div>
                     <div class="carousel-container">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
+                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="2" data-slides-to-show-tablet="2">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
@@ -162,7 +162,7 @@
                                 <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
+                                <button class="carousel-button blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
@@ -180,7 +180,7 @@
                                 <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế bao bì OCOP</button>
+                                <button class="carousel-button blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
@@ -1339,7 +1339,7 @@
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
-                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3" data-slides-to-show-tablet="4">
+                            <ul class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3" data-slides-to-scroll-mobile="8" data-slides-to-show-tablet="4">
                                 <li><img src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yellow-page-1000x400-1-300x120.jpg" alt=""></li>
                                 <li><img src="images/brand-dt-yadea-1000x400-1-300x120.jpg" alt=""></li>
