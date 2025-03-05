@@ -645,7 +645,9 @@ video{
     opacity: .5;
     visibility: visible;
 }
-
+.form-control:focus {
+    box-shadow: none;
+}
 
 
 
