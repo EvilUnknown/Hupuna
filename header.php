@@ -647,7 +647,8 @@
                         <button class="menu-btn cool-link-mainmenu">TRANG CHỦ</button>
                     </li>
                     <li class="dropdown">
-                        <button class="menu-btn cool-link-mainmenu">DỊCH VỤ IN ẤN ▼</button>
+                        <button class="menu-btn cool-link-mainmenu">DỊCH VỤ IN ẤN<img src="icons/triangle-down-icon.svg"
+                                width="15"></button>
                         <div class="menu-items-service">
                             <div class="row text-center">
                                 <div class="col">
@@ -719,7 +720,42 @@
                             </div>
                         </div>
                     </li>
-                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">VỀ CHÚNG TÔI</button></li>
+                    <li class="dropdown">
+                        <button class="menu-btn cool-link-mainmenu">VỀ CHÚNG TÔI<img src="icons/triangle-down-icon.svg"
+                                width="15">
+                        </button>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">HỒ SƠ NĂNG LỰC</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">LỜI MỜI HỢP TÁC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">BỘ SƯU TẬP</button></li>
+                    <li class="dropdown">
+                        <button class="menu-btn cool-link-mainmenu">MẠNG XÃ HỘI<img src="icons/triangle-down-icon.svg"
+                                width="15">
+                        </button>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#">FACEBOOK</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">ZALO</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">TIKTOK</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">INSTAGRAM</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="dropdown"><button class="menu-btn cool-link-mainmenu">TIN TỨC</button></li>
                 </ul>
                 <ul>
