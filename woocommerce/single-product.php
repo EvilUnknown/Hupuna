@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="stylesheet" href="css/base_tamthoi.css">
+    <link rel="stylesheet" href="css/single.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <title>Hupuna</title>
+
+</head>
+
+<body>
+    
+    <section class="product-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="product-detail-left">
+                        <div class="big-slide">
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumb-slide">
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="wrap-img img-100">
+                                    <img src="images/pr_detail1.png" alt="Product">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="product-detail-right">
+                        <h1 class="name-product fw-600">
+                            Hộp carton 10x10x10cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc
+                        </h1>
+                        <div class="rate d-flex align-items-center">
+                            <ul class="rating">
+                                <li class="d-inline-block">
+                                    <img src="images/star_active.svg" alt="">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img src="images/star_active.svg" alt="">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img src="images/star_active.svg" alt="">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img src="images/star_active.svg" alt="">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img src="images/star_no_active.svg" alt="">
+                                </li>
+                            </ul>
+                            <div class="sold fw-500">
+                                Đã bán 50k sp
+                            </div>
+                            <div class="promotion fw-500">
+                                Mua 1.500.000 đ giảm 2%
+                            </div>
+                        </div>
+                        <div class="price-wrap d-flex align-items-center">
+                            <div class="old-price fw-500">
+                                <del>40.000đ</del>
+                            </div>
+                            <div class="new-price">
+                                499đ - 2.999đ
+                            </div>
+                            <div class="reduced fw-600">
+                                -20%
+                            </div>
+                        </div>
+                        <div class="area">
+                            <div class="row align-items-center">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                    <div class="title fw-600">
+                                        Khu vực
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="region text-capitalize text-center">
+                                                Miền bắc
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                            <div class="region text-capitalize text-center">
+                                                Miền nam
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wholesale-price">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                    <div class="title fw-600">
+                                        Giá bán buôn/sỉ
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                                    <div class="content fw-500">
+                                        <p>Mua (1-1.000) sản phẩm chỉ với 21.000đ</p>
+                                        <p>Mua (1.001-10.000) sản phẩm chỉ với 20.000đ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="size">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                    <div class="title fw-600">
+                                        Kích thước
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                                    <div class="all-size">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="">
+                                                    12x15x20
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="size">
+                            <div class="row">
+                                <div class="col-3 col-sm-3 col-md-3 col-lg-3">
+                                    <div class="title fw-600">
+                                        Số lượng lớn
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-9 col-md-9 col-lg-9">
+                                    <div class="all-size all-bulk">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    1 - 1000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    1001 - 2000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    2001 - 3000 
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    3001 - 4000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    4001 - 5000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    5001 - 6000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    6001 - 7000
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                                <div class="region d-flex align-items-center justify-content-center">
+                                                    7001 - 8000
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="description fw-500">
+                            <p>- Hộp thường được dùng để đựng đồ ăn, hàng hòa kinh doanh online, link kiện điện tử...</p>
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-9 col-md-9 col-lg-9">
+                                    <p>- Đặt hàng số lượng lớn để nhận giá tốt hơn cùng nhiều ưu đãi khác.</p>
+                                </div>
+                                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                                    <a href="javascript:;" title="Liên hệ" class="contact text-uppercase">
+                                        Liên hệ
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-12 col-sm-9 col-md-9 col-lg-9">
+                                    <p>- Nhận in ấn, sản xuất bao bì giấy, phụ kiện đóng hàng theo yêu cầu.</p>
+                                </div>
+                                <div class="col-12 col-sm-3 col-md-3 col-lg-3">
+                                    <a href="javascript:;" title="Liên hệ" class="contact text-uppercase">
+                                        Liên hệ
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="in-stock fw-500">
+                            51k sp có sẵn
+                        </div>
+                        <div class="product-detail-options d-flex align-items-center justify-content-between">
+                            <div class="button-quantity d-flex">
+                                <div class="button minus d-flex justify-content-center">
+                                    <span>-</span>
+                                </div>
+                                <input type="text" value="1" min="1" max="999" class="text-center">
+                                <div class="button plus d-flex justify-content-center">
+                                    <span class="d-inline-block">+</span>
+                                </div>
+                            </div>
+                            <a href="" title="Thêm vào giỏ" class="add-cart button-add text-uppercase fw-500">
+                                Thêm vào giỏ
+                            </a>
+                            <a href="" title="Mua ngay" class="buy-now button-add text-uppercase fw-500">
+                                Mua ngay
+                            </a>
+                            <a href="" title="Mua số lượng lớn" class="buy-in-bulk button-add text-uppercase fw-500">
+                                Mua số lượng lớn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-product-detail">
+                <ul role="tablist" class="d-flex tabs-info">
+                    <li>
+                        <button class="active fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab1" aria-selected="true">
+                            Mô tả
+                        </button>
+                    </li>
+                    <li>
+                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab2" aria-selected="false">
+                            <span class="text-pc">Hướng dẫn sử dụng</span>
+                            <span class="text-mobile">Hướng dẫn</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab3" aria-selected="false">
+                            <span class="text-pc">Chương trình khuyến mại</span>
+                            <span class="text-mobile">Khuyến mại</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab4" aria-selected="false">
+                            <span class="text-pc">Hỗ trợ khách hàng</span>
+                            <span class="text-mobile">Hỗ trợ KH</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab5" aria-selected="false">
+                            Đánh giá
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab1">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+                        lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
+                        dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                        <img src="images/content_pr_detail.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+                            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
+                            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab2">hhh</div>
+                    <div class="tab-pane fade" id="tab3" >ccc</div>
+                    <div class="tab-pane fade" id="tab4" >dđ</div>
+                    <div class="tab-pane fade" id="tab5" >ee</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/single.js"></script>
+</body>
+
+</html>
+
+
