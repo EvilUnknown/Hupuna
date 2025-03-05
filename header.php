@@ -23,7 +23,8 @@
                     </div>
 
                     <div class="user-options col-4 d-flex flex-row align-items-center justify-content-end">
-                        <button class="text-white login-btn d-flex justify-content-between align-items-center" onclick="window.location.href='tel:0889736889'">
+                        <button class="text-white login-btn d-flex justify-content-between align-items-center"
+                            onclick="window.location.href='tel:0889736889'">
                             <img src="icons/phone-icon.svg" alt="icon giỏ hàng">
                             <spam>0889.736.889</spam>
                         </button>
@@ -639,14 +640,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li style="background: orange"><a href="#">XEM TẤT CẢ</a></li>
+                            <li><a href="#">XEM TẤT CẢ</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <button class="menu-btn">TRANG CHỦ</button>
+                        <button class="menu-btn cool-link-mainmenu">TRANG CHỦ</button>
                     </li>
                     <li class="dropdown">
-                        <button class="menu-btn">DỊCH VỤ IN ẤN ▼</button>
+                        <button class="menu-btn cool-link-mainmenu">DỊCH VỤ IN ẤN ▼</button>
                         <div class="menu-items-service">
                             <div class="row text-center">
                                 <div class="col">
@@ -683,7 +684,7 @@
                                 </div>
                             </div>
                             <div class="row text-center">
-                            <div class="col">
+                                <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
                                     <p>Vàng Đục</p>
                                 </div>
@@ -718,11 +719,11 @@
                             </div>
                         </div>
                     </li>
-                    <li class="dropdown"><button class="menu-btn">VỀ CHÚNG TÔI</button></li>
-                    <li class="dropdown"><button class="menu-btn">TIN TỨC</button></li>
+                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">VỀ CHÚNG TÔI</button></li>
+                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">TIN TỨC</button></li>
                 </ul>
                 <ul>
-                    <li class="dropdown"><button class="menu-btn">📹 VIDEO NỔI BẬT</button></li>
+                    <li class="dropdown"><button class="menu-btn2">📹 VIDEO NỔI BẬT</button></li>
                 </ul>
             </div>
         </nav>
@@ -730,12 +731,13 @@
     <header class="header-mobile">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="logo-header" src="images/logo.png"
-                        alt="Logo trang chủ"></a>
                 <button class="navbar-toggler btn-header-mb" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="100" alt="Logo trang chủ"></a>
+                <button class="btn border-0" type="button"><img src="icons/search-icon.svg" alt="Nút search"
+                        width="25"></button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
