@@ -151,7 +151,7 @@
                     </div>
                     <div class="carousel-container">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="2" data-slides-to-show-tablet="2">
+                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
@@ -199,14 +199,18 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="pro-tab-title d-flex justify-content-between align-items-center pb-3">
-                        <h2 class="fs-4">SẢN PHẨM BÁN CHẠY</h2>
+                        <h2 class="fs-4 library">SẢN PHẨM BÁN CHẠY</h2>
+                        <div class="mobile-library d-flex justify-content-between px-2">
+                            <h2 class="fs-4">SẢN PHẨM BÁN CHẠY</h2>
+                            <li class="see-more"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                        </div>
                         <ul class="nav nav-tabs tab-title" id="productTabs">
                             <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
+                            <li class="see-more "><a class="nav-link text-white" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </ul>
-                        <li class="see-more see-more-desk "><a class="nav-link text-white" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
                         <div class="col-3 product-img">
@@ -1640,7 +1644,7 @@
         <div class="col-12">
             <div class="container">
                 <div class="banner-bg-footer">
-                    <img src="images/banner-ceo-1920x537.png">
+                    <img src="images/banner-3.png">
                 </div>
                 <div class="row py-4 info-block">
                     <div class="col-3 d-flex justify-content-center gap-3 info-block-content">
