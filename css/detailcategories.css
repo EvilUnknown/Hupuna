@@ -386,10 +386,12 @@
   margin: 9px 9px;
   cursor: pointer;
   border-radius: 7px;
-}
-.listProduct ul li:hover{
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
   padding: 2px;
+}
+.listProduct ul li:hover{
+  transform:  scale(1.05);
+  transition: all .3s ease;
 }
 
 .imgProduct{
