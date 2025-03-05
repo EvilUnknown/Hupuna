@@ -53,7 +53,6 @@
 /* mega menu mobile */
 
 .category-mega-menu {
-  /* overflow-y: auto; */
   position: fixed;
   top: 0;
   left: 0;
@@ -207,7 +206,7 @@
   position: relative;
   border-radius: 5px;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
-  float: right;
+  margin-left: auto;
 }
 
 
@@ -241,38 +240,41 @@
   padding: 10px;
   border-radius: 7px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2) !important;
   margin: 10px;
   cursor: pointer;
 }
-.slick-next:before, .slick-prev::before{
-  font-size: 50px !important;
-  color: #70757a !important;
-}
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
-    color: transparent;
-    outline: none;
-    /* background: rgb(0 0 0 / 50%)!important; */
-}
-.custom_slider .item p {
-  color: #003366;
-  margin: 8px 0;
-}
 
-/* Custom arrows */
 .slick-prev, .slick-next {
-  /* background-color: #fff !important; */
   border-radius: 50%;
-  width: 40px!important;
-  height: 40px!important;
+  width: 50px !important;
+  height: 50px !important;
   z-index: 100;
+  background-color: rgb(102, 100, 100);
+  border: 2px solid #929292;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.slick-prev:hover, .slick-next:hover {
-  opacity: 1;
+
+.slick-prev:before, .slick-next:before {
+  content: "" !important;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.slick-prev:before {
+  background-image: url('../icons/left.svg');
+  height: 40px;
+  width: 40px;
+}
+
+.slick-next:before {
+  background-image: url('../icons/right.svg');
+  height: 40px;
+  width: 40px;
 }
 
 .slick-prev {
@@ -280,8 +282,14 @@
 }
 
 .slick-next {
-  right: -10px !important;
+  right: -18px !important;
 }
+
+.custom_slider .item p {
+  color: #003366;
+  margin: 8px 0;
+}
+
 /* filter */
 #filterContent ul{
   padding-left: 0px;
@@ -377,9 +385,10 @@
   flex: 0 0 17%;
   margin: 9px 9px;
   cursor: pointer;
-  /* border: 1px solid #70757a; */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
   border-radius: 7px;
+}
+.listProduct ul li:hover{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
   padding: 2px;
 }
 

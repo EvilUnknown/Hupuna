@@ -1,0 +1,52 @@
+.footer {
+    background: url('../images/banner-footer.png') no-repeat center center/cover;
+    padding: 30px 0;
+}
+
+.footer .logo-footer {
+    width: 300px;
+    margin: 0 0 0 -20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ec9600;
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer .social-icons a:hover {
+    color: white;
+}
+
+.footer p {
+    color: #fff;
+    padding: 8px 0;
+    font-weight: 300;
+}
+.footer p b{
+    color: #ec9600;
+    font-weight: 500;
+}
+.footer .row {
+    border-bottom: 1px solid #fff;
+}
+
+.footer .short-border {
+    border: 1px solid #fff;
+    width: 20%;
+    margin: 10px 0 10px 0;
+}
