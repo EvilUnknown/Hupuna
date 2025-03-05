@@ -1,10 +1,14 @@
 header {
     font-size: 12px;
     color: #000;
+    
+}
+.header-desktop {
+    background: url('../images/bg-header.png') no-repeat center center/cover;
 }
 
-.header-desktop {
-    background: url('../images/bg-header1.png') no-repeat center center/cover;
+.form-control:focus {
+    box-shadow: none;
 }
 
 .top-bar {
@@ -55,7 +59,12 @@ header {
     display: flex;
     align-items: center;
 }
-
+.main-menu h3{
+    font-size: 14px;
+}
+.main-menu h5{
+    font-size: 14px;
+}
 .menu-btn {
     border: none;
     cursor: pointer;
@@ -105,7 +114,7 @@ header {
     color: white;
     padding: 10px 20px;
     display: block;
-    font-weight: 700;
+    /* font-weight: 400; */
 
 }
 
@@ -151,7 +160,7 @@ header {
     top: 0;
     left: 100%;
     width: 100vw;
-    max-width: 1000px;
+    max-width: 1080px;
     height: 555px;
     padding: 10px;
     display: none;
@@ -175,7 +184,8 @@ header {
     /* top: 100px;*/
     left: -220%;
     width: 100vw;
-    max-width: 1200px;
+    max-width: 1300px;
+    z-index: 999;
     /* height: 455px; */
     display: none;
     background: #fff;
@@ -190,7 +200,7 @@ header {
 /* MOBILE ======================================== */
 .header-mobile nav {
     /* background: #0a2144; */
-    background: url('../images/bg-header1.png') no-repeat center center/cover;
+    background: url('../images/bg-header.png') no-repeat center center/cover;
     padding: 0;
     margin: 0;
 }
@@ -217,6 +227,20 @@ header {
     margin-top: -1px;
 }
 
+@media (max-width: 1400px) {
+    .main-menu .dropdown ul li .menu-items {
+        max-width: 940px;
+    }
+    .main-menu ul li .menu-items-service {
+        max-width: 1120px;
+    }
+    .menu-btn {
+        font-size: 12px;
+    }
+    .menu-btn2 {
+        font-size: 12px;
+    }
+}
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 992px) {
     .header-desktop {

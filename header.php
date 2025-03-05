@@ -26,11 +26,11 @@
                         <button class="text-white login-btn d-flex justify-content-between align-items-center"
                             onclick="window.location.href='tel:0889736889'">
                             <img src="icons/phone-icon.svg" alt="icon giỏ hàng">
-                            <spam>0889.736.889</spam>
+                            <span>0889.736.889</span>
                         </button>
                         <button class="text-white login-btn d-flex justify-content-between align-items-center">
                             <img src="icons/lock-icon.svg" alt="icon giỏ hàng">
-                            <spam>Đăng Nhập</spam>
+                            <span>Đăng Nhập</span>
                         </button>
                         <button class="cart">
                             <img src="icons/cart-icon.svg" alt="icon giỏ hàng">
@@ -44,7 +44,9 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <ul>
                     <li class="dropdown">
-                        <button class="menu-btn">☰ DANH MỤC SẢN PHẨM</button>
+                        <button class="menu-btn">
+                            <img src="icons/main-menu-icon.svg" width="20" alt="icon giỏ hàng" class="pb-1">
+                            DANH MỤC SẢN PHẨM</button>
                         <ul>
                             <li class="dropdown">
                                 <a href="#">HỘP CARTON SÓNG THÔNG DỤNG</a>
@@ -128,21 +130,21 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>CÔNG NGHỆ IN ẤN</h5>
+                                                <h3>CÔNG NGHỆ IN ẤN</h3>
                                                 <hr>
                                                 <a href="">Hộp Không In</a>
                                                 <a href="">Hộp In Lụa</a>
                                                 <a href="">Hộp In Flexo</a>
                                             </div>
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Giấy Kraft</a>
                                                 <a href="">VKT</a>
                                                 <a href="">Chất Liệu Khác</a>
                                             </div>
                                             <div>
-                                                <h5>THEO LỚP</h5>
+                                                <h3>THEO LỚP</h3>
                                                 <hr>
                                                 <a href="">3 Lớp</a>
                                                 <a href="">5 Lớp</a>
@@ -194,7 +196,7 @@
                                             <div class="row text-center">
                                                 <div class="col">
                                                     <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Nông Sản</p>
+                                                    <p>Nông Sản<br>&nbsp;</p>
                                                 </div>
                                                 <div class="col">
                                                     <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
@@ -222,21 +224,21 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>CÔNG NGHỆ TRÊN BỀ MẶT IN</h5>
+                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
                                                 <hr>
                                                 <a href="">Ép Nhũ</a>
                                                 <a href="">Ép Kim</a>
                                                 <a href="">Công Nghệ Khác</a>
                                             </div>
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Duplex</a>
                                                 <a href="">Ivory</a>
                                                 <a href="">Chất Liệu Khác</a>
                                             </div>
                                             <div>
-                                                <h5>THEO LỚP</h5>
+                                                <h3>THEO LỚP</h3>
                                                 <hr>
                                                 <a href="">1 Lớp</a>
                                                 <a href="">3 Lớp</a>
@@ -317,21 +319,21 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>ĐỘ DÀY VẬT LIỆU</h5>
+                                                <h3>ĐỘ DÀY VẬT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Carton Lạnh 2mm</a>
                                                 <a href="">Carton Lạnh 2.5mm</a>
                                                 <a href="">Độ Dày Khác</a>
                                             </div>
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Couche 150</a>
                                                 <a href="">Giấy Mỹ Thuật</a>
                                                 <a href="">Chất Liệu Khác</a>
                                             </div>
                                             <div>
-                                                <h5>CÔNG NGHỆ TRÊN BỀ MẶT IN</h5>
+                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
                                                 <hr>
                                                 <a href="">Ép Nhũ</a>
                                                 <a href="">Ép Kim</a>
@@ -402,14 +404,14 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Couche 150</a>
                                                 <a href="">Giấy Mỹ Thuật</a>
                                                 <a href="">Chất Liệu Khác</a>
                                             </div>
                                             <div>
-                                                <h5>CÔNG NGHỆ TRÊN BỀ MẶT IN</h5>
+                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
                                                 <hr>
                                                 <a href="">Ép Nhũ</a>
                                                 <a href="">Ép Kim</a>
@@ -480,7 +482,7 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Khay Carton Lạnh</a>
                                                 <a href="">Khay Xốp Foam</a>
@@ -555,7 +557,7 @@
                                         </div>
                                         <div class="col-2 border-start">
                                             <div>
-                                                <h5>CHẤT LIỆU</h5>
+                                                <h3>CHẤT LIỆU</h3>
                                                 <hr>
                                                 <a href="">Giấy Ivory</a>
                                                 <a href="">Giấy Kraft</a>
@@ -653,70 +655,39 @@
                             <div class="row text-center">
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Vàng Đục</p>
+                                    <p>In Hộp Giấy</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Vàng Chanh</p>
+                                    <p>In Túi Giấy</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Nhãn Mác</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Văn Phòng</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Quảng Cáo</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Bao Lì Xì</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Catalogue</p>
                                 </div>
                                 <div class="col">
                                     <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
+                                    <p>In Ấn Khác</p>
                                 </div>
                             </div>
                             <div class="row text-center">
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Vàng Đục</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Vàng Chanh</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>Trắng Trong</p>
-                                </div>
+                                
                             </div>
                         </div>
                     </li>
@@ -759,7 +730,7 @@
                     <li class="dropdown"><button class="menu-btn cool-link-mainmenu">TIN TỨC</button></li>
                 </ul>
                 <ul>
-                    <li class="dropdown"><button class="menu-btn2">📹 VIDEO NỔI BẬT</button></li>
+                    <li class="dropdown"><button class="menu-btn2"><img src="icons/video-library-icon.svg" width="20" alt="icon video" class="pb-1"> VIDEO NỔI BẬT</button></li>
                 </ul>
             </div>
         </nav>
