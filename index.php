@@ -218,7 +218,7 @@
                             <div class="tab-content">
                                 <div id="product-popular" class="tab-pane fade show active">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-1.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -232,7 +232,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -246,7 +246,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-2-2.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -260,7 +260,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -274,7 +274,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -287,7 +287,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -304,7 +304,7 @@
                                 </div>
                                 <div id="product-easy" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -317,7 +317,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -330,7 +330,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -343,7 +343,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -356,7 +356,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -369,7 +369,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -386,7 +386,7 @@
                                 </div>
                                 <div id="product-price" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-1.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -400,7 +400,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -414,7 +414,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-2-2.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -428,7 +428,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -442,7 +442,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -455,7 +455,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -472,7 +472,7 @@
                                 </div>
                                 <div id="product-pay" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-1.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -486,7 +486,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -500,7 +500,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-2-2.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -514,7 +514,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -528,7 +528,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -541,7 +541,7 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-5">
+                                        <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -574,7 +574,7 @@
                         <div class="col-9 product-list-hight">
                             <div id="product-popular" class="tab-pane fade show active">
                                 <div class="row product-list-right d-flex">
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/pro-1.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -588,7 +588,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -602,7 +602,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/pro-2-2.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -616,7 +616,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -630,7 +630,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
@@ -643,7 +643,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-5">
+                                    <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
@@ -673,7 +673,7 @@
         </section>
 
         <section class="section box-library">
-            <div class="container mt-4">
+            <div class="mt-4">
                 <div class="d-flex justify-content-between align-items-center mb-3 tab-title-library">
                     <div class="d-flex gap-5 title-library">
                         <h2 class="fs-4 library">THƯ VIỆN</h2>
@@ -695,7 +695,7 @@
                 <div class="tab-content">
                     <div id="product-most" class="tab-pane fade show active">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-1.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -709,7 +709,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -723,7 +723,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -737,7 +737,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -751,7 +751,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -764,7 +764,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -781,7 +781,7 @@
                     </div>
                     <div id="product-calendar" class="tab-pane fade">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -794,7 +794,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -807,7 +807,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -820,7 +820,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -833,7 +833,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -846,7 +846,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -863,7 +863,7 @@
                     </div>
                     <div id="product-gift" class="tab-pane fade">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-1.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -877,7 +877,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -891,7 +891,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -905,7 +905,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -919,7 +919,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -932,7 +932,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -949,7 +949,7 @@
                     </div>
                     <div id="product-li-xi" class="tab-pane fade">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-1.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -963,7 +963,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -977,7 +977,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -991,7 +991,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -1005,7 +1005,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1018,7 +1018,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1035,7 +1035,7 @@
                     </div>
                     <div id="product-tea" class="tab-pane fade">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-1.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -1049,7 +1049,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -1063,7 +1063,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -1077,7 +1077,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -1091,7 +1091,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1104,7 +1104,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1121,7 +1121,7 @@
                     </div>
                     <div id="product-wine" class="tab-pane fade">
                         <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-1.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -1135,7 +1135,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -1149,7 +1149,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -1163,7 +1163,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.jpg " alt="" class="hover-img">
@@ -1177,7 +1177,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1190,7 +1190,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-5">
+                            <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -1524,95 +1524,96 @@
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
                     </div>
-                    <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="2">
-                        <div class="card col-4">
-                            <div class="date">30 Jan</div>
-                            <a href="" class="zoom-img"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                    <div class="news-content d-flex">
+                        <div class="col-9">
+                            <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                                <div class="card col-4">
+                                    <div class="date">30 Jan</div>
+                                    <a href="" class="zoom-img"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4">
+                                    <div class="date">20 Jan</div>
+                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+                                <div class="card col-4">
+                                    <div class="date">30 Jan</div>
+                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4">
+                                    <div class="date">20 Jan</div>
+                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4">
+                                    <div class="date">30 Jan</div>
+                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4">
+                                    <div class="date">20 Jan</div>
+                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="actions">
+                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="card col-4">
-                            <div class="date">20 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
-                        <div class="card col-4">
-                            <div class="date">30 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
-
-                        <div class="card col-4">
-                            <div class="date">20 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
-
-                        <div class="card col-4">
-                            <div class="date">30 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
-
-                        <div class="card col-4">
-                            <div class="date">20 Jan</div>
-                            <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
-                            <div class="actions">
-                                <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                            </div>
-                            <div class="content">
-                                <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                            </div>
-                        </div>
-
-
-
-                        <!-- <div class="card list-news col-4">
-                            <div class="list-content-news d-flex">
-                                <div>
+                        <div class="col-3">
+                            <div class="list-news col-4">
+                                <div class="list-content-news d-flex">
                                     <div class="content">
                                         <a href="#" class="title">Top 100 những giỏ quà tết</a>
                                         <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
@@ -1625,10 +1626,10 @@
                                         <a href="#" class="title">In hộp giỏ quà trung thu</a>
                                         <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
                                     </div>
+                                    <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                 </div>
-                                <a href="#" class="btn-new">XEM CHI TIẾT</a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
