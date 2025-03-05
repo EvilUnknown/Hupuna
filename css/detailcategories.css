@@ -147,6 +147,11 @@
 
 }
 
+body ul{
+  padding-left: 0px !important;
+}
+
+
 .line-clamp {
   display: -webkit-box;
   -webkit-line-clamp: 2; 
