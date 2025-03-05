@@ -35,7 +35,7 @@
     </div>
     <div class="container">
         <div class="category mb-5">
-            <div class="border-bottom">
+            <div class="border-bottom d-flex">
                 <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp đối</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>
@@ -75,8 +75,8 @@
 
         </div>
         <div class="category mb-5">
-            <div class="border-bottom">
-                <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp đối</a>
+            <div class="border-bottom d-flex">
+                <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp gài</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>
             <div class="row mt-2">

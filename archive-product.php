@@ -29,7 +29,7 @@
     <div class="container">
         <!-- Start categories -->
         <div class="categories border-bottom">
-            <div class="border-bottom mt-4">
+            <div class="border-bottom mt-4 d-flex">
                 <a href="#" class="btn btn-primary fs-18 border-0">Danh mục</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>
@@ -88,7 +88,7 @@
         <!-- End Categories -->
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <div class="border-bottom mt-4">
+            <div class="border-bottom mt-4 d-flex">
                 <a href="#" class="btn btn-primary fs-18 border-0">Sản phẩm nổi bật</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>
@@ -285,7 +285,7 @@
         <!-- End -->
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <div class="border-bottom mt-4">
+            <div class="border-bottom mt-4 d-flex">
                 <a href="#" class="btn btn-primary fs-18 border-0">Hộp Carton</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>
@@ -485,7 +485,7 @@
 
         <!-- Start -->
         <div class="mt-4 border-bottom">
-            <div class="border-bottom mt-4">
+            <div class="border-bottom mt-4 d-flex">
                 <a href="#" class="btn btn-primary fs-18 border-0">Hộp In Offset</a>
                 <a href="#" class="see-more">XEM THÊM</a>
             </div>

@@ -9,7 +9,7 @@
   position: relative;
   border-radius: 5px;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
-  float: right;
+  margin-left: auto;
 }
 
 .container p.nameCategory{
@@ -44,8 +44,6 @@
   }
   .slick-prev, .slick-next {
     border-radius: 50%;
-    width: 50px !important;
-    height: 50px !important;
     z-index: 100;
     background-color: rgb(102, 100, 100);
     border: 2px solid #929292;
@@ -58,8 +56,6 @@
   .slick-prev:before, .slick-next:before {
     content: "" !important;
     display: block;
-    width: 30px;
-    height: 30px;
     background-repeat: no-repeat;
     background-size: contain;
   }
