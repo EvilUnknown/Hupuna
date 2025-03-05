@@ -3,13 +3,18 @@ header {
     color: #000;
 }
 
+.header-desktop {
+    background: url('../images/bg-header1.png') no-repeat center center/cover;
+}
+
 .top-bar {
-    background: #0a2144;
-    padding: 10px 20px;
+    /* background: #0a2144; */
+    padding: 10px 0px;
 }
 
 .logo-header {
     width: 150px;
+    padding: 0 0 0 10px;
 }
 
 /* Button Search ================================= */
@@ -21,18 +26,22 @@ header {
     border: none;
     margin: 25px 0 0 50px;
 }
+
 .search-box img {
     width: 20px;
 }
+
 .login-btn {
     color: #fff;
     border: none;
     font-size: 14px;
 }
-.login-btn img{
+
+.login-btn img {
     width: 14px;
     margin: 5px;
 }
+
 .cart {
     color: #fff;
     width: 45px;
@@ -43,20 +52,42 @@ header {
 
 /* Main Menu =====================================*/
 .main-menu {
-    background: #003366;
-    padding: 10px 0px 10px 20px;
     display: flex;
     align-items: center;
 }
 
 .menu-btn {
-    /* background: #ffcc00; */
     border: none;
-    /* padding: 10px 20px; */
     cursor: pointer;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
+}
+.menu-btn2 {
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* Hiệu ứng border bottom */
+.cool-link-mainmenu {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.cool-link-mainmenu::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #F1AD2F;
+    transition: width .3s;
+}
+
+.cool-link-mainmenu:hover::after {
+    width: 100%;
+    transition: width .100s;
 }
 
 .main-menu ul {
@@ -123,12 +154,12 @@ header {
     display: none;
     background: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
 
+    /* border: 0.5px solid #6e6e6e; */
+}
 .main-menu .dropdown ul li:hover .menu-items {
     display: block;
 }
-
 .main-menu p {
     text-align: center;
     padding: 10px 0 20px 0;
@@ -139,7 +170,7 @@ header {
 .main-menu ul li .menu-items-service {
     position: absolute;
     /* top: 100px;*/
-    left: -335px; 
+    left: -335px;
     width: 100vw;
     max-width: 1200px;
     /* height: 455px; */
@@ -155,20 +186,28 @@ header {
 
 /* MOBILE ======================================== */
 .header-mobile nav {
-    background: #0a2144;
+    /* background: #0a2144; */
+    background: url('../images/bg-header1.png') no-repeat center center/cover;
+    padding: 0;
+    margin: 0;
 }
-.header-mobile nav .btn-header-mb{
+
+.header-mobile nav .btn-header-mb {
     background: #fff;
     border: 0;
+    padding: 5px;
 }
+
 /* Hiển thị dropdown cấp 2 khi hover */
 .dropdown .dropdown-menu:hover {
     display: block;
 }
+
 /* Điều chỉnh dropdown con */
 .dropdown-submenu {
     position: relative;
 }
+
 .dropdown-submenu .dropdown-menu {
     top: 0;
     left: 100%;
@@ -176,8 +215,8 @@ header {
 }
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 992px) { 
-    .header-desktop{
+@media (max-width: 992px) {
+    .header-desktop {
         display: none;
     }
 }
@@ -185,7 +224,7 @@ header {
 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media (min-width: 992px) {
-    .header-mobile{
+    .header-mobile {
         display: none;
     }
 }
