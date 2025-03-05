@@ -15,7 +15,7 @@ $(document).ready(function(){
             slidesToShow: slidesToShow,
             slidesToScroll: slidesToScroll,
             arrows: true,
-            dots: false,
+            dots: true,
             infinity: true,
             autoplay: true,
             autoplaySpeed: slidesSpeed,
