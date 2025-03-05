@@ -290,6 +290,10 @@
   margin: 8px 0;
 }
 
+.slick-dots{
+  display: none !important;
+}
+
 /* filter */
 #filterContent ul{
   padding-left: 0px;
@@ -320,8 +324,12 @@
   padding: 0px;
 }
 
-.categoryList li ul li{
-  margin: 3px 1px !important;
+.categoryList li{
+  margin: 3px !important;
+}
+.categoryList li ul{
+  margin: 3px !important;
+  padding: 0px ;
 }
 
 .category-item .subcategory li{
