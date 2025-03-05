@@ -36,7 +36,7 @@ p {
     height: 88%!important;
     width: 100%!important;
     object-fit: cover;
-    object-position: right;
+    object-position: left;
 }
 .wrap-ceo {
     position: relative;
@@ -288,14 +288,17 @@ p {
     color: #fff;
 }
 .box-active {
-    background-color: var(--background-color-primary);
+    background-image: url('../images/banner2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 .text-title {
     line-height: 2.8;
 }
 .box-feedback {
     width: 31%;
-    height: 210px;
+    min-height: 210px;
     background-color: #fff;
     padding: 20px 30px;
     border-radius: 8px;
@@ -552,6 +555,9 @@ img {
     flex-direction: column;
     justify-content: space-between;
 }
+.tab-title .see-more {
+    padding: 2px 0px;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
         overflow: hidden;
@@ -601,6 +607,9 @@ img {
     .wrap-content-feedback .box-feedback {
         width: 49%;
     }
+    .box-feedback {
+        min-height: 224px;
+    }
     .form-contact-content .btn {
         width: 100%;
     }
@@ -615,7 +624,7 @@ img {
     .card {
         width: 49%;
     }
-    .library, .see-more-desk, .product-img {
+    .see-more-desk, .product-img {
         display: none;
     }
     .tab-title-library, .title-library {
@@ -682,6 +691,9 @@ img {
     .news-content {
         gap: 0;
     }
+    .mobile-library {
+        display: none!important;
+    }
     
 }
 
@@ -699,9 +711,6 @@ img {
     .wrap-ceo {
         padding: 0px;
     }
-    .info-content-text p {
-        padding: 20px 0!important;
-    }
     .col-6 {
         width: 100%;
     }
@@ -718,19 +727,6 @@ img {
     }
     h2 {
         font-size: 16px!important;
-    }
-    .box-ceo, 
-    .box-categories, 
-    .box-design, 
-    .box-product-best-seller, 
-    .box-product-hight, 
-    .box-library, 
-    .box-banner-slide, 
-    .box-besiness, 
-    .box-contact, 
-    .box-active, 
-    .box-benefit {
-        padding: 15px;
     }
     .box-categories .col-4, 
     .box-design .col-4, 
@@ -857,6 +853,9 @@ img {
         display: flex;
         flex-wrap: nowrap!important;
     }
+    .tab-title .see-more {
+        display: none;
+    }
     .pro-tab-title .tab-title {
         gap: 10px!important;
     }
@@ -926,6 +925,12 @@ img {
     .box-besiness, .box-contact {
         padding: 20px 15px!important;
     }
+    .box-contact .col-12 {
+        padding: 0;
+    }
+    .box-besiness .col-12 {
+        padding: 0;
+    }
     .product-item-right {
         padding-bottom: 20px!important;
     }
@@ -937,6 +942,7 @@ img {
     }
     .news-content {
         flex-direction: column-reverse;
+        gap: 0;
     }
     .news-content .col-9,
     .news-content .col-3 {
@@ -944,5 +950,23 @@ img {
     }
     .list-news {
         width: 95%;
+    }
+    .slide-right {
+        width: 100%;
+    }
+    .slide-left {
+        display: none;
+    }
+    .slide-left, .slide-right {
+        padding-bottom: 40%;
+    }
+    .custom_slider {
+        margin: 0px;
+    }
+    .wrap-content-besiness, .wrap-content-feedback {
+        gap: 0px!important;
+    }
+    .news-title {
+        padding-bottom: 0px !important;
     }
 }
