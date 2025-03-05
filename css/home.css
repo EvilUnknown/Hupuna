@@ -29,6 +29,15 @@ p {
     object-position: right;
     border-radius: 8px;
 }
+.banner-bg-footer img {
+    position: absolute;  
+    left: 0; 
+    z-index: -1;
+    height: 100%!important;
+    width: 100%!important;
+    object-fit: cover;
+    object-position: right;
+}
 .wrap-ceo {
     position: relative;
 }
@@ -256,7 +265,7 @@ p {
 .wrap-content-feedback {
     gap: 30px;
 }
-.brands ul li {
+.brands .custom_slider .img-brand {
     width: 100%;
     overflow: hidden;
     border-radius: 5px!important;
@@ -423,6 +432,19 @@ img {
 .custom_slider .slick-slide {
     margin: 0 10px;
 }
+.brands .slick-prev, 
+.brands .slick-next {
+    width: 33px;
+    height: 33px;
+}
+.brands .slick-next:before {
+    left: 25%;
+    top: 6px;
+}
+.brands .slick-prev:before {
+    left: 20%;
+    top: 6px;
+}
 .slick-prev {
     left: -16px;
 }
@@ -447,7 +469,9 @@ img {
 .slick-track {
     padding: 15px 0;
 }
-
+.slick-dots {
+    display: none!important;
+}
 .see-more {
     background-color: #003366!important;
     color: #fff;
@@ -490,6 +514,17 @@ img {
 .form-contact-content form label {
     margin-bottom: 0;
 }
+.info-block .info-block-content {
+    align-items: center;
+}
+.info-block-content img {
+    width: 40px;
+    height: 40px;
+}
+.info-block-content span {
+    font-size: 14px;
+    font-weight: 500;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
         overflow: hidden;
@@ -518,9 +553,6 @@ img {
     }
     .carousel-wrapper .item-category {
         width: 100%;
-    }
-    .product-list-right .product-item-right {
-        width: 50%;
     }
     .pro-tab-title h2 {
         width: 60%;
@@ -579,6 +611,30 @@ img {
     }
     .banner-ceo img {
         width: 100%!important;
+    }
+    .slick-dots {
+        bottom: -16px;
+        display: block!important;
+    }
+    .product-list-best, .product-list-hight {
+        width: 100%!important;
+    }
+    .product-list-right .product-item-right {
+        width: 33.33%;
+    }
+    .content-benefit {
+        padding: 30px 0 0;
+    }
+    .content-benefit .col-2 {
+        width: 8.6%;
+    }
+    .cutomer-feedback .slick-next, 
+    .box-news .slick-next {
+        right: -9px;
+    }
+    .cutomer-feedback .slick-prev, 
+    .box-news .slick-prev {
+        left: -9px;
     }
 }
 
@@ -673,6 +729,13 @@ img {
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
     }
+    .title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
     .product-list-right .product-item-right {
         width: 50%;
     }
@@ -734,7 +797,7 @@ img {
     .product-library-title {
         width: 100%;
     }
-    .tab-title{
+    .tab-title {
         width: 100%;
         padding: 10px;
         overflow-x: auto; /* Cho phép cuộn ngang */
@@ -785,5 +848,27 @@ img {
     }
     .content-benefit {
         padding: 30px 0 0;
+    }
+    .slick-dots {
+        bottom: -16px;
+        display: block!important;
+    }
+    .box-library .container {
+        padding: 0;
+    }
+    .info-block .info-block-content {
+        width: 50%;
+        margin-bottom: 20px;
+        justify-content: flex-start!important;
+    }
+    .btn-best-seller {
+        font-size: 14px;
+    }
+    .card {
+        display: block!important;
+        height: auto!important;
+    }
+    .card .content {
+        padding: 0 15px 15px;
     }
 }
