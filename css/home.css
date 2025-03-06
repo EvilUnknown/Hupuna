@@ -48,21 +48,12 @@ p {
     background-color: #e8f0ff;
     border-radius: 8px;
 }
-.info-content-text p {
-    text-align: justify;
-}
-.text-justify {
-    text-align: justify;
-}
 .carousel-container {
     width: 100%;
     margin: auto;
     overflow: hidden;
     position: relative;
     padding: 0 20px;
-}
-.carousel-button {
-    color: #FFF;
 }
 .carousel-wrapper {
     display: flex;
@@ -75,7 +66,6 @@ p {
     max-width: 32%;
     padding: 15px;
     text-align: center;
-    background: #fff;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -283,7 +273,6 @@ p {
 }
 .btn-submit {
     background-color: #003366;
-    color: #fff;
 }
 .btn-submit:hover {
     background-color: #0056b3;
@@ -415,8 +404,7 @@ p {
 }
 .btn-new:hover {
     background: #0056b3;
-    color: white;
-    
+    color: white; 
 }
 img {
     transition: transform 0.3s ease-in-out;
@@ -482,18 +470,11 @@ img {
 }
 .see-more {
     background-color: #f1ad2f;
-    color: #000;
     padding: 10px 15px;
     transform: skew(-10deg);
     font-weight: 700;
 }
 .see-more a {
-    font-weight: 700;
-}
-.title-category {
-    font-size: 18px;
-    color: #000;
-    padding: 20px 0;
     font-weight: 700;
 }
 .list-news {
@@ -503,9 +484,6 @@ img {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 34px auto 20px;
-}
-.list-news .title {
-    color: #000;
 }
 .list-news .content:hover .title {
     color: #003366;
@@ -536,9 +514,6 @@ img {
 .info-block-content span {
     font-size: 14px;
     font-weight: 500;
-}
-.title {
-    color: #000;
 }
 .card:hover .title {
     color: #003366;
@@ -580,28 +555,21 @@ img {
     .container {
         overflow: hidden;
     }
-    .col-6 {
+    .col-6, 
+    .col-8, 
+    .col-12 {
         width: 100%;
     }
     .col-4 {
         width: 33.333%;
     }
-    .col-8 {
-        width: 100%;
-    }
     .col-12 {
         flex-wrap: wrap;
-        width: 100%;
     }
     .wrap-ceo {
         padding: 0px;
     }
-    .item-category {
-        max-width: 49%;
-    }
-    .container-product-library .product-item-left {
-        width: 100%;
-    }
+    .container-product-library .product-item-left,
     .carousel-wrapper .item-category {
         width: 100%;
     }
@@ -622,7 +590,8 @@ img {
         gap: 10px;
         justify-content: space-between;
     }
-    .wrap-content-feedback .box-feedback {
+    .wrap-content-feedback .box-feedback,
+    .item-category {
         width: 49%;
     }
     .box-feedback {
@@ -796,13 +765,6 @@ img {
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
     }
-    /* .title {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 1;
-    } */
     .product-list-right .product-item-right {
         width: 50%;
         padding: 5px;
@@ -814,13 +776,11 @@ img {
         display: none;
     }
     .product-list-hight, 
-    .product-list-best {
-        width: 100%;
-    }
-    .product-item-right {
-        width: 100%;
-    }
-    .content-besiness .col-8 {
+    .product-list-best,
+    .product-item-right,
+    .content-besiness .col-8,
+    .pro-tab-title,
+    .product-library-title {
         width: 100%;
     }
     .wrap-content-besiness .col-4 {
@@ -860,10 +820,6 @@ img {
     }
     .form-contact-content form button {
         align-self: center;
-    }
-    .pro-tab-title,
-    .product-library-title {
-        width: 100%;
     }
     .tab-title {
         width: 100%;
@@ -924,9 +880,6 @@ img {
         bottom: -16px;
         display: block!important;
     }
-    .box-library .container {
-        padding: 0;
-    }
     .info-block .info-block-content {
         width: 50%;
         margin-bottom: 20px;
@@ -946,10 +899,9 @@ img {
     .box-besiness, .box-contact {
         padding: 20px 15px!important;
     }
-    .box-contact .col-12 {
-        padding: 0;
-    }
-    .box-besiness .col-12 {
+    .box-contact .col-12, 
+    .box-besiness .col-12,
+    .box-library .container {
         padding: 0;
     }
     .product-item-right {
@@ -966,14 +918,12 @@ img {
         gap: 0;
     }
     .news-content .col-9,
-    .news-content .col-3 {
+    .news-content .col-3,
+    .slide-right {
         width: 100%;
     }
     .list-news {
         width: 95%;
-    }
-    .slide-right {
-        width: 100%;
     }
     .slide-left {
         display: none;
