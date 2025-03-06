@@ -2,38 +2,39 @@
 <html lang="vi">
 
 <head>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/EvilUnknown/Hupuna/css/header.css"> -->
     <link rel="stylesheet" href="css/header.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
 </head>
 
 <body>
-    <header style="padding: 15px 0;">
+    <header class="fs-12 text-dark">
         <!-- Header -->
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-2">
                     <img src="images/logo.png" alt="Logo trang chủ" width="150">
                 </div>
-                <div class="col-6 search-box d-flex align-items-center justify-content-center">
-                    <input type="text" class="border-0 bg-transparent"
+                <div class="col-6 search-box d-flex align-items-center justify-content-between ">
+                    <input type="text" class="border-0 bg-transparent p-2"
                         placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
                     <img src="icons/search-icon.svg" alt="Nút search" width="25">
                 </div>
-                <div class="col-4 d-flex justify-content-end">
+                <div class="col-lg-4 col-md-2 col-sm-2 col-2 d-flex justify-content-end">
                     <div class="row justify-content-between align-items-center">
-                        <div class="col content-top-bar">
+                        <div class="col-5 content-top-bar">
                             <a class="text-warning d-flex justify-content-end align-items-center" href="tel:0889736889">
                                 <img src="icons/phone-icon.svg" alt="icon giỏ hàng" width="18">
-                                <span class="ms-1 fs-15 fw-bold">0889.736.889</span>
+                                <span class="ms-1 fs-15 fw-500">0889.736.889</span>
                             </a>
                         </div>
-                        <div class="col content-top-bar">
-                            <a class="text-warning d-flex justify-content-end align-items-center">
+                        <div class="col-5 content-top-bar">
+                            <a class="text-warning d-flex justify-content-end align-items-center" href="">
                                 <img src="icons/lock-icon.svg" alt="icon giỏ hàng" width="18">
-                                <span class="ms-1 fs-15 fw-bold">Đăng Nhập</span>
+                                <span class="ms-1 fs-15 fw-500">Đăng Nhập</span>
                             </a>
                         </div>
-                        <div class="col">
+                        <div class="col-md-12 col-lg-2">
                             <a class="cart">
                                 <img src="icons/cart-icon.svg" alt="icon giỏ hàng" width="25">
                             </a>
@@ -52,7 +53,7 @@
             <a href="" class="logo">
                 <img src="images/logo.png" alt="Logo trang chủ" width="150">
             </a>
-            <ul class="menu-mb">
+            <ul class="menu-mobi">
                 <!-- Cấp 1 -->
                 <li>
                     <label for="menu1">Dịch vụ ▼</label>
@@ -187,7 +188,7 @@
                 </ul>
             </div>
             <div>
-                <button class="menu-btn"><img src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
+                <button class="menu-btn bg-warning fw-500 fs-16 text-white border-0"><img src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
                     BẬT</button>
             </div>
         </nav>
