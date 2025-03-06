@@ -11,24 +11,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
-    <link rel="stylesheet" href="css/base_tamthoi.css">
+    <link rel="stylesheet" href="css/base-style.css">
     <link rel="stylesheet" href="css/single.css">
 
     <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
 
     <title>Hupuna</title>
 
 </head>
 
 <body>
-    
+    <?php include 'header.php'; ?>
+
     <section class="product-detail">
         <div class="container">
             <div class="row">
@@ -430,6 +431,9 @@
         </div>
     </section>
 
+    <?php include 'footer.php'; ?>
+
+    <script src="js/base.js"></script>
     <script src="js/single.js"></script>
 </body>
 
