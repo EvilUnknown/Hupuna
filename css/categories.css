@@ -1,3 +1,7 @@
+.clear-both{
+    clear: both;
+}
+
 /* Danh mục */
 .container .see-more {
   display: inline-block;
