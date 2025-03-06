@@ -737,8 +737,25 @@ video{
     display: none;
 }
 
-.text-line-clamp{
+.text-line-clamp-1{
     display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-line-clamp-2{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.text-line-clamp-3{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -748,6 +765,38 @@ video{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-position-center{
+    background-position: center;
+}
+
+.bg-position-right{
+    background-position: right;
+}
+
+.bg-position-left{
+    background-position: left;
+}
+
+.bg-position-top{
+    background-position: top;
+}
+
+.bg-position-bottom{
+    background-position: bottom;
+}
+
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+
+.bg-size-cover{
+    background-size: cover;
+}
+
+.bg-size-contain{
+    background-size: contain;
 }
 
 .tab-content>.tab-pane {
