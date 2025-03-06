@@ -71,7 +71,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-chuyen-nha.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Hộp Carton chuyển nhà</a href="#">
@@ -81,7 +81,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-hop-carton.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a href="#">
@@ -91,7 +91,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-banh-trung-thu.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a href="#">
@@ -101,7 +101,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-hop-carton.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a href="#">
@@ -111,7 +111,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-hop-qua.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a href="#">
@@ -121,7 +121,7 @@
                                     <div class="col-4 item-categories p-3">
                                         <div class="item-categories-content">
                                             <div class="item-categories-icon">
-                                                <img src="images/offset-mem-80x80.png" alt="">
+                                                <img src="images/img-chuyen-nha.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
                                                 <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a href="#">
@@ -242,7 +242,7 @@
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
                                                 </div>
-                                                <button class="btn btn-outline-secondary bg-white  btn-best-seller ">Giá chỉ từ <span
+                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
@@ -800,7 +800,7 @@
                     </div>
                     <div class="col-6 form-contact px-5">
                         <div class="form-contact-title text-center">
-                            <h2 class="fs-3">Đặt hàng</h2>
+                            <h2 class="fs-24">Đặt hàng</h2>
                         </div>
                         <div class="form-contact-content">
                             <form action="">
@@ -820,7 +820,7 @@
                                     <label for="content" class="form-label">Nội dung</label>
                                     <textarea class="form-control" id="content" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn px-4 text-white btn-submit">Gửi ngay</button>
+                                <button type="submit" class="btn py-3 px-4 text-white btn-submit">Gửi ngay</button>
                             </form>
                         </div>
                     </div>
@@ -1017,7 +1017,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description p-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1032,7 +1032,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description p-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1047,7 +1047,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1063,7 +1063,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1079,7 +1079,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1095,7 +1095,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
