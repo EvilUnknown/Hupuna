@@ -56,12 +56,11 @@
                                         <h4 class="text-white">Tổng Giám Đốc Hupuna</h4>
                                     </div>
                                     <div class="info-content-text">
-                                        <p class="text-white p-4 lh-lg">``Luôn đặt lợi ích khách hàng lên hàng đầu, việc
+                                        <p class="text-white p-4 lh-lg text-justify">``Luôn đặt lợi ích khách hàng lên hàng đầu, việc
                                             thấu hiểu mong muốn và nhu cầu quý khách
                                             là trách nhiệm và mục tiêu chính của HUPUNA.
                                             Thông qua mỗi sản phẩm để mang lại những trải nghiệm tốt đẹp và giá trị thực
-                                            sự
-                                            cho khách hàng.``
+                                            sự cho khách hàng.``
                                         </p>
                                     </div>
                                 </div>
@@ -146,7 +145,7 @@
                             <p>LỰA CHỌN GÓI THIÊT KẾ PHÙ HỢP VỚI NHU CẦU CỦA BẠN</p>
                         </div>
                         <div class="title-degin">
-                            <h2 class="fs-24 pt-2">SÀN THIẾT KẾ</h2>
+                            <h2 class="fs-28 pt-2">SÀN THIẾT KẾ</h2>
                         </div>
                     </div>
                     <div class="carousel-container">
@@ -156,37 +155,37 @@
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Bao bì mỹ phẩm</button>
+                                <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế bao bì</button>
+                                <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế lịch Tết</button>
+                                <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Bao bì mỹ phẩm</button>
+                                <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế bao bì</button>
+                                <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 <a href="#" class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button blue-button">Thiết kế lịch Tết</button>
+                                <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
                             </div>
                         </div>
                         <!-- <button class="navigation next">❯</button> -->
@@ -202,14 +201,14 @@
                         <h2 class="fs-4 library">SẢN PHẨM BÁN CHẠY</h2>
                         <div class="mobile-library d-flex justify-content-between px-2">
                             <h2 class="fs-4">SẢN PHẨM BÁN CHẠY</h2>
-                            <li class="see-more"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            <li class="see-more"><a class="nav-link text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
-                        <ul class="nav nav-tabs tab-title" id="productTabs">
+                        <ul class="nav nav-tabs tab-title fs-16" id="productTabs">
                             <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
-                            <li class="see-more "><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            <li class="see-more "><a class="nav-link fs-15 text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </ul>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
@@ -572,7 +571,7 @@
                 <div class="col-12 container-product-hight">
                     <div class="product-hight-title pb-2 d-flex justify-content-between">
                         <h2 class="fs-4">SẢN PHẨM NỔI BẬT</h2>
-                        <a href="#" class="see-more">XEM THÊM</a>
+                        <a href="#" class="see-more text-black">XEM THÊM</a>
                     </div>
                     <div class="row box-product-list-hight">
                         <div class="col-9 product-list-hight">
@@ -683,9 +682,9 @@
                         <h2 class="fs-4 library d-flex"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                         <div class="mobile-library d-flex justify-content-between px-2">
                             <h2 class="fs-4"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
-                            <li class="see-more"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            <li class="see-more"><a class="nav-link text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
-                        <ul class="nav nav-tabs tab-title" id="productTabs">
+                        <ul class="nav nav-tabs tab-title fs-16" id="productTabs">
                             <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-calendar">LỊCH TẾT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-gift">HỘP QUÀ TẾT</a></li>
@@ -694,7 +693,7 @@
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-wine">HỘP RƯỢU</a></li>
                         </ul>
                     </div>
-                    <li class="see-more see-more-desk"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                    <li class="see-more see-more-desk"><a class="nav-link text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                 </div>
                 <div class="tab-content">
                     <div id="product-most" class="tab-pane fade show active">
@@ -1229,7 +1228,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="besiness-title">
-                        <h2 class="fs-24 pb-4 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
+                        <h2 class="fs-28 pb-4 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
                     </div>
                     <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
                         <div class="col-4 content-besiness content-besiness1">
@@ -1348,7 +1347,7 @@
                                     <label for="content" class="form-label">Nội dung</label>
                                     <textarea class="form-control" id="content" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn px-4 btn-submit">Gửi ngay</button>
+                                <button type="submit" class="btn px-4 text-white btn-submit">Gửi ngay</button>
                             </form>
                         </div>
                     </div>
@@ -1542,7 +1541,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1556,7 +1555,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1569,7 +1568,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1583,7 +1582,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1597,7 +1596,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1611,7 +1610,7 @@
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
@@ -1622,15 +1621,15 @@
                             <div class="list-news col-4">
                                 <div class="list-content-news d-flex">
                                     <div class="content">
-                                        <a href="#" class="title">Top 100 những giỏ quà tết</a>
+                                        <a href="#" class="title text-black">Top 100 những giỏ quà tết</a>
                                         <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">Hộp Carton đựng Pizza</a>
+                                        <a href="#" class="title text-black">Hộp Carton đựng Pizza</a>
                                         <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title">In hộp giỏ quà trung thu</a>
+                                        <a href="#" class="title text-black">In hộp giỏ quà trung thu</a>
                                         <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
                                     </div>
                                     <a href="#" class="btn-new">XEM CHI TIẾT</a>
