@@ -34,7 +34,6 @@
                     <a href="#" class="btn btn-primary fs-18 border-0">Danh mục</a>
                     <a href="#" class="see-more">XEM THÊM</a>
                 </div>
-                <!-- <a href="#" class="btn btn-primary mt-4 fs-18 border-0">Danh mục</a> -->
                 <div class="row mt-2">
                     <div class="carousel-container">
                         <div class="custom_slider" data-slides-to-show="6" data-slides-to-scroll="1"
@@ -100,7 +99,8 @@
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2500"
                             data-slides-to-show-tablet="5" data-slides-to-scroll-tablet="1">
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
 
@@ -118,10 +118,11 @@
                                         <img class="star" src="./icons/star.svg" alt="star">
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -139,10 +140,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -160,10 +162,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -181,10 +184,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -202,10 +206,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -223,10 +228,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -244,10 +250,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -265,10 +272,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                             <div class="item">
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/hopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -286,7 +294,7 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
