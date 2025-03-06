@@ -204,11 +204,12 @@
   left: 0;
   height: 100%;
   background: #fff;
-  transform: translateY(-100%);
+  transform: translateY(-1000%);
   transition: transform 0.3s ease-in-out;
 }
 .category-mega-menu.show {
   transform: translateY(0);
+  overflow: auto;
 }
 .category-mega-menu .close-btn {
   top: 10px;
