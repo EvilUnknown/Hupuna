@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <script src="js/bootstrap.bundle.min.js"></script></script>
     <!-- slickslider css and slickslider js  -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/base-style.css">
     <link rel="stylesheet" href="css/home.css">
     <title>Hupuna</title>
@@ -75,7 +74,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Hộp Carton chuyển nhà</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton chuyển nhà</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +84,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Hộp Carton</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -95,7 +94,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Hộp in Offset</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -105,7 +104,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Túi giấy Kraft</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -115,7 +114,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Hộp nắp gài</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -125,7 +124,7 @@
                                                 <img src="images/offset-mem-80x80.png" alt="">
                                             </div>
                                             <div class="item-categories-title">
-                                                <a href="#">Xốp khí - Bóng khí</a href="#">
+                                                <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a href="#">
                                             </div>
                                         </div>
                                     </div>
@@ -332,71 +331,6 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div id="product-price" class="tab-pane fade">
@@ -415,74 +349,6 @@
                                                         class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/pro-1.1.jpg " alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/pro-2-2.jpg" alt="">
-                                                <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                                 <div id="product-pay" class="tab-pane fade">
@@ -491,74 +357,6 @@
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/pro-1.1.jpg " alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/pro-2-2.jpg" alt="">
-                                                <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
-                                            </div>
-                                            <div class="product-item-right-content">
-                                                <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
-                                                <div>
-                                                    <img src="images/rating.png" alt="" class="img-rating">
-                                                </div>
-                                                <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
-                                                        class="text-danger">2.160.000đ</span>/10 Hộp</button>
-                                            </div>
-                                        </div>
-                                        <div class="col-4 product-item-right pb-4">
-                                            <div class="product-item-right-img img-100">
-                                                <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
                                             <div class="product-item-right-content">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
