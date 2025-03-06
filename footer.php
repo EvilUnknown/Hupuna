@@ -7,10 +7,10 @@
 
 <body>
 
-    <footer class="footer text-light">
+    <footer class="footer text-light py-lg-3">
         <div class="container">
             <div class="logo-footer">
-                <img src="images/logo.png" alt="Logo trang chủ">
+                <img src="images/logo.png" alt="Logo trang chủ" width="200">
             </div>
             <div class="row">
                 <!-- Cột 1: Thông tin địa chỉ -->
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="text-center mt-3">
-                <p class="fs-13">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
+                <p class="fs-14">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
             </div>
         </div>
     </footer>

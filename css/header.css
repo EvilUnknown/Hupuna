@@ -9,33 +9,20 @@ header {
 
 /* Button Search ================================= */
 .search-box {
-    width: 100%;
     max-width: 400px;
-    background: #fff;
     border-radius: 50px;
-    border: none;
-}
-
-.login-btn {
-    color: #fff;
-    border: none;
-    font-size: 14px;
-}
-
-.login-btn img {
-    width: 14px;
-    margin: 5px;
-}
-
-.cart {
-    color: #fff;
-    border: none;
-    cursor: pointer;
 }
 
 /* Main Menu =====================================*/
 .menu ul li {
     padding: 10px 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul ul {
+    padding: 0;
 }
 .menu ul li a {
     text-decoration: none;
@@ -43,37 +30,35 @@ header {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
 
 /* ====================== */
 .menu-btn {
-    cursor: pointer;
     transform: skew(-10deg);
     border-radius: 0;
+    background: #ffc107;
 }
 
 /* Mega Menu ==============================================*/
 .menu ul ul li {
     width: 100%;
+    min-width: 250px;
+    padding: 10px 25px;
 }
 
 .menu ul ul a {
     color: #3d3d3d;
 }
+.menu ul ul a:hover {
+    color: var(--background-color-second)
+}
 
 .menu ul ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-
-/* Nút Toggle */
-.toggle-btn {
-    background: none;
-    color: white;
-    border: none;
-    cursor: pointer;
 }
 
 /* MOBILE ======================================================================= */
@@ -167,10 +152,10 @@ header {
 @media (max-width: 1200px) {
     .menu ul li{
         padding: 6px 0;
-        margin: 0 6px;
+        margin: 0 5px;
     }
     .menu ul li a{
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 /* Desktop */
@@ -187,7 +172,7 @@ header {
     }
 
     .search-box {
-        width: 40%;
+        width: 50%;
     }
 
     .content-top-bar {
