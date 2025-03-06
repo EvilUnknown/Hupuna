@@ -209,7 +209,7 @@
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
-                            <li class="see-more "><a class="nav-link text-white" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            <li class="see-more "><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </ul>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
@@ -224,7 +224,7 @@
                                     <div class="row product-list-right d-flex">
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
-                                                <img src="images/pro-1.jpg" alt="">
+                                                <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
@@ -267,7 +267,7 @@
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                                <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -392,7 +392,7 @@
                                     <div class="row product-list-right d-flex">
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
-                                                <img src="images/pro-1.jpg" alt="">
+                                                <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
@@ -435,7 +435,7 @@
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                                <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -478,7 +478,7 @@
                                     <div class="row product-list-right d-flex">
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
-                                                <img src="images/pro-1.jpg" alt="">
+                                                <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
@@ -521,7 +521,7 @@
                                         <div class="col-4 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
-                                                <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                                <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                             </div>
                                             <div class="product-item-right-content">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -580,7 +580,7 @@
                                 <div class="row product-list-right d-flex">
                                     <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
-                                            <img src="images/pro-1.jpg" alt="">
+                                            <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                         </div>
                                         <div class="product-item-right-content">
@@ -623,7 +623,7 @@
                                     <div class="col-4 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
-                                            <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                            <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                         </div>
                                         <div class="product-item-right-content">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -680,9 +680,9 @@
             <div class="mt-4">
                 <div class="d-flex justify-content-between align-items-center mb-3 tab-title-library">
                     <div class="d-flex gap-5 title-library">
-                        <h2 class="fs-4 library">THƯ VIỆN</h2>
+                        <h2 class="fs-4 library d-flex"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                         <div class="mobile-library d-flex justify-content-between px-2">
-                            <h2 class="fs-4">THƯ VIỆN</h2>
+                            <h2 class="fs-4"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                             <li class="see-more"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
                         <ul class="nav nav-tabs tab-title" id="productTabs">
@@ -694,14 +694,14 @@
                             <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-wine">HỘP RƯỢU</a></li>
                         </ul>
                     </div>
-                    <li class="see-more see-more-desk"><a class="nav-link text-white" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                    <li class="see-more see-more-desk"><a class="nav-link" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                 </div>
                 <div class="tab-content">
                     <div id="product-most" class="tab-pane fade show active">
                         <div class="row product-list-right d-flex">
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
-                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
@@ -744,7 +744,7 @@
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
-                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -869,7 +869,7 @@
                         <div class="row product-list-right d-flex">
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
-                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
@@ -912,7 +912,7 @@
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
-                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -955,7 +955,7 @@
                         <div class="row product-list-right d-flex">
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
-                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
@@ -998,7 +998,7 @@
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
-                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -1041,7 +1041,7 @@
                         <div class="row product-list-right d-flex">
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
-                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
@@ -1084,7 +1084,7 @@
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
-                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -1127,7 +1127,7 @@
                         <div class="row product-list-right d-flex">
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
-                                    <img src="images/pro-1.jpg" alt="">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
@@ -1170,7 +1170,7 @@
                             <div class="col-3 product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
-                                    <img src="images/pro-1.jpg " alt="" class="hover-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
                                 <div class="product-item-right-content">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
@@ -1357,6 +1357,9 @@
         </section>
     </div>
     <section class="section box-active">
+        <div class="banner-box-active">
+            <img src="images/Frame-1000004510.png" alt="">
+        </div>
         <div class="container">
             <div class="row justify-content-center py-5 wrap-feedback">
                 <div class="col-12">
