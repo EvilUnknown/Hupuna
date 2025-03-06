@@ -1,25 +1,20 @@
-.clear-both{
-    clear: both;
-}
-
 /* Danh mục */
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 .container .see-more {
   display: inline-block;
   padding: 12px 20px 12px 20px;
   background: #ffcc00!important;
   color: #000 !important;
   text-decoration: none;
-  font-weight: bold;
   position: relative;
-  border-radius: 5px;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
   margin-left: auto;
 }
-
 .container p.nameCategory{
   text-align: center;
 }
-
 .container a.btn-primary {
   display: inline-block;
   padding: 12px 50px 12px 20px;
@@ -38,7 +33,6 @@
   .carousel-container {
     position: relative;
   }
-  
   .custom_slider .item .img-100 {
     background: #fff;
     border-radius: 7px;
@@ -55,116 +49,63 @@
     align-items: center;
     justify-content: center;
   }
-  
-  
   .slick-prev:before, .slick-next:before {
     content: "" !important;
     display: block;
     background-repeat: no-repeat;
     background-size: contain;
   }
-  
   .slick-prev:before {
     background-image: url('../icons/left.svg');
     height: 40px;
     width: 40px;
   }
-  
   .slick-next:before {
     background-image: url('../icons/right.svg');
     height: 40px;
     width: 40px;
   }
-  .slick-prev:hover,
-  .slick-prev:focus,
-  .slick-next:hover,
-  .slick-next:focus {
+  .slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus {
       color: transparent;
       outline: none;
-      /* background: rgb(0 0 0 / 50%)!important; */
   }
   .custom_slider .item .nameCategory {
     color: #003366;
     margin: 8px 0;
   }
-  
   /* Custom arrows */
   .slick-prev, .slick-next {
-    /* background-color: #fff !important; */
     border-radius: 50%;
     width: 40px!important;
     height: 40px!important;
     z-index: 100;
   }
-  
   .slick-prev:hover, .slick-next:hover {
     opacity: 1;
   }
-  
   .slick-prev {
     left: -10px !important;
   }
-  
   .slick-next {
     right: -10px !important;
   }
-
   .slick-dots{
     display: none !important;
   }
-
   /* Sản phẩm nổi bật và các loại khác */
-
 .bannerCategories{
     padding-bottom: 15%;
     border-radius: 24px;
   }
-
-.imgProduct{
-    padding-bottom: 95%;
-    border-radius: 7px;
+@media (max-width: 1024px){
+  .container .fs-18{
+      font-size: 16px !important;
+  }
+  .container p.nameCategory{
+      font-size: 14px !important;
   }
 
-  .contentProduct{margin: 10px;}
-
-  .contentProduct .btn{
-    padding: 0px 2px;
+  .bannerCategories{
+    border-radius: 10px;
   }
-  
-  .contentProduct p{
-    margin: 0px;
-  }
-  
-  .contentProduct img.star{
-    height: 10px !important;
-    width: 10px !important;
-  }
-  
-  .contentProduct .fa-star{
-    font-size: 10px !important;
-  }
-
-  @media (max-width: 1024px){
-    .container .fs-18{
-        font-size: 16px !important;
-    }
-    .container p.nameCategory{
-        font-size: 14px !important;
-    }
-
-    .bannerCategories{
-      border-radius: 10px;
-    }
-  }
-
-  /* Chỉ hiển thị 2 dòng */
-
-.line-clamp {
-  display: -webkit-box;
-  -webkit-line-clamp: 2; 
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-break: break-word;
-  max-width: 100%;
 }
