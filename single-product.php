@@ -28,7 +28,8 @@
 </head>
 
 <body>
-    
+    <?php include 'header.php'; ?>
+
     <section class="product-detail">
         <div class="container">
             <div class="row">
@@ -430,6 +431,9 @@
         </div>
     </section>
 
+    <?php include 'footer.php'; ?>
+
+    <script src="js/base.js"></script>
     <script src="js/single.js"></script>
 </body>
 
