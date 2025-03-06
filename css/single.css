@@ -225,6 +225,8 @@
     border-left: 1px solid #666666;
     border-radius: 0px;
     padding: 6px 20px;
+    font-size: 16px;
+    background-color: transparent;
 }
 
 .product-detail .info-product-detail li:first-child button{
