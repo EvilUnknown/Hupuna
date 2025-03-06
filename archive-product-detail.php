@@ -567,7 +567,7 @@
                             <button class="btn btn-primary w-100 border-0">Áp dụng</button>
                         </div>
                         <div class="col-12 p-1">
-                            <button class="btn btn-primary w-100 border-0">ĐẶT HÀNG THEO YÊU CẦU</button>
+                            <button class="btn btn-primary w-100 border-0 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
                         </div>
                     </div>
                 </div>
@@ -819,7 +819,7 @@
                                     <button class="btn btn-primary w-100 border-0">Áp dụng</button>
                                 </div>
                                 <div class="col-12 p-1">
-                                    <button class="btn btn-primary w-100 border-0">ĐẶT HÀNG THEO YÊU CẦU</button>
+                                    <button class="btn btn-primary w-100 border-0 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
                                 </div>
                             </div>
                         </div>
