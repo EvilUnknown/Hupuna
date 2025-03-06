@@ -149,6 +149,8 @@ p {
 }
 .btn-best-seller {
     border-radius: 20px;
+    padding: 12px 20px;
+    border: 1px solid #003366;
 }
 .btn-best-seller:hover {
     background-color: #1ea88d;
@@ -171,15 +173,17 @@ p {
 }
 .nav-link {
     color: #000;
+    padding: 13px 20px;
 }
 .nav-tabs {
     border: none;
+    
 }
-.nav-tabs .nav-link {
+/* .nav-tabs .nav-link {
     border: none;
     border-top-left-radius: none;
     border-top-right-radius: none;
-}
+} */
 .nav-tabs .nav-link.active {
     border: 0px;
 }
@@ -232,6 +236,7 @@ p {
     color: #ffffff;
     background-color: #003366;
     border-color: var(--bs-nav-tabs-link-active-border-color);
+    border-radius: 8px 8px 0px 0px;
 }
 .content-besiness {
     width: 31%;
@@ -256,7 +261,9 @@ p {
     transform: scale(1.2);
 }
 .form-contact {
-    background-color: #d2d2d2;
+    background-image: url('https://gurudesign.vn/wp-content/themes/clientv2.5/images/customer_partner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 25px 0;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -282,14 +289,11 @@ p {
 }
 .box-feedback {
     width: 31%;
-    min-height: 210px;
+    min-height: 170px;
     background-color: #fff;
     padding: 20px 30px;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    display: flex!important;
-    flex-direction: column;
-    justify-content: space-between;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 .box-feedback ul li:nth-of-type(1) {
     width: 22%;
@@ -487,7 +491,7 @@ img {
     margin-bottom: 0;
 }
 .info-block .info-block-content {
-    align-items: center;
+    gap: 12px;
 }
 .info-block-content img {
     width: 40px;
@@ -517,11 +521,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
 }
-.tab-title .see-more {
-    padding: 2px 0px;
-}
 .box-product-best-seller .tab-title {
-    gap: 50px;
+    gap: 44px;
 }
 .title-library .tab-title {
     gap: 20px;
@@ -696,9 +697,6 @@ img {
     }
     .carousel-button {
         font-size: 12px;
-    }
-    h2 {
-        font-size: 22px!important;
     }
     .box-categories .col-4, 
     .box-design .col-4, 

@@ -9,9 +9,15 @@
     background: #ff3636;
     border-radius: 7px;
   }
+
+  .contentProduct p{
+    margin-bottom: 0px;
+  }
   
 .contentProduct img.star{
     height: 10px !important;
     width: 10px !important;
   }
+
+
   

@@ -202,7 +202,7 @@
     padding: 30px 0;
 }
 
-.product-detail .tab-pane p{
+.product-detail .tab-pane{
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 24px;
@@ -219,7 +219,7 @@
 }
 
 .product-detail .product-related-wrap{
-    padding: 0 30px;
+    padding: 0 40px;
 }
 /* End product detail  */
 
@@ -400,6 +400,18 @@
 
     .product-detail .tab-content .tab-pane{
         padding: 20px 0;
+    }
+
+    .product-detail .product-related .title{
+        font-size: 16px;
+    }
+
+    .product-detail .custom-navigation img{
+        width: 12px;
+    }
+
+    .product-detail .product-related-wrap {
+        padding: 0 5px;
     }
 }
 

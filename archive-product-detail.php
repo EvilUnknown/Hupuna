@@ -13,12 +13,13 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/base.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/archive-product-detail.js"></script>
 
     <title>Document</title>
 </head>
 
 <body>
-    <?php include 'header.php'; ?>
+    <?php include "./header.php" ?>
     <div class="w-100 clear-both">
         <!-- Start breadcrumb -->
         <div class="breadcrumb">
@@ -147,7 +148,7 @@
                     </div>
                     <div class="row cartonBox openClose" style="display: none;">
                         <div class="d-flex align-items-center">
-                            <img class="iconMenu iconFilter" src="./icons/filter-svgrepo-com.svg">
+                            <img class="iconMenu iconFilter me-2" src="./icons/filter-svgrepo-com.svg">
                             <h2 class="fs-20">HỘP CARTON</h2>
                         </div>
                         <div id="filterStatus" class="mt-3">
@@ -338,7 +339,7 @@
 
                     <div class="row ofsetBox openClose" style="display: none;">
                         <div class="d-flex align-items-center">
-                            <img class="iconMenu iconFilter" src="./icons/filter-svgrepo-com.svg">
+                            <img class="iconMenu iconFilter me-2" src="./icons/filter-svgrepo-com.svg">
                             <h2 class="fs-20">HỘP IN OFSET</h2>
                         </div>
                         <div id="filterStatus" class="mt-3">
@@ -543,22 +544,23 @@
                 <div class="col-9 filterProduct">
                     <div class=" mobile">
                         <!-- Start select mobile-->
-                        <nav class="navbar navbar-expand-lg bg-light cursor-pointer">
+                        <nav class="navbar navbar-expand-lg bg-light cursor-pointer text-white">
                             <div class="container">
                                 <!-- Nút mở Mega Menu -->
                                 <div id="categoryMegaMenuBtn" class=" d-flex align-items-center">
                                     <img class="iconMenu" src="./icons/menu-white.svg">
-                                    <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
+                                    <h2 class="fs-18 fw-600 mb-0 ms-1">Tất cả danh mục</h2>
                                 </div>
 
                             </div>
                         </nav>
 
                         <!-- Mega Menu Toàn Màn Hình -->
-                        <div id="categoryMegaMenu" class="category-mega-menu w-100 z-3">
+                        <div id="categoryMegaMenu"
+                            class="category-mega-menu w-100 z-3 top-0 start-0 position-fixed height-100">
                             <span id="closeMegaMenu"
                                 class="close-btn fs-24 position-absolute cursor-pointer">&times;</span>
-                            <div class="ms-4 py-3">
+                            <div class="ms-4 pb-1 pt-3">
                                 <div class="d-flex align-items-center">
                                     <img class="iconMenu" src="./icons/menu-svgrepo-com.svg">
                                     <h2 class="fs-18 fw-600 mb-0 ms-0">Tất cả danh mục</h2>
@@ -789,13 +791,16 @@
                             </div>
                             <div class="row buttonFilter buttonSelect container pb-3 pt-3">
                                 <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400">Thiết lập lại</button>
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white">Thiết lập
+                                        lại</button>
                                 </div>
                                 <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400">Áp dụng</button>
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white">Áp
+                                        dụng</button>
                                 </div>
                                 <div class="col-12 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-600">ĐẶT HÀNG THEO YÊU
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-600 text-black">ĐẶT HÀNG THEO
+                                        YÊU
                                         CẦU</button>
                                 </div>
                             </div>
@@ -900,7 +905,7 @@
                             <button class=" mt-2 toggle-text w-100">Xem thêm</button>
                         </div>
                         <div>
-                            <div class="bannerFooter img-100 mt-5">
+                            <div class="bannerDescribeCategory img-100 mt-5">
                                 <img src="./images/bannerFooter.jfif" alt="Banner Footer">
                             </div>
 
@@ -913,77 +918,6 @@
     </div>
     <?php include 'footer.php'; ?>
 
-
-    <script>
-    function toggleSubmenu(className) {
-        const allSubmenus = document.getElementsByClassName("openClose");
-        const submenu = document.getElementsByClassName(className);
-
-        // Nếu submenu đang mở, đóng nó lại
-        let isCurrentlyOpen = submenu.length > 0 && window.getComputedStyle(submenu[0]).display === "block";
-
-        // Đóng tất cả submenu
-        for (let i = 0; i < allSubmenus.length; i++) {
-            allSubmenus[i].style.display = "none";
-        }
-
-        // Nếu submenu được chọn trước đó không mở, mở nó
-        if (!isCurrentlyOpen) {
-            for (let i = 0; i < submenu.length; i++) {
-                submenu[i].style.display = "block";
-            }
-        }
-    }
-    </script>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const buttons = document.querySelectorAll(".filterProduct .col-8 button");
-
-        buttons.forEach(button => {
-            button.addEventListener("click", function() {
-                buttons.forEach(btn => btn.classList.remove("active"));
-                this.classList.add("active");
-            });
-        });
-    });
-    </script>
-
-    <script>
-    document.getElementById("categoryMegaMenuBtn").addEventListener("click", function() {
-        document.getElementById("categoryMegaMenu").classList.add("show");
-    });
-
-    document.getElementById("closeMegaMenu").addEventListener("click", function() {
-        document.getElementById("categoryMegaMenu").classList.remove("show");
-    });
-
-    // Đóng menu khi click ra ngoài
-    document.addEventListener("click", function(event) {
-        let menu = document.getElementById("categoryMegaMenu");
-        let button = document.getElementById("categoryMegaMenuBtn");
-        if (!menu.contains(event.target) && !button.contains(event.target)) {
-            menu.classList.remove("show");
-        }
-    });
-    </script>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const toggleBtn = document.querySelector(".toggle-text");
-        const textContent = document.querySelector(".text-content");
-
-        toggleBtn.addEventListener("click", function() {
-            if (textContent.classList.contains("expanded")) {
-                textContent.classList.remove("expanded");
-                toggleBtn.textContent = "Xem thêm";
-            } else {
-                textContent.classList.add("expanded");
-                toggleBtn.textContent = "Thu gọn";
-            }
-        });
-    });
-    </script>
 
 </body>
 

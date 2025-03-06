@@ -413,7 +413,7 @@
                     </li>
                 </ul>
                 <div class="tab-content">
-                    <div class="tab-pane fade show active" id="tab1">
+                    <div class="tab-pane fs-15 fade show active" id="tab1">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
                         lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio 
                         dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
@@ -423,10 +423,10 @@
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
                             lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
                     </div>
-                    <div class="tab-pane fade" id="tab2">hhh</div>
-                    <div class="tab-pane fade" id="tab3" >ccc</div>
-                    <div class="tab-pane fade" id="tab4" >dđ</div>
-                    <div class="tab-pane fade" id="tab5" >ee</div>
+                    <div class="tab-pane fs-15 fade" id="tab2">hhh</div>
+                    <div class="tab-pane fs-15 fade" id="tab3" >ccc</div>
+                    <div class="tab-pane fs-15 fade" id="tab4" >dđ</div>
+                    <div class="tab-pane fs-15 fade" id="tab5" >ee</div>
                 </div>
             </div>
 
@@ -441,11 +441,11 @@
                         <?php } ?>
                     </div>
                     <div class="custom-navigation">
-                        <a href="javascript:;" title="nav" class="custom-prev position-absolute translate-middle-y" data-slide="product-slide-1">
-                            <img src="images/flexslide-prev.svg" alt="Prev">
+                        <a href="javascript:;" title="nav" class="custom-prev position-absolute start-0 top-50 translate-middle-y" data-slide="product-related-slide">
+                            <img src="images/product_related_prev_chervon.svg" alt="Prev">
                         </a>
-                        <a href="javascript:;" title="nav" class="custom-next position-absolute translate-middle-y" data-slide="product-slide-1">
-                            <img src="images/flexslide-next.svg" alt="Next">
+                        <a href="javascript:;" title="nav" class="custom-next position-absolute end-0 top-50 translate-middle-y" data-slide="product-related-slide">
+                            <img src="images/product_related_next_chervon.svg" alt="Next">
                         </a>
                     </div>
                 </div>

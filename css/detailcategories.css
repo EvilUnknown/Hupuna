@@ -72,7 +72,7 @@
 .custom_slider .item p {
   color: #003366;
 }
-.slick-dots{
+ .category .slick-dots{
   display: none !important;
 }
 /* filter */
@@ -94,9 +94,6 @@
 /* .category .imgdetaisCategory img.img-100{
   vertical-align: middle !important;
 } */
-.categoryList li{
-  margin: 3px 0px !important;
-}
 /* button sort */
 .filterProduct button:hover{
   background: #e1dfdf;
@@ -173,7 +170,7 @@
 .text-content.expanded::after {
   display: none;
 }
-.bannerFooter{
+.bannerDescribeCategory{
   padding-bottom: 57%;
 }
 @media all and (max-width: 767px) {
@@ -193,7 +190,6 @@
   .mobile .bg-light{
     background-color: #003366 !important;
     border-radius: 7px;
-    color: white;
     padding: 12px 0px 12px 0px;
   }
   .pagination a{
@@ -203,16 +199,13 @@
   }
 /* mega menu mobile */
 .category-mega-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
   background: #fff;
-  transform: translateY(-100%);
+  transform: translateY(-1000%);
   transition: transform 0.3s ease-in-out;
 }
 .category-mega-menu.show {
   transform: translateY(0);
+  overflow: auto;
 }
 .category-mega-menu .close-btn {
   top: 10px;

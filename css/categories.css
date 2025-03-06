@@ -68,7 +68,7 @@
   .slick-next {
     right: -10px !important;
   }
-  .slick-dots{
+  .carousel-container .slick-dots{
     display: none !important;
   }
   /* Sản phẩm nổi bật và các loại khác */
