@@ -69,17 +69,23 @@ p {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-.item-category img {
-    border-radius: 10px;
+.item-category .zoom-img {
+    margin-bottom: 10px;
+}
+.zoom-img {
+    overflow: hidden;
+}
+.item-category:hover .zoom-img img,
+.card:hover .zoom-img img {
+    transform: scale(1.1);
+    border-radius: 5px;
 }
 .carousel-title {
-    line-height: 2.8;
     font-weight: bold;
     font-size: 18px;
-    color: #000;
 }
 .carousel-text {
-    margin: 5px 0;
+    margin: 6px 0 15px;
     font-size: 14px;
 }
 .carousel-button {
@@ -140,7 +146,7 @@ p {
 }
 .slide-left,
 .slide-right{
-    padding-bottom: 15%;
+    padding-bottom: 20%;
 }
 .img-right-best-pro {
     padding-bottom: 100%;
@@ -169,10 +175,6 @@ p {
 .pro-img-hight-right {
     padding-bottom: 83%;
 }
-/* .product-item-right-content, 
-.product-item-left-content {
-    text-align: center;
-} */
  .product-item-left-content {
     line-height: 2.8;
  }
@@ -333,13 +335,11 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-
 .card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
 }
-
 .fa-comment img,
 .fa-eye img {
     width: 15px!important;
@@ -362,7 +362,7 @@ p {
     z-index: 99;
 }
 .content {
-    padding: 15px;
+    padding: 0 15px 15px;
 }
 .title {
     font-size: 16px;
@@ -408,12 +408,6 @@ p {
 }
 img {
     transition: transform 0.3s ease-in-out;
-}
-.zoom-img {
-    overflow: hidden;
-}
-.card:hover .zoom-img {
-    transform: scale(1.2);
 }
 /* css-slickslider */
 .custom_slider {
@@ -530,8 +524,8 @@ img {
     gap: 25px;
 }
 .list-content-news {
-    min-height: 396px;
-    padding: 20px 10px 15px;
+    min-height: 382px;
+    padding: 15px 10px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -716,7 +710,7 @@ img {
         font-size: 12px;
     }
     h2 {
-        font-size: 16px!important;
+        font-size: 22px!important;
     }
     .box-categories .col-4, 
     .box-design .col-4, 
@@ -764,6 +758,9 @@ img {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 2;
+    }
+    .product-list-right {
+        padding: 0 5px;
     }
     .product-list-right .product-item-right {
         width: 50%;

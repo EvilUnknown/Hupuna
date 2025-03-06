@@ -152,38 +152,50 @@
                         <!-- <button class="navigation prev">❮</button> -->
                         <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text">121 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-tet-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text">200 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
                             </div>
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">BAO BÌ MỸ PHẨM</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text">121 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">THIẾT KẾ BAO BÌ OCOP</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text">140 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
                             </div>
                             <div class="item-category col-4">
-                                <img src="images/bao-bi-tet-750x531.jpg" alt="">
-                                <a href="#" class="carousel-title">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <div class="zoom-img">
+                                    <img src="images/bao-bi-tet-750x531.jpg" alt="">
+                                </div>
+                                <a href="#" class="carousel-title text-black">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text">200 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
                             </div>
@@ -1357,7 +1369,7 @@
     </div>
     <section class="section box-active">
         <div class="banner-box-active">
-            <img src="images/Frame-1000004510.png" alt="">
+            <img src="images/banner2.webp" alt="">
         </div>
         <div class="container">
             <div class="row justify-content-center py-5 wrap-feedback">
@@ -1526,7 +1538,7 @@
         <section class="section box-news py-5">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="news-title text-center pb-3">
+                    <div class="news-title text-center">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
                     </div>
@@ -1535,7 +1547,9 @@
                             <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                                 <div class="card col-4">
                                     <div class="date">30 Jan</div>
-                                    <a href="" class="zoom-img"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
@@ -1546,10 +1560,11 @@
                                         <a href="#" class="btn-new">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
-
                                 <div class="card col-4">
                                     <div class="date">20 Jan</div>
-                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
@@ -1562,7 +1577,9 @@
                                 </div>
                                 <div class="card col-4">
                                     <div class="date">30 Jan</div>
-                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
@@ -1576,7 +1593,9 @@
 
                                 <div class="card col-4">
                                     <div class="date">20 Jan</div>
-                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
@@ -1590,7 +1609,9 @@
 
                                 <div class="card col-4">
                                     <div class="date">30 Jan</div>
-                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
@@ -1604,7 +1625,9 @@
 
                                 <div class="card col-4">
                                     <div class="date">20 Jan</div>
-                                    <a href=""><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                    </div>
                                     <div class="actions">
                                         <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
                                         <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
