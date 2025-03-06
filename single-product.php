@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
     <link rel="stylesheet" href="css/base-style.css">
+    <link rel="stylesheet" href="css/product-item.css">
     <link rel="stylesheet" href="css/single.css">
 
     <!-- jQuery library -->
@@ -35,7 +36,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="product-detail-left">
-                        <div class="big-slide">
+                        <div class="big-slide mb-4">
                             <div class="item">
                                 <div class="wrap-img img-100">
                                     <img src="images/pr_detail1.png" alt="Product">
@@ -108,7 +109,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="product-detail-right">
-                        <h1 class="name-product fw-600">
+                        <h1 class="name-product fw-600 fs-22 line-height-30">
                             Hộp carton 10x10x10cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc
                         </h1>
                         <div class="rate d-flex align-items-center">
@@ -129,40 +130,40 @@
                                     <img src="images/star_no_active.svg" alt="">
                                 </li>
                             </ul>
-                            <div class="sold fw-500">
+                            <div class="sold fw-500 fs-14 line-height-26">
                                 Đã bán 50k sp
                             </div>
-                            <div class="promotion fw-500">
+                            <div class="promotion fw-500 fs-11 line-height-16">
                                 Mua 1.500.000 đ giảm 2%
                             </div>
                         </div>
                         <div class="price-wrap d-flex align-items-center">
-                            <div class="old-price fw-500">
+                            <div class="old-price fw-500 fs-28 line-height-40">
                                 <del>40.000đ</del>
                             </div>
-                            <div class="new-price">
+                            <div class="new-price fw-500 fs-28 line-height-40">
                                 499đ - 2.999đ
                             </div>
-                            <div class="reduced fw-600">
+                            <div class="reduced fw-600 background-second-color text-third-color fs-12 line-height-20">
                                 -20%
                             </div>
                         </div>
                         <div class="area">
                             <div class="row align-items-center">
                                 <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                                    <div class="title fw-600">
+                                    <div class="title fw-600 fs-14 line-height-20">
                                         Khu vực
                                     </div>
                                 </div>
                                 <div class="col-9 col-sm-9 col-md-9 col-lg-9">
                                     <div class="row">
                                         <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                            <div class="region text-capitalize text-center">
+                                            <div class="region fs-14 line-height-20 text-capitalize text-center">
                                                 Miền bắc
                                             </div>
                                         </div>
                                         <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                            <div class="region text-capitalize text-center">
+                                            <div class="region fs-14 line-height-20 text-capitalize text-center">
                                                 Miền nam
                                             </div>
                                         </div>
@@ -173,23 +174,23 @@
                         <div class="wholesale-price">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                                    <div class="title fw-600">
+                                    <div class="title fw-600 fs-14 line-height-20">
                                         Giá bán buôn/sỉ
                                     </div>
                                 </div>
                                 <div class="col-9 col-sm-9 col-md-9 col-lg-9">
                                     <div class="content fw-500">
-                                        <p>Mua (1-1.000) sản phẩm chỉ với 21.000đ</p>
-                                        <p>Mua (1.001-10.000) sản phẩm chỉ với 20.000đ</p>
+                                        <p class="fs-14 line-height-22">Mua (1-1.000) sản phẩm chỉ với 21.000đ</p>
+                                        <p class="fs-14 line-height-22">Mua (1.001-10.000) sản phẩm chỉ với 20.000đ</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="size">
+                        <div class="size mt-3">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                                    <div class="title fw-600">
+                                    <div class="title fw-600 fs-14 line-height-20">
                                         Kích thước
                                     </div>
                                 </div>
@@ -197,74 +198,74 @@
                                     <div class="all-size">
                                         <div class="row">
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center">
-                                                    <img src="images/pr_detail1.png" alt="">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center">
+                                                    <img src="images/pr_detail1.png" alt="" class="object-fit-cover">
                                                     12x15x20
                                                 </div>
                                             </div>
@@ -274,10 +275,10 @@
                             </div>
                         </div>
 
-                        <div class="size">
+                        <div class="size mt-3">
                             <div class="row">
                                 <div class="col-3 col-sm-3 col-md-3 col-lg-3">
-                                    <div class="title fw-600">
+                                    <div class="title fw-600 fs-14 line-height-20">
                                         Số lượng lớn
                                     </div>
                                 </div>
@@ -285,42 +286,42 @@
                                     <div class="all-size all-bulk">
                                         <div class="row">
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     1 - 1000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     1001 - 2000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     2001 - 3000 
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     3001 - 4000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     4001 - 5000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     5001 - 6000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     6001 - 7000
                                                 </div>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-4 col-lg-4">
-                                                <div class="region d-flex align-items-center justify-content-center">
+                                                <div class="region fs-14 line-height-20 d-flex align-items-center justify-content-center">
                                                     7001 - 8000
                                                 </div>
                                             </div>
@@ -330,14 +331,14 @@
                             </div>
                         </div>
 
-                        <div class="description fw-500">
+                        <div class="description fw-500 fs-16 mt-3">
                             <p>- Hộp thường được dùng để đựng đồ ăn, hàng hòa kinh doanh online, link kiện điện tử...</p>
                             <div class="row align-items-center">
                                 <div class="col-12 col-sm-9 col-md-9 col-lg-9">
                                     <p>- Đặt hàng số lượng lớn để nhận giá tốt hơn cùng nhiều ưu đãi khác.</p>
                                 </div>
                                 <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                                    <a href="javascript:;" title="Liên hệ" class="contact text-uppercase">
+                                    <a href="javascript:;" title="Liên hệ" class="contact fs-14 text-third-color d-inline-block text-uppercase">
                                         Liên hệ
                                     </a>
                                 </div>
@@ -347,13 +348,13 @@
                                     <p>- Nhận in ấn, sản xuất bao bì giấy, phụ kiện đóng hàng theo yêu cầu.</p>
                                 </div>
                                 <div class="col-12 col-sm-3 col-md-3 col-lg-3">
-                                    <a href="javascript:;" title="Liên hệ" class="contact text-uppercase">
+                                    <a href="javascript:;" title="Liên hệ" class="contact fs-14 text-third-color d-inline-block text-uppercase">
                                         Liên hệ
                                     </a>
                                 </div>
                             </div>
                         </div>
-                        <div class="in-stock fw-500">
+                        <div class="in-stock fw-500 fs-14">
                             51k sp có sẵn
                         </div>
                         <div class="product-detail-options d-flex align-items-center justify-content-between">
@@ -361,18 +362,18 @@
                                 <div class="button minus d-flex justify-content-center">
                                     <span>-</span>
                                 </div>
-                                <input type="text" value="1" min="1" max="999" class="text-center">
+                                <input type="text" value="1" min="1" max="999" class="text-center fs-14 p-0">
                                 <div class="button plus d-flex justify-content-center">
                                     <span class="d-inline-block">+</span>
                                 </div>
                             </div>
-                            <a href="" title="Thêm vào giỏ" class="add-cart button-add text-uppercase fw-500">
+                            <a href="" title="Thêm vào giỏ" class="add-cart button-add fs-14 text-third-color text-uppercase fw-500">
                                 Thêm vào giỏ
                             </a>
-                            <a href="" title="Mua ngay" class="buy-now button-add text-uppercase fw-500">
+                            <a href="" title="Mua ngay" class="buy-now button-add fs-14 text-third-color text-uppercase fw-500">
                                 Mua ngay
                             </a>
-                            <a href="" title="Mua số lượng lớn" class="buy-in-bulk button-add text-uppercase fw-500">
+                            <a href="" title="Mua số lượng lớn" class="buy-in-bulk button-add fs-14 text-third-color text-uppercase fw-500">
                                 Mua số lượng lớn
                             </a>
                         </div>
@@ -383,30 +384,30 @@
             <div class="info-product-detail">
                 <ul role="tablist" class="d-flex tabs-info">
                     <li>
-                        <button class="active fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab1" aria-selected="true">
+                        <button class="active fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab1" aria-selected="true">
                             Mô tả
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab2" aria-selected="false">
+                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab2" aria-selected="false">
                             <span class="text-pc">Hướng dẫn sử dụng</span>
-                            <span class="text-mobile">Hướng dẫn</span>
+                            <span class="text-mobile d-none">Hướng dẫn</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab3" aria-selected="false">
+                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab3" aria-selected="false">
                             <span class="text-pc">Chương trình khuyến mại</span>
-                            <span class="text-mobile">Khuyến mại</span>
+                            <span class="text-mobile d-none">Khuyến mại</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab4" aria-selected="false">
+                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab4" aria-selected="false">
                             <span class="text-pc">Hỗ trợ khách hàng</span>
-                            <span class="text-mobile">Hỗ trợ KH</span>
+                            <span class="text-mobile d-none">Hỗ trợ KH</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative" data-bs-toggle="pill" data-bs-target="#tab5" aria-selected="false">
+                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab5" aria-selected="false">
                             Đánh giá
                         </button>
                     </li>
@@ -426,6 +427,27 @@
                     <div class="tab-pane fade" id="tab3" >ccc</div>
                     <div class="tab-pane fade" id="tab4" >dđ</div>
                     <div class="tab-pane fade" id="tab5" >ee</div>
+                </div>
+            </div>
+
+            <div class="product-related">
+                <div class="title text-third-color background-second-color">
+                    Sản phẩm tương tự
+                </div>
+                <div class="position-relative">
+                    <div class="product-related-slide" data-slides-to-show="6" data-slides-to-scroll="1">
+                        <?php for($i = 0; $i < 7; $i++) { ?>
+                            <?php include 'product-item.php'; ?>
+                        <?php } ?>
+                    </div>
+                    <div class="custom-navigation">
+                        <a href="javascript:;" title="nav" class="custom-prev position-absolute translate-middle-y" data-slide="product-slide-1">
+                            <img src="images/flexslide-prev.svg" alt="Prev">
+                        </a>
+                        <a href="javascript:;" title="nav" class="custom-next position-absolute translate-middle-y" data-slide="product-slide-1">
+                            <img src="images/flexslide-next.svg" alt="Next">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
