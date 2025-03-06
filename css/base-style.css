@@ -403,6 +403,10 @@ video{
     text-align: right;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .z-n1{
     z-index: -1;
 }
@@ -761,3 +765,4 @@ video{
 .tab-content>.active {
     display: block;
 }
+
