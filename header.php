@@ -40,702 +40,120 @@
             </div>
         </div>
         </div>
-        <nav class="main-menu">
-            <div class="container d-flex justify-content-between align-items-center">
+        <nav class="main-menu container d-flex justify-content-between align-items-center">
+            <div class="d-flex justify-content-center align-items-center">
                 <ul>
-                    <li class="dropdown">
-                        <button class="menu-btn">
-                            <img src="icons/main-menu-icon.svg" width="20" alt="icon giỏ hàng" class="pb-1">
-                            DANH MỤC SẢN PHẨM</button>
+                    <li>
+                        <a href="#"><img src="icons/main-menu-icon.svg" width="20">DANH MỤC SẢN PHẨM</a>
                         <ul>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">HỘP CARTON SÓNG THÔNG DỤNG</a>
-                                <div class="menu-items container">
-                                    <div class="row">
-                                        <div class="col-5">
-                                            <h3>THEO CẤU TẠO</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Carton Nắp Đối</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Carton Nắp Gài</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Carton Chuyển Nhà</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Nắp Cài Đáy Chéo</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Nắp Âm Dương</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <h3>THEO NGÀNH NGHỀ</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Thùng Đựng Nông Sản</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Viên Kê Bê Tông</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Đựng Quần Áo</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Hàng Đông Lạnh</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Thùng Đựng Mì Tôm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg"
-                                                        alt="Hộp carton sóng thông dụng">
-                                                    <p>Hộp Đựng Máy Tính</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>CÔNG NGHỆ IN ẤN</h3>
-                                                <hr>
-                                                <a href="">Hộp Không In</a>
-                                                <a href="">Hộp In Lụa</a>
-                                                <a href="">Hộp In Flexo</a>
-                                            </div>
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Giấy Kraft</a>
-                                                <a href="">VKT</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>THEO LỚP</h3>
-                                                <hr>
-                                                <a href="">3 Lớp</a>
-                                                <a href="">5 Lớp</a>
-                                                <a href="">7 Lớp</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>ttttttttttla</li>
+                                    <li>ttttttttttt</li>
+                                    <li>ttttttttttt</li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">HỘP OFFSET MỀM CAO CẤP</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-5">
-                                            <h3>HỘP OFFSET MỀM CAO CẤP</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Hộp Nắp Đôi In Offset</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Hộp Nắp Gài In Offset</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Hộp Nắp Cài Đáy Chéo</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Hộp Nắp Âm Dương</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Các Dạng Hộp Khác</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <h3>THEO NGÀNH NGHỀ</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Nông Sản<br>&nbsp;</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Dược Phẩm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Quà Tặng</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Điện Tử - Điện Lạnh</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Thời Trang</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp offset mềm cao cấp">
-                                                    <p>Mỹ Phẩm</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
-                                                <hr>
-                                                <a href="">Ép Nhũ</a>
-                                                <a href="">Ép Kim</a>
-                                                <a href="">Công Nghệ Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Duplex</a>
-                                                <a href="">Ivory</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>THEO LỚP</h3>
-                                                <hr>
-                                                <a href="">1 Lớp</a>
-                                                <a href="">3 Lớp</a>
-                                                <a href="">5 Lớp</a>
-                                                <a href="">7 Lớp</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">HỘP CARTON CỨNG CAO CẤP</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-5">
-                                            <h3>HỘP CARTON CỨNG CAO CẤP</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Âm Dương</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Nam Châm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Cánh Bướm</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Dạng Tầng</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Ngăn Kéo</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-5">
-                                            <h3>THEO NGÀNH NGHỀ</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Yến</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Rượu</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Nông Sản</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Quà Tặng</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Mỹ Phẩm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Hộp carton cứng cao cấp">
-                                                    <p>Hộp Thời Trang</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>ĐỘ DÀY VẬT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Carton Lạnh 2mm</a>
-                                                <a href="">Carton Lạnh 2.5mm</a>
-                                                <a href="">Độ Dày Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Couche 150</a>
-                                                <a href="">Giấy Mỹ Thuật</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
-                                                <hr>
-                                                <a href="">Ép Nhũ</a>
-                                                <a href="">Ép Kim</a>
-                                                <a href="">Công Nghệ Khác</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li><a href="#">SẢN PHẨM IN NHANH</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-10">
-                                            <h3>SẢN PHẨM IN NHANH</h3>
-                                            <hr>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Nhãn Dán - Decal</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Tờ Rơi</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Catalogue</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Thiệp Mời</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Bao Thư</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Phiếu Bảo Hành</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Phiếu Quà Tặng</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Mác Sản Phẩm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Danh Thiếp</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Menu Giấy</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>Poster</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Sản phẩm in nhanh">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Couche 150</a>
-                                                <a href="">Giấy Mỹ Thuật</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                            <div>
-                                                <h3>CÔNG NGHỆ TRÊN BỀ MẶT IN</h3>
-                                                <hr>
-                                                <a href="">Ép Nhũ</a>
-                                                <a href="">Ép Kim</a>
-                                                <a href="">Công Nghệ Khác</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li><a href="#">KHAY ĐỊNH HÌNH</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-10">
-                                            <h3>KHAY ĐỊNH HÌNH</h3>
-                                            <hr>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Bán Sẵn</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Bát Đĩa</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Điện Thoại</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Mic Karaoke</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Ấm Chén</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Đồ Nghề</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Thiết Bị Điện Tử</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Ly - Cốc</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Thiết Bị Y Tế</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Đựng Mỹ Phẩm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>Khay Bồi Nhung</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Khay Định Hình">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Khay Carton Lạnh</a>
-                                                <a href="">Khay Xốp Foam</a>
-                                                <a href="">Khay Giấy 1 Lớp</a>
-                                                <a href="">Khay Cao Su Non</a>
-                                                <a href="">Khay Carton Sóng</a>
-                                                <a href="">Khay Mút Mềm</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li><a href="#">TÚI GIẤY</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-10">
-                                            <h3>TÚI GIẤY</h3>
-                                            <hr>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Giấy Hàng Sẵn</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Yến Sào</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Rượu</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Bánh Mì</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Cà Phê</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Giày</p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Hồ Sơ</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Hoa Quả</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Mỹ Phẩm</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Quà Tết</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Túi Đựng Thời Trang</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Túi Giấy">
-                                                    <p>Sản Xuất Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-2 border-start">
-                                            <div>
-                                                <h3>CHẤT LIỆU</h3>
-                                                <hr>
-                                                <a href="">Giấy Ivory</a>
-                                                <a href="">Giấy Kraft</a>
-                                                <a href="">Giấy Duplex</a>
-                                                <a href="">Chất Liệu Khác</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li><a href="#">PHỤ KIỆN ĐÓNG HÀNG</a>
-                                <div class="menu-items">
-                                    <div class="row">
-                                        <div class="col-4">
-                                            <h3>BẢNG DÍNH</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Vàng Đục</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Vàng Chanh</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Trắng Trong</p>
-                                                </div>
-                                            </div>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Hàng Dễ Vỡ</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>In Thương Hiệu</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <h3>MÀNG PE</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Màng PE Trắng</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Màng PE Đen</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <h3>XỐP KHÍ - XỐP FOAM</h3>
-                                            <hr>
-                                            <div class="row text-center">
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Xốp Hơi - Bóng Khí</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>Xốp Foam Chống Sốc</p>
-                                                </div>
-                                                <div class="col">
-                                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                                    <p>SX Theo Yêu Cầu</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul>
+                                    <li>adjalskdjla</li>
+                                    <li>daksdjajda</li>
+                                    <li>dalsjdalkd</li>
+                                </ul>
                             </li>
                             <li><a href="#">XEM TẤT CẢ</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <button class="menu-btn cool-link-mainmenu">TRANG CHỦ</button>
+                    <li>
+                        <a href="#">TRANG CHỦ</a>
                     </li>
-                    <li class="dropdown">
-                        <button class="menu-btn cool-link-mainmenu">DỊCH VỤ IN ẤN<img src="icons/triangle-down-icon.svg"
-                                width="15"></button>
-                        <div class="menu-items-service">
-                            <div class="row text-center">
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Hộp Giấy</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Túi Giấy</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Nhãn Mác</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Văn Phòng</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Quảng Cáo</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Bao Lì Xì</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Catalogue</p>
-                                </div>
-                                <div class="col">
-                                    <img src="images/sp-best-seller.jpg" alt="Phụ Kiện Đóng Hàng">
-                                    <p>In Ấn Khác</p>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                
-                            </div>
-                        </div>
-                    </li>
-                    <li class="dropdown">
-                        <button class="menu-btn cool-link-mainmenu">VỀ CHÚNG TÔI<img src="icons/triangle-down-icon.svg"
-                                width="15">
-                        </button>
+                    <li>
+                        <a href="#">DỊCH VỤ IN ẤN<img src="icons/triangle-down-icon.svg" width="15"></a>
                         <ul>
-                            <li class="dropdown">
+                            <li><a href="#">In Hộp Giấy</a></li>
+                            <li><a href="#">In Túi Giấy</a></li>
+                            <li><a href="#">In Hộp Yến</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">VỀ CHÚNG TÔI<img src="icons/triangle-down-icon.svg" width="15"></a>
+                        <ul>
+                            <li>
                                 <a href="#">GIỚI THIỆU</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">HỒ SƠ NĂNG LỰC</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">LỜI MỜI HỢP TÁC</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">BỘ SƯU TẬP</button></li>
-                    <li class="dropdown">
-                        <button class="menu-btn cool-link-mainmenu">MẠNG XÃ HỘI<img src="icons/triangle-down-icon.svg"
-                                width="15">
-                        </button>
+                    <li><a href="#">BỘ SƯU TẬP</a></li>
+                    <li>
+                        <a href="#">MẠNG XÃ HỘI<img src="icons/triangle-down-icon.svg" width="15"></a>
                         <ul>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">FACEBOOK</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">ZALO</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">TIKTOK</a>
                             </li>
-                            <li class="dropdown">
+                            <li>
                                 <a href="#">INSTAGRAM</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="dropdown"><button class="menu-btn cool-link-mainmenu">TIN TỨC</button></li>
+                    <li><a href="#">TIN TỨC</a></li>
                 </ul>
-                <ul>
-                    <li class="dropdown"><button class="menu-btn2"><img src="icons/video-library-icon.svg" width="20" alt="icon video" class="pb-1"> VIDEO NỔI BẬT</button></li>
-                </ul>
+            </div>
+            <div>
+                <button class="menu-btn"><img src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
+                    BẬT</button>
             </div>
         </nav>
     </header>
-    <header class="header-mobile">
+    <!-- <header class="header-mobile">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler btn-header-mb" type="button" data-bs-toggle="offcanvas"
@@ -883,7 +301,7 @@
                 </div>
             </div>
         </nav>
-    </header>
+    </header> -->
 </body>
 <script src="js/header.js"></script>
 

@@ -1,8 +1,9 @@
 header {
     font-size: 12px;
     color: #000;
-    
+
 }
+
 .header-desktop {
     background: url('../images/bg-header.png') no-repeat center center/cover;
 }
@@ -55,39 +56,22 @@ header {
 }
 
 /* Main Menu =====================================*/
-.main-menu {
+.main-menu ul {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.main-menu h3{
-    font-size: 14px;
-}
-.main-menu h5{
-    font-size: 14px;
-}
-.menu-btn {
-    border: none;
-    cursor: pointer;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-}
-.menu-btn2 {
-    border: none;
-    cursor: pointer;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 500;
-    transform: skew(-10deg);
-    background: #F1AD2F;
-}
+
 /* Hiệu ứng border bottom */
-.cool-link-mainmenu {
-    display: inline-block;
+.main-menu ul li>a {
     text-decoration: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.cool-link-mainmenu::after {
+/* .main-menu ul li>a::after {
     content: '';
     display: block;
     width: 0;
@@ -96,110 +80,87 @@ header {
     transition: width .3s;
 }
 
-.cool-link-mainmenu:hover::after {
+.main-menu ul li>a:hover::after {
     width: 100%;
     transition: width .100s;
+} */
+
+/* ====================== */
+
+.menu-btn {
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    transform: skew(-10deg);
+    background: #F1AD2F;
 }
 
-.main-menu ul {
-    display: flex;
-}
-
-.main-menu li {
+.main-menu ul li {
     position: relative;
-}
-
-.main-menu .dropdown a {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    display: block;
-    /* font-weight: 400; */
-
-}
-
-.main-menu a:hover {
-    color: #ffcc00;
+    padding: 15px 15px 15px 0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
 }
 
 /* Mega Menu ==============================================*/
-.main-menu .dropdown ul {
+.main-menu ul li ul {
     position: absolute;
-    width: 100%;
+    top: 100%;
     left: 0;
-    background: white;
+    width: 100%;
+    background: #fff;
     display: none;
     z-index: 999;
     flex-direction: column;
-    border: 1px solid #6e6e6e;
 }
 
-.main-menu .dropdown:hover ul {
-    display: flex;
+.main-menu ul li:hover ul {
+    display: block;
 }
 
-.main-menu .dropdown ul li a {
+.main-menu ul li ul li a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
     color: #000;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-.main-menu .dropdown ul li:hover {
+.main-menu ul li ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Mega Menu Item==============================================*/
-.main-menu .dropdown ul li {
-    position: static;
-    padding: 14.5px 0;
-    display: inline-block;
+.main-menu ul li ul li {
+    position: relative;
+    width: 100%;
+    padding: 15px;
 }
 
-.main-menu .dropdown ul li .menu-items {
+.main-menu ul li ul li ul {
     position: absolute;
     top: 0;
     left: 100%;
-    width: 100vw;
-    max-width: 1080px;
-    height: 555px;
+    width: 100%;
+    /* max-width: 1080px;
+    height: 555px; */
     padding: 10px;
     display: none;
     background: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-
-    /* border: 0.5px solid #6e6e6e; */
-}
-.main-menu .dropdown ul li:hover .menu-items {
-    display: block;
-}
-.main-menu p {
-    text-align: center;
-    padding: 10px 0 20px 0;
-    font-size: 14px;
 }
 
-/* MENU SERVICE================================================== */
-.main-menu ul li .menu-items-service {
-    position: absolute;
-    /* top: 100px;*/
-    left: -220%;
-    width: 100vw;
-    max-width: 1300px;
-    z-index: 999;
-    /* height: 455px; */
-    display: none;
-    background: #fff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    padding: 30px;
-}
-
-.main-menu ul li:hover .menu-items-service {
-    display: block;
+.main-menu ul li ul li:hover ul {
+    display: flex;
 }
 
 /* MOBILE ======================================== */
-.header-mobile nav {
-    /* background: #0a2144; */
+/* .header-mobile nav {
     background: url('../images/bg-header.png') no-repeat center center/cover;
     padding: 0;
     margin: 0;
@@ -209,15 +170,15 @@ header {
     background: #fff;
     border: 0;
     padding: 5px;
-}
+} */
 
 /* Hiển thị dropdown cấp 2 khi hover */
-.dropdown .dropdown-menu:hover {
+/* .dropdown-menu:hover {
     display: block;
-}
+} */
 
 /* Điều chỉnh dropdown con */
-.dropdown-submenu {
+/* .dropdown-submenu {
     position: relative;
 }
 
@@ -225,22 +186,8 @@ header {
     top: 0;
     left: 100%;
     margin-top: -1px;
-}
+} */
 
-@media (max-width: 1400px) {
-    .main-menu .dropdown ul li .menu-items {
-        max-width: 940px;
-    }
-    .main-menu ul li .menu-items-service {
-        max-width: 1120px;
-    }
-    .menu-btn {
-        font-size: 12px;
-    }
-    .menu-btn2 {
-        font-size: 12px;
-    }
-}
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 992px) {
     .header-desktop {
