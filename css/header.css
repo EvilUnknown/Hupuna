@@ -1,25 +1,12 @@
+/* Khi sidebar mở, khóa scroll */
+body.no-scroll {
+    overflow: hidden;
+}
+
 header {
     font-size: 12px;
     color: #000;
-
-}
-
-.header-desktop {
     background: url('../images/bg-header.png') no-repeat center center/cover;
-}
-
-.form-control:focus {
-    box-shadow: none;
-}
-
-.top-bar {
-    /* background: #0a2144; */
-    padding: 10px 0px;
-}
-
-.logo-header {
-    width: 150px;
-    padding: 0 0 0 10px;
 }
 
 /* Button Search ================================= */
@@ -29,11 +16,6 @@ header {
     background: #fff;
     border-radius: 50px;
     border: none;
-    margin: 25px 0 0 50px;
-}
-
-.search-box img {
-    width: 20px;
 }
 
 .login-btn {
@@ -49,21 +31,12 @@ header {
 
 .cart {
     color: #fff;
-    width: 45px;
     border: none;
     cursor: pointer;
-    margin-left: 10px;
 }
 
 /* Main Menu =====================================*/
-.main-menu ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Hiệu ứng border bottom */
-.main-menu ul li>a {
+.menu ul li a {
     text-decoration: none;
     cursor: pointer;
     color: #FFF;
@@ -71,22 +44,7 @@ header {
     font-weight: 500;
 }
 
-/* .main-menu ul li>a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #F1AD2F;
-    transition: width .3s;
-}
-
-.main-menu ul li>a:hover::after {
-    width: 100%;
-    transition: width .100s;
-} */
-
 /* ====================== */
-
 .menu-btn {
     border: none;
     cursor: pointer;
@@ -95,110 +53,138 @@ header {
     font-weight: 500;
     transform: skew(-10deg);
     background: #F1AD2F;
-}
-
-.main-menu ul li {
-    position: relative;
-    padding: 15px 15px 15px 0;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+    border-radius: 0;
 }
 
 /* Mega Menu ==============================================*/
-.main-menu ul li ul {
-    position: absolute;
-    top: 100%;
-    left: 0;
+.menu ul ul li {
     width: 100%;
-    background: #fff;
-    display: none;
-    z-index: 999;
-    flex-direction: column;
 }
 
-.main-menu ul li:hover ul {
-    display: block;
+.menu ul ul a {
+    color: #3d3d3d;
 }
 
-.main-menu ul li ul li a {
-    list-style: none;
-    text-decoration: none;
-    cursor: pointer;
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.main-menu ul li ul li:hover {
+.menu ul ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Mega Menu Item==============================================*/
-.main-menu ul li ul li {
-    position: relative;
-    width: 100%;
-    padding: 15px;
+
+
+/* Nút Toggle */
+.toggle-btn {
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-.main-menu ul li ul li ul {
+/* MOBILE ======================================================================= */
+.sidebar {
+    width: 90%;
+    height: 100vh;
+    background: #333;
+    color: white;
     position: absolute;
+    left: -100%;
     top: 0;
-    left: 100%;
+    transition: left 0.3s ease-in-out;
+    padding-top: 20px;
+    z-index: 9999;
+}
+
+/* Lớp phủ nền*/
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    /* max-width: 1080px;
-    height: 555px; */
-    padding: 10px;
-    display: none;
-    background: #fff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
 }
 
-.main-menu ul li ul li:hover ul {
-    display: flex;
+.overlay.show {
+    opacity: 1;
+    visibility: visible;
 }
 
-/* MOBILE ======================================== */
-/* .header-mobile nav {
-    background: url('../images/bg-header.png') no-repeat center center/cover;
-    padding: 0;
-    margin: 0;
+.sidebar.open {
+    left: 0;
 }
 
-.header-mobile nav .btn-header-mb {
-    background: #fff;
-    border: 0;
-    padding: 5px;
-} */
+/* ============== */
+/* Danh sách menu */
+.menu-mobi {
+    list-style: none;
+}
 
-/* Hiển thị dropdown cấp 2 khi hover */
-/* .dropdown-menu:hover {
-    display: block;
-} */
-
-/* Điều chỉnh dropdown con */
-/* .dropdown-submenu {
+.menu-mobi li {
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #555;
     position: relative;
 }
 
-.dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
-} */
+.menu-mobi li:hover {
+    background: #444;
+}
 
-/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 992px) {
-    .header-desktop {
+/* Ẩn checkbox */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Submenu ẩn */
+.submenu,
+.submenu-level-2 {
+    display: none;
+    padding-left: 20px;
+    background: #444;
+}
+
+/* Hiện submenu */
+input[type="checkbox"]:checked+.submenu,
+input[type="checkbox"]:checked+.submenu-level-2 {
+    display: block;
+}
+
+/* Label bấm */
+label {
+    display: block;
+    cursor: pointer;
+    padding: 12px;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .toggle-btn {
+        display: none;
+    }
+
+    .sidebar {
         display: none;
     }
 }
 
+/* Mobile */
+@media (max-width: 992px) {
+    .menu {
+        display: none !important;
+    }
 
-/* // `lg` applies to medium devices (tablets, less than 992px) */
-@media (min-width: 992px) {
-    .header-mobile {
+    .search-box {
+        max-width: 220px;
+    }
+
+    .content-top-bar {
+        display: none;
+    }
+
+    .cart {
         display: none;
     }
 }

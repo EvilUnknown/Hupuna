@@ -7,51 +7,90 @@
 </head>
 
 <body>
-    <header class="header-desktop">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row d-flex justify-content-between align-items-center">
-                    <div class="col-2">
-                        <img class="logo-header" src="images/logo.png" alt="Logo trang chủ">
-                    </div>
-                    <div class="input-group mb-3 search-box d-flex flex-row justify-content-between col-6 ">
-                        <input type="text" class="form-control border-0 bg-transparent"
-                            placeholder="Tìm kiếm từ khóa, thông tin, công dụng..." aria-label="Recipient's username"
-                            aria-describedby="btn-search">
-                        <button class="btn border-0" type="button" id="btn-search"><img src="icons/search-icon.svg"
-                                alt="Nút search"></button>
-                    </div>
-
-                    <div class="user-options col-4 d-flex flex-row align-items-center justify-content-end">
-                        <button class="text-white login-btn d-flex justify-content-between align-items-center"
-                            onclick="window.location.href='tel:0889736889'">
-                            <img src="icons/phone-icon.svg" alt="icon giỏ hàng">
-                            <span>0889.736.889</span>
-                        </button>
-                        <button class="text-white login-btn d-flex justify-content-between align-items-center">
-                            <img src="icons/lock-icon.svg" alt="icon giỏ hàng">
-                            <span>Đăng Nhập</span>
-                        </button>
-                        <button class="cart">
-                            <img src="icons/cart-icon.svg" alt="icon giỏ hàng">
-                        </button>
+    <header style="padding: 15px 0;">
+        <!-- Header -->
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-2">
+                    <img src="images/logo.png" alt="Logo trang chủ" width="150">
+                </div>
+                <div class="col-6 search-box d-flex align-items-center justify-content-center">
+                    <input type="text" class="border-0 bg-transparent"
+                        placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
+                    <img src="icons/search-icon.svg" alt="Nút search" width="25">
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col content-top-bar">
+                            <a class="text-warning d-flex justify-content-end align-items-center" href="tel:0889736889">
+                                <img src="icons/phone-icon.svg" alt="icon giỏ hàng" width="18">
+                                <span class="ms-1 fs-15 fw-bold">0889.736.889</span>
+                            </a>
+                        </div>
+                        <div class="col content-top-bar">
+                            <a class="text-warning d-flex justify-content-end align-items-center">
+                                <img src="icons/lock-icon.svg" alt="icon giỏ hàng" width="18">
+                                <span class="ms-1 fs-15 fw-bold">Đăng Nhập</span>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a class="cart">
+                                <img src="icons/cart-icon.svg" alt="icon giỏ hàng" width="25">
+                            </a>
+                            <button class="toggle-btn" onclick="openSidebar()">
+                                <img src="icons/main-menu-icon.svg" width="20">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Sidebar -->
+        <!-- Lớp phủ nền -->
+        <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+        <div class="sidebar" id="sidebar">
+            <a href="" class="logo">
+                <img src="images/logo.png" alt="Logo trang chủ" width="150">
+            </a>
+            <ul class="menu-mb">
+                <!-- Cấp 1 -->
+                <li>
+                    <label for="menu1">Dịch vụ ▼</label>
+                    <input type="checkbox" id="menu1">
+                    <ul class="submenu">
+                        <!-- Cấp 2 -->
+                        <li>
+                            <label for="menu2">Thiết kế ▼</label>
+                            <input type="checkbox" id="menu2">
+                            <ul class="submenu-level-2">
+                                <li>Logo</li>
+                                <li>Banner</li>
+                                <li>Poster</li>
+                            </ul>
+                        </li>
+                        <li>Marketing</li>
+                    </ul>
+                </li>
+                <li>Trang chủ</li>
+                <li>Liên hệ</li>
+            </ul>
         </div>
-        <nav class="main-menu container d-flex justify-content-between align-items-center">
-            <div class="d-flex justify-content-center align-items-center">
+        <!-- Main Menu -->
+        <nav class="menu container d-flex justify-content-between align-items-center">
+            <div>
                 <ul>
                     <li>
-                        <a href="#"><img src="icons/main-menu-icon.svg" width="20">DANH MỤC SẢN PHẨM</a>
+                        <a href="#">
+                            <img src="icons/main-menu-icon.svg" width="20">
+                            DANH MỤC SẢN PHẨM
+                        </a>
                         <ul>
                             <li>
                                 <a href="#">HỘP CARTON SÓNG THÔNG DỤNG</a>
                                 <ul>
-                                    <li>ttttttttttla</li>
-                                    <li>ttttttttttt</li>
-                                    <li>ttttttttttt</li>
+                                    <li>Nội dung</li>
+                                    <li>Nội dung</li>
+                                    <li>Nội dung</li>
                                 </ul>
                             </li>
                             <li>
@@ -153,155 +192,6 @@
             </div>
         </nav>
     </header>
-    <!-- <header class="header-mobile">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler btn-header-mb" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="images/logo.png" width="100" alt="Logo trang chủ"></a>
-                <button class="btn border-0" type="button"><img src="icons/search-icon.svg" alt="Nút search"
-                        width="25"></button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hupuna</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    DDANH MỤC SẢN PHẨM
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">HỘP CARTON SÓNG THÔNG
-                                            DỤNG</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">HỘP OFFSET MỀM CAO CẤP</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">HỘP CARTON CỨNG CAO CẤP</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">SẢN PHẨM IN NHANH</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">KHAY ĐỊNH HÌNH</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">TÚI GIẤY</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown-submenu">
-                                        <a class="dropdown-item dropdown-toggle" href="#" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">PHỤ KIỆN ĐÓNG HÀNG</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                            <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    DỊCH VỤ IN ẤN
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">In Hộp Giấy</a></li>
-                                    <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                    <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                    <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                    <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                    <li><a class="dropdown-item" href="#">In Túi Giấy</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">VỀ CHÚNG TÔI</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">TIN TỨC</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">VIDEO NỔI BẬT</a>
-                            </li>
-                        </ul>
-
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header> -->
 </body>
 <script src="js/header.js"></script>
 

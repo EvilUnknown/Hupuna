@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="text-center mt-3">
-                <p class="mb-0">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
+                <p class="fs-13">© 2025 <b>Hupuna Group</b>. All rights reserved.</p>
             </div>
         </div>
     </footer>
