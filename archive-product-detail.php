@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/base-style.css" rel="stylesheet">
     <link href="./css/detailcategories.css" rel="stylesheet">
+    <link href="./css/product-item.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -871,7 +872,8 @@
                     <div class="row listProduct mt-3">
                         <ul class=" d-flex align-items-center ">
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -888,10 +890,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -908,10 +911,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -928,10 +932,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -948,10 +953,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -968,10 +974,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -988,10 +995,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1008,10 +1016,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1028,10 +1037,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1048,10 +1058,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1068,10 +1079,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1088,10 +1100,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1108,10 +1121,11 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
                             <li>
-                                <div class="img-100 imgProduct">
+                                <?php include 'product-item.php'; ?>
+                                <!-- <div class="img-100 imgProduct">
                                     <img src="./images/bannerhopcarton.jfif" alt="Product 1">
                                 </div>
                                 <div class="contentProduct mt-2">
@@ -1128,7 +1142,7 @@
                                         <span class="text-primary fs-10">Đã bán 200 SP</span>
                                     </div>
 
-                                </div>
+                                </div> -->
                             </li>
 
 
