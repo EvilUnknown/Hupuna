@@ -441,11 +441,11 @@
                         <?php } ?>
                     </div>
                     <div class="custom-navigation">
-                        <a href="javascript:;" title="nav" class="custom-prev position-absolute translate-middle-y" data-slide="product-slide-1">
-                            <img src="images/flexslide-prev.svg" alt="Prev">
+                        <a href="javascript:;" title="nav" class="custom-prev position-absolute start-0 top-50 translate-middle-y" data-slide="product-related-slide">
+                            <img src="images/product_related_prev_chervon.svg" alt="Prev">
                         </a>
-                        <a href="javascript:;" title="nav" class="custom-next position-absolute translate-middle-y" data-slide="product-slide-1">
-                            <img src="images/flexslide-next.svg" alt="Next">
+                        <a href="javascript:;" title="nav" class="custom-next position-absolute end-0 top-50 translate-middle-y" data-slide="product-related-slide">
+                            <img src="images/product_related_next_chervon.svg" alt="Next">
                         </a>
                     </div>
                 </div>

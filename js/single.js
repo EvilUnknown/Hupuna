@@ -37,7 +37,7 @@ $('.thumb-slide').slick({
 
 
 $('.product-related-slide').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     dots: false,
     arrows: false,
@@ -49,16 +49,26 @@ $('.product-related-slide').slick({
             }
         },
         {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 5
-            }
-        },
-        {
-            breakpoint: 500,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 3
             }
         },
+        {
+            breakpoint: 610,
+            settings: {
+                slidesToShow: 2
+            }
+        },
     ]
+});
+
+$('.custom-prev').click(function(){
+    var slide = $(this).data('slide');
+    $('.' + slide).slick('slickPrev');
+});
+
+$('.custom-next').click(function(){
+    var slide = $(this).data('slide');
+    $('.' + slide).slick('slickNext');
 });
