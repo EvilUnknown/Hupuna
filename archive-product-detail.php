@@ -7,16 +7,17 @@
     <link href="./css/base-style.css" rel="stylesheet">
     <link href="./css/detailcategories.css" rel="stylesheet">
     <link href="./css/product-item.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="./css/bootstrap-grid.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -28,47 +29,48 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="w-100 clear-both">
-
+        <!-- Start breadcrumb -->
         <div class="breadcrumb">
             <ul class="container">
-                <li><a href="#">Trang chủ</a></li>
-                <li>Hộp Carton</li>
+                <li class="d-inline fs-15"><a href="#">Trang chủ</a></li>
+                <li class="d-inline fs-15">Hộp Carton</li>
             </ul>
-
         </div>
+        <!-- End breadcrumb -->
         <div class="container">
-            <div class="category mb-5">
+            <!-- Start category -->
+            <div class="category mt-4">
                 <div class="border-bottom d-flex">
-                    <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp đối</a>
-                    <a href="#" class="see-more">XEM THÊM</a>
+                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative">Hộp carton nắp đối</a>
+                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative">XEM THÊM</a>
                 </div>
                 <div class="row mt-2">
-                    <div class="carousel-container">
+                    <div class="carousel-container position-relative">
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="1500">
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE VỪA</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
                             </div>
                         </div>
                     </div>
@@ -77,38 +79,40 @@
 
 
             </div>
-            <div class="category mb-5">
+            <!-- End category -->
+            <!-- Start category -->
+            <div class="category mb-3">
                 <div class="border-bottom d-flex">
-                    <a href="#" class="btn btn-primary fs-18 border-0">Hộp carton nắp gài</a>
-                    <a href="#" class="see-more">XEM THÊM</a>
+                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative">Hộp carton nắp gài</a>
+                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative">XEM THÊM</a>
                 </div>
                 <div class="row mt-2">
-                    <div class="carousel-container">
+                    <div class="carousel-container position-relative">
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2000">
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE NHỎ</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE VỪA</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE VỪA</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
                             </div>
-                            <div class="item">
+                            <div class="item text-center">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
                                 </div>
-                                <p class="fw-bold mt-2 fs-18 line-clamp">HỘP SIZE LỚN</p>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
                             </div>
                         </div>
                     </div>
@@ -117,11 +121,12 @@
 
 
             </div>
+            <!-- End category -->
             <div class="row selectCategory">
                 <!--Start select desktop -->
                 <div class="col-3 desktop">
                     <div class="d-flex align-items-center">
-                        <img class="iconMenu" src="./icons/menu-blue.svg">
+                        <img class="iconMenu me-2" src="./icons/menu-blue.svg">
                         <h2 class="fs-20 fw-600">Tất cả danh mục</h2>
                     </div>
                     <div class="row">
@@ -130,7 +135,7 @@
                                 <li class="category-item" onclick="toggleSubmenu('cartonBox')"><img class="icon-right"
                                         src="./icons/right-svgrepo-com.svg" alt=""> Hộp
                                     carton
-                                    <ul class="subcategory cartonBox openClose" style="display: none;">
+                                    <ul class="subcategory pb-1 pt-1 cartonBox openClose" style="display: none;">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v1" value="v1"> Hộp carton nắp đối
@@ -150,7 +155,7 @@
                                 </li>
                                 <li class="category-item" onclick="toggleSubmenu('ofsetBox')"><img class="icon-right"
                                         src="./icons/right-svgrepo-com.svg" alt=""> Hộp in ofset
-                                    <ul class="subcategory ofsetBox openClose" style="display: none;">
+                                    <ul class="subcategory pb-1 pt-1 ofsetBox openClose" style="display: none;">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v4" value="v4"> Hộp dựng trà
@@ -186,9 +191,9 @@
                         </div>
                         <div id="filterStatus" class="mt-3">
                             <ul class="categoryList">
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo cấu tạo nắp
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo cấu tạo nắp
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v7" value="v7"> Hộp nắp đối
@@ -201,9 +206,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo kích thước
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo kích thước
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v9" value="v9"> Hộp size nhỏ (< 20 cm)
@@ -221,9 +226,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo số lớp
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo số lớp
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v12" value="v12"> 3 lớp
@@ -241,9 +246,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo loại sóng
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo loại sóng
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v15" value="v15"> Sóng A
@@ -296,9 +301,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo màu sắc
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo màu sắc
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v25" value="v25"> Mặt nâu, đáy mộc
@@ -321,9 +326,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo định lượng giấy
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo định lượng giấy
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v29" value="v29"> 70 gsm
@@ -351,9 +356,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo khu vực
-                                    <ul id="giay" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo khu vực
+                                    <ul id="giay" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v34" value="v34"> Miền Bắc
@@ -377,9 +382,9 @@
                         </div>
                         <div id="filterStatus" class="mt-3">
                             <ul class="categoryList">
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo cấu tạo nắp
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo cấu tạo nắp
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v7" value="v7"> Hộp nắp đối
@@ -392,9 +397,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo kích thước
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo kích thước
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v9" value="v9"> Hộp size nhỏ (< 20 cm)
@@ -412,9 +417,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo số lớp
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo số lớp
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v12" value="v12"> 3 lớp
@@ -432,9 +437,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo loại sóng
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo loại sóng
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v15" value="v15"> Sóng A
@@ -487,9 +492,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo màu sắc
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo màu sắc
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v25" value="v25"> Mặt nâu, đáy mộc
@@ -512,9 +517,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo định lượng giấy
-                                    <ul id="carton" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo định lượng giấy
+                                    <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v29" value="v29"> 70 gsm
@@ -542,9 +547,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
-                                        alt=""> Lọc theo khu vực
-                                    <ul id="giay" class="subcategory">
+                                <li class="category-item fs-17"><img class="icon-right"
+                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo khu vực
+                                    <ul id="giay" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
                                                 <input type="checkbox" name="v34" value="v34"> Miền Bắc
@@ -562,13 +567,13 @@
                     </div>
                     <div class="row buttonSelect">
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 border-0">Thiết lập lại</button>
+                            <button class="btn btn-primary w-100 fw-500 ">Thiết lập lại</button>
                         </div>
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 border-0">Áp dụng</button>
+                            <button class="btn btn-primary w-100 fw-500">Áp dụng</button>
                         </div>
                         <div class="col-12 p-1">
-                            <button class="btn btn-primary w-100 border-0 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
+                            <button class="btn btn-primary w-100 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
                         </div>
                     </div>
                 </div>
@@ -576,8 +581,8 @@
 
                 <div class="col-9 filterProduct">
                     <div class=" mobile">
-                        <!-- Start select -->
-                        <nav class="navbar navbar-expand-lg bg-light">
+                        <!-- Start select mobile-->
+                        <nav class="navbar navbar-expand-lg bg-light cursor-pointer">
                             <div class="container">
                                 <!-- Nút mở Mega Menu -->
                                 <div id="categoryMegaMenuBtn" class=" d-flex align-items-center">
@@ -589,80 +594,89 @@
                         </nav>
 
                         <!-- Mega Menu Toàn Màn Hình -->
-                        <div id="categoryMegaMenu" class="category-mega-menu ">
-                            <span id="closeMegaMenu" class="close-btn">&times;</span>
-                            <div class="container py-3">
+                        <div id="categoryMegaMenu" class="category-mega-menu w-100 z-3">
+                            <span id="closeMegaMenu"
+                                class="close-btn fs-24 position-absolute cursor-pointer">&times;</span>
+                            <div class="ms-4 py-3">
                                 <div class="d-flex align-items-center">
                                     <img class="iconMenu" src="./icons/menu-svgrepo-com.svg">
-                                    <h2 class="fs-18 fw-600 mb-0">Tất cả danh mục</h2>
+                                    <h2 class="fs-18 fw-600 mb-0 ms-0">Tất cả danh mục</h2>
                                 </div>
                             </div>
                             <div class="row container">
                                 <div id="filterContent">
                                     <ul class="categoryList">
-                                        <li class="category-item fs-15 fw-600 mt-2"
-                                            onclick="toggleSubmenu('cartonBox')">Hộp
+                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenu('cartonBox')">Hộp
                                             carton
                                             <div class="cartonBox openClose" style="display: none;">
                                                 <div class="row">
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp
                                                             carton
                                                             nắp đối</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp
                                                             carton
                                                             nắp gài</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp
                                                             carton
                                                             chuyển nhà</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp viên
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp viên
                                                             kê
                                                             bê tông</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="category-item fs-15 fw-600 mt-2" onclick="toggleSubmenu('ofsetBox')">
+                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenu('ofsetBox')">
                                             Hộp
                                             in ofset
                                             <div class="ofsetBox openClose" style="display: none;">
                                                 <div class="row">
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp đựng
                                                             trà</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp đựng
                                                             bánh trung thu</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Hộp đựng
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Hộp đựng
                                                             quà
                                                             tặng</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Thùng
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Thùng
                                                             đựng
                                                             nông sản</button>
                                                     </div>
-                                                    <div class="col-6 subCategory mt-2">
-                                                        <button class="w-100" onclick="event.stopPropagation()">Thùng
+                                                    <div class="col-6 subCategory pb-1 pt-1 mt-2 pb-1 pt-1">
+                                                        <button class="w-100 fs-15 fw-400"
+                                                            onclick="event.stopPropagation()">Thùng
                                                             đựng
                                                             hàng gia dụng</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="category-item fs-15 fw-600 mt-2">Túi giấy</li>
-                                        <li class="category-item fs-15 fw-600 mt-2">Màng PE - Màng chít</li>
-                                        <li class="category-item fs-15 fw-600 mt-2">Xốp Foam</li>
-                                        <li class="category-item fs-15 fw-600 mt-2">Xốp khí - Bóng khí</li>
+                                        <li class=" fs-15 fw-600 mt-2">Túi giấy</li>
+                                        <li class=" fs-15 fw-600 mt-2">Màng PE - Màng chít</li>
+                                        <li class="fs-15 fw-600 mt-2">Xốp Foam</li>
+                                        <li class=" fs-15 fw-600 mt-2">Xốp khí - Bóng khí</li>
                                     </ul>
                                 </div>
                             </div>
@@ -679,101 +693,101 @@
                                     <ul class="categoryList">
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo cấu tạo nắp
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Nắp đối</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Nắp đối</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Nắp gài</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Nắp gài</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo kích thước
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp size nhỏ</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp size nhỏ</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp size vừa</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp size vừa</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp size lớn</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp size lớn</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo màu sắc
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Mặt nâu, đáy mộc</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Mặt nâu, đáy mộc</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">2 mặt nâu</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">2 mặt nâu</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Mặt trắng, đáy nâu</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Mặt trắng, đáy nâu</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Mặt trắng, đáy mộc</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Mặt trắng, đáy mộc</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo số lớp
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">3 lớp</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">3 lớp</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">5 lớp</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">5 lớp</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">7 lớp</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">7 lớp</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo loại sóng
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng A</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng A</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng B</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng B</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng C</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng C</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng E</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng E</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng AB</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng AB</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Sóng AE</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Sóng AE</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo định lượng giấy
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">70 gsm</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">70 gsm</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">100 gsm</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">100 gsm</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">120 gsm</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">120 gsm</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">150 gsm</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">150 gsm</button>
                                                 </div>
                                             </div>
                                         </li>
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo khu vực
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Miền Bắc</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Miền Bắc</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Miền Nam</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Miền Nam</button>
                                                 </div>
                                             </div>
                                         </li>
@@ -792,48 +806,49 @@
                                     <ul class="categoryList">
                                         <li class="category-item fs-18 fw-600 mt-2">Lọc theo loại sản phẩm
                                             <div class="row">
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp đựng trà</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp đựng trà</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp đựng bánh trung thu</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp đựng bánh trung thu</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp đựng quà tặng</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp đựng quà tặng</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Hộp đựng nông sản</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Hộp đựng nông sản</button>
                                                 </div>
-                                                <div class="col-6 subCategory mt-2">
-                                                    <button class="w-100">Thùng đựng hàng gia dụng</button>
+                                                <div class="col-6 subCategory pb-1 pt-1 mt-2">
+                                                    <button class="w-100 fs-15 fw-400">Thùng đựng hàng gia dụng</button>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row buttonFilter buttonSelect container">
+                            <div class="row buttonFilter buttonSelect container pb-3 pt-3">
                                 <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0">Thiết lập lại</button>
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400">Thiết lập lại</button>
                                 </div>
                                 <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0">Áp dụng</button>
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400">Áp dụng</button>
                                 </div>
                                 <div class="col-12 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
+                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-600">ĐẶT HÀNG THEO YÊU
+                                        CẦU</button>
                                 </div>
                             </div>
                         </div>
 
                         <div class=" row mt-3 d-flex fs-18 align-items-center justify-content-center">
                             <div class="col-6">
-                                <p class="fs-15" style="margin-left: 10px !important;">Sắp xếp theo</p>
+                                <p class="fs-15 mb-2 ms-2">Sắp xếp theo</p>
                             </div>
                             <div class="col-6">
-                                <p class="fs-15">1-60/103 kết quả</p>
+                                <p class="fs-15 mb-2 ms-2">1-60/103 kết quả</p>
                             </div>
                             <div class="col-6 d-flex align-items-center justify-content-center fs-15">
-                                <select>
+                                <select class="w-100">
                                     <option selected>Phổ biến</option>
                                     <option value="1">Xem nhiều</option>
                                     <option value="2">Mua nhiều</option>
@@ -841,24 +856,24 @@
                                 </select>
                             </div>
                             <div class="col-6 d-flex align-items-center justify-content-center fs-15">
-                                <select>
+                                <select class="w-100">
                                     <option selected>Giá</option>
                                     <option value="1">Thấp đến cao</option>
                                     <option value="2">Cao đến thấp</option>
                                 </select>
                             </div>
                         </div>
-                        <!-- End select -->
+                        <!-- End select mobile -->
                     </div>
                     <div class="row desktop d-flex fs-18 align-items-center justify-content-center">
                         <div class="col-2">
                             <p class="fs-15">Sắp xếp theo</p>
                         </div>
                         <div class="col-8 d-flex align-items-center justify-content-center">
-                            <button>Phổ biến</button>
-                            <button>Mới nhất</button>
-                            <button>Bán chạy</button>
-                            <select>
+                            <button class="cursor-pointer fs-15">Phổ biến</button>
+                            <button class="cursor-pointer fs-15">Mới nhất</button>
+                            <button class="cursor-pointer fs-15">Bán chạy</button>
+                            <select class="fs-15 cursor-pointer">
                                 <option selected>Giá</option>
                                 <option value="1">Thấp đến cao</option>
                                 <option value="2">Cao đến thấp</option>
@@ -869,298 +884,67 @@
                         </div>
                     </div>
 
+                    <!-- start listProduct -->
                     <div class="row listProduct mt-3">
                         <ul class=" d-flex align-items-center ">
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
                             <li>
                                 <?php include 'product-item.php'; ?>
-                                <!-- <div class="img-100 imgProduct">
-                                    <img src="./images/bannerhopcarton.jfif" alt="Product 1">
-                                </div>
-                                <div class="contentProduct mt-2">
-                                    <p class="btn btn-danger fs-10">Giảm 1.000đ</p>
-                                    <p class="fw-bolder fs-15 line-clamp">Thùng xốp đại kích thước 70 50 44 cm nuôi cá
-                                    </p>
-                                    <p class="text-danger">3.594 VNĐ <span class="btn btn-danger fs-10">25%</span></p>
-                                    <div class="d-flex align-items-center">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/starblue.svg" alt="star">
-                                        <img class="star" src="./icons/star.svg" alt="star">
-                                        <span class="text-primary fs-10">Đã bán 200 SP</span>
-                                    </div>
-
-                                </div> -->
                             </li>
 
 
                         </ul>
                         <div class=" pagination d-flex justify-content-center align-items-center">
-                            <a href="#">&laquo;</a>
-                            <a href="#">1</a>
-                            <a href="#" class="active">2</a>
-                            <a href="#">3</a>
-                            <a href="#">4</a>
-                            <a href="#">5</a>
-                            <a href="#">&raquo;</a>
+                            <a class="ms-1 me-1" href="#">&laquo;</a>
+                            <a class="ms-1 me-1 active" href="#">1</a>
+                            <a class="ms-1 me-1" href="#" class="active">2</a>
+                            <a class="ms-1 me-1" href="#">3</a>
+                            <a class="ms-1 me-1" href="#">4</a>
+                            <a class="ms-1 me-1" href="#">5</a>
+                            <a class="ms-1 me-1" href="#">&raquo;</a>
                         </div>
                     </div>
+                    <!-- end listProduct -->
 
+                    <!-- start  describeCategory-->
                     <div class="row mt-3">
                         <div class="describeCategory">
-                            <p class="fs-15 text-content">
+                            <p class="fs-15 text-content fw-400 text-justify position-relative">
                                 Hộp carton là dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                                 euismod
                                 tincidunt ut laoreet
@@ -1196,6 +980,7 @@
 
                         </div>
                     </div>
+                    <!-- end  describeCategory-->
                 </div>
             </div>
         </div>
