@@ -431,10 +431,10 @@
             </div>
 
             <div class="product-related">
-                <div class="title text-third-color background-second-color">
+                <div class="title text-third-color background-second-color d-inline-block mb-3 fs-18">
                     Sản phẩm tương tự
                 </div>
-                <div class="position-relative">
+                <div class="product-related-wrap position-relative">
                     <div class="product-related-slide" data-slides-to-show="6" data-slides-to-scroll="1">
                         <?php for($i = 0; $i < 7; $i++) { ?>
                             <?php include 'product-item.php'; ?>

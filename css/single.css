@@ -13,11 +13,13 @@
     border-radius: 15px;
 }
 
-.product-detail .thumb-slide .slick-slide{
+.product-detail .thumb-slide .slick-slide,
+.product-detail .product-related-slide .slick-slide{
     margin: 0 10px;
 }
 
-.product-detail .thumb-slide .slick-list{
+.product-detail .thumb-slide .slick-list,
+.product-detail .product-related-slide .slick-list{
     margin: 0 -10px;
 }
 
@@ -212,7 +214,12 @@
 }
 
 .product-detail .product-related .title{
-    
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.product-detail .product-related-wrap{
+    padding: 0 30px;
 }
 /* End product detail  */
 
