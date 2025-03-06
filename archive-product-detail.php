@@ -8,20 +8,11 @@
     <link href="./css/detailcategories.css" rel="stylesheet">
     <link href="./css/product-item.css" rel="stylesheet">
     <link href="./css/bootstrap-grid.css" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-
-    <!-- Bootstrap JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <link href="./css/slick.css" rel="stylesheet">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/slick.min.js"></script>
 
     <title>Document</title>
 </head>
@@ -41,79 +32,49 @@
             <!-- Start category -->
             <div class="category mt-4">
                 <div class="border-bottom d-flex">
-                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative">Hộp carton nắp đối</a>
-                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative">XEM THÊM</a>
+                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative text-white">Hộp carton
+                        nắp đối</a>
+                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative text-black">XEM
+                        THÊM</a>
                 </div>
                 <div class="row mt-2">
                     <div class="carousel-container position-relative">
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="1500">
-                            <div class="item text-center">
+                            <?php for ($i = 0; $i < 9; $i++) : ?>
+                            <div class="item text-center cursor-pointer">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
                                 <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                             </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE VỪA</p>
-                            </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
-                            </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
-                            </div>
+                            <?php endfor; ?>
                         </div>
                     </div>
-
                 </div>
-
 
             </div>
             <!-- End category -->
             <!-- Start category -->
             <div class="category mb-3">
                 <div class="border-bottom d-flex">
-                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative">Hộp carton nắp gài</a>
-                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative">XEM THÊM</a>
+                    <a href="#" class="btn btn-primary fs-18 border-0 fw-700 position-relative text-white">Hộp carton
+                        nắp gài</a>
+                    <a href="#" class="see-more fw-600 align-items-center d-flex position-relative text-black">XEM
+                        THÊM</a>
                 </div>
                 <div class="row mt-2">
                     <div class="carousel-container position-relative">
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2000">
-                            <div class="item text-center">
+                            <?php for ($i = 0; $i < 9; $i++) : ?>
+                            <div class="item text-center cursor-pointer">
                                 <div class="img-100 imgdetaisCategory">
                                     <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
                                 <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                             </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE VỪA">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE VỪA</p>
-                            </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
-                            </div>
-                            <div class="item text-center">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE LỚN">
-                                </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE LỚN</p>
-                            </div>
+                            <?php endfor; ?>
                         </div>
                     </div>
 
@@ -565,15 +526,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row buttonSelect">
+                    <div class="row buttonSelect mt-2">
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 fw-500 ">Thiết lập lại</button>
+                            <button class="btn btn-primary w-100 fw-500 text-white ">Thiết lập lại</button>
                         </div>
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 fw-500">Áp dụng</button>
+                            <button class="btn btn-primary w-100 fw-500 text-white">Áp dụng</button>
                         </div>
                         <div class="col-12 p-1">
-                            <button class="btn btn-primary w-100 fw-600">ĐẶT HÀNG THEO YÊU CẦU</button>
+                            <button class="btn btn-primary w-100 fw-600 text-black">ĐẶT HÀNG THEO YÊU CẦU</button>
                         </div>
                     </div>
                 </div>
@@ -887,46 +848,11 @@
                     <!-- start listProduct -->
                     <div class="row listProduct mt-3">
                         <ul class=" d-flex align-items-center ">
+                            <?php for ($i = 0; $i < 15; $i++) : ?>
                             <li>
                                 <?php include 'product-item.php'; ?>
                             </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
-
+                            <?php endfor; ?>
 
                         </ul>
                         <div class=" pagination d-flex justify-content-center align-items-center">
@@ -986,8 +912,6 @@
         </div>
     </div>
     <?php include 'footer.php'; ?>
-
-    <script src="./js/base.js"></script>
 
 
     <script>

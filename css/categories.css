@@ -3,26 +3,14 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .container .see-more {
-  display: inline-block;
   padding: 12px 20px 12px 20px;
   background: #ffcc00!important;
-  color: #000 !important;
-  text-decoration: none;
-  position: relative;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
   margin-left: auto;
 }
-.container p.nameCategory{
-  text-align: center;
-}
 .container a.btn-primary {
-  display: inline-block;
   padding: 12px 50px 12px 20px;
   background: #003366;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  position: relative;
   border-radius: 5px;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
 }
@@ -30,24 +18,16 @@
     padding-bottom: 94%;
     border-radius: 7px;
   }
-  .carousel-container {
-    position: relative;
-  }
   .custom_slider .item .img-100 {
     background: #fff;
     border-radius: 7px;
-    text-align: center;
     margin: 10px;
-    cursor: pointer;
   }
   .slick-prev, .slick-next {
     border-radius: 50%;
-    z-index: 100;
+    z-index: 2;
     background-color: rgb(102, 100, 100);
     border: 2px solid #929292;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .slick-prev:before, .slick-next:before {
     content: "" !important;
@@ -55,15 +35,15 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
-  .slick-prev:before {
-    background-image: url('../icons/left.svg');
+  .slick-prev:before,.slick-next:before{
     height: 40px;
     width: 40px;
   }
+  .slick-prev:before {
+    background-image: url('../icons/left.svg');
+  }
   .slick-next:before {
     background-image: url('../icons/right.svg');
-    height: 40px;
-    width: 40px;
   }
   .slick-prev:hover,.slick-prev:focus,.slick-next:hover,.slick-next:focus {
       color: transparent;
@@ -75,10 +55,9 @@
   }
   /* Custom arrows */
   .slick-prev, .slick-next {
-    border-radius: 50%;
     width: 40px!important;
     height: 40px!important;
-    z-index: 100;
+    z-index: 2;
   }
   .slick-prev:hover, .slick-next:hover {
     opacity: 1;
@@ -104,7 +83,6 @@
   .container p.nameCategory{
       font-size: 14px !important;
   }
-
   .bannerCategories{
     border-radius: 10px;
   }

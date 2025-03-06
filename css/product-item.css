@@ -2,15 +2,12 @@
     padding-bottom: 95%;
     border-radius: 7px;
   }
-
 .contentProduct{margin: 10px;}
 
 .contentProduct .btn{
-    padding: 0px 2px;
-  }
-  
-.contentProduct p{
-    margin: 0px;
+    padding: 2px 4px;
+    background: #ff3636;
+    border-radius: 7px;
   }
   
 .contentProduct img.star{
@@ -18,6 +15,3 @@
     width: 10px !important;
   }
   
-.contentProduct .fa-star{
-    font-size: 10px !important;
-  }

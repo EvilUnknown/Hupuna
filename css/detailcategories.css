@@ -23,14 +23,12 @@
 .category .see-more {
   padding: 12px 20px 12px 20px;
   background: #ffcc00!important;
-  color: #000 !important;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
   margin-left: auto;
 }
 .category a {
   padding: 12px 50px 12px 20px;
   background: #003366;
-  color: white;
   border-radius: 5px;
   clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
 }
@@ -43,7 +41,6 @@
   border-radius: 7px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2) !important;
   margin: 10px;
-  cursor: pointer;
 }
 .slick-prev, .slick-next {
   width: 50px !important;
@@ -117,12 +114,10 @@
 .selectCategory .buttonSelect button{
   background: #003366 !important;
   border-radius: 12px !important;
-  color: white;
 }
 .buttonSelect .col-12 button{
   background: #ffcc00 !important;
   padding: 15px 20px;
-  color: #000;
 }
 .filterProduct select:hover{
   background: #e1dfdf;
