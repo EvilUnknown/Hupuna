@@ -18,6 +18,7 @@ body {
     font-family: "Inter", serif;
     color: var(--second-color);
     margin: 0;
+    font-size: 15px;
 }
 
 img {
@@ -286,6 +287,26 @@ video{
     right: 0;
 }
 
+.end-50 {
+    right: 50%;
+}
+
+.end-100 {
+    right: 100%;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.bottom-50{
+    bottom: 50%;
+}
+
+.bottom-100{
+    bottom: 100%;
+}
+
 .translate-middle-x{
     transform: translateX(-50%);
 }
@@ -352,6 +373,10 @@ video{
 
 .justify-content-between {
     justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
 }
 
 .align-items-start {
@@ -689,6 +714,10 @@ video{
 }
 
 .fw-700{
+    font-weight: 700;
+}
+
+.fw-800{
     font-weight: 700;
 }
 
