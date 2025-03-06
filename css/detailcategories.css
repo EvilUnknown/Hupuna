@@ -72,7 +72,7 @@
 .custom_slider .item p {
   color: #003366;
 }
-.slick-dots{
+ .category .slick-dots{
   display: none !important;
 }
 /* filter */
@@ -170,7 +170,7 @@
 .text-content.expanded::after {
   display: none;
 }
-.bannerFooter{
+.bannerDescribeCategory{
   padding-bottom: 57%;
 }
 @media all and (max-width: 767px) {
@@ -199,10 +199,6 @@
   }
 /* mega menu mobile */
 .category-mega-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
   background: #fff;
   transform: translateY(-1000%);
   transition: transform 0.3s ease-in-out;

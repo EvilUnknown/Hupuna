@@ -556,7 +556,8 @@
                         </nav>
 
                         <!-- Mega Menu Toàn Màn Hình -->
-                        <div id="categoryMegaMenu" class="category-mega-menu w-100 z-3">
+                        <div id="categoryMegaMenu"
+                            class="category-mega-menu w-100 z-3 top-0 start-0 position-fixed height-100">
                             <span id="closeMegaMenu"
                                 class="close-btn fs-24 position-absolute cursor-pointer">&times;</span>
                             <div class="ms-4 pb-1 pt-3">
@@ -904,7 +905,7 @@
                             <button class=" mt-2 toggle-text w-100">Xem thêm</button>
                         </div>
                         <div>
-                            <div class="bannerFooter img-100 mt-5">
+                            <div class="bannerDescribeCategory img-100 mt-5">
                                 <img src="./images/bannerFooter.jfif" alt="Banner Footer">
                             </div>
 
