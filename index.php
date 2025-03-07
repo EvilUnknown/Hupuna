@@ -1022,7 +1022,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1037,7 +1037,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1052,7 +1052,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1068,7 +1068,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1084,7 +1084,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
@@ -1100,7 +1100,7 @@
                                     </div>
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
                                         <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
