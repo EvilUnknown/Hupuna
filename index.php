@@ -10,8 +10,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     </script>
     <!-- slickslider css and slickslider js  -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="text-block-content">
                                     <div class="info-content-title">
-                                        <h2 class="text-white fs-3">CEO NGUYỄN TIẾN HUY</h2>
+                                        <h2 class="text-white fs-24">CEO NGUYỄN TIẾN HUY</h2>
                                         <h4 class="text-white">Tổng Giám Đốc Hupuna</h4>
                                     </div>
                                     <div class="info-content-text">
@@ -208,21 +208,23 @@
         </section>
 
         <section class="section box-product-best-seller py-3">
-            <div class="row justify-content-center">
+            <div class="justify-content-center">
                 <div class="col-12">
-                    <div class="pro-tab-title d-flex justify-content-between align-items-center pb-3">
-                        <h2 class="fs-24 library">SẢN PHẨM BÁN CHẠY</h2>
-                        <div class="mobile-library d-flex justify-content-between px-2 py-2">
-                            <h2 class="fs-24">SẢN PHẨM BÁN CHẠY</h2>
-                            <li class="see-more"><a class="text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                    <div class="d-flex justify-content-between pb-3">
+                        <div class="pro-tab-title d-flex align-items-center">
+                            <h2 class="fs-24 library">SẢN PHẨM BÁN CHẠY</h2>
+                            <div class="mobile-library d-flex justify-content-between px-2 py-2">
+                                <h2 class="fs-18">SẢN PHẨM BÁN CHẠY</h2>
+                                <li class="see-more"><a class="text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            </div>
+                            <ul class="nav nav-tabs tab-title fs-16 d-flex" id="productTabs">
+                                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
+                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
+                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
+                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
+                            </ul>
                         </div>
-                        <ul class="nav nav-tabs tab-title fs-16 d-flex" id="productTabs">
-                            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
-                            <li class="see-more "><a class="fs-15 text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
-                        </ul>
+                        <li class="see-more see-more-desk"><a class="fs-15 text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
                         <div class="col-3 product-img">
@@ -379,7 +381,7 @@
         </section>
 
         <section class="section box-product-hight">
-            <div class="row justify-content-center">
+            <div class="justify-content-center">
                 <div class="col-12 container-product-hight">
                     <div class="product-hight-title pb-2 d-flex justify-content-between">
                         <h2 class="fs-24">SẢN PHẨM NỔI BẬT</h2>
@@ -493,7 +495,7 @@
                     <div class="d-flex gap-5 title-library">
                         <h2 class="fs-24 library d-flex"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                         <div class="mobile-library d-flex justify-content-between px-2 py-2">
-                            <h2 class="fs-22"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
+                            <h2 class="fs-18"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                             <li class="see-more"><a class=" text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
                         <ul class="nav nav-tabs tab-title d-flex fs-16" id="productTabs">
@@ -700,95 +702,94 @@
         </section>
 
         <section class="section box-besiness py-5">
-            <div class="row">
-                <div class="col-12">
-                    <div class="besiness-title py-4">
-                        <h2 class="fs-28 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
-                        <div class="border-bottom bg-black"></div>
+            <div class="col-12">
+                <div class="besiness-title py-4">
+                    <h2 class="fs-28 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
+                    <div class="border-bottom bg-black"></div>
+                </div>
+                <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
+                    <div class="col-4 content-besiness content-besiness1">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-my-pham-80x80.png" alt="offset-mem-80x80">
+                            </div>
+                            <div class="col-9">
+                                <h3>MỸ PHẨM</h3>
+                                <P class="text-justify">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
+                                    đổi.
+                                    Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến đổi tính chất theo thời
+                                    gian...</P>
+                            </div>
+                        </div>
                     </div>
-                    <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
-                        <div class="col-4 content-besiness content-besiness1">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-my-pham-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>MỸ PHẨM</h3>
-                                    <P class="text-justify">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
-                                        đổi.
-                                        Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến đổi tính chất theo thời
-                                        gian...</P>
-                                </div>
+                    <div class="col-4 content-besiness content-besiness2">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-nong-san-80x80.png" alt="offset-mem-80x80">
+                            </div>
+                            <div class="col-9">
+                                <h3>NÔNG SẢN - OCOP</h3>
+                                <P class="text-justify">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
+                                    nhiều thị trường thế giới.
+                                    Bao bì nông sản tác động trực tiếp đến hành vi mua hàng...</P>
                             </div>
                         </div>
-                        <div class="col-4 content-besiness content-besiness2">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-nong-san-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>NÔNG SẢN - OCOP</h3>
-                                    <P class="text-justify">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
-                                        nhiều thị trường thế giới.
-                                        Bao bì nông sản tác động trực tiếp đến hành vi mua hàng...</P>
-                                </div>
+                    </div>
+                    <div class="col-4 content-besiness content-besiness3">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-duoc-pham-80x80.png" alt="offset-mem-80x80">
+                            </div>
+                            <div class="col-9">
+                                <h3>DƯỢC</h3>
+                                <P class="text-justify">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
+                                    sức khỏe con người.
+                                    Bao bì dược phẩm giúp bảo quản tốt thuốc bên trong, ...</P>
                             </div>
                         </div>
-                        <div class="col-4 content-besiness content-besiness3">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-duoc-pham-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>DƯỢC</h3>
-                                    <P class="text-justify">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
-                                        sức khỏe con người.
-                                        Bao bì dược phẩm giúp bảo quản tốt thuốc bên trong, ...</P>
-                                </div>
+                    </div>
+                    <div class="col-4 content-besiness content-besiness4">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-quan-ao-80x80.png" alt="offset-mem-80x80">
+                            </div>
+                            <div class="col-9">
+                                <h3>THỜI TRANG</h3>
+                                <P class="text-justify">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
+                                    của thị trường.
+                                    Giá trị của món hàng thời trang được nâng lên khi mẫu mã được ...</P>
                             </div>
                         </div>
-                        <div class="col-4 content-besiness content-besiness4">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-quan-ao-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>THỜI TRANG</h3>
-                                    <P class="text-justify">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
-                                        của thị trường.
-                                        Giá trị của món hàng thời trang được nâng lên khi mẫu mã được ...</P>
-                                </div>
+                    </div>
+                    <div class="col-4 content-besiness content-besiness5">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-su-kien-80x80.png" alt="offset-mem-80x80">
+                            </div>
+                            <div class="col-9">
+                                <h3>SỰ KIỆN</h3>
+                                <P class="text-justify">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
+                                    trong xã hội.
+                                    Khi thực hiện tổ chức sự kiện thì ấn phẩm chính là điểm nhấn truyền tải ...</P>
                             </div>
                         </div>
-                        <div class="col-4 content-besiness content-besiness5">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-su-kien-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>SỰ KIỆN</h3>
-                                    <P class="text-justify">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
-                                        trong xã hội.
-                                        Khi thực hiện tổ chức sự kiện thì ấn phẩm chính là điểm nhấn truyền tải ...</P>
-                                </div>
+                    </div>
+                    <div class="col-4 content-besiness content-besiness6">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/icon-le-tet-80x80.png" alt="offset-mem-80x80">
                             </div>
-                        </div>
-                        <div class="col-4 content-besiness content-besiness6">
-                            <div class="row">
-                                <div class="col-3">
-                                    <img src="images/icon-le-tet-80x80.png" alt="offset-mem-80x80">
-                                </div>
-                                <div class="col-9">
-                                    <h3>LỄ TẾT</h3>
-                                    <P class="text-justify">Lễ Tết là một trong những ngày quan trọng đối với người dân
-                                        Việt Nam.
-                                        Ấn phẩm Lễ Tết được xem như là “chiến dịch” mà hầu hết các doanh nghiệp ...</P>
-                                </div>
+                            <div class="col-9">
+                                <h3>LỄ TẾT</h3>
+                                <P class="text-justify">Lễ Tết là một trong những ngày quan trọng đối với người dân
+                                    Việt Nam.
+                                    Ấn phẩm Lễ Tết được xem như là “chiến dịch” mà hầu hết các doanh nghiệp ...</P>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section class="section box-contact py-5">
@@ -836,7 +837,7 @@
             <img src="images/banner-ngang-10-năm.jpg" alt="">
         </div>
         <div class="container">
-            <div class="row justify-content-center py-5 wrap-feedback">
+            <div class="justify-content-center py-5 wrap-feedback">
                 <div class="col-12">
                     <div class="cutomer-feedback">
                         <div class="text-title text-center">
