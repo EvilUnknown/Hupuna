@@ -9,7 +9,7 @@ header {
 
 /* Button Search ================================= */
 .search-box {
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 50px;
 }
 
@@ -48,13 +48,14 @@ header {
     width: 100%;
     min-width: 250px;
     padding: 10px 25px;
+    text-transform: capitalize;
 }
 
 .menu ul ul a {
     color: #3d3d3d;
 }
 .menu ul ul a:hover {
-    color: var(--background-color-second)
+    color: #ffc107;
 }
 
 .menu ul ul li:hover {
@@ -149,8 +150,11 @@ header {
     .menu ul li a{
         font-size: 16px;
     }
+header .icon-menu-mobile{
+    display: none;
 }
-@media (max-width: 1200px) {
+
+@media (max-width: 1400px) {
     .menu ul li{
         padding: 6px 0;
         margin: 0 10px 0 0;
@@ -159,13 +163,15 @@ header {
         font-size: 14px;
     }
 }
-/* Desktop */
-@media (min-width: 992px) {
-    .toggle-btn {
-        display: none;
+@media (max-width: 1200px) {
+    .menu ul li a{
+        font-size: 13px;
+    }
+    header .container{
+        max-width: 100%;
     }
 }
-
+/* Desktop */
 /* Mobile */
 @media (max-width: 992px) {
     .menu {
@@ -182,5 +188,29 @@ header {
 
     .cart {
         display: none;
+    }
+
+    header .icon-menu-mobile{
+        display: unset;
+    }
+
+    header .search-box{
+        display: none !important;
+    }
+    
+    header .logo-mobile{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    header .logo-mobile img{
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 400px) {
+    header .logo-mobile img{
+        max-width: 100px;
     }
 }

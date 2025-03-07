@@ -841,6 +841,10 @@ section{
     display: block;
 }
 
+div{
+    display: block;
+}
+
 p{
     display: block;
     margin-bottom: 10px;
@@ -872,6 +876,12 @@ p{
 
 .height-100vh{
     height: 100vh;
+}
+
+@media only screen and (max-width: 1200px) { 
+    .container-md, .container-sm, .container {
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 992px) { 
@@ -986,9 +996,5 @@ p{
         opacity: 1;
         visibility: visible;
     }
-    /* End menu mobile  */
-
-    .container-md, .container-sm, .container {
-        max-width: 100%;
-    }
+    /* End menu mobile  */    
 }

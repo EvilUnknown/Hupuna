@@ -12,18 +12,25 @@
         <!-- Header -->
         <div class="container py-2">
             <div class="row justify-content-between align-items-center">
-                <div class="col-4 col-sm-3 col-lg-2 ms-1">
+                
+                <div class="col-2 col-sm-3 col-md-3 icon-menu-mobile">
+                    <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer"
+                        onclick="openSidebar()">
+                        <img src="icons/main-menu-icon.svg" width="20">
+                    </button>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-2 logo-mobile ms-1">
                     <img src="images/logo.png" alt="Logo trang chủ" width="100">
                 </div>
                 <div
-                    class="col-6 col-sm-10 w-100 border-0 search-box bg-white d-flex align-items-center justify-content-between">
+                    class="col-lg-6 border-0 search-box bg-white d-flex align-items-center justify-content-between">
                     <input type="text" class="w-100 border-0 bg-transparent py-2"
                         placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
                     <img src="icons/search-icon.svg" alt="Nút search" width="25">
                 </div>
-                <div class="col-lg-4 col-md-2 col-sm-2 col-2 d-flex justify-content-end">
+                <div class="col-4 col-sm-3 col-md-3 col-lg-4 d-flex justify-content-end">
                     <div class="row justify-content-between align-items-center">
-                        <div class="col-5 content-top-bar">
+                        <div class="col-sm-12 col-lg-5">
                             <a class="text-warning d-flex justify-content-end align-items-center" href="tel:0889736889">
                                 <img src="icons/phone-icon.svg" alt="icon giỏ hàng" width="18">
                                 <span class="ms-1 fs-15 fw-500">0889.736.889</span>
@@ -36,10 +43,6 @@
                             </a>
                         </div>
                         <div class="col-md-12 col-lg-2">
-                            <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer"
-                                onclick="openSidebar()">
-                                <img src="icons/main-menu-icon.svg" width="20">
-                            </button>
                             <a class="cart text-white cursor-pointer border-0">
                                 <img src="icons/cart-icon.svg" alt="icon giỏ hàng" width="25">
                             </a>
@@ -189,12 +192,12 @@
                     <li><a href="#">TIN TỨC</a></li>
                 </ul>
             </div>
-            <div class="row">
+            
                 <button
-                    class="col-12 col-lg-12 col-md-8 col-sm-6 menu-btn fw-500 p-2 fs-16 text-white border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
+                    class="menu-btn fw-500 p-2 fs-16 text-black border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
                         src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
                     BẬT</button>
-            </div>
+       
         </nav>
     </header>
 </body>

@@ -100,7 +100,7 @@
 }
 .filterProduct button.active {
   background: #003366 !important;
-  color: white;
+  color: var(--third-color);
 }
 .selectCategory select, .selectCategory button{
   border-radius: 34px;
@@ -144,7 +144,7 @@
 }
 .pagination a.active {
   background: #003366 !important;
-  color: white;
+  color: var(--third-color);
 }
 .pagination a:hover:not(.active) {background-color: #ddd;}
 /* cuối trang */
@@ -161,7 +161,7 @@
   left: 0;
   width: 100%;
   height: 40px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--third-color));
 }
 .text-content.expanded {
   max-height: 1000px; 
