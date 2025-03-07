@@ -214,8 +214,9 @@
 }
 
 .product-detail .product-related .title{
-    padding: 8px 30px;
-    border-radius: 10px;
+    padding: 12px 50px 12px 20px;
+    background: #003366;
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
 }
 
 .product-detail .product-related-wrap{
