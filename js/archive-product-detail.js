@@ -1,5 +1,5 @@
 // đóng mở menu
-    function toggleSubmenu(className) {
+    function toggleSubmenuCategory(className) {
         const allSubmenus = document.getElementsByClassName("openClose");
         const submenu = document.getElementsByClassName(className);
 
@@ -32,8 +32,25 @@
         });
     });
 
+    // js xem thêm
+    document.addEventListener("DOMContentLoaded", function() {
+        const toggleBtn = document.querySelector(".toggle-text");
+        const textContent = document.querySelector(".text-content");
+
+        toggleBtn.addEventListener("click", function() {
+            if (textContent.classList.contains("expanded")) {
+                textContent.classList.remove("expanded");
+                toggleBtn.textContent = "Xem thêm";
+            } else {
+                textContent.classList.add("expanded");
+                toggleBtn.textContent = "Thu gọn";
+            }
+        });
+    });
+
 
 // đóng mở megamenucategory
+$( document ).ready(function() {
     document.getElementById("categoryMegaMenuBtn").addEventListener("click", function() {
         document.getElementById("categoryMegaMenu").classList.add("show");
     });
@@ -50,20 +67,6 @@
             menu.classList.remove("show");
         }
     });
+})
 
 
-// js xem thêm
-    document.addEventListener("DOMContentLoaded", function() {
-        const toggleBtn = document.querySelector(".toggle-text");
-        const textContent = document.querySelector(".text-content");
-
-        toggleBtn.addEventListener("click", function() {
-            if (textContent.classList.contains("expanded")) {
-                textContent.classList.remove("expanded");
-                toggleBtn.textContent = "Xem thêm";
-            } else {
-                textContent.classList.add("expanded");
-                toggleBtn.textContent = "Thu gọn";
-            }
-        });
-    });
