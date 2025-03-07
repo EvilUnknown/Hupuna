@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 category-right">
+                        <div class="col-6 category-right align-items-center d-flex position-relative">
                             <div class="box-categories text-center">
                                 <div class="row">
                                     <div class="col-4 item-categories p-3">
@@ -149,56 +149,56 @@
                             <div class="border-bottom bg-black"></div>
                         </div>
                     </div>
-                    <div class="carousel-container">
+                    <div class="carousel-container overflow-hidden position-relative">
                         <!-- <button class="navigation prev">❮</button> -->
-                        <div class="custom_slider" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                        <div class="custom_slider d-flex" data-slides-to-show="4" data-slides-to-scroll="1" data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">BAO BÌ MỸ PHẨM</a>
-                                <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">BAO BÌ MỸ PHẨM</a>
+                                <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer">Bao bì mỹ phẩm</button>
                             </div>
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">THIẾT KẾ BAO BÌ OCOP</a>
-                                <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ BAO BÌ OCOP</a>
+                                <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết kế bao bì</button>
                             </div>
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
-                                <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết kế lịch Tết</button>
                             </div>
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">BAO BÌ MỸ PHẨM</a>
-                                <div class="carousel-text">121 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Bao bì mỹ phẩm</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">BAO BÌ MỸ PHẨM</a>
+                                <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Bao bì mỹ phẩm</button>
                             </div>
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">THIẾT KẾ BAO BÌ OCOP</a>
-                                <div class="carousel-text">140 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Thiết kế bao bì</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ BAO BÌ OCOP</a>
+                                <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết kế bao bì</button>
                             </div>
-                            <div class="item-category col-4">
-                                <div class="zoom-img">
+                            <div class="item-category col-4 text-center">
+                                <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
-                                <div class="carousel-text">200 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button">Thiết kế lịch Tết</button>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
+                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết kế lịch Tết</button>
                             </div>
                         </div>
                         <!-- <button class="navigation next">❯</button> -->
@@ -215,16 +215,16 @@
                             <h2 class="fs-24 library">SẢN PHẨM BÁN CHẠY</h2>
                             <div class="mobile-library d-flex justify-content-between px-2 py-2">
                                 <h2 class="fs-18">SẢN PHẨM BÁN CHẠY</h2>
-                                <li class="see-more"><a class="text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                                <li class="see-more fw-700"><a class="text-black fw-700" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                             </div>
-                            <ul class="nav nav-tabs tab-title fs-16 d-flex" id="productTabs">
-                                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
-                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
-                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
-                                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
+                            <ul class="nav nav-tabs tab-title align-items-center fs-16 d-flex" id="productTabs">
+                                <li class="nav-item"><a class="nav-link fw-700 active" data-bs-toggle="tab" href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
+                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
+                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-price">GIÁ TỐT</a></li>
+                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-pay">THANH TOÁN ONLINE</a></li>
                             </ul>
                         </div>
-                        <li class="see-more see-more-desk"><a class="fs-15 text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                        <li class="see-more see-more-desk fw-700"><a class="fs-15 fw-700 text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                     </div>
                     <div id="product-best-diversity" class="row product-list-best-seller">
                         <div class="col-3 product-img">
@@ -241,7 +241,7 @@
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -255,7 +255,7 @@
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.1.jpg " alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -269,7 +269,7 @@
                                                 <img src="images/pro-2-2.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -283,7 +283,7 @@
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -296,7 +296,7 @@
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -309,7 +309,7 @@
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -326,7 +326,7 @@
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -344,7 +344,7 @@
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -362,7 +362,7 @@
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                             </div>
-                                            <div class="product-item-right-content">
+                                            <div class="product-item-right-content text-center">
                                                 <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                                 <div>
                                                     <img src="images/rating.png" alt="" class="img-rating">
@@ -385,7 +385,7 @@
                 <div class="col-12 container-product-hight">
                     <div class="product-hight-title pb-2 d-flex justify-content-between">
                         <h2 class="fs-24">SẢN PHẨM NỔI BẬT</h2>
-                        <a href="#" class="see-more text-black">XEM THÊM</a>
+                        <a href="#" class="see-more fw-700 text-black">XEM THÊM</a>
                     </div>
                     <div class="row box-product-list-hight">
                         <div class="col-9 product-list-hight">
@@ -396,7 +396,7 @@
                                             <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -410,7 +410,7 @@
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/pro-1.1.jpg " alt="" class="hover-img">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -424,7 +424,7 @@
                                             <img src="images/pro-2-2.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -438,7 +438,7 @@
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -451,7 +451,7 @@
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -464,7 +464,7 @@
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
-                                        <div class="product-item-right-content">
+                                        <div class="product-item-right-content text-center">
                                             <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
@@ -496,18 +496,18 @@
                         <h2 class="fs-24 library d-flex"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                         <div class="mobile-library d-flex justify-content-between px-2 py-2">
                             <h2 class="fs-18"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
-                            <li class="see-more"><a class=" text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                            <li class="see-more fw-700"><a class=" text-black fw-700" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
-                        <ul class="nav nav-tabs tab-title d-flex fs-16" id="productTabs">
-                            <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-calendar">LỊCH TẾT</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-gift">HỘP QUÀ TẾT</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-li-xi">LÌ XÌ</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-tea">HỘP TRÀ</a></li>
-                            <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#product-wine">HỘP RƯỢU</a></li>
+                        <ul class="nav nav-tabs tab-title align-items-center d-flex fs-16" id="productTabs">
+                            <li class="nav-item"><a class="nav-link fw-700 active" data-bs-toggle="tab" href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
+                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-calendar">LỊCH TẾT</a></li>
+                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-gift">HỘP QUÀ TẾT</a></li>
+                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-li-xi">LÌ XÌ</a></li>
+                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-tea">HỘP TRÀ</a></li>
+                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-wine">HỘP RƯỢU</a></li>
                         </ul>
                     </div>
-                    <li class="see-more see-more-desk"><a class="text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
+                    <li class="see-more see-more-desk fw-700"><a class="text-black fw-700" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                 </div>
                 <div class="tab-content">
                     <div id="product-most" class="tab-pane fade show active">
@@ -517,7 +517,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -531,7 +531,7 @@
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -545,7 +545,7 @@
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -559,7 +559,7 @@
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -572,7 +572,7 @@
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -585,7 +585,7 @@
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -602,7 +602,7 @@
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -620,7 +620,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -638,7 +638,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -656,7 +656,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -674,7 +674,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
                                 </div>
-                                <div class="product-item-right-content">
+                                <div class="product-item-right-content text-center">
                                     <a href="#">Hộp carton 10x8x4cm nắp đối, 3 lớp, sóng B, mặt nâu đáy mộc...</a>
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
@@ -714,7 +714,7 @@
                                 <img src="images/icon-my-pham-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>MỸ PHẨM</h3>
+                                <h3 class="fs-18">MỸ PHẨM</h3>
                                 <P class="text-justify">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
                                     đổi.
                                     Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến đổi tính chất theo thời
@@ -728,7 +728,7 @@
                                 <img src="images/icon-nong-san-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>NÔNG SẢN - OCOP</h3>
+                                <h3 class="fs-18">NÔNG SẢN - OCOP</h3>
                                 <P class="text-justify">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
                                     nhiều thị trường thế giới.
                                     Bao bì nông sản tác động trực tiếp đến hành vi mua hàng...</P>
@@ -741,7 +741,7 @@
                                 <img src="images/icon-duoc-pham-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>DƯỢC</h3>
+                                <h3 class="fs-18">DƯỢC</h3>
                                 <P class="text-justify">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
                                     sức khỏe con người.
                                     Bao bì dược phẩm giúp bảo quản tốt thuốc bên trong, ...</P>
@@ -754,7 +754,7 @@
                                 <img src="images/icon-quan-ao-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>THỜI TRANG</h3>
+                                <h3 class="fs-18">THỜI TRANG</h3>
                                 <P class="text-justify">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
                                     của thị trường.
                                     Giá trị của món hàng thời trang được nâng lên khi mẫu mã được ...</P>
@@ -767,7 +767,7 @@
                                 <img src="images/icon-su-kien-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>SỰ KIỆN</h3>
+                                <h3 class="fs-18">SỰ KIỆN</h3>
                                 <P class="text-justify">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
                                     trong xã hội.
                                     Khi thực hiện tổ chức sự kiện thì ấn phẩm chính là điểm nhấn truyền tải ...</P>
@@ -780,7 +780,7 @@
                                 <img src="images/icon-le-tet-80x80.png" alt="offset-mem-80x80">
                             </div>
                             <div class="col-9">
-                                <h3>LỄ TẾT</h3>
+                                <h3 class="fs-18">LỄ TẾT</h3>
                                 <P class="text-justify">Lễ Tết là một trong những ngày quan trọng đối với người dân
                                     Việt Nam.
                                     Ấn phẩm Lễ Tết được xem như là “chiến dịch” mà hầu hết các doanh nghiệp ...</P>
@@ -792,45 +792,6 @@
 
         </section>
 
-        <section class="section box-contact py-5">
-            <div class="row contact">
-                <div class="col-12 d-flex">
-                    <div class="col-6 video-contact">
-                        <iframe width="1250" height="100%"
-                            src="https://www.youtube.com/embed/uuGP6UxGYmo?autoplay=1&mute=1"
-                            title="Công ty cổ phần Hupuna Group [240204]" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-6 form-contact px-5">
-                        <div class="form-contact-title text-center">
-                            <h2 class="fs-24">Đặt hàng</h2>
-                        </div>
-                        <div class="form-contact-content">
-                            <form action="">
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Họ và tên</label>
-                                    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Họ và tên">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email của bạn">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label">Số điện thoại</label>
-                                    <input type="text" class="form-control" id="phone" aria-describedby="phone" placeholder="+84 123456789">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="content" class="form-label">Nội dung</label>
-                                    <textarea class="form-control" id="content" rows="3" placeholder="Nhập nội dung"></textarea>
-                                </div>
-                                <button type="submit" class="btn py-3 px-5 text-white btn-submit fs-16">Gửi ngay</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </div>
     <section class="section box-active">
         <div class="banner-box-active">
@@ -846,7 +807,7 @@
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
-                            <ul class="custom_slider" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3" data-slides-to-scroll-mobile="6" data-slides-to-show-tablet="5">
+                            <ul class="custom_slider d-flex" data-slides-to-show="8" data-slides-to-scroll="1" data-slides-to-show-mobile="3" data-slides-to-scroll-mobile="6" data-slides-to-show-tablet="5">
                                 <li class="img-brand"><img src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
                                 <li class="img-brand"><img src="images/brand-dt-yellow-page-1000x400-1-300x120.jpg" alt=""></li>
                                 <li class="img-brand"><img src="images/brand-dt-yadea-1000x400-1-300x120.jpg" alt=""></li>
@@ -862,7 +823,7 @@
                                 <li class="img-brand"><img src="images/brand-dt-bao-viet-bank-1000x400-1-300x120.jpg" alt=""></li>
                             </ul>
                         </div>
-                        <div class="feedback wrap-content-feedback custom_slider" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                        <div class="feedback wrap-content-feedback custom_slider d-flex" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                             <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
                                     Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
@@ -1010,7 +971,7 @@
                     </div>
                     <div class="news-content d-flex">
                         <div class="col-9">
-                            <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                            <div class="custom_slider d-flex news-content d-flex gap-3" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                                 <div class="card col-4 overflow-hidden">
                                     <div class="date text-white fs-14">30 Jan</div>
                                     <div class="zoom-img">
@@ -1023,7 +984,7 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
                                 <div class="card col-4 overflow-hidden">
@@ -1038,7 +999,7 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
                                 <div class="card col-4 overflow-hidden">
@@ -1053,7 +1014,7 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
 
@@ -1069,7 +1030,7 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
 
@@ -1085,7 +1046,7 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
 
@@ -1101,13 +1062,13 @@
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
-                            <div class="list-news col-4">
+                            <div class="list-news overflow-hidden col-4">
                                 <div class="list-content-news d-flex justify-content-between">
                                     <div class="content">
                                         <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng nước hoa Jubilé</a>
@@ -1130,7 +1091,7 @@
                                             <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>168</span>
                                         </div>
                                     </div>
-                                    <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                    <a href="#" class="btn-new fw-600 d-block text-center fs-14">XEM CHI TIẾT</a>
                                 </div>
                             </div>
                         </div>
