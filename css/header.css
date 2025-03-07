@@ -59,6 +59,32 @@ header {
     transition: .3s;
 }
 
+header.affix{
+    width: 100%;
+    top: 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .15);
+    animation: stuckMoveDown .6s;
+    z-index: 8;
+}
+
+header.affix .header-top{
+    display: none;
+}
+
+header.affix .menu-wrap > ul > li{
+    padding: 15px 0;
+}
+
+@keyframes stuckMoveDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @media (max-width: 1400px) {
     .menu ul li{
         padding: 8px 0;

@@ -430,6 +430,10 @@ video{
     position: fixed;
 }
 
+.affix {
+    position: fixed;
+}
+
 .start-0 {
     left: 0;
 }
