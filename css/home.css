@@ -420,6 +420,8 @@ p {
     border-radius: 30px;
     border: 1px solid #0056b3;
     font-weight: 600;
+    width: 50%;
+    float: right;
 }
 .btn-new:hover {
     background: #0056b3;
@@ -513,6 +515,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 15px 0;
 }
 .form-contact-content .form-control {
     width: 100%;
@@ -556,7 +559,7 @@ img {
     gap: 25px;
 }
 .list-content-news {
-    min-height: 379px;
+    min-height: 393px;
     padding: 15px 20px;
     flex-direction: column;
 }
