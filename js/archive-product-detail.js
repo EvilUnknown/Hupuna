@@ -49,6 +49,26 @@
     });
 
 
+    function changeTab(selectedTab) {
+        const tabSorts = document.querySelectorAll(".tabSort");
+    const indicator = document.querySelector(".tab-indicator");
+        tabSorts.forEach(tabSort => tabSort.classList.remove("active"));
+        selectedTab.classList.add("active");
+
+        // Di chuyển thanh chỉ báo dưới tab
+        const tabRect = selectedTab.getBoundingClientRect();
+        const tabsRect = document.querySelector(".tabSorts").getBoundingClientRect();
+        indicator.style.width = `${tabRect.width}px`;
+        indicator.style.transform = `translateX(${tabRect.left - tabsRect.left}px)`;
+    }
+
+    // Cập nhật vị trí mặc định của thanh chỉ báo ban đầu
+    window.onload = () => {
+        const activeTab = document.querySelector(".tabSort.active");
+        changeTab(activeTab);
+    };
+
+
 // đóng mở megamenucategory
 $( document ).ready(function() {
     document.getElementById("categoryMegaMenuBtn").addEventListener("click", function() {

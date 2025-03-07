@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <link href="./css/slick.css" rel="stylesheet">
+    <link href="./css/bootstrap-grid.css" rel="stylesheet">
     <link href="./css/base-style.css" rel="stylesheet">
     <link href="./css/detailcategories.css" rel="stylesheet">
     <link href="./css/product-item.css" rel="stylesheet">
-    <link href="./css/bootstrap-grid.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-
-    <link href="./css/slick.css" rel="stylesheet">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/base.js"></script>
     <script src="./js/slick.min.js"></script>
@@ -96,7 +95,7 @@
                         <div id="filterContent" class="mt-3">
                             <ul class="categoryList">
                                 <li class="category-item" onclick="toggleSubmenuCategory('cartonBox')"><img
-                                        class="icon-right" src="./icons/right-svgrepo-com.svg" alt=""> Hộp
+                                        class="icon-right" src="./icons/right-svgrepo.svg" alt=""> Hộp
                                     carton
                                     <ul class="subcategory pb-1 pt-1 cartonBox openClose" style="display: none;">
                                         <li>
@@ -117,7 +116,7 @@
                                     </ul>
                                 </li>
                                 <li class="category-item" onclick="toggleSubmenuCategory('ofsetBox')"><img
-                                        class="icon-right" src="./icons/right-svgrepo-com.svg" alt=""> Hộp in ofset
+                                        class="icon-right" src="./icons/right-svgrepo.svg" alt=""> Hộp in ofset
                                     <ul class="subcategory pb-1 pt-1 ofsetBox openClose" style="display: none;">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -136,13 +135,13 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo.svg"
                                         alt=""> Băng dính</li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo.svg"
                                         alt=""> Màng PE - Màng chít</li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo.svg"
                                         alt=""> Xốp Foam</li>
-                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo-com.svg"
+                                <li class="category-item"><img class="icon-right" src="./icons/right-svgrepo.svg"
                                         alt=""> Xốp khí - Bóng khí</li>
                             </ul>
                         </div>
@@ -154,8 +153,8 @@
                         </div>
                         <div id="filterStatus" class="mt-3">
                             <ul class="categoryList">
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo cấu tạo nắp
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo cấu tạo nắp
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -169,8 +168,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo kích thước
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo kích thước
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -189,8 +188,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo số lớp
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo số lớp
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -209,8 +208,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo loại sóng
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo loại sóng
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -264,8 +263,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo màu sắc
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo màu sắc
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -289,8 +288,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo định lượng giấy
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo định lượng giấy
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -319,8 +318,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo khu vực
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo khu vực
                                     <ul id="giay" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -345,8 +344,8 @@
                         </div>
                         <div id="filterStatus" class="mt-3">
                             <ul class="categoryList">
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo cấu tạo nắp
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo cấu tạo nắp
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -360,8 +359,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo kích thước
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo kích thước
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -380,8 +379,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo số lớp
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo số lớp
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -400,8 +399,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo loại sóng
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo loại sóng
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -455,8 +454,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo màu sắc
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo màu sắc
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -480,8 +479,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo định lượng giấy
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo định lượng giấy
                                     <ul id="carton" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -510,8 +509,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item fs-17"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Lọc theo khu vực
+                                <li class="category-item fs-17"><img class="icon-right" src="./icons/right-svgrepo.svg"
+                                        alt=""> Lọc theo khu vực
                                     <ul id="giay" class="subcategory pb-1 pt-1">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -530,13 +529,24 @@
                     </div>
                     <div class="row buttonSelect mt-2">
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 fw-500 text-white ">Thiết lập lại</button>
+                            <button
+                                class="btn btn-primary w-100 fw-500 text-white cursor-pointer d-flex justify-content-center align-items-center"><img
+                                    class="iconButtonSelect me-1" src="./icons/reset-svgrepo-com.svg"> Thiết lập
+                                lại</button>
                         </div>
                         <div class="col-6 p-1">
-                            <button class="btn btn-primary w-100 fw-500 text-white">Áp dụng</button>
+                            <button
+                                class="btn btn-primary w-100 fw-500 text-white cursor-pointer d-flex justify-content-center align-items-center"><img
+                                    class="iconButtonSelect me-1" src="./icons/check-svgrepo-com.svg"> Áp dụng</button>
                         </div>
                         <div class="col-12 p-1">
-                            <button class="btn btn-primary w-100 fw-600 text-black">ĐẶT HÀNG THEO YÊU CẦU</button>
+                            <button
+                                class="btn btn-primary w-100 fw-600 text-black cursor-pointer d-flex justify-content-center align-items-center"><img
+                                    class="iconButtonSelect me-1" src="./icons/credit-card-alt-svgrepo-com.svg"> ĐẶT
+                                HÀNG
+                                THEO
+                                YÊU
+                                CẦU</button>
                         </div>
                     </div>
                 </div>
@@ -564,10 +574,10 @@
                             <div class="ms-4 pb-1 pt-3">
                                 <div class="d-flex align-items-center">
                                     <img class="iconMenu" src="./icons/menu-svgrepo-com.svg">
-                                    <h2 class="fs-18 fw-600 mb-0 ms-0">Tất cả danh mục</h2>
+                                    <h2 class="fs-18 fw-600 mb-0 ms-2">Tất cả danh mục</h2>
                                 </div>
                             </div>
-                            <div class="row container">
+                            <div class="container">
                                 <div id="filterContent">
                                     <ul class="categoryList">
                                         <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenuCategory('cartonBox')">Hộp
@@ -645,13 +655,11 @@
                                 </div>
                             </div>
 
-                            <div class="row cartonBox openClose container" style="display: none;">
-                                <div class="container">
-                                    <!-- Nút mở Mega Menu -->
-                                    <div class="d-flex align-items-center mb-2">
-                                        <img class="iconMenu iconFilter" src="./icons/filter-svgrepo-com.svg">
-                                        <h2 class="fs-15">HỘP CARTON</h2>
-                                    </div>
+                            <div class="cartonBox openClose container mt-2" style="display: none;">
+                                <!-- Nút mở Mega Menu -->
+                                <div class="d-flex align-items-center mb-2">
+                                    <img class="iconMenu iconFilter" src="./icons/filter-svgrepo-com.svg">
+                                    <h2 class="fs-15 ms-2">HỘP CARTON</h2>
                                 </div>
                                 <div id="filterStatus" class="mb-3">
                                     <ul class="categoryList">
@@ -758,11 +766,11 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row ofsetBox openClose container" style="display: none;">
+                            <div class="ofsetBox openClose container mt-2" style="display: none;">
                                 <div class="container">
                                     <!-- Nút mở Mega Menu -->
                                     <div class="d-flex align-items-center mb-2">
-                                        <img class="iconMenu iconFilter" src="./icons/filter-svgrepo-com.svg">
+                                        <img class="iconMenu iconFilter ms-2" src="./icons/filter-svgrepo-com.svg">
                                         <h2 class="fs-15">HỘP IN OFFSET</h2>
                                     </div>
                                 </div>
@@ -790,30 +798,35 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row buttonFilter buttonSelect container pb-3 pt-3">
-                                <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white">Thiết lập
-                                        lại</button>
-                                </div>
-                                <div class="col-6 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white">Áp
-                                        dụng</button>
-                                </div>
-                                <div class="col-12 p-1">
-                                    <button class="btn btn-primary w-100 border-0 fs-15 fw-600 text-black">ĐẶT HÀNG THEO
-                                        YÊU
-                                        CẦU</button>
+                            <div class="container">
+                                <div class="row buttonFilter buttonSelect pb-3 pt-3">
+                                    <div class="col-6 p-1">
+                                        <button
+                                            class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white cursor-pointer d-flex justify-content-center align-items-center"><img
+                                                class="iconButtonSelect me-1" src="./icons/reset-svgrepo-com.svg">Thiết
+                                            lập
+                                            lại</button>
+                                    </div>
+                                    <div class="col-6 p-1">
+                                        <button
+                                            class="btn btn-primary w-100 border-0 fs-15 fw-400 text-white cursor-pointer d-flex justify-content-center align-items-center"><img
+                                                class="iconButtonSelect me-1" src="./icons/check-svgrepo-com.svg">Áp
+                                            dụng</button>
+                                    </div>
+                                    <div class="col-12 p-1">
+                                        <button
+                                            class="btn btn-primary w-100 border-0 fs-15 fw-600 text-black cursor-pointer d-flex justify-content-center align-items-center"><img
+                                                class="iconButtonSelect me-1"
+                                                src="./icons/credit-card-alt-svgrepo-com.svg">ĐẶT
+                                            HÀNG THEO
+                                            YÊU
+                                            CẦU</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class=" row mt-3 d-flex fs-18 align-items-center justify-content-center">
-                            <div class="col-6">
-                                <p class="fs-15 mb-2 ms-2">Sắp xếp theo</p>
-                            </div>
-                            <div class="col-6">
-                                <p class="fs-15 mb-2 ms-2">1-60/103 kết quả</p>
-                            </div>
                             <div class="col-6 d-flex align-items-center justify-content-center fs-15">
                                 <select class="w-100">
                                     <option selected>Phổ biến</option>
@@ -832,22 +845,27 @@
                         </div>
                         <!-- End select mobile -->
                     </div>
-                    <div class="row desktop d-flex fs-18 align-items-center justify-content-center">
-                        <div class="col-2">
-                            <p class="fs-15">Sắp xếp theo</p>
-                        </div>
-                        <div class="col-8 d-flex align-items-center justify-content-center">
-                            <button class="cursor-pointer fs-15">Phổ biến</button>
-                            <button class="cursor-pointer fs-15">Mới nhất</button>
-                            <button class="cursor-pointer fs-15">Bán chạy</button>
+                    <div class="row desktop d-flex fs-18 align-items-center justify-content-center border-bottom">
+                        <div class="col-12 d-flex align-items-center justify-content-center">
+                            <div class="tabSorts d-flex justify-content-center position-relative pb-3">
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort active"
+                                    onclick="changeTab(this)">Phổ
+                                    biến
+                                </div>
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort"
+                                    onclick="changeTab(this)">Mới nhất
+                                </div>
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort"
+                                    onclick="changeTab(this)">Bán chạy
+                                </div>
+                                <div class="position-absolute start-0  bottom-0 tab-indicator"></div>
+                            </div>
+
                             <select class="fs-15 cursor-pointer">
                                 <option selected>Giá</option>
                                 <option value="1">Thấp đến cao</option>
                                 <option value="2">Cao đến thấp</option>
                             </select>
-                        </div>
-                        <div class="col-2 fs-15">
-                            <p>1-60/103 kết quả</p>
                         </div>
                     </div>
 
@@ -861,7 +879,7 @@
                             <?php endfor; ?>
 
                         </ul>
-                        <div class=" pagination d-flex justify-content-center align-items-center">
+                        <div class=" pagination d-flex justify-content-center align-items-center mt-3">
                             <a class="ms-1 me-1" href="#">&laquo;</a>
                             <a class="ms-1 me-1 active" href="#">1</a>
                             <a class="ms-1 me-1" href="#" class="active">2</a>
@@ -918,8 +936,6 @@
         </div>
     </div>
     <?php include 'footer.php'; ?>
-
-
 </body>
 
 </html>

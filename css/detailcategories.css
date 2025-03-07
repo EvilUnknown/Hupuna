@@ -20,17 +20,16 @@
 .border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.category .see-more {
+.category a {
+  padding: 12px 50px 12px 20px;
+  background: #003366;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
+}
+.category a.see-more {
   padding: 12px 20px 12px 20px;
   background: #ffcc00!important;
   clip-path: polygon(0 100%, 90% 100%, 100% 0, 10% 0);
   margin-left: auto;
-}
-.category a {
-  padding: 12px 50px 12px 20px;
-  background: #003366;
-  border-radius: 5px;
-  clip-path: polygon(0 0, 85% 0, 100% 100%, 0 100%);
 }
 .imgdetaisCategory{
   padding-bottom: 56%;
@@ -80,8 +79,8 @@
   margin: 5px;
 }
 .selectCategory .iconMenu, .icon-right{
-  height: 22px;
-  width: 22px;
+  height: 20px;
+  width: 20px;
 }
 .selectCategory h2.fs-20{
   border-bottom:1px solid rgba(0, 0, 0, .7);
@@ -95,22 +94,34 @@
   vertical-align: middle !important;
 }
 /* button sort */
-.filterProduct button:hover{
-  background: #e1dfdf;
+.filterProduct .tabSorts {
+  gap: 20px;
 }
-.filterProduct button.active {
-  background: #003366 !important;
-  color: var(--third-color);
+.filterProduct .tabSort.active {
+  color: #003366;
+  font-weight: bold;
+}
+.filterProduct .tab-indicator {
+  height: 2px;
+  background: #003366;
+  transition: all 0.3s ease-in-out;
 }
 .selectCategory select, .selectCategory button{
-  border-radius: 34px;
+  border-radius: 7px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 12px 20px;
   margin-right: 5px !important
 }
+.selectCategory select{
+  margin: auto;
+  padding: 8px 20px;
+}
 .selectCategory .buttonSelect button{
   background: #003366 !important;
-  border-radius: 12px !important;
+}
+.buttonSelect .iconButtonSelect{
+  height: 18px;
+  width: 18px;
 }
 .buttonSelect .col-12 button{
   background: #ffcc00 !important;
@@ -125,22 +136,21 @@
   justify-content: center !important;
 }
 .listProduct ul li{
-  width: 17%;
-  flex: 0 0 17%;
-  margin: 9px 9px;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
-  padding: 2px;
+  width: calc(100% /5);
+  flex: 0 0 calc(100% /5);
+  padding: 5px;
 }
 .listProduct ul li:hover{
-  transform:  scale(1.05);
+  /* transform:  scale(1.05); */
   transition: all .3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)!important;
+  border-radius: 7px;
 }
 /* panigation */
 .pagination a {
   padding: 8px 16px;
   border: 1px solid #ddd;
-  border-radius: 100%;
+  border-radius: 7px;
 }
 .pagination a.active {
   background: #003366 !important;
@@ -177,8 +187,8 @@
     font-size: 15px !important;
   }
   .listProduct ul li{
-    width: 42.5% !important;
-    flex: 0 0 42.5% !important;
+    width: calc(100% /2) !important;
+    flex: 0 0 calc(100% /2) !important;
   }
   .selectCategory .desktop{
     display: none !important;
@@ -198,7 +208,7 @@
   }
 /* mega menu mobile */
 .category-mega-menu {
-  background: #fff;
+  background: var(--third-color);
   transform: translateY(-1000%);
   transition: transform 0.3s ease-in-out;
 }
@@ -229,8 +239,8 @@
 }
 @media all and (min-width: 768px) and (max-width: 1023px) {
   .listProduct ul li{
-    width: 29.5% !important;
-    flex: 0 0 29.5% !important;
+    width: calc(100% /3) !important;
+    flex: 0 0 calc(100% /3) !important;
   }
   .selectCategory .mobile{
     display: none !important;
@@ -241,13 +251,9 @@
     display: none !important;
   }
 }
-@media all and (min-width: 1279px) {
-  .selectCategory .mobile{
-    display: none !important;
-  }
-  .listProduct ul li{
-    width: 17.8% !important;
-    flex: 0 0 17.8% !important;
+@media all and (min-width: 768px) and (max-width: 1135px){
+  .buttonSelect .col-6{
+    width: 100%;
   }
 }
 

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+    <link href="./css/slick.css" rel="stylesheet">
     <link href="./css/bootstrap-grid.css" rel="stylesheet">
     <link href="./css/base-style.css" rel="stylesheet">
     <link href="./css/categories.css" rel=" stylesheet">
     <link href="./css/product-item.css" rel=" stylesheet">
-    <link href="./css/slick.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
     <script src="./js/jquery.min.js"></script>
     <script src="./js/base.js"></script>
     <script src="./js/slick.min.js"></script>
@@ -64,7 +64,7 @@
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2500"
                             data-slides-to-show-tablet="5" data-slides-to-scroll-tablet="1">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                                <div class="item">
+                                <div class="item cursor-pointer">
                                     <?php include 'product-item.php'; ?>
                                 </div>
                             <?php endfor; ?>
@@ -93,7 +93,7 @@
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="3000"
                             data-slides-to-show-tablet="5" data-slides-to-scroll-tablet="1">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                                <div class="item">
+                                <div class="item cursor-pointer">
                                     <?php include 'product-item.php'; ?>
                                 </div>
                             <?php endfor; ?>
@@ -123,7 +123,7 @@
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="3100"
                             data-slides-to-show-tablet="5" data-slides-to-scroll-tablet="1">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                                <div class="item">
+                                <div class="item cursor-pointer">
                                     <?php include 'product-item.php'; ?>
                                 </div>
                             <?php endfor; ?>

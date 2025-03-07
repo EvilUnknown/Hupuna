@@ -11,16 +11,15 @@ header {
 .search-box {
     max-width: 300px;
     border-radius: 50px;
+    height: 40px;
 }
 
 /* Main Menu =====================================*/
 .menu ul li {
     padding: 10px 0;
+    margin: 0;
 }
-.menu ul{
-    display: flex;
-    align-items: center;
-}
+
 .menu ul ul {
     padding: 0;
 }
@@ -48,6 +47,12 @@ header {
     min-width: 250px;
     padding: 10px 25px;
     text-transform: capitalize;
+    position: relative;
+}
+
+.menu ul{
+    display: flex;
+    gap: 30px;
 }
 
 .menu ul ul a {
@@ -62,105 +67,52 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* MOBILE ======================================================================= */
-.sidebar {
-    width: 90%;
-    height: 100vh;
-    background: #333;
-    color: white;
-    position: absolute;
-    left: -100%;
-    top: 0;
-    transition: left 0.3s ease-in-out;
-    padding-top: 20px;
-    z-index: 9999;
-}
-
-/* Lớp phủ nền*/
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.overlay.show {
-    opacity: 1;
-    visibility: visible;
-}
-
-.sidebar.open {
-    left: 0;
-}
-
-/* ============== */
-/* Danh sách menu */
-.menu-mobi {
-    /* list-style: none; */
-}
-
-.menu-mobi li {
-    padding: 12px;
-    cursor: pointer;
-    border-bottom: 1px solid #555;
-    position: relative;
-}
-
-.menu-mobi li:hover {
-    background: #444;
-}
-
-/* Ẩn checkbox */
-.menu-mobi input[type="checkbox"] {
-    display: none;
-}
-
-/* Submenu ẩn */
-.menu-mobi .submenu,
-.submenu-level-2 {
-    display: none;
-    padding-left: 20px;
-    background: #444;
-}
-
-/* Hiện submenu */
-.menu-mobi input[type="checkbox"]:checked+.submenu,
-.menu-mobi input[type="checkbox"]:checked+.submenu-level-2 {
-    display: block;
-}
-
-/* Label bấm */
-.menu-mobi label {
-    display: block;
-    cursor: pointer;
-    padding: 12px;
-}
-
 header .icon-menu-mobile{
+    display: none;
+}
+
+.menu-m{
     display: none;
 }
 
 @media (max-width: 1400px) {
     .menu ul li{
-        padding: 6px 0;
-        margin: 0 5px;
+        padding: 8px 0;
     }
     .menu ul li a{
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .menu ul{
+        gap: 20px;
     }
 }
+
 @media (max-width: 1200px) {
-    .menu ul li a{
-        font-size: 13px;
-    }
     header .container{
         max-width: 100%;
     }
+
+    header .menu .menu-wrap{
+        width: 80%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu ul li{
+        margin-right: 30px;
+    }
+
+    .menu > .menu-wrap > ul > li:first-child{
+        transform: translateY(5px);
+    }
+    /* .menu ul {
+        display: block !important;
+    } */
 }
 /* Desktop */
 /* Mobile */
@@ -192,6 +144,170 @@ header .icon-menu-mobile{
     header .logo-mobile{
         text-align: center;
     }
+
+    /* Menu-m  */
+    .menu-m{
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 80vw;
+        max-width: 400px;
+        left: 0;
+        transition: all 0.2s ease-in-out 0s;
+        box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.15);
+        z-index: 1001;
+        background-color: #FFFFFF;
+        padding: 20px 0;
+        transform: translateX(-100%);
+        visibility: hidden;
+        opacity: 0;
+        overflow: hidden;
+    }
+
+    .menu-m.active {
+        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .menu-m ul a{
+        padding: 15px 60px 15px 20px;
+        font-size: 18px;
+        color: hsla(0, 0%, 7%, .85);
+        display: block;
+    }
+
+    .menu-m li{
+        position: relative;
+    }
+
+    .menu-m li:not(:first-child){
+        border-top: 1px solid #ececec;
+    }
+
+    .menu-m .formSearch{
+        padding: 20px;
+    }
+
+    .form-search input{
+        max-width: 100%;
+    }
+
+    .menu-m li span{
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .menu-m ul ul{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        padding: 20px 0;
+        width: 100%;
+        z-index: 3;
+        background: #fff;
+        width: 80vw;
+        max-width: 400px;
+        left: 100%;
+        transition: .3s;
+    }
+
+    .menu-m ul ul.active{
+        left: 0;
+    }
+
+    .menu-m li li:first-child img{
+        transform: translateY(-1px) rotate(180deg);
+        margin-right: 10px;
+    }
+
+    .menu-m li li:first-child a{
+        font-size: 16px;
+    }
+
+    .menu-m ul ul a{
+        font-size: 14px;
+    }
+
+    .overlay-menu-m {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        transition: all 0.2s ease-in-out 0s;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .overlay-menu-m.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .close-menu-m {
+        max-width: 24px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        cursor: pointer;
+    }
+    /* End menu-m  */
+
+    .form-search {
+        position: relative;
+    }
+
+    .menu-m .formSearch{
+        padding: 20px;
+    }
+
+    .form-search input{
+        border-radius: 44px;
+        padding: 5px 45px 5px 12px;
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #FFFFFF;
+        border: 1px solid #dee2e6;
+    }
+
+    .form-search .icon-search {
+        max-width: 24px;
+    }
+
+    .form-search button {
+        padding: 5px;
+        border: none;
+        position: absolute;
+        top: calc(50% + 2px);
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 2;
+        padding: 4px 13px 6px;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -200,8 +316,16 @@ header .icon-menu-mobile{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 380px) {
     header .logo-mobile img{
         max-width: 100px;
+    }
+
+    header .logo-mobile{
+        text-align: left;
+    }
+
+    header .icon-menu-mobile{
+        padding-right: 0;
     }
 }
