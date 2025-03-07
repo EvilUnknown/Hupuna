@@ -12,12 +12,13 @@
         <!-- Header -->
         <div class="container py-2">
             <div class="row justify-content-between align-items-center">
-                <div class="col-2 col-lg-2 col-md-2 col-sm-2">
+                <div class="col-2">
                     <img src="images/logo.png" alt="Logo trang chủ" width="150">
                 </div>
+
                 <div
                     class="col-6 col-sm-10 w-100 border-0 search-box bg-white d-flex align-items-center justify-content-between">
-                    <input type="text" class="border-0 bg-transparent py-2"
+                    <input type="text" class="w-100 border-0 bg-transparent py-2"
                         placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
                     <img src="icons/search-icon.svg" alt="Nút search" width="25">
                 </div>
