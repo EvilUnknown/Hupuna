@@ -841,6 +841,10 @@ section{
     display: block;
 }
 
+div{
+    display: block;
+}
+
 p{
     display: block;
     margin-bottom: 10px;
