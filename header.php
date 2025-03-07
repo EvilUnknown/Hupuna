@@ -178,7 +178,7 @@
                 <div class="formSearch">
                     <form action="https://hupuna.com/" class="form-search">
                         <input type="text" name="s" placeholder="Bạn tìm gì...">
-                        <input type="text" hidden="" name="post_type" value="product" class="hidden">
+                        <!-- <input type="text" hidden="" name="post_type" value="product" class="hidden"> -->
                         <button>
                             <img class="icon-search" src="images/search.svg" alt="Search">
                         </button>
@@ -195,12 +195,12 @@
                     Sản phẩm
                 </a>
                 <span class="next-menu-level1">
-                    <img src="images/chervon-right.svg" alt="Chervon">
+                    <img src="images/Chervon-right.svg" alt="Chervon">
                 </span>
                 <ul class="menu-level2">
                     <li>
                         <a href="javascript:;" title="Tiêu đề" class="back-menu-level1">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                             Sản phẩm
                         </a>
                     </li>
@@ -209,12 +209,12 @@
                             Hộp carton
                         </a>
                         <span class="next-menu-level2">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                         </span>
                         <ul class="menu-level3">
                             <li>
                                 <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
-                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    <img src="images/Chervon-right.svg" alt="Chervon">
                                     Hộp carton
                                 </a>
                             </li>
@@ -245,12 +245,12 @@
                             Hộp in offset
                         </a>
                         <span class="next-menu-level2">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                         </span>
                         <ul class="menu-level3">
                             <li>
                                 <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
-                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    <img src="images/Chervon-right.svg" alt="Chervon">
                                     Hộp in offset
                                 </a>
                             </li>
@@ -281,12 +281,12 @@
                             Túi giấy
                         </a>
                         <span class="next-menu-level2">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                         </span>
                         <ul class="menu-level3">
                             <li>
                                 <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
-                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    <img src="images/Chervon-right.svg" alt="Chervon">
                                     Túi giấy
                                 </a>
                             </li>
@@ -307,12 +307,12 @@
                             Băng dính
                         </a>
                         <span class="next-menu-level2">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                         </span>
                         <ul class="menu-level3">
                             <li>
                                 <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
-                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    <img src="images/Chervon-right.svg" alt="Chervon">
                                     Băng dính
                                 </a>
                             </li>
@@ -360,12 +360,12 @@
                     Tin tức
                 </a>
                 <span class="next-menu-level2">
-                    <img src="images/chervon-right.svg" alt="Chervon">
+                    <img src="images/Chervon-right.svg" alt="Chervon">
                 </span>
                 <ul class="menu-level3">
                     <li>
                         <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
-                            <img src="images/chervon-right.svg" alt="Chervon">
+                            <img src="images/Chervon-right.svg" alt="Chervon">
                             Tin tức
                         </a>
                     </li>

@@ -264,6 +264,43 @@ header .icon-menu-mobile{
         cursor: pointer;
     }
     /* End menu-m  */
+
+    .form-search {
+        position: relative;
+    }
+
+    .menu-m .formSearch{
+        padding: 20px;
+    }
+
+    .form-search input{
+        border-radius: 44px;
+        padding: 5px 45px 5px 12px;
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #FFFFFF;
+        border: 1px solid #dee2e6;
+    }
+
+    .form-search .icon-search {
+        max-width: 24px;
+    }
+
+    .form-search button {
+        padding: 5px;
+        border: none;
+        position: absolute;
+        top: calc(50% + 2px);
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 2;
+        padding: 4px 13px 6px;
+        background-color: transparent;
+    }
 }
 
 @media (max-width: 768px) {
