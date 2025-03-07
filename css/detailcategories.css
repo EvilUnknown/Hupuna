@@ -91,9 +91,9 @@
   cursor: pointer;
   font-size: 17px !important;
 }
-/* .category .imgdetaisCategory img.img-100{
+ .categoryList img.icon-right{
   vertical-align: middle !important;
-} */
+}
 /* button sort */
 .filterProduct button:hover{
   background: #e1dfdf;
@@ -128,7 +128,6 @@
   width: 17%;
   flex: 0 0 17%;
   margin: 9px 9px;
-  cursor: pointer;
   border-radius: 7px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2)!important;
   padding: 2px;

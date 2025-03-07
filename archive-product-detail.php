@@ -9,6 +9,7 @@
     <link href="./css/product-item.css" rel="stylesheet">
     <link href="./css/bootstrap-grid.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
+
     <link href="./css/slick.css" rel="stylesheet">
     <script src="./js/jquery.min.js"></script>
     <script src="./js/base.js"></script>
@@ -43,12 +44,12 @@
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="1500">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                            <div class="item text-center cursor-pointer">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <div class="item text-center cursor-pointer">
+                                    <div class="img-100 imgdetaisCategory">
+                                        <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                    </div>
+                                    <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                                 </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
-                            </div>
                             <?php endfor; ?>
                         </div>
                     </div>
@@ -69,12 +70,12 @@
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2000">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                            <div class="item text-center cursor-pointer">
-                                <div class="img-100 imgdetaisCategory">
-                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                <div class="item text-center cursor-pointer">
+                                    <div class="img-100 imgdetaisCategory">
+                                        <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
+                                    </div>
+                                    <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
                                 </div>
-                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
-                            </div>
                             <?php endfor; ?>
                         </div>
                     </div>
@@ -94,8 +95,8 @@
                     <div class="row">
                         <div id="filterContent" class="mt-3">
                             <ul class="categoryList">
-                                <li class="category-item" onclick="toggleSubmenu('cartonBox')"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Hộp
+                                <li class="category-item" onclick="toggleSubmenuCategory('cartonBox')"><img
+                                        class="icon-right" src="./icons/right-svgrepo-com.svg" alt=""> Hộp
                                     carton
                                     <ul class="subcategory pb-1 pt-1 cartonBox openClose" style="display: none;">
                                         <li>
@@ -115,8 +116,8 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="category-item" onclick="toggleSubmenu('ofsetBox')"><img class="icon-right"
-                                        src="./icons/right-svgrepo-com.svg" alt=""> Hộp in ofset
+                                <li class="category-item" onclick="toggleSubmenuCategory('ofsetBox')"><img
+                                        class="icon-right" src="./icons/right-svgrepo-com.svg" alt=""> Hộp in ofset
                                     <ul class="subcategory pb-1 pt-1 ofsetBox openClose" style="display: none;">
                                         <li>
                                             <label onclick="event.stopPropagation()">
@@ -569,7 +570,7 @@
                             <div class="row container">
                                 <div id="filterContent">
                                     <ul class="categoryList">
-                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenu('cartonBox')">Hộp
+                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenuCategory('cartonBox')">Hộp
                                             carton
                                             <div class="cartonBox openClose" style="display: none;">
                                                 <div class="row">
@@ -600,7 +601,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenu('ofsetBox')">
+                                        <li class=" fs-15 fw-600 mt-2" onclick="toggleSubmenuCategory('ofsetBox')">
                                             Hộp
                                             in ofset
                                             <div class="ofsetBox openClose" style="display: none;">
@@ -854,9 +855,9 @@
                     <div class="row listProduct mt-3">
                         <ul class=" d-flex align-items-center ">
                             <?php for ($i = 0; $i < 15; $i++) : ?>
-                            <li>
-                                <?php include 'product-item.php'; ?>
-                            </li>
+                                <li class="cursor-pointer">
+                                    <?php include 'product-item.php'; ?>
+                                </li>
                             <?php endfor; ?>
 
                         </ul>
@@ -902,7 +903,7 @@
                                 exerci tation
                                 ullamcorper suscipit lobortis.
                             </p>
-                            <button class=" mt-2 toggle-text w-100">Xem thêm</button>
+                            <button class=" mt-2 toggle-text w-100 cursor-pointer">Xem thêm</button>
                         </div>
                         <div>
                             <div class="bannerDescribeCategory img-100 mt-5">
