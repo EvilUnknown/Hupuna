@@ -4,7 +4,10 @@ body.no-scroll {
 }
 
 header {
-    background: url('../images/bg-header.png') no-repeat center center/cover;
+    background: url('../images/banner3-5760x574.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Button Search ================================= */
