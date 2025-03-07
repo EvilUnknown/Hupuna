@@ -1,11 +1,5 @@
 .footer {
     background: url('../images/banner-footer.png') no-repeat center center/cover;
-    padding: 30px 0;
-}
-
-.footer .logo-footer {
-    width: 300px;
-    margin: 0 0 0 -20px;
 }
 
 .footer a {
@@ -14,7 +8,7 @@
 }
 
 .footer a:hover {
-    color: #ec9600;
+    color: var(--background-color-third);
     text-decoration: underline;
 }
 
@@ -44,9 +38,28 @@
 .footer .row {
     border-bottom: 1px solid #fff;
 }
+.footer h5{
+    color: #fff;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+.footer h5::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: white;
+    margin-top: 5px;
+}
 
-.footer .short-border {
-    border: 1px solid #fff;
-    width: 20%;
-    margin: 10px 0 10px 0;
+@media only screen and (max-width: 992px) {
+    .footer .map{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer .map{
+        display: unset;
+    }
 }

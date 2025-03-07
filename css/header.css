@@ -9,33 +9,20 @@ header {
 
 /* Button Search ================================= */
 .search-box {
-    width: 100%;
-    max-width: 400px;
-    background: #fff;
+    max-width: 300px;
     border-radius: 50px;
-    border: none;
-}
-
-.login-btn {
-    color: #fff;
-    border: none;
-    font-size: 14px;
-}
-
-.login-btn img {
-    width: 14px;
-    margin: 5px;
-}
-
-.cart {
-    color: #fff;
-    border: none;
-    cursor: pointer;
 }
 
 /* Main Menu =====================================*/
 .menu ul li {
     padding: 10px 0;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul ul {
+    padding: 0;
 }
 .menu ul li a {
     text-decoration: none;
@@ -43,37 +30,36 @@ header {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 3px;
 }
 
 /* ====================== */
 .menu-btn {
-    cursor: pointer;
     transform: skew(-10deg);
     border-radius: 0;
+    background: #ffc107;
 }
 
 /* Mega Menu ==============================================*/
 .menu ul ul li {
     width: 100%;
+    min-width: 250px;
+    padding: 10px 25px;
+    text-transform: capitalize;
 }
 
 .menu ul ul a {
     color: #3d3d3d;
 }
+.menu ul ul a:hover {
+    color: #ffc107;
+}
 
 .menu ul ul li:hover {
     background: #f0f0f0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-
-
-/* Nút Toggle */
-.toggle-btn {
-    background: none;
-    color: white;
-    border: none;
-    cursor: pointer;
 }
 
 /* MOBILE ======================================================================= */
@@ -155,31 +141,28 @@ header {
     padding: 12px;
 }
 
+header .icon-menu-mobile{
+    display: none;
+}
+
 @media (max-width: 1400px) {
     .menu ul li{
-        padding: 8px 0;
-        margin: 0 10px;
+        padding: 6px 0;
+        margin: 0 5px;
     }
     .menu ul li a{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 @media (max-width: 1200px) {
-    .menu ul li{
-        padding: 6px 0;
-        margin: 0 6px;
-    }
     .menu ul li a{
-        font-size: 12px;
+        font-size: 13px;
+    }
+    header .container{
+        max-width: 100%;
     }
 }
 /* Desktop */
-@media (min-width: 992px) {
-    .toggle-btn {
-        display: none;
-    }
-}
-
 /* Mobile */
 @media (max-width: 992px) {
     .menu {
@@ -187,7 +170,7 @@ header {
     }
 
     .search-box {
-        width: 40%;
+        width: 50%;
     }
 
     .content-top-bar {
@@ -196,5 +179,29 @@ header {
 
     .cart {
         display: none;
+    }
+
+    header .icon-menu-mobile{
+        display: unset;
+    }
+
+    header .search-box{
+        display: none !important;
+    }
+    
+    header .logo-mobile{
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    header .logo-mobile img{
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 400px) {
+    header .logo-mobile img{
+        max-width: 100px;
     }
 }
