@@ -77,7 +77,7 @@
     border-radius: 24px;
   }
 @media (max-width: 1024px){
-  .container .fs-18{
+  .container .categories .fs-18, .container .outstandingProducts .fs-18{
       font-size: 16px !important;
   }
   .container p.nameCategory{
