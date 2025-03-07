@@ -12,10 +12,12 @@
         <!-- Header -->
         <div class="container py-2">
             <div class="row justify-content-between align-items-center">
-                <div class="col-2">
+                <div class="col-4 col-sm-3 col-lg-2">
                     <img src="images/logo.png" alt="Logo trang chủ" width="150">
                 </div>
-                <div class="col-6 col-sm-10 w-100 border-0 search-box bg-white d-flex align-items-center justify-content-between">
+
+                <div
+                    class="col-6 col-sm-10 w-100 border-0 search-box bg-white d-flex align-items-center justify-content-between">
                     <input type="text" class="w-100 border-0 bg-transparent py-2"
                         placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
                     <img src="icons/search-icon.svg" alt="Nút search" width="25">
@@ -35,7 +37,8 @@
                             </a>
                         </div>
                         <div class="col-md-12 col-lg-2">
-                            <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer" onclick="openSidebar()">
+                            <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer"
+                                onclick="openSidebar()">
                                 <img src="icons/main-menu-icon.svg" width="20">
                             </button>
                             <a class="cart text-white cursor-pointer border-0">
@@ -188,7 +191,9 @@
                 </ul>
             </div>
             <div class="row">
-                <button class="col-12 col-lg-12 col-md-8 col-sm-6 menu-btn fw-500 p-2 fs-16 text-white border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
+                <button
+                    class="col-12 col-lg-12 col-md-8 col-sm-6 menu-btn fw-500 p-2 fs-16 text-white border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
+                        src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
                     BẬT</button>
             </div>
         </nav>

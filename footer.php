@@ -14,7 +14,7 @@
             </div>
             <div class="row">
                 <!-- Cột 1: Thông tin địa chỉ -->
-                <div class="col-md-6">
+                <div class="col-md-12 col-lg-6">
                     <h5>ĐỊA CHỈ</h5>
                     <p><b>Văn Phòng Hà Nội:</b><br><img src="icons/location-icon.svg" class="mx-1" width="12"
                             alt="">Tầng 2, CT1 Eco Green City - 286 Đ. Nguyễn Xiển, Tân Triều, Hà
@@ -29,7 +29,7 @@
                 </div>
 
                 <!-- Cột 2: Thông tin liên hệ -->
-                <div class="col-md-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <h5>THÔNG TIN LIÊN HỆ</h5>
                     <div class="social-icons">
                         <a href="#"><img src="icons/messenger-icon-footer.png" width="30"></a>
@@ -48,13 +48,13 @@
                 </div>
 
                 <!-- Cột 3: Google Maps -->
-                <div class="col-md-3 mb-3">
+                <div class="col-sm-6 col-md-6 col-lg-3 mb-3">
                     <h5>GIỚI THIỆU</h5>
                     <p><img src="icons/double-right-icon.svg" width="10" alt=""><a href="#">Giới thiệu về Hupuna</a></p>
                     <p><img src="icons/double-right-icon.svg" width="10" alt=""><a href="#">Hướng dẫn mua hàng</a></p>
                     <p><img src="icons/double-right-icon.svg" width="10" alt=""><a href="#">Chính sách đổi trả</a></p>
                     <p><img src="icons/double-right-icon.svg" width="10" alt=""><a href="#">Chính sách bảo mật</a></p>
-                    <iframe
+                    <iframe class="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.403176726366!2d105.80130787584035!3d20.976469689571374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ada009b4c797%3A0x6f3d9e5773df337c!2zQ8OUTkcgVFkgQ-G7lCBQSOG6pk4gSFVQVU5BIEdST1VQ!5e0!3m2!1svi!2s!4v1741090603995!5m2!1svi!2s"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
