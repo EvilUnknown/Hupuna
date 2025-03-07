@@ -10,24 +10,24 @@
 <body>
     <header class="fs-12 text-dark">
         <!-- Header -->
-        <div class="container py-2">
+        <div class="container py-4">
             <div class="row justify-content-between align-items-center">
                 
                 <div class="col-2 col-sm-3 col-md-3 icon-menu-mobile">
                     <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer"
-                        onclick="openSidebar()">
-                        <img src="icons/main-menu-icon.svg" width="20">
+                        onclick="open_menu_mobile()">
+                        <img src="icons/main-menu-icon.svg" width="25">
                     </button>
                 </div> 
                 <div class="col-6 col-sm-6 col-md-6 col-lg-2 logo-mobile">
                     <img src="images/logo.png" alt="Logo trang chủ" width="100">
                 </div>
-                <div
+                <form
                     class="col-lg-6 border-0 search-box bg-white d-flex align-items-center justify-content-between">
                     <input type="text" class="w-100 border-0 bg-transparent py-2"
                         placeholder="Tìm kiếm từ khóa, thông tin, công dụng...">
                     <img src="icons/search-icon.svg" alt="Nút search" width="25">
-                </div>
+                </form>
                 <div class="col-4 col-sm-3 col-md-3 col-lg-4 d-flex justify-content-end">
                     <div class="row justify-content-between align-items-center">
                         <div class="col-sm-12 col-lg-5">
@@ -51,36 +51,7 @@
                 </div>
             </div>
         </div>
-        <!-- Sidebar -->
-        <!-- Lớp phủ nền -->
-        <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
-        <div class="sidebar" id="sidebar">
-            <a href="" class="logo">
-                <img src="images/logo.png" alt="Logo trang chủ" width="150">
-            </a>
-            <ul class="menu-mobi">
-                <!-- Cấp 1 -->
-                <li>
-                    <label for="menu1">Dịch vụ ▼</label>
-                    <input type="checkbox" id="menu1">
-                    <ul class="submenu">
-                        <!-- Cấp 2 -->
-                        <li>
-                            <label for="menu2">Thiết kế ▼</label>
-                            <input type="checkbox" id="menu2">
-                            <ul class="submenu-level-2">
-                                <li>Logo</li>
-                                <li>Banner</li>
-                                <li>Poster</li>
-                            </ul>
-                        </li>
-                        <li>Marketing</li>
-                    </ul>
-                </li>
-                <li>Trang chủ</li>
-                <li>Liên hệ</li>
-            </ul>
-        </div>
+     
         <!-- Main Menu -->
         <nav class="menu container d-flex justify-content-between align-items-center">
             <div class="menu-wrap">
@@ -200,6 +171,230 @@
        
         </nav>
     </header>
+
+    <section class="menu-m">
+        <ul class="menu-level1">
+            <li>
+                <div class="formSearch">
+                    <form action="https://hupuna.com/" class="form-search">
+                        <input type="text" name="s" placeholder="Bạn tìm gì...">
+                        <input type="text" hidden="" name="post_type" value="product" class="hidden">
+                        <button>
+                            <img class="icon-search" src="images/search.svg" alt="Search">
+                        </button>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <a href="https://hupuna.com/ve-chung-toi/" title="Về chúng tôi">
+                    Về chúng tôi
+                </a>
+            </li>
+            <li>
+                <a href="https://hupuna.com/cua-hang/" title="Sản phẩm">
+                    Sản phẩm
+                </a>
+                <span class="next-menu-level1">
+                    <img src="images/chervon-right.svg" alt="Chervon">
+                </span>
+                <ul class="menu-level2">
+                    <li>
+                        <a href="javascript:;" title="Tiêu đề" class="back-menu-level1">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                            Sản phẩm
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/hop-carton/" title="Hộp carton">
+                            Hộp carton
+                        </a>
+                        <span class="next-menu-level2">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                        </span>
+                        <ul class="menu-level3">
+                            <li>
+                                <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    Hộp carton
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/hop-carton/" title="Hàng có sẵn">
+                                    Hàng có sẵn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/san-xuat-hop-carton-so-luong-lon/" title="Sản xuất theo yêu cầu">
+                                    Sản xuất theo yêu cầu
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/hop-nap-gai/" title="Hộp nắp gài">
+                            Hộp nắp gài
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/hop-carton-chuyen-nha/" title="Hộp carton chuyển nhà">
+                            Hộp carton chuyển nhà
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/hop-in-offset/" title="Hộp in offset">
+                            Hộp in offset
+                        </a>
+                        <span class="next-menu-level2">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                        </span>
+                        <ul class="menu-level3">
+                            <li>
+                                <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    Hộp in offset
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/hop-dung-tra/" title="Hộp giấy đựng trà">
+                                    Hộp giấy đựng trà
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/hop-banh-trung-thu/" title="Hộp đựng bánh trung thu">
+                                    Hộp đựng bánh trung thu
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/thung-carton-hang-gia-dung/" title="Thùng carton hàng gia dụng">
+                                    Thùng carton hàng gia dụng
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/thung-carton-dung-nong-san/" title="Thùng carton đựng nông sản">
+                                    Thùng carton đựng nông sản
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/tui-giay/" title="Túi giấy">
+                            Túi giấy
+                        </a>
+                        <span class="next-menu-level2">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                        </span>
+                        <ul class="menu-level3">
+                            <li>
+                                <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    Túi giấy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/tui-giay-kraft-co-san/" title="Túi giấy Kraft có sẵn">
+                                    Túi giấy Kraft có sẵn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/hop-banh-trung-thu/" title="Túi giấy SX theo yêu cầu">
+                                    Túi giấy SX theo yêu cầu
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/bang-dinh/" title="Băng dính">
+                            Băng dính
+                        </a>
+                        <span class="next-menu-level2">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                        </span>
+                        <ul class="menu-level3">
+                            <li>
+                                <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                                    <img src="images/chervon-right.svg" alt="Chervon">
+                                    Băng dính
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/bang-dinh/" title="Hàng có sẵn">
+                                    Hàng có sẵn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://hupuna.com/san-xuat-bang-dinh-so-luong-lon/" title="Sản xuất theo yêu cầu">
+                                    Sản xuất theo yêu cầu
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/mang-pe/" title="Màng PE - Màng chít">
+                            Màng PE - Màng chít
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/xop-foam/" title="Xốp Foam chống sốc">
+                            Xốp Foam chống sốc
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/bong-khi/" title="Xốp khí - Bóng khí">
+                            Xốp khí - Bóng khí
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://hupuna.com/bo-suu-tap/" title="Bộ sưu tập">
+                    Bộ sưu tập
+                </a>
+            </li>
+            <li>
+                <a href="https://hupuna.com/ho-so-nang-luc/" title="Hồ sơ năng lực">
+                    Hồ sơ năng lực
+                </a>
+            </li>
+            <li>
+                <a href="https://hupuna.com/tin-tuc-va-su-kien/" title="Tin tức">
+                    Tin tức
+                </a>
+                <span class="next-menu-level2">
+                    <img src="images/chervon-right.svg" alt="Chervon">
+                </span>
+                <ul class="menu-level3">
+                    <li>
+                        <a href="javascript:;" title="Tiêu đề" class="back-menu-level2">
+                            <img src="images/chervon-right.svg" alt="Chervon">
+                            Tin tức
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/kien-thuc-bao-bi-giay/" title="Kiến thức bao bì giấy">
+                            Kiến thức bao bì giấy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/tin-noi-bo/" title="Tin nội bộ">
+                            Tin nội bộ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hupuna.com/tin-tuyen-dung/" title="Tin tuyển dụng">
+                            Tin tuyển dụng
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="https://hupuna.com/lien-he/" title="Liên hệ">
+                    Liên hệ
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <div class="overlay-menu-m" onclick="close_menu_mobile()"></div>
 </body>
 <script src="js/header.js"></script>
 
