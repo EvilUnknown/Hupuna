@@ -529,6 +529,7 @@ p {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
     .box-product-best-seller .tab-title,
     .title-library .tab-title {
