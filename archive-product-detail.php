@@ -874,7 +874,7 @@
                     <!-- end listProduct -->
 
                     <!-- start  describeCategory-->
-                    <div class="row mt-3">
+                    <div class="row mt-3 mb-3">
                         <div class="describeCategory">
                             <p class="fs-15 text-content fw-400 text-justify position-relative">
                                 Hộp carton là dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
