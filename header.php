@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <header class="fs-12 text-dark bg-position-center-top bg-no-repeat bg-size-cover">
+    <header class="fs-12 text-dark">
         <!-- Header -->
         <div class="container py-4">
             <div class="row justify-content-between align-items-center">
