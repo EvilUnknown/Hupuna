@@ -186,7 +186,7 @@ p {
 }
 .nav-link {
     color: #000;
-    padding: 13px 20px;
+    padding: 11px 20px;
 }
 .nav-tabs {
     border: none;
@@ -488,7 +488,7 @@ img {
     color: #003366;
 }
 .list-content-news .content {
-    padding: 0px 15px;
+    padding: 0px;
 }
 .card .actions,
 .list-content-news .content:nth-of-type(1),
@@ -544,7 +544,7 @@ img {
 }
 .list-content-news {
     min-height: 370px;
-    padding: 15px 10px;
+    padding: 15px 20px;
     flex-direction: column;
 }
 .box-product-best-seller .pro-tab-title{
