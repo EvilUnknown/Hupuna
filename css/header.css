@@ -16,6 +16,7 @@ header {
 /* Main Menu =====================================*/
 .menu ul li {
     padding: 10px 0;
+    margin: 0 30px 0 0;
 }
 .menu ul{
     display: flex;
@@ -143,7 +144,7 @@ header {
 @media (max-width: 1400px) {
     .menu ul li{
         padding: 8px 0;
-        margin: 0 10px;
+        margin: 0 20px 0 0;
     }
     .menu ul li a{
         font-size: 16px;
@@ -152,7 +153,7 @@ header {
 @media (max-width: 1200px) {
     .menu ul li{
         padding: 6px 0;
-        margin: 0 5px;
+        margin: 0 10px 0 0;
     }
     .menu ul li a{
         font-size: 14px;

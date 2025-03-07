@@ -12,10 +12,9 @@
         <!-- Header -->
         <div class="container py-2">
             <div class="row justify-content-between align-items-center">
-                <div class="col-4 col-sm-3 col-lg-2">
-                    <img src="images/logo.png" alt="Logo trang chủ" width="150">
+                <div class="col-4 col-sm-3 col-lg-2 ms-1">
+                    <img src="images/logo.png" alt="Logo trang chủ" width="100">
                 </div>
-
                 <div
                     class="col-6 col-sm-10 w-100 border-0 search-box bg-white d-flex align-items-center justify-content-between">
                     <input type="text" class="w-100 border-0 bg-transparent py-2"
