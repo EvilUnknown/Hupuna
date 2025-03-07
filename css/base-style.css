@@ -430,6 +430,10 @@ video{
     position: fixed;
 }
 
+.affix {
+    position: fixed;
+}
+
 .start-0 {
     left: 0;
 }
@@ -786,6 +790,11 @@ video{
     background-position: bottom;
 }
 
+.bg-position-center-top{
+    background-position: center top;
+}
+
+
 .bg-no-repeat{
     background-repeat: no-repeat;
 }
@@ -876,6 +885,14 @@ p{
 
 .height-100vh{
     height: 100vh;
+}
+
+.opacity-0{
+    opacity: 0;
+}
+
+.visibility-hidden{
+    visibility: hidden;
 }
 
 @media only screen and (max-width: 1200px) { 

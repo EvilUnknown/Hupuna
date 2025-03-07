@@ -25,3 +25,13 @@ $('.back-menu-level1').click(function(){
 $('.back-menu-level2').click(function(){
     $(this).parents('.menu-level3').removeClass('active');
 })
+
+// window scroll 
+var header = $('header');
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 196) {
+        header.addClass('affix');
+    } else {
+        header.removeClass('affix');
+    }
+}); 
