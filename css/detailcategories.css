@@ -94,16 +94,16 @@
   vertical-align: middle !important;
 }
 /* button sort */
-.filterProduct .tabs {
+.filterProduct .tabSorts {
   gap: 20px;
 }
-.filterProduct .tab.active {
+.filterProduct .tabSort.active {
   color: #003366;
   font-weight: bold;
 }
 .filterProduct .tab-indicator {
   height: 2px;
-  background: linear-gradient(to right, blue, green);
+  background: #003366;
   transition: all 0.3s ease-in-out;
 }
 .selectCategory select, .selectCategory button{

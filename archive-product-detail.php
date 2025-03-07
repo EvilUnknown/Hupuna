@@ -847,15 +847,15 @@
                     </div>
                     <div class="row desktop d-flex fs-18 align-items-center justify-content-center border-bottom">
                         <div class="col-12 d-flex align-items-center justify-content-center">
-                            <div class="tabs d-flex justify-content-center position-relative pb-3">
-                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tab active"
+                            <div class="tabSorts d-flex justify-content-center position-relative pb-3">
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort active"
                                     onclick="changeTab(this)">Phổ
                                     biến
                                 </div>
-                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tab"
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort"
                                     onclick="changeTab(this)">Mới nhất
                                 </div>
-                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tab"
+                                <div class="fw-500 fs-16 pb-1 cursor-pointer position-relative p-2 tabSort"
                                     onclick="changeTab(this)">Bán chạy
                                 </div>
                                 <div class="position-absolute start-0  bottom-0 tab-indicator"></div>
@@ -936,30 +936,6 @@
         </div>
     </div>
     <?php include 'footer.php'; ?>
-
-    <script>
-        const tabs = document.querySelectorAll(".tab");
-        const indicator = document.querySelector(".tab-indicator");
-
-        function changeTab(selectedTab) {
-            tabs.forEach(tab => tab.classList.remove("active"));
-            selectedTab.classList.add("active");
-
-            // Di chuyển thanh chỉ báo dưới tab
-            const tabRect = selectedTab.getBoundingClientRect();
-            const tabsRect = document.querySelector(".tabs").getBoundingClientRect();
-            indicator.style.width = `${tabRect.width}px`;
-            indicator.style.transform = `translateX(${tabRect.left - tabsRect.left}px)`;
-        }
-
-        // Cập nhật vị trí mặc định của thanh chỉ báo ban đầu
-        window.onload = () => {
-            const activeTab = document.querySelector(".tab.active");
-            changeTab(activeTab);
-        };
-    </script>
-
-
 </body>
 
 </html>
