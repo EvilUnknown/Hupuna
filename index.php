@@ -824,7 +824,7 @@
                                     <label for="content" class="form-label">Nội dung</label>
                                     <textarea class="form-control" id="content" rows="3" placeholder="Nhập nội dung"></textarea>
                                 </div>
-                                <button type="submit" class="btn py-3 px-4 text-white btn-submit">Gửi ngay</button>
+                                <button type="submit" class="btn py-3 px-5 text-white btn-submit fs-16">Gửi ngay</button>
                             </form>
                         </div>
                     </div>
