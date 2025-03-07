@@ -48,3 +48,15 @@
     color: #fff;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 992px) {
+    .footer .map{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer .map{
+        display: unset;
+    }
+}
