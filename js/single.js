@@ -72,3 +72,10 @@ $('.custom-next').click(function(){
     var slide = $(this).data('slide');
     $('.' + slide).slick('slickNext');
 });
+
+
+$('.tab_button').click(function(){
+    var target = $(this).data('tab-target');
+    $('.tab-content .tab-pane').removeClass('show active');
+    $(target).addClass('show active');
+});

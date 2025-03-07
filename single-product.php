@@ -21,7 +21,7 @@
     <script src="js/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
     <script type="text/javascript" src="js/slick.min.js"></script>
 
     <title>Hupuna</title>
@@ -384,30 +384,30 @@
             <div class="info-product-detail">
                 <ul role="tablist" class="d-flex tabs-info">
                     <li>
-                        <button class="active fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab1" aria-selected="true">
+                        <button class="active tab_button fw-600 position-relative cursor-pointer fs-16" data-tab-target="#tab1">
                             Mô tả
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab2" aria-selected="false">
+                        <button class="tab_button fw-600 position-relative cursor-pointer fs-16" data-tab-target="#tab2">
                             <span class="text-pc">Hướng dẫn sử dụng</span>
                             <span class="text-mobile d-none">Hướng dẫn</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab3" aria-selected="false">
+                        <button class="tab_button fw-600 position-relative cursor-pointer fs-16" data-tab-target="#tab3">
                             <span class="text-pc">Chương trình khuyến mại</span>
                             <span class="text-mobile d-none">Khuyến mại</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab4" aria-selected="false">
+                        <button class="tab_button fw-600 position-relative cursor-pointer fs-16" data-tab-target="#tab4">
                             <span class="text-pc">Hỗ trợ khách hàng</span>
                             <span class="text-mobile d-none">Hỗ trợ KH</span>
                         </button>
                     </li>
                     <li>
-                        <button class="fw-600 position-relative cursor-pointer fs-16" data-bs-toggle="pill" data-bs-target="#tab5" aria-selected="false">
+                        <button class="tab_button fw-600 position-relative cursor-pointer fs-16" data-tab-target="#tab5">
                             Đánh giá
                         </button>
                     </li>
