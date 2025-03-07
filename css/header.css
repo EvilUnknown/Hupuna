@@ -304,6 +304,11 @@ header .icon-menu-mobile{
         padding: 4px 13px 6px;
         background-color: transparent;
     }
+
+    .menu-m .logo{
+        max-width: 230px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 768px) {
