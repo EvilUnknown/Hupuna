@@ -18,7 +18,7 @@
                         onclick="openSidebar()">
                         <img src="icons/main-menu-icon.svg" width="20">
                     </button>
-                </div>
+                </div> 
                 <div class="col-6 col-sm-6 col-md-6 col-lg-2 logo-mobile ms-1">
                     <img src="images/logo.png" alt="Logo trang chủ" width="100">
                 </div>
