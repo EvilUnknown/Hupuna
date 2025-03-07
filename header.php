@@ -175,7 +175,7 @@
     <section class="menu-m">
         <div class="logo">
             <a href="" title="Logo">
-                <img src="images/" alt="">
+                <img src="images/logo-menu-mobile.png" alt="">
             </a>
         </div>
         <ul class="menu-level1">
