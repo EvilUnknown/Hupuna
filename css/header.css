@@ -4,7 +4,10 @@ body.no-scroll {
 }
 
 header {
-    background: url('../images/bg-header.png') no-repeat center center/cover;
+    background: url('../images/banner3-5760x574.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Button Search ================================= */
@@ -300,6 +303,11 @@ header .icon-menu-mobile{
         z-index: 2;
         padding: 4px 13px 6px;
         background-color: transparent;
+    }
+
+    .menu-m .logo{
+        max-width: 230px;
+        margin: 0 auto;
     }
 }
 
