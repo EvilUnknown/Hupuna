@@ -147,22 +147,17 @@ header .icon-menu-mobile{
 
 @media (max-width: 1400px) {
     .menu ul li{
-        padding: 8px 0;
-        margin: 0 10px;
-    }
-    .menu ul li a{
-        font-size: 16px;
-    }
-}
-@media (max-width: 1200px) {
-    .menu ul li{
         padding: 6px 0;
         margin: 0 5px;
     }
     .menu ul li a{
         font-size: 14px;
     }
-
+}
+@media (max-width: 1200px) {
+    .menu ul li a{
+        font-size: 13px;
+    }
     header .container{
         max-width: 100%;
     }
