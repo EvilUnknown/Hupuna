@@ -12,16 +12,16 @@
         <!-- Header -->
         <div class="container py-2">
             <div class="row justify-content-between align-items-center">
+                
                 <div class="col-2 col-sm-3 col-md-3 icon-menu-mobile">
                     <button class="toggle-btn bg-transparent text-white border-0 cursor-pointer"
                         onclick="openSidebar()">
                         <img src="icons/main-menu-icon.svg" width="20">
                     </button>
                 </div>
-                <div class="col-6 col-sm-6 col-md-6 col-lg-2 logo-mobile">
-                    <img src="images/logo.png" alt="Logo trang chủ" width="150">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-2 logo-mobile ms-1">
+                    <img src="images/logo.png" alt="Logo trang chủ" width="100">
                 </div>
-
                 <div
                     class="col-lg-6 border-0 search-box bg-white d-flex align-items-center justify-content-between">
                     <input type="text" class="w-100 border-0 bg-transparent py-2"

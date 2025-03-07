@@ -7,10 +7,11 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/bootstrap-grid.css">
-    <script src="js/bootstrap.bundle.min.js"></script></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </script>
     <!-- slickslider css and slickslider js  -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
     <script src="js/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,8 +74,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-chuyen-nha.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton chuyển nhà</a href="#">
+                                            <div class="item-categories-title pt-2 pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton chuyển nhà</a>
                                             </div>
                                         </div>
                                     </div>
@@ -83,8 +84,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-hop-carton.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a href="#">
+                                            <div class="item-categories-title pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a>
                                             </div>
                                         </div>
                                     </div>
@@ -93,8 +94,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-banh-trung-thu.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a href="#">
+                                            <div class="item-categories-title pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a>
                                             </div>
                                         </div>
                                     </div>
@@ -103,8 +104,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-hop-carton.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a href="#">
+                                            <div class="item-categories-title pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a>
                                             </div>
                                         </div>
                                     </div>
@@ -113,8 +114,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-hop-qua.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a href="#">
+                                            <div class="item-categories-title pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a>
                                             </div>
                                         </div>
                                     </div>
@@ -123,8 +124,8 @@
                                             <div class="item-categories-icon">
                                                 <img src="images/img-chuyen-nha.png" alt="">
                                             </div>
-                                            <div class="item-categories-title">
-                                                <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a href="#">
+                                            <div class="item-categories-title pt-2">
+                                                <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +145,8 @@
                             <p>LỰA CHỌN GÓI THIÊT KẾ PHÙ HỢP VỚI NHU CẦU CỦA BẠN</p>
                         </div>
                         <div class="title-degin">
-                            <h2 class="fs-28 pt-2">SÀN THIẾT KẾ</h2>
+                            <h2 class="fs-28">SÀN THIẾT KẾ</h2>
+                            <div class="border-bottom bg-black"></div>
                         </div>
                     </div>
                     <div class="carousel-container">
@@ -210,7 +212,7 @@
                 <div class="col-12">
                     <div class="pro-tab-title d-flex justify-content-between align-items-center pb-3">
                         <h2 class="fs-24 library">SẢN PHẨM BÁN CHẠY</h2>
-                        <div class="mobile-library d-flex justify-content-between px-2">
+                        <div class="mobile-library d-flex justify-content-between px-2 py-2">
                             <h2 class="fs-24">SẢN PHẨM BÁN CHẠY</h2>
                             <li class="see-more"><a class="text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
@@ -490,8 +492,8 @@
                 <div class="d-flex justify-content-between align-items-center mb-3 tab-title-library">
                     <div class="d-flex gap-5 title-library">
                         <h2 class="fs-24 library d-flex"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
-                        <div class="mobile-library d-flex justify-content-between px-2">
-                            <h2 class="fs-4"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
+                        <div class="mobile-library d-flex justify-content-between px-2 py-2">
+                            <h2 class="fs-22"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ VIỆN</h2>
                             <li class="see-more"><a class=" text-black" data-bs-toggle="tab" href="#see-more">XEM THÊM</a></li>
                         </div>
                         <ul class="nav nav-tabs tab-title d-flex fs-16" id="productTabs">
@@ -700,8 +702,9 @@
         <section class="section box-besiness py-5">
             <div class="row">
                 <div class="col-12">
-                    <div class="besiness-title">
-                        <h2 class="fs-28 pb-4 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
+                    <div class="besiness-title py-4">
+                        <h2 class="fs-28 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
+                        <div class="border-bottom bg-black"></div>
                     </div>
                     <div class="wrap-content-besiness d-flex gap-4 justify-content-between">
                         <div class="col-4 content-besiness content-besiness1">
@@ -806,19 +809,19 @@
                             <form action="">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Họ và tên</label>
-                                    <input type="text" class="form-control" id="name" aria-describedby="name">
+                                    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Họ và tên">
                                 </div>
                                 <div class="mb-3">
                                     <label for="email" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email của bạn">
                                 </div>
                                 <div class="mb-3">
                                     <label for="phone" class="form-label">Số điện thoại</label>
-                                    <input type="text" class="form-control" id="phone" aria-describedby="phone">
+                                    <input type="text" class="form-control" id="phone" aria-describedby="phone" placeholder="+84 123456789">
                                 </div>
                                 <div class="mb-3">
                                     <label for="content" class="form-label">Nội dung</label>
-                                    <textarea class="form-control" id="content" rows="3"></textarea>
+                                    <textarea class="form-control" id="content" rows="3" placeholder="Nhập nội dung"></textarea>
                                 </div>
                                 <button type="submit" class="btn py-3 px-4 text-white btn-submit">Gửi ngay</button>
                             </form>
@@ -859,7 +862,7 @@
                             </ul>
                         </div>
                         <div class="feedback wrap-content-feedback custom_slider" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
-                            <div class="col-4 box-feedback">
+                            <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý mình.
                                     Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
                                 </p>
@@ -873,7 +876,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-4 box-feedback">
+                            <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Hupuna giao hàng rất nhanh, đặc biệt là luôn có đủ mọi kích thước
                                     mà Shop quà lưu niệm Lingzaca cần. 5* Hupuna ơi!”
                                 </p>
@@ -887,7 +890,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-4 box-feedback">
+                            <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Dịch vụ của Hupuna rất chuyên nghiệp.
                                     Luôn đáp ứng nhanh chóng và linh hoạt với mọi yêu cầu của chúng tôi.”
                                 </p>
@@ -901,7 +904,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-4 box-feedback">
+                            <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Tôi rất ấn tượng về khả năng thiết kế linh hoạt của Hupuna.
                                     Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu cầu nào.”
                                 </p>
@@ -915,7 +918,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-4 box-feedback">
+                            <div class="col-4 box-feedback bg-white">
                                 <p class="text-line-clamp-3">“Rất hài lòng về khả năng sản xuất số lượng lớn.
                                     Hupuna có khả năng sản xuất hàng loạt hộp carton trong thời gian ngắn mà không ảnh hưởng đến chất lượng.”
                                 </p>
@@ -1002,121 +1005,131 @@
                     <div class="news-title text-center">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
+                        <div class="border-bottom bg-black"></div>
                     </div>
                     <div class="news-content d-flex">
                         <div class="col-9">
                             <div class="custom_slider news-content d-flex gap-3" data-slides-to-show="3" data-slides-to-scroll="1" data-slides-to-show-mobile="1">
-                                <div class="card col-4">
-                                    <div class="date">30 Jan</div>
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">30 Jan</div>
                                     <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1" class="object-fit-cover"></a>
                                     </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
-                                        <div class="description p-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="date">20 Jan</div>
-                                    <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
-                                    </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                                    </div>
-                                    <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
-                                        <div class="description p-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
-                                    </div>
-                                </div>
-                                <div class="card col-4">
-                                    <div class="date">30 Jan</div>
-                                    <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
-                                    </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
-                                    </div>
-                                    <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
-
-                                <div class="card col-4">
-                                    <div class="date">20 Jan</div>
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">20 Jan</div>
                                     <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2" class="object-fit-cover"></a>
                                     </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex  justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex  justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
-
-                                <div class="card col-4">
-                                    <div class="date">30 Jan</div>
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">30 Jan</div>
                                     <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"></a>
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1" class="object-fit-cover"></a>
                                     </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex  justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex  justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
                                         <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
 
-                                <div class="card col-4">
-                                    <div class="date">20 Jan</div>
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">20 Jan</div>
                                     <div class="zoom-img">
-                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"></a>
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2" class="object-fit-cover"></a>
                                     </div>
-                                    <div class="actions">
-                                        <span><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
-                                        <span><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
                                         <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
-                                        <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">30 Jan</div>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1" class="object-fit-cover"></a>
+                                    </div>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho Khách Hàng</a>
+                                        <div class="description py-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...</div>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
+                                    </div>
+                                </div>
+
+                                <div class="card col-4 overflow-hidden">
+                                    <div class="date text-white fs-14">20 Jan</div>
+                                    <div class="zoom-img">
+                                        <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2" class="object-fit-cover"></a>
+                                    </div>
+                                    <div class="actions d-flex align-items-center">
+                                        <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/chat.png" alt="" width="15" height="15"></i>0</span>
+                                        <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>48</span>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho Khách Hàng</a>
+                                        <div class="description py-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh tế...</div>
+                                        <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="list-news col-4">
-                                <div class="list-content-news d-flex">
+                                <div class="list-content-news d-flex justify-content-between">
                                     <div class="content">
-                                        <a href="#" class="title text-black">Top 100 những giỏ quà tết</a>
-                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng nước hoa Jubilé</a>
+                                        <div class="actions d-flex justify-content-between px-0">
+                                            <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/clock.png" alt="" width="15" height="15"></i>28/02/2025</span>
+                                            <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>168</span>
+                                        </div>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">Hộp Carton đựng Pizza</a>
-                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng trà Thanh Hang Tea</a>
+                                        <div class="actions d-flex justify-content-between px-0">
+                                            <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/clock.png" alt="" width="15" height="15"></i>03/03/2025</span>
+                                            <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>168</span>
+                                        </div>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black">In hộp giỏ quà trung thu</a>
-                                        <p class="description">Công ty Hupuna tự hào là đơn vị hàng đầu...</p>
+                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng nước hoa Jubilé</a>
+                                        <div class="actions d-flex justify-content-between px-0">
+                                            <span class="d-flex justify-content-center"><i class="fa-regular fa-comment"><img src="images/clock.png" alt="" width="15" height="15"></i>04/03/2025</span>
+                                            <span class="d-flex justify-content-center"><i class="fa-solid fa-eye"><img src="images/eye.png" alt=""></i>168</span>
+                                        </div>
                                     </div>
-                                    <a href="#" class="btn-new">XEM CHI TIẾT</a>
+                                    <a href="#" class="btn-new d-block text-center fs-14">XEM CHI TIẾT</a>
                                 </div>
                             </div>
                         </div>
