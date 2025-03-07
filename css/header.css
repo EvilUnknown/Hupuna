@@ -150,17 +150,21 @@ header .icon-menu-mobile{
         padding: 6px 0;
         margin: 0 5px;
     }
-    .menu ul li a{
-        font-size: 14px;
-    }
 }
 @media (max-width: 1200px) {
-    .menu ul li a{
-        font-size: 13px;
-    }
     header .container{
         max-width: 100%;
     }
+
+    header .menu .menu-wrap{
+        width: 912px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    /* .menu ul {
+        display: block !important;
+    } */
 }
 /* Desktop */
 /* Mobile */

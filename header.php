@@ -83,7 +83,7 @@
         </div>
         <!-- Main Menu -->
         <nav class="menu container d-flex justify-content-between align-items-center">
-            <div>
+            <div class="menu-wrap">
                 <ul>
                     <li>
                         <a href="#">
@@ -193,10 +193,10 @@
                 </ul>
             </div>
             
-                <button
-                    class="menu-btn fw-500 p-2 fs-16 text-black border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
-                        src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
-                    BẬT</button>
+            <button
+                class="menu-btn fw-500 p-2 fs-16 text-black border-0 cursor-pointer d-flex align-items-center justify-content-center gap-3"><img
+                    src="icons/video-library-icon.svg" width="20" class="pb-1"> VIDEO NỔI
+                BẬT</button>
        
         </nav>
     </header>
