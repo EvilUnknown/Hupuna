@@ -893,7 +893,7 @@
                         <div class="feedback wrap-content-feedback custom_slider d-flex w-100 flex-wrap" data-slides-to-show="3"
                             data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                             <div class="col-4 box-feedback bg-white position-relative">
-                                <p class="text-line-clamp-3">“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý
+                                <p class="text-line-clamp-3 ps-3 text-justify">“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý
                                     mình.
                                     Chắc chắn các sản phẩm sau mình vẫn sẽ đặt hộp carton bên shop”
                                 </p>
@@ -908,7 +908,7 @@
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback bg-white position-relative">
-                                <p class="text-line-clamp-3">“Hupuna giao hàng rất nhanh, đặc biệt là luôn có đủ mọi
+                                <p class="text-line-clamp-3 ps-3 text-justify">“Hupuna giao hàng rất nhanh, đặc biệt là luôn có đủ mọi
                                     kích thước
                                     mà Shop quà lưu niệm Lingzaca cần. 5* Hupuna ơi!”
                                 </p>
@@ -923,7 +923,7 @@
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback bg-white position-relative">
-                                <p class="text-line-clamp-3">“Dịch vụ của Hupuna rất chuyên nghiệp.
+                                <p class="text-line-clamp-3 ps-3 text-justify">“Dịch vụ của Hupuna rất chuyên nghiệp.
                                     Luôn đáp ứng nhanh chóng và linh hoạt với mọi yêu cầu của chúng tôi.”
                                 </p>
                                 <ul class="row align-items-center pt-3">
@@ -937,12 +937,12 @@
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback bg-white position-relative">
-                                <p class="text-line-clamp-3">“Tôi rất ấn tượng về khả năng thiết kế linh hoạt của
+                                <p class="text-line-clamp-3 ps-3 text-justify">“Tôi rất ấn tượng về khả năng thiết kế linh hoạt của
                                     Hupuna.
                                     Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu
                                     cầu nào.”
                                 </p>
-                                <ul class="row align-items-center pt-3">
+                                <ul class="row align-items-center pt-2">
                                     <li class="col-3">
                                         <img src="images/ceo-giaohangtietkiem-pham-hong-quan-100x100.jpg" alt="">
                                     </li>
@@ -953,7 +953,7 @@
                                 </ul>
                             </div>
                             <div class="col-4 box-feedback bg-white position-relative">
-                                <p class="text-line-clamp-3">“Rất hài lòng về khả năng sản xuất số lượng lớn.
+                                <p class="text-line-clamp-3 ps-3 text-justify">“Rất hài lòng về khả năng sản xuất số lượng lớn.
                                     Hupuna có khả năng sản xuất hàng loạt hộp carton trong thời gian ngắn mà không ảnh
                                     hưởng đến chất lượng.”
                                 </p>

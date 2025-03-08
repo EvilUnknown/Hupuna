@@ -219,9 +219,9 @@ p {
     font-family: 'Georgia';
     position: absolute;
     font-size: 80px;
-    top: 50px;
+    top: 48px;
     line-height: 0;
-    left: 0px;
+    left: 13px;
     transform: translate(0, -50%);
 }
 .box-feedback ul li:nth-of-type(1) {
@@ -448,6 +448,9 @@ p {
 .item-category img {
     transition: all .3s ease-in-out;
 }
+.box-benefit .row {
+    margin: auto -8px;
+}
 @media (max-width: 1280px) {
     .custom_slider .item-category {
         min-height: 309px;
@@ -471,8 +474,11 @@ p {
     }
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
-    .container .box-news{
-        max-width: 97%!important;
+    .container .box-news {
+        max-width: 97%;
+    }
+    .container .cutomer-feedback {
+        max-width: 98%;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
