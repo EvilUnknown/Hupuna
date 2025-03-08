@@ -227,5 +227,29 @@
     width: 245px;
     left: 145px;
 }
-/* .foundation  */
 /* End foundation */
+
+/* Story  */
+.story{
+    margin-bottom: 80px;
+}
+
+.story .item-story .wrap-img{
+    padding-bottom: 70.42%;
+}
+
+.story .item-story .content{
+    padding: 12px 30px 40px;
+    background: #f7f6fa;
+}
+
+.story .item-story h3{
+    border-top: 1px solid #ccc;
+}
+
+.story .item-story .see-detail{
+    background-color: rgb(45, 190, 179);
+    padding: 10px 15px;
+    bottom: -25px;
+}
+/* End story  */

@@ -468,31 +468,33 @@
                 <div class="line mx-auto mb-4 bg-black"></div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <div class="item-story">
                         <a href="" title="" class="wrap-img img-100">
                             <img src="images/story1.jpg" alt="">
                         </a>
-                        <div class="content">
-                            <div class="row">
-                                <div class="col-4">
+                        <div class="content position-relative">
+                            <div class="row align-items-center">
+                                <div class="col-6 fs-13">
                                     <img src="icons/date.svg" alt="">
                                     07/03/2025
                                 </div>
-                                <div class="col-4">
+                                <div class="col-6 fs-13">
                                     <img src="icons/view.svg" alt="">
                                     709
                                 </div>
                             </div>
-                            <h3>
-                                <a href="" title="" class="name">
+                            <h3 class="pt-2 my-2">
+                                <a href="" title="" class="name fs-14 fw-700 text-black">
                                     Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?
                                 </a>
                             </h3>
-                            <div class="des">
+                            <div class="des fs-14 text-line-clamp-3">
                                 Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?
                             </div>
-                            <a href="" title="Xem chi tiết"></a>
+                            <a href="" title="Xem chi tiết" class="see-detail text-white text-uppercase fw-600 position-absolute d-block end-0 fs-14">
+                                Xem chi tiết
+                            </a>
                         </div>
                     </div>
                 </div>
