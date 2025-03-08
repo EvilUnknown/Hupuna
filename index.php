@@ -1041,7 +1041,7 @@
                                 data-slides-to-scroll="1" data-slides-to-show-mobile="1">
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">30 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"
                                                 class="object-fit-cover w-100 w-100"></a>
                                     </div>
@@ -1062,7 +1062,7 @@
                                 </div>
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">20 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"
                                                 class="object-fit-cover w-100"></a>
                                     </div>
@@ -1083,7 +1083,7 @@
                                 </div>
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">30 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"
                                                 class="object-fit-cover w-100"></a>
                                     </div>
@@ -1105,7 +1105,7 @@
 
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">20 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"
                                                 class="object-fit-cover w-100"></a>
                                     </div>
@@ -1127,7 +1127,7 @@
 
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">30 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 1"
                                                 class="object-fit-cover w-100"></a>
                                     </div>
@@ -1149,7 +1149,7 @@
 
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">20 Jan</div>
-                                    <div class="zoom-img">
+                                    <div class="zoom-img overflow-hidden">
                                         <a href="#"><img src="images/img-new.jpg" alt="Bài viết 2"
                                                 class="object-fit-cover w-100"></a>
                                     </div>
