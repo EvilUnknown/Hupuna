@@ -149,7 +149,7 @@
                         </div>
                         <div class="title-degin">
                             <h2 class="fs-28">SÀN THIẾT KẾ</h2>
-                            <div class="border-bottom bg-black"></div>
+                            <div class="border-bottom"></div>
                         </div>
                     </div>
                     <div class="carousel-container overflow-hidden position-relative w-100">
@@ -413,7 +413,7 @@
         <section class="section box-product-hight">
             <div class="justify-content-center">
                 <div class="col-12 container-product-hight">
-                    <div class="product-hight-title pb-2 d-flex justify-content-between">
+                    <div class="product-hight-title pb-3 d-flex justify-content-between">
                         <h2 class="fs-24">SẢN PHẨM NỔI BẬT</h2>
                         <a href="#" class="see-more fw-700 text-black">XEM THÊM</a>
                     </div>
@@ -751,7 +751,7 @@
             <div class="col-12">
                 <div class="besiness-title py-4">
                     <h2 class="fs-28 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
-                    <div class="border-bottom bg-black"></div>
+                    <div class="border-bottom"></div>
                 </div>
                 <div class="wrap-content-besiness d-flex gap-4 justify-content-between flex-wrap">
                     <div class="col-4 content-besiness content-besiness1">
@@ -837,8 +837,15 @@
             </div>
 
         </section>
-
     </div>
+
+    <section class="section">
+         <div class="banner2-ceo">
+         </div>
+         <div class="wrap-container-video">
+
+         </div>               
+    </section>
     <section class="section box-active position-relative">
         <div class="banner-box-active">
             <img src="images/banner-ngang-10-năm.jpg" alt="" class="position-absolute start-0 object-fit-cover w-100 height-100">
@@ -970,7 +977,7 @@
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-12">
-                    <div class="row benefit-buy-product">
+                    <div class=" row benefit-buy-product">
                         <div class="col-6 video-contact">
                             <iframe width="1250" height="100%"
                                 src="https://www.youtube.com/embed/uuGP6UxGYmo?autoplay=1&mute=1"
@@ -1033,7 +1040,7 @@
                     <div class="news-title text-center">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
-                        <div class="border-bottom bg-black"></div>
+                        <div class="border-bottom"></div>
                     </div>
                     <div class="news-content d-flex">
                         <div class="col-9">

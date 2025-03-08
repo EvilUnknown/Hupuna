@@ -36,6 +36,7 @@ p {
     width: 10%;
     height: 2px;
     margin: 5px auto auto;
+    background: #000;
 }
 
 /* css section box-design*/
@@ -233,6 +234,15 @@ p {
     transform: scale(1.1);
 }
 
+/* css section box-banner2-ceo*/
+.banner2-ceo {
+    background-image: url('../images/banner-ceo-1920x537.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+}
 /* css section box-benefit */
 .box-benefit {
     background-image: url('../images/banner-ceo-1920x537.png');
@@ -384,6 +394,9 @@ p {
 .slick-prev:before {
     left: 20%;
     background-image: url('../images/left.png');
+}
+.slick-dots li button:before {
+    font-size: 35px;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -587,6 +600,9 @@ p {
     .box-contact {
         padding-top: 20px!important;
     }
+    .box-benefit .row {
+        margin: auto -8px;
+    }
     
 }
 
@@ -722,7 +738,7 @@ p {
     }
     .tab-title {
         width: 100%;
-        padding: 10px;
+        padding: 10px 10px 20px;
         overflow-x: auto;
         white-space: nowrap;
         display: flex;
@@ -858,11 +874,16 @@ p {
     .cutomer-feedback h2 {
         font-size: 22px;
     }
+    .box-benefit .row {
+        margin: auto -8px;
+    }
 }
 @media (max-width: 429px) {
-    .container-home p {
-        font-size: 14px;
+    .container-home .info-content-text{
         line-height: 1.6;
+    }
+    .info-content-text p {
+        font-size: 14px;
     }
     .cutomer-feedback h2,
     .news-title h2,
@@ -897,5 +918,8 @@ p {
     }
     .see-more {
         padding: 7px 10px;
+    }
+    .box-benefit .row {
+        margin: auto -8px;
     }
 }
