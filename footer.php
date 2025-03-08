@@ -115,6 +115,17 @@
         </div>
     </footer>
 
+    <section class="btn-fixed-wrap position-fixed">
+        <div class="phone position-relative">
+            <div class="hotline-bg position-relative"></div>
+            <div class="hotline-icon position-absolute">
+                <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
+                    <img src="images/phone-fixed.png" alt="" class="object-fit-cover">
+                </a>
+            </div>
+        </div> 
+    </section>
+
     <script src="js/footer.js"></script>
 
 </body>

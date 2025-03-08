@@ -53,6 +53,87 @@
     margin-top: 5px;
 }
 
+.footer iframe{
+    border-radius: 10px;
+}
+
+.btn-fixed-wrap{
+    right: 20px;
+    bottom: 60px;
+    z-index: 9999;
+}
+
+.btn-fixed-wrap .phone{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
+
+.btn-fixed-wrap .hotline-bg{
+    background: #ed1b24;
+    box-shadow: 0 0 0 20px #ed1b24;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    opacity: 0.6;
+    top: 10px;
+    left: 10px;
+    animation: zoom 1.2s infinite;
+}
+
+.btn-fixed-wrap .hotline-icon {
+    width: 50px;
+    height: 50px;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+    animation: hotline-icon 1s infinite ease-in-out;
+}
+
+.btn-fixed-wrap img{
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes hotline-icon {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(.8);
+    }
+    
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent;
+    }
+    100% {
+        transform: scale(.8);
+        box-shadow: 0 0 0 0 transparent;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .footer .map{
         display: none;
