@@ -928,4 +928,7 @@ p {
     .box-benefit .row {
         margin: auto -8px;
     }
+    .border-bottom {
+        width: 23%;
+    }
 }
