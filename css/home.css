@@ -50,6 +50,7 @@ p {
     line-height: 1.8;
 }
 .item-categories {
+    border-radius: 8px;
     background: rgba(255, 255, 255, 1);
     box-shadow: 0 0 20px 0.5px rgba(224, 224, 224, 1);
 }
@@ -652,7 +653,6 @@ p {
     }
     .item-categories {
         padding: 15px!important;
-        border-radius: 8px;
     }
     .item-categories-icon img {
         width: 45px;
