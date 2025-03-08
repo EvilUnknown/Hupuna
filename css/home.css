@@ -327,7 +327,7 @@ p {
     gap: 25px;
 }
 .list-content-news {
-    min-height: 393px;
+    min-height: 397px;
     padding: 15px 20px;
     flex-direction: column;
 }
