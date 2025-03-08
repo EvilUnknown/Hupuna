@@ -162,7 +162,7 @@
 .library .title::before{
     content: '';
     display: block;
-    width: 55%;
+    width: 105px;
     height: 16px;
     background-color: rgb(254 151 147);
     position: absolute;
@@ -234,22 +234,114 @@
     margin-bottom: 80px;
 }
 
+.story .item-story{
+    background: #f7f6fa;
+    height: 100%;
+}
+
 .story .item-story .wrap-img{
     padding-bottom: 70.42%;
 }
 
 .story .item-story .content{
     padding: 12px 30px 40px;
-    background: #f7f6fa;
 }
 
-.story .item-story h3{
-    border-top: 1px solid #ccc;
+.story .item-story .infos{
+    border-bottom: 1px solid #ccc;
 }
 
 .story .item-story .see-detail{
-    background-color: rgb(45, 190, 179);
     padding: 10px 15px;
     bottom: -25px;
 }
+
+.story .item-story .name:hover{
+    color: #0a58ca;
+}
 /* End story  */
+
+/* Promotion  */
+.promotion .item img{
+    width: 47px;
+    height: 47px;
+}
+
+.promotion .item{
+    gap: 20px;
+}
+/* End promotion  */
+
+@media only screen and (max-width: 1400px) {
+    .foundation .video{
+        left: 45px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .category .item .name{
+        font-size: 16px;
+    }
+
+    .design .item-design .name{
+        font-size: 16px;
+    }
+
+    .design .item-design .quantity{
+        width: unset;
+        display: inline-block;
+        padding: 8px 15px !important;
+    }
+
+    .library .item-product .min-quantity{
+        font-size: 13px;
+    }
+
+    .business .item .see{
+        font-size: 13px;
+    }
+
+    .story .item-story .content {
+        padding: 12px 20px 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .category .item, 
+    .library .item-product{
+        width: calc(100% / 3);
+    }
+
+    .category .item:first-child{
+        display: none;
+    }
+
+    .library .tab-wrap{
+        margin-top: 10px;
+    }
+
+    .foundation{
+        background-position: right;
+    }
+
+    .foundation .video{
+        position: unset;
+        margin: 0 auto 30px;
+    }
+
+    .story .item-story .see-detail{
+        position: unset;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .story .row{
+        row-gap: 30px;
+    }
+
+    .story {
+        margin-bottom: 40px;
+    }
+}

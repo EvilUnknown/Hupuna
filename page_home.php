@@ -107,7 +107,7 @@
                     <div class="item px-2">
                         <a href="<?php echo $v['link']; ?>" title="<?php echo $v['title']; ?>" class="item-category d-flex flex-column justify-content-center align-items-center gap-3 text-second-color p-2 text-line-clamp-1 transition-03">
                             <img src="<?php echo $v['image']; ?>" alt="<?php echo $v['title']; ?>" class="object-fit-cover">
-                            <span class="fs-17 fw-600"><?php echo $v['title']; ?></span>
+                            <span class="name fs-17 fw-600"><?php echo $v['title']; ?></span>
                         </a>
                     </div>
                 <?php } ?>
@@ -200,34 +200,34 @@
     <section class="library space-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-md-12 col-lg-2">
                     <h2 class="fs-27 text-uppercase fw-900 title position-relative">Thư viện</h2>
                 </div>
                 <div class="col-lg-10">
                     <div class="tab-wrap d-flex justify-content-between align-items-center">
                         <ul role="tablist" class="d-flex tabs-info">
                             <li>
-                                <button class="active tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 text-uppercase fw-500" data-tab-target="#tab1">
+                                <button class="active tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 me-lg-3 me-md-3 text-uppercase fw-500" data-tab-target="#tab1">
                                     Sản phẩm nổi bật
                                 </button>
                             </li>
                             <li>
-                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 text-uppercase fw-500" data-tab-target="#tab2">
+                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 me-lg-3 me-md-3 text-uppercase fw-500" data-tab-target="#tab2">
                                     Nông sản - OCOP
                                 </button>
                             </li>
                             <li>
-                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 text-uppercase fw-500" data-tab-target="#tab3">
+                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 me-lg-3 me-md-3 text-uppercase fw-500" data-tab-target="#tab3">
                                     Hộp giấy
                                 </button>
                             </li>
                             <li>
-                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 text-uppercase fw-500" data-tab-target="#tab4">
+                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 me-lg-3 me-md-3 text-uppercase fw-500" data-tab-target="#tab4">
                                     Hộp yến
                                 </button>
                             </li>
                             <li>
-                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 text-uppercase fw-500" data-tab-target="#tab5">
+                                <button class="tab_button cursor-pointer fs-14 bg-white py-1 px-0 me-xl-5 me-lg-3 me-md-3 text-uppercase fw-500" data-tab-target="#tab5">
                                     Hộp trụ tròn
                                 </button>
                             </li>
@@ -259,13 +259,13 @@
                                     </a>
                                 </h3>
                                 <div class="row align-items-center justify-content-center my-2">
-                                    <div class="col-4">
+                                    <div class="col-md-5 col-lg-5 col-xl-4">
                                         <div class="favourites fs-14">
                                             <img src="icons/favourite.svg" alt="">
                                             20
                                         </div>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-5 col-lg-5 col-xl-4">
                                         <div class="views fs-14">
                                             <img src="icons/view.svg" alt="">
                                             266
@@ -288,12 +288,12 @@
 
             <div class="img-wrap">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-md-4 col-lg-4">
                         <div class="img-left img-100">
                             <img src="images/library_img1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-md-8 col-lg-8">
                         <div class="img-right img-100">
                             <img src="images/library_img2.jpg" alt="">
                         </div>
@@ -357,10 +357,10 @@
                         $link = $v['link'];
                         $title = $v['title'];    
                     ?>
-                    <div class="col-lg-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="item p-3 transition-03">
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-md-3 col-lg-3">
                                     <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="wrap-img img-100">
                                         <img src="<?php echo $v['image']; ?>" alt="<?php echo $title; ?>">
                                     </a>
@@ -368,7 +368,7 @@
                                         Xem
                                     </a>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-md-9 col-lg-9">
                                     <div class="content">
                                         <div class="mb-1">
                                             <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="title fs-20 fw-700 text-uppercase text-black transition-03">
@@ -423,24 +423,24 @@
             <div class="title-wrap text-center">
                 <h3 class="fs-14 text-uppercase fw-500 mb-2">Nền tảng thiết kế và in ấn số 1 Việt Nam</h3>
                 <h2 class="fs-27 text-uppercase fw-900 mb-3">In ấn dễ dàng hơn cùng <span class="text-blue-cus">Hupuna</span></h2>
-                <div class="line mx-auto mb-4 bg-black"></div>
+                <div class="line mx-auto bg-black"></div>
             </div>
             <div class="row">
-                <div class="col-lg-6 position-relative">
+                <div class="col-md-12 col-lg-6 position-relative">
                     <div class="video text-uppercase text-white cursor-pointer text-center p-2 fw-600 position-absolute">
                         Video hướng dẫn
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-12 col-lg-6">
                     <?php $i = 0; foreach($foundation as $v) { $i++; ?>
                         <div class="item pt-4">
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-md-2 col-lg-2">
                                     <div class="wrap-img img-100">
                                         <img src="<?php echo $v['image']; ?>" alt="<?php echo $v['title']; ?>">
                                     </div>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-md-10 col-lg-10">
                                     <div class="content">
                                         <div class="title fs-20 fw-900 mb-2 text-uppercase <?php echo $i % 2 == 0 ? 'text-warning' : 'text-blue-cus'; ?>">
                                             <?php echo $v['title']; ?>
@@ -469,7 +469,23 @@
                 'views' => '709',
                 'title' => 'Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?',
                 'des' => 'Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?',
-            )
+            ),
+            '2' => array(
+                'link' => '',
+                'image' => 'images/story2.jpg',
+                'created' => '07/03/2025',
+                'views' => '249',
+                'title' => 'Tìm hiểu về polygonal box - bao bì hộp đa giác độc đáo',
+                'des' => 'Một trong những thiết kế nổi bật được ưa chuộng trong những năm gần đây chính là polygonal box — hộp đa giác với kiểu dáng sáng tạo, nổi bật nhờ các đường nét góc cạnh và cấu trúc độc đáo. ',
+            ),
+            '3' => array(
+                'link' => '',
+                'image' => 'images/story3.jpg',
+                'created' => '06/03/2025',
+                'views' => '693',
+                'title' => 'Hộp giấy có quai xách - Giải pháp bao bì hiện đại đầy tiện ích cho mọi nhu cầu',
+                'des' => 'Nổi bật trong xu hướng bao bì hiện đại, hộp giấy có quai xách đang trở thành lựa chọn hàng đầu nhờ thiết kế thông minh, dễ dàng cầm nắm và di chuyển. ',
+            ),
         )
     ?>
     <section class="story">
@@ -477,45 +493,146 @@
             <div class="title-wrap text-center">
                 <h3 class="fs-14 text-uppercase fw-500 mb-2">Cập nhật tin tức, xu hướng thiết kế</h3>
                 <h2 class="fs-27 text-uppercase fw-900 mb-3">Câu chuyện đồ họa</h2>
-                <div class="line mx-auto mb-4 bg-black"></div>
+                <div class="line mx-auto bg-black"></div>
             </div>
             <div class="row">
                 <?php foreach($story as $v) { ?>
-                    <div class="col-lg-3">
-                        <div class="item-story">
-                            <a href="" title="" class="wrap-img img-100">
-                                <img src="images/story1.jpg" alt="">
+                    <?php 
+                        $link = $v['link'];
+                        $title = $v['title'];
+                    ?>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="item-story position-relative">
+                            <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="wrap-img img-100">
+                                <img src="<?php echo $v['image']; ?>" alt="<?php echo $title; ?>">
                             </a>
-                            <div class="content position-relative">
-                                <div class="row align-items-center">
-                                    <div class="col-6 fs-13">
-                                        <img src="icons/date.svg" alt="">
-                                        07/03/2025
+                            <div class="content">
+                                <div class="row align-items-center infos pb-2">
+                                    <div class="col-md-7 col-lg-7 col-xl-6 fs-13">
+                                        <img src="icons/date.svg" alt="created">
+                                        <?php echo $v['created']; ?>
                                     </div>
-                                    <div class="col-6 fs-13">
-                                        <img src="icons/view.svg" alt="">
-                                        709
+                                    <div class="col-md-5 col-lg-5 col-xl-6 fs-13">
+                                        <img src="icons/view.svg" alt="views">
+                                        <?php echo $v['views']; ?>
                                     </div>
                                 </div>
-                                <h3 class="pt-2 my-2">
-                                    <a href="" title="" class="name fs-14 fw-700 text-black">
-                                        Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?
+                                <h3 class="my-2">
+                                    <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="name fs-14 fw-700 text-black text-line-clamp-2 transition-03">
+                                        <?php echo $title; ?>
                                     </a>
                                 </h3>
                                 <div class="des fs-14 text-line-clamp-3">
-                                    Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?
+                                    <?php echo $v['des']; ?>
                                 </div>
-                                <a href="" title="Xem chi tiết" class="see-detail text-white text-uppercase fw-600 position-absolute d-block end-0 fs-14">
-                                    Xem chi tiết
-                                </a>
                             </div>
+                            <a href="<?php echo $link; ?>" title="Xem chi tiết" class="see-detail text-white text-uppercase fw-600 position-absolute d-block end-0 fs-14 bg-blue-cus">
+                                Xem chi tiết
+                            </a>
                         </div>
                     </div>
                 <?php } ?>
+                <div class="col-md-6 col-lg-3">
+                    <div class="item-story position-relative">
+                        <div class="content">
+                            <?php for($i = 0 ; $i < 3; $i++) { ?>
+                                <div class="item-story-sm pt-3">
+                                    <h3 class="my-2">
+                                        <a href="" title="" class="name fs-14 fw-700 text-black text-line-clamp-2 transition-03">
+                                            Dự án thiết kế và in hộp đựng trang sức Family
+                                        </a>
+                                    </h3>
+                                    <div class="row align-items-center infos pb-2">
+                                        <div class="col-md-7 col-lg-7 col-xl-6 fs-13">
+                                            <img src="icons/date.svg" alt="created">
+                                            06/03/2025
+                                        </div>
+                                        <div class="col-md-5 col-lg-5 col-xl-6 fs-13">
+                                            <img src="icons/view.svg" alt="views">
+                                            630
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+                        </div>
+                        <a href="" title="Xem chi tiết" class="see-detail text-white text-uppercase fw-600 position-absolute d-block end-0 fs-14 bg-blue-cus">
+                            Xem chi tiết
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- End story   -->
+
+    <!-- Promotion -->
+    <section class="promotion bg-blue-cus text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <div class="item d-flex justify-content-center align-items-center">
+                        <div class="wrap-img">
+                            <img src="images/print.png" alt="" class="object-fit-cover">
+                        </div>
+                        <div class="content">
+                            <div class="title text-uppercase fs-14 fw-700 mb-2">
+                                In ấn
+                            </div>
+                            <div class="des fs-13 fw-500">
+                                Mọi lúc, mọi nơi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <div class="item d-flex justify-content-center align-items-center">
+                        <div class="wrap-img">
+                            <img src="images/artboard.svg" alt="" class="object-fit-cover">
+                        </div>
+                        <div class="content">
+                            <div class="title text-uppercase fs-14 fw-700 mb-2">
+                                Công nghệ
+                            </div>
+                            <div class="des fs-13 fw-500">
+                                Tiên phong
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <div class="item d-flex justify-content-center align-items-center">
+                        <div class="wrap-img">
+                            <img src="images/design.png" alt="" class="object-fit-cover">
+                        </div>
+                        <div class="content">
+                            <div class="title text-uppercase fs-14 fw-700 mb-2">
+                                Thiết kế 
+                            </div>
+                            <div class="des fs-13 fw-500">
+                                Kho thư viện phong phú
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3">
+                    <div class="item d-flex justify-content-center align-items-center">
+                        <div class="wrap-img">
+                            <img src="images/quanlity.png" alt="" class="object-fit-cover">
+                        </div>
+                        <div class="content">
+                            <div class="title text-uppercase fs-14 fw-700 mb-2">
+                                Chất lượng
+                            </div>
+                            <div class="des fs-13 fw-500">
+                                Luôn luôn đảm bảo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Promotion -->
 
     <?php include 'footer.php'; ?>
 
