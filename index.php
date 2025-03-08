@@ -160,7 +160,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">BAO BÌ MỸ PHẨM</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white blue-button fs-14 cursor-pointer">Bao bì mỹ
                                     phẩm</button>
@@ -169,7 +169,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ BAO BÌ OCOP</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
@@ -179,7 +179,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
@@ -189,7 +189,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">BAO BÌ MỸ PHẨM</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Bao
@@ -199,7 +199,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ BAO BÌ OCOP</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
@@ -209,7 +209,7 @@
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
-                                <a href="#" class="carousel-title text-black fw-700 fs-18">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
+                                <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
@@ -432,7 +432,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -447,7 +447,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -462,7 +462,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -477,7 +477,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -491,7 +491,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -505,7 +505,7 @@
                                             <div>
                                                 <img src="images/rating.png" alt="" class="img-rating">
                                             </div>
-                                            <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                            <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
@@ -568,7 +568,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -582,7 +582,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -596,7 +596,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -610,7 +610,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -623,7 +623,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -636,7 +636,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -653,7 +653,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -671,7 +671,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -689,7 +689,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -707,7 +707,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -725,7 +725,7 @@
                                     <div>
                                         <img src="images/rating.png" alt="" class="img-rating">
                                     </div>
-                                    <button class="btn btn-outline-secondary btn-best-seller ">Giá chỉ từ <span
+                                    <button class="btn btn-outline-secondary btn-best-seller bg-white ">Giá chỉ từ <span
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
@@ -1053,9 +1053,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng B Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...
                                         </div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1074,9 +1074,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng E Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
                                             tế...</div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1095,9 +1095,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng B Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...
                                         </div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1117,9 +1117,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng E Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
                                             tế...</div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1139,9 +1139,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng B Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng B Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Tết Nguyên Đán không chỉ là dịp để sum vầy...
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Tết Nguyên Đán không chỉ là dịp để sum vầy...
                                         </div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1161,9 +1161,9 @@
                                                     src="images/eye.png" alt=""></i>48</span>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Sản Xuất Hộp Carton Sóng E Cho
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Sản Xuất Hộp Carton Sóng E Cho
                                             Khách Hàng</a>
-                                        <div class="description pt-2 pb-3">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
+                                        <div class="description pt-2 pb-3 text-line-clamp-2">Ép kim và ép nhũ là hai kỹ thuật in ấn tinh
                                             tế...</div>
                                         <a href="#" class="btn-new fw-600 d-block text-center fs-14 w-50">XEM CHI TIẾT</a>
                                     </div>
@@ -1174,7 +1174,7 @@
                             <div class="list-news overflow-hidden col-4">
                                 <div class="list-content-news d-flex justify-content-between">
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Dự án thiết kế và in hộp đựng
                                             nước hoa Jubilé</a>
                                         <div class="actions d-flex justify-content-between px-0">
                                             <span class="d-flex justify-content-center"><i
@@ -1185,7 +1185,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Dự án thiết kế và in hộp đựng
                                             trà Thanh Hang Tea</a>
                                         <div class="actions d-flex justify-content-between px-0">
                                             <span class="d-flex justify-content-center"><i
@@ -1196,7 +1196,7 @@
                                         </div>
                                     </div>
                                     <div class="content">
-                                        <a href="#" class="title text-black fs-14 fw-700">Dự án thiết kế và in hộp đựng
+                                        <a href="#" class="title text-black fs-14 fw-700 text-line-clamp-2">Dự án thiết kế và in hộp đựng
                                             nước hoa Jubilé</a>
                                         <div class="actions d-flex justify-content-between px-0">
                                             <span class="d-flex justify-content-center"><i
