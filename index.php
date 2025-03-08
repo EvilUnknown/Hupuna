@@ -257,7 +257,7 @@
                             <div class="tab-content">
                                 <div id="product-popular" class="tab-pane fade show active">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -272,7 +272,7 @@
                                                     <span class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -287,7 +287,7 @@
                                                     <span class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/pro-2-2.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -302,7 +302,7 @@
                                                     <span class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                                 <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
@@ -317,7 +317,7 @@
                                                     <span class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -331,7 +331,7 @@
                                                     <span class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                             </div>
                                         </div>
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -349,7 +349,7 @@
                                 </div>
                                 <div id="product-easy" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/sp-best-seller.jpg" alt="">
                                             </div>
@@ -367,7 +367,7 @@
                                 </div>
                                 <div id="product-price" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -386,7 +386,7 @@
                                 </div>
                                 <div id="product-pay" class="tab-pane fade">
                                     <div class="row product-list-right d-flex">
-                                        <div class="col-4 product-item-right pb-4">
+                                        <div class="col-3 product-item-right pb-4">
                                             <div class="product-item-right-img img-100">
                                                 <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                                 <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -421,7 +421,7 @@
                         <div class="col-9 product-list-hight">
                             <div id="product-popular" class="tab-pane fade show active">
                                 <div class="row product-list-right d-flex">
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -436,7 +436,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -451,7 +451,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/pro-2-2.jpg" alt="">
                                             <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -466,7 +466,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                             <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
@@ -481,7 +481,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
@@ -495,7 +495,7 @@
                                                     class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                         </div>
                                     </div>
-                                    <div class="col-4 product-item-right pb-4">
+                                    <div class="col-3 product-item-right pb-4">
                                         <div class="product-item-right-img img-100">
                                             <img src="images/sp-best-seller.jpg" alt="">
                                         </div>
@@ -557,8 +557,8 @@
                 </div>
                 <div class="tab-content">
                     <div id="product-most" class="tab-pane fade show active">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -572,7 +572,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-4">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/pro-1.1.jpg " alt="" class="hover-img">
@@ -586,7 +586,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-4">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/pro-2-2.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -600,7 +600,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-4">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                     <img src="images/bao-bi-tet-750x531.jpg " alt="" class="hover-img">
@@ -614,7 +614,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-4">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -627,7 +627,7 @@
                                             class="text-danger">2.160.000đ</span>/10 Hộp</button>
                                 </div>
                             </div>
-                            <div class="col-3 product-item-right pb-4">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -643,8 +643,8 @@
                         </div>
                     </div>
                     <div id="product-calendar" class="tab-pane fade">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/sp-best-seller.jpg" alt="">
                                 </div>
@@ -660,8 +660,8 @@
                         </div>
                     </div>
                     <div id="product-gift" class="tab-pane fade">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -678,8 +678,8 @@
                         </div>
                     </div>
                     <div id="product-li-xi" class="tab-pane fade">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -696,8 +696,8 @@
                         </div>
                     </div>
                     <div id="product-tea" class="tab-pane fade">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">
@@ -714,8 +714,8 @@
                         </div>
                     </div>
                     <div id="product-wine" class="tab-pane fade">
-                        <div class="row product-list-right d-flex">
-                            <div class="col-3 product-item-right pb-4">
+                        <div class="row product-list-right d-grid">
+                            <div class="product-item-right pb-4">
                                 <div class="product-item-right-img img-100">
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                     <img src="images/sp-best-seller.jpg" alt="" class="hover-img">

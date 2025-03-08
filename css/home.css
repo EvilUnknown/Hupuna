@@ -181,7 +181,10 @@ p {
 .wrap-content-feedback {
     gap: 30px;
 }
-
+.box-library .product-list-right {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
 /* css section box-active*/
 .brands .custom_slider .img-brand {
     border-radius: 5px!important;
@@ -510,6 +513,10 @@ p {
     .box-product-best-seller .pro-tab-title {
         gap: 0;
     }
+    .box-product-best-seller .product-item-right,
+    .box-product-hight .product-item-right {
+        width: 33.33%;
+    }
     .form-contact-content .btn {
         width: 100%;
     }
@@ -554,8 +561,8 @@ p {
     .product-list-best, .product-list-hight {
         width: 100%!important;
     }
-    .product-list-right .product-item-right {
-        width: 33.33%;
+    .box-library .product-list-right {
+        grid-template-columns: repeat(3, 1fr);
     }
     .content-benefit {
         padding: 30px 0 0;
@@ -659,6 +666,10 @@ p {
     .box-product-best-seller .pro-tab-title {
         display: block!important;
     }
+    .box-product-best-seller .product-item-right,
+    .box-product-hight .product-item-right {
+        width: 50%;
+    }
     .product-list-best-seller .col-4, 
     .product-list-hight .col-4, 
     .product-list-left .col-4, 
@@ -676,8 +687,10 @@ p {
     .product-list-right {
         padding: 0 5px;
     }
+    .box-library .product-list-right {
+        grid-template-columns: repeat(2, 1fr);
+    }
     .product-list-right .product-item-right {
-        width: 50%;
         padding: 5px;
     }
     .banner-ceo img {
