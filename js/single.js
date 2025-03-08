@@ -75,6 +75,8 @@ $('.custom-next').click(function(){
 
 
 $('.tab_button').click(function(){
+    $('.tab_button').removeClass('active');
+    $(this).addClass('active');
     var target = $(this).data('tab-target');
     $('.tab-content .tab-pane').removeClass('show active');
     $(target).addClass('show active');
