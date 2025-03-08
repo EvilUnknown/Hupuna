@@ -31,7 +31,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Banner    -->
-    <section class="banner position-related">
+    <section class="banner position-relative">
         <div class="item">
             <div class="wrap-img img-100">
                 <img src="images/img_page_home_1.webp" alt="Banner">
@@ -105,7 +105,7 @@
                 </div>
                 <?php foreach($category as $v) { ?>
                     <div class="item px-2">
-                        <a href="<?php echo $v['link']; ?>" title="<?php echo $v['title']; ?>" class="item-category d-flex flex-column justify-content-center align-items-center gap-3 text-second-color p-2 text-line-clamp-1">
+                        <a href="<?php echo $v['link']; ?>" title="<?php echo $v['title']; ?>" class="item-category d-flex flex-column justify-content-center align-items-center gap-3 text-second-color p-2 text-line-clamp-1 transition-03">
                             <img src="<?php echo $v['image']; ?>" alt="<?php echo $v['title']; ?>" class="object-fit-cover">
                             <span class="fs-17 fw-600"><?php echo $v['title']; ?></span>
                         </a>
@@ -253,7 +253,7 @@
                                     <img src="images/library1.png" alt="">
                                 </a>
                                 <h3 class="mt-2">
-                                    <a href="" title="" class="name text-black fs-14 fw-600">
+                                    <a href="" title="" class="name text-black fs-14 fw-600 text-line-clamp-2">
                                         In hộp yến Thượng Đỉnh Yến Hoa
                                         <span class="text-blue-cus">PG-HY24-02</span>
                                     </a>
@@ -272,7 +272,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="min-quantity fs-14 text-center fw-500">
+                                <div class="min-quantity fs-14 text-center fw-500 transition-03">
                                     Số lượng tối thiểu (300)
                                 </div>
                             </div>
@@ -305,45 +305,217 @@
     <!-- End library -->
 
     <!-- Business -->
+    <?php
+        $business = array(
+            '1' => array(
+                'link' => '',
+                'title' => 'Mỹ phẩm',
+                'image' => 'images/business1.png',
+                'des' => 'Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay đổi. Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến đổi tính chất theo thời gian, tăng giá trị sử dụng đồng thời tránh xảy ra tình trạng rơi vỡ.'
+            ),
+            '2' => array(
+                'link' => '',
+                'title' => 'Nông sản - OCOP',
+                'image' => 'images/business2.png',
+                'des' => 'Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới nhiều thị trường thế giới. Bao bì nông sản tác động trực tiếp đến hành vi mua hàng của người dùng, đến sự thành công của sản phẩm và chiến dịch bán hàng.'
+            ),
+            '3' => array(
+                'link' => '',
+                'title' => 'Dược',
+                'image' => 'images/business3.png',
+                'des' => 'Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc sức khỏe con người. Bao bì dược phẩm giúp bảo quản tốt thuốc bên trong, duy trì chất lượng thuốc trong thời gian dài.'
+            ),
+            '4' => array(
+                'link' => '',
+                'title' => 'Thời trang',
+                'image' => 'images/business4.png',
+                'des' => 'Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng của thị trường. Giá trị của món hàng thời trang được nâng lên khi mẫu mã được in ấn cẩn thận và bao bì đóng gói kỹ lưỡng.'
+            ),
+            '5' => array(
+                'link' => '',
+                'title' => 'Sự kiện',
+                'image' => 'images/business5.png',
+                'des' => 'Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao trong xã hội. Khi thực hiện tổ chức sự kiện thì ấn phẩm chính là điểm nhấn truyền tải thông điệp của nhãn hàng đến với người tiêu dùng.'
+            ),
+            '6' => array(
+                'link' => '',
+                'title' => 'Lễ tết',
+                'image' => 'images/business6.png',
+                'des' => 'Lễ Tết là một trong những ngày quan trọng đối với người dân Việt Nam. Ấn phẩm Lễ Tết được xem như là “chiến dịch” mà hầu hết các doanh nghiệp không thể bỏ qua vì nó giúp tạo dựng ấn tượng cho khách hàng, là công cụ marketing hiệu quả.'
+            ),
+        )
+    ?>
     <section class="business space-section">
         <div class="container">
             <div class="title-wrap text-center">
                 <h2 class="fs-27 text-uppercase fw-900 mb-3">Lĩnh vực kinh doanh</h2>
                 <div class="line mx-auto bg-black"></div>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="item p-3">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <a href="" title="" class="wrap-img img-100">
-                                    <img src="images/business1.png" alt="">
-                                </a>
-                                <a href="" title="" class="bg-blue-cus text-white d-block fw-700 see mt-3">
-                                    Xem
-                                </a>
-                            </div>
-                            <div class="col-lg-9">
-                                <div class="content">
-                                    <div class="mb-1">
-                                        <a href="" title="" class="title fs-20 fw-700 text-uppercase text-black">
-                                            Mỹ phẩm
-                                        </a>
-                                    </div>
-                                    <div class="des text-line-clamp-4 fs-14 fw-500 line-height-22">
-                                        Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay đổi. Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến 
-                                        đổi tính chất theo thời gian, tăng giá trị sử dụng đồng thời tránh xảy ra tình trạng rơi vỡ.
+            <div class="row business-inner">
+                <?php foreach($business as $v) { ?>
+                    <?php
+                        $link = $v['link'];
+                        $title = $v['title'];    
+                    ?>
+                    <div class="col-lg-4">
+                        <div class="item p-3 transition-03">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="wrap-img img-100">
+                                        <img src="<?php echo $v['image']; ?>" alt="<?php echo $title; ?>">
+                                    </a>
+                                    <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="bg-blue-cus text-white d-block fw-700 see mt-3 p-2 fs-14 text-center visibility-hidden opacity-0 transition-03">
+                                        Xem
+                                    </a>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="content">
+                                        <div class="mb-1">
+                                            <a href="<?php echo $link; ?>" title="<?php echo $title; ?>" class="title fs-20 fw-700 text-uppercase text-black transition-03">
+                                                <?php echo $title; ?>
+                                            </a>
+                                        </div>
+                                        <div class="des text-line-clamp-4 fs-14 fw-500 line-height-22">
+                                            <?php echo $v['des']; ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <?php } ?>
             </div>
         </div>
     </section>
     <!-- End business -->
 
+    <!-- Foundation -->
+    <?php 
+        $foundation = array(
+            '1' => array(
+                'image'=> 'icons/icon-foundation1.svg',
+                'title' => 'Điền thông tin đặt hàng',
+                'des' => '
+                    <div>Khách hàng điền đầy đủ thông tin cần thiết để in ấn theo các bước hướng dẫn của Printgo, chọn gói in mong muốn, số lượng để bắt đầu tiến hành in ấn.</div>
+                    <div>Sau khi có đầy đủ thông tin, hệ thống sẽ cập nhật giá sản phẩm để khách hàng có thể tiến hành các bước tiếp theo.</div>
+                '
+            ),
+            '2' => array(
+                'image'=> 'icons/icon-foundation2.svg',
+                'title' => 'Kiểm tra thông tin đơn hàng',
+                'des' => '
+                    <div>Khách hàng kiểm tra lại toàn bộ các thông tin chi tiết về đơn hàng, giá, khuyến mại trước khi chuyển in.</div>
+                    <div>Trong trường hợp cần sửa lại thông tin có thể bấm quay lại để chỉnh sửa phù hợp.</div>
+                '
+            ),
+            '3' => array(
+                'image'=> 'icons/icon-foundation3.svg',
+                'title' => 'Điền thông tin thanh toán, nhận hàng',
+                'des' => '
+                    <div>Quý khách lựa chọn hình thức thanh toán mong muốn, điền địa chỉ nhận hàng.</div>
+                    <div>Sau khi đơn hàng hoàn thành sẽ được chuyển đến địa chỉ đã đăng ký của khách hàng.</div>
+                '
+            ),
+        )
+    ?>
+    <section class="foundation has-bg space-section">
+        <div class="container">
+            <div class="title-wrap text-center">
+                <h3 class="fs-14 text-uppercase fw-500 mb-2">Nền tảng thiết kế và in ấn số 1 Việt Nam</h3>
+                <h2 class="fs-27 text-uppercase fw-900 mb-3">In ấn dễ dàng hơn cùng <span class="text-blue-cus">Hupuna</span></h2>
+                <div class="line mx-auto mb-4 bg-black"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 position-relative">
+                    <div class="video text-uppercase text-white cursor-pointer text-center p-2 fw-600 position-absolute">
+                        Video hướng dẫn
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <?php $i = 0; foreach($foundation as $v) { $i++; ?>
+                        <div class="item pt-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="wrap-img img-100">
+                                        <img src="<?php echo $v['image']; ?>" alt="<?php echo $v['title']; ?>">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="content">
+                                        <div class="title fs-20 fw-900 mb-2 text-uppercase <?php echo $i % 2 == 0 ? 'text-warning' : 'text-blue-cus'; ?>">
+                                            <?php echo $v['title']; ?>
+                                        </div>
+                                        <div class="des fw-500 fs-14 line-height-22 mb-3">
+                                            <?php echo $v['des']; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End foundation -->
+
+    <!-- Story  -->
+    <?php 
+        $story = array(
+            '1' => array(
+                'link' => '',
+                'image' => 'images/story1.jpg',
+                'created' => '07/03/2025',
+                'views' => '709',
+                'title' => 'Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?',
+                'des' => 'Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?',
+            )
+        )
+    ?>
+    <section class="story">
+        <div class="container">
+            <div class="title-wrap text-center">
+                <h3 class="fs-14 text-uppercase fw-500 mb-2">Cập nhật tin tức, xu hướng thiết kế</h3>
+                <h2 class="fs-27 text-uppercase fw-900 mb-3">Câu chuyện đồ họa</h2>
+                <div class="line mx-auto mb-4 bg-black"></div>
+            </div>
+            <div class="row">
+                <?php foreach($story as $v) { ?>
+                    <div class="col-lg-3">
+                        <div class="item-story">
+                            <a href="" title="" class="wrap-img img-100">
+                                <img src="images/story1.jpg" alt="">
+                            </a>
+                            <div class="content position-relative">
+                                <div class="row align-items-center">
+                                    <div class="col-6 fs-13">
+                                        <img src="icons/date.svg" alt="">
+                                        07/03/2025
+                                    </div>
+                                    <div class="col-6 fs-13">
+                                        <img src="icons/view.svg" alt="">
+                                        709
+                                    </div>
+                                </div>
+                                <h3 class="pt-2 my-2">
+                                    <a href="" title="" class="name fs-14 fw-700 text-black">
+                                        Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?
+                                    </a>
+                                </h3>
+                                <div class="des fs-14 text-line-clamp-3">
+                                    Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?
+                                </div>
+                                <a href="" title="Xem chi tiết" class="see-detail text-white text-uppercase fw-600 position-absolute d-block end-0 fs-14">
+                                    Xem chi tiết
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+        </div>
+    </section>
+    <!-- End story   -->
 
     <?php include 'footer.php'; ?>
 

@@ -10,6 +10,11 @@ header {
 }
 
 /* Main Menu =====================================*/
+.menu .menu-wrap{
+    display: flex;
+    gap: 30px;
+}
+
 .menu ul li {
     padding: 10px 0;
     margin: 0;
@@ -162,7 +167,7 @@ header.affix .menu-wrap > ul > li{
         max-width: 400px;
         transition: all 0.2s ease-in-out 0s;
         box-shadow: 2px 0 5px 0 rgba(0, 0, 0, 0.15);
-        z-index: 1001;
+        z-index: 100000;
         padding: 20px 0;
         transform: translateX(-100%);
     }
@@ -213,6 +218,8 @@ header.affix .menu-wrap > ul > li{
         max-width: 400px;
         left: 100%;
         transition: .3s;
+        height: 100vh;
+        overflow: auto;
     }
 
     .menu-m ul ul.active{
@@ -241,6 +248,11 @@ header.affix .menu-wrap > ul > li{
     .overlay-menu-m.active {
         opacity: 1;
         visibility: visible;
+    }
+
+    .menu-m .menu-m-wrap{
+        height: calc(100vh - 180px);
+        overflow: auto;
     }
     /* End menu-m  */
     .menu-m .formSearch{
@@ -278,13 +290,18 @@ header.affix .menu-wrap > ul > li{
         gap: 20px;
         padding-top: 10px;
         border-top: 1px solid #333333;
+        background-color: #FFF;
+    }
+
+    header.affix .header-top{
+        display: block;
     }
 }
 
 @media (max-width: 768px) {
     header .container {
-        padding-top: 16px !important;
-        padding-bottom: 16px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
     }
 }
 

@@ -116,6 +116,14 @@
     </footer>
 
     <section class="btn-fixed-wrap position-fixed">
+        <div class="zalo position-relative">
+            <div class="hotline-bg position-relative"></div>
+            <div class="hotline-icon position-absolute">
+                <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
+                    <img src="images/zalo-fixed.png" alt="" class="object-fit-cover">
+                </a>
+            </div>
+        </div> 
         <div class="phone position-relative">
             <div class="hotline-bg position-relative"></div>
             <div class="hotline-icon position-absolute">
@@ -124,6 +132,19 @@
                 </a>
             </div>
         </div> 
+        <div class="messenger position-relative">
+            <div class="hotline-bg position-relative"></div>
+            <div class="hotline-icon position-absolute">
+                <a href="tel:0889736889" title="Hotline" class="btn-fixed position-absolute">
+                    <img src="images/messenger-fixed.png" alt="" class="object-fit-cover">
+                </a>
+            </div>
+        </div>
+        <div class="back-to-top text-center mt-2 visibility-hidden opacity-0">
+            <a href="javascript:;">
+                <img src="icons/to-top.svg" alt="">
+            </a>
+        </div>
     </section>
 
     <script src="js/footer.js"></script>
