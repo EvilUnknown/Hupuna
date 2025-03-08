@@ -837,14 +837,7 @@
             </div>
 
         </section>
-    </div>
-
-    <section class="section">
-         <div class="banner2-ceo">
-         </div>
-         <div class="wrap-container-video">
-
-         </div>               
+    </div>              
     </section>
     <section class="section box-active position-relative">
         <div class="banner-box-active">

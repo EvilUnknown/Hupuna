@@ -233,16 +233,6 @@ p {
 .box-feedback:hover img {
     transform: scale(1.1);
 }
-
-/* css section box-banner2-ceo*/
-.banner2-ceo {
-    background-image: url('../images/banner-ceo-1920x537.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    height: 100%;
-    width: 100%;
-}
 /* css section box-benefit */
 .box-benefit {
     background-image: url('../images/banner-ceo-1920x537.png');
