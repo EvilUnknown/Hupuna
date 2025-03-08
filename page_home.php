@@ -400,7 +400,7 @@
             <div class="row">
                 <div class="col-lg-6"></div>
                 <div class="col-lg-6">
-                    <div class="item">
+                    <div class="item pt-4">
                         <div class="row">
                             <div class="col-lg-2">
                                 <div class="wrap-img img-100">
@@ -409,12 +409,12 @@
                             </div>
                             <div class="col-lg-10">
                                 <div class="content">
-                                    <div class="title">
+                                    <div class="title fs-20 fw-900 mb-2 text-uppercase text-blue-cus">
                                         Điền thông tin đặt hàng
                                     </div>
-                                    <div class="des">
-                                        <p>Khách hàng điền đầy đủ thông tin cần thiết để in ấn theo các bước hướng dẫn của Printgo, chọn gói in mong muốn, số lượng để bắt đầu tiến hành in ấn.</p>
-                                        <p>Sau khi có đầy đủ thông tin, hệ thống sẽ cập nhật giá sản phẩm để khách hàng có thể tiến hành các bước tiếp theo.</p>
+                                    <div class="des fw-500 fs-14 line-height-22 mb-3">
+                                        <div>Khách hàng điền đầy đủ thông tin cần thiết để in ấn theo các bước hướng dẫn của Printgo, chọn gói in mong muốn, số lượng để bắt đầu tiến hành in ấn.</div>
+                                        <div>Sau khi có đầy đủ thông tin, hệ thống sẽ cập nhật giá sản phẩm để khách hàng có thể tiến hành các bước tiếp theo.</div>
                                     </div>
                                 </div>
                             </div>
