@@ -31,7 +31,7 @@
     <?php include 'header.php'; ?>
 
     <!-- Banner    -->
-    <section class="banner position-related">
+    <section class="banner position-relative">
         <div class="item">
             <div class="wrap-img img-100">
                 <img src="images/img_page_home_1.webp" alt="Banner">
@@ -390,7 +390,35 @@
     <!-- End business -->
 
     <!-- Foundation -->
-    <section class="foundation">
+    <?php 
+        $foundation = array(
+            '1' => array(
+                'image'=> 'icons/icon-foundation1.svg',
+                'title' => 'Điền thông tin đặt hàng',
+                'des' => '
+                    <div>Khách hàng điền đầy đủ thông tin cần thiết để in ấn theo các bước hướng dẫn của Printgo, chọn gói in mong muốn, số lượng để bắt đầu tiến hành in ấn.</div>
+                    <div>Sau khi có đầy đủ thông tin, hệ thống sẽ cập nhật giá sản phẩm để khách hàng có thể tiến hành các bước tiếp theo.</div>
+                '
+            ),
+            '2' => array(
+                'image'=> 'icons/icon-foundation2.svg',
+                'title' => 'Kiểm tra thông tin đơn hàng',
+                'des' => '
+                    <div>Khách hàng kiểm tra lại toàn bộ các thông tin chi tiết về đơn hàng, giá, khuyến mại trước khi chuyển in.</div>
+                    <div>Trong trường hợp cần sửa lại thông tin có thể bấm quay lại để chỉnh sửa phù hợp.</div>
+                '
+            ),
+            '3' => array(
+                'image'=> 'icons/icon-foundation3.svg',
+                'title' => 'Điền thông tin thanh toán, nhận hàng',
+                'des' => '
+                    <div>Quý khách lựa chọn hình thức thanh toán mong muốn, điền địa chỉ nhận hàng.</div>
+                    <div>Sau khi đơn hàng hoàn thành sẽ được chuyển đến địa chỉ đã đăng ký của khách hàng.</div>
+                '
+            ),
+        )
+    ?>
+    <section class="foundation has-bg space-section">
         <div class="container">
             <div class="title-wrap text-center">
                 <h3 class="fs-14 text-uppercase fw-500 mb-2">Nền tảng thiết kế và in ấn số 1 Việt Nam</h3>
@@ -398,33 +426,80 @@
                 <div class="line mx-auto mb-4 bg-black"></div>
             </div>
             <div class="row">
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6 position-relative">
+                    <div class="video text-uppercase text-white cursor-pointer text-center p-2 fw-600 position-absolute">
+                        Video hướng dẫn
+                    </div>
+                </div>
                 <div class="col-lg-6">
-                    <div class="item pt-4">
-                        <div class="row">
-                            <div class="col-lg-2">
-                                <div class="wrap-img img-100">
-                                    <img src="icons/icon-foundation1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-10">
-                                <div class="content">
-                                    <div class="title fs-20 fw-900 mb-2 text-uppercase text-blue-cus">
-                                        Điền thông tin đặt hàng
-                                    </div>
-                                    <div class="des fw-500 fs-14 line-height-22 mb-3">
-                                        <div>Khách hàng điền đầy đủ thông tin cần thiết để in ấn theo các bước hướng dẫn của Printgo, chọn gói in mong muốn, số lượng để bắt đầu tiến hành in ấn.</div>
-                                        <div>Sau khi có đầy đủ thông tin, hệ thống sẽ cập nhật giá sản phẩm để khách hàng có thể tiến hành các bước tiếp theo.</div>
+                    <?php $i = 0; foreach($foundation as $v) { $i++; ?>
+                        <div class="item pt-4">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="wrap-img img-100">
+                                        <img src="<?php echo $v['image']; ?>" alt="<?php echo $v['title']; ?>">
                                     </div>
                                 </div>
+                                <div class="col-lg-10">
+                                    <div class="content">
+                                        <div class="title fs-20 fw-900 mb-2 text-uppercase <?php echo $i % 2 == 0 ? 'text-warning' : 'text-blue-cus'; ?>">
+                                            <?php echo $v['title']; ?>
+                                        </div>
+                                        <div class="des fw-500 fs-14 line-height-22 mb-3">
+                                            <?php echo $v['des']; ?>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End foundation -->
+
+    <!-- Story  -->
+    <section class="story">
+        <div class="container">
+            <div class="title-wrap text-center">
+                <h3 class="fs-14 text-uppercase fw-500 mb-2">Cập nhật tin tức, xu hướng thiết kế</h3>
+                <h2 class="fs-27 text-uppercase fw-900 mb-3">Câu chuyện đồ họa</h2>
+                <div class="line mx-auto mb-4 bg-black"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="item-story">
+                        <a href="" title="" class="wrap-img img-100">
+                            <img src="images/story1.jpg" alt="">
+                        </a>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="icons/date.svg" alt="">
+                                    07/03/2025
+                                </div>
+                                <div class="col-4">
+                                    <img src="icons/view.svg" alt="">
+                                    709
+                                </div>
+                            </div>
+                            <h3>
+                                <a href="" title="" class="name">
+                                    Plastic box — Vì sao trở thành bao bì dẫn đầu thị trường?
+                                </a>
+                            </h3>
+                            <div class="des">
+                                Từ ngành thực phẩm, mỹ phẩm đến điện tử, loại bao bì này xuất hiện ở khắp mọi nơi xung quanh chúng ta. Vậy điều gì đã giúp plastic box không ngừng mở rộng và thống trị thị trường?
+                            </div>
+                            <a href="" title="Xem chi tiết"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End foundation -->
+    <!-- End story   -->
 
     <?php include 'footer.php'; ?>
 

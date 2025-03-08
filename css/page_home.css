@@ -219,5 +219,13 @@
 .foundation .item .wrap-img{
     padding-bottom: 100%;
 }
+
+.foundation .video{
+    background: #ff3d89;
+    border-radius: 28px;
+    bottom: -25px;
+    width: 245px;
+    left: 145px;
+}
 /* .foundation  */
 /* End foundation */

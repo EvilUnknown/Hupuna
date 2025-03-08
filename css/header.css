@@ -284,6 +284,10 @@ header.affix .menu-wrap > ul > li{
         padding-top: 10px;
         border-top: 1px solid #333333;
     }
+
+    header.affix .header-top{
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
