@@ -38,100 +38,145 @@
             </div>
         </div>
     </section>
-    <div class="container container-home">
-        <section class="section ceo-box py-5">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-6 wrap-ceo position-relative">
-                            <div class="box-ceo text-center rounded overflow-hidden">
-                                <div class="banner-ceo">
-                                    <img class="position-absolute top-0 start-0 z-n1 object-fit-cover"
-                                        src="images/banner-ceo-1920x537.png">
-                                </div>
-                                <div class="info-block bg-ceo p-3">
-                                    <img src="images/ceo-120x120.png" alt="">
-                                </div>
-                                <div class="text-block-content">
-                                    <div class="info-content-title">
-                                        <h2 class="text-white fs-24">CEO NGUYỄN TIẾN HUY</h2>
-                                        <h4 class="text-white">Tổng Giám Đốc Hupuna</h4>
+    <section class="section ceo-box py-5">
+        <div class=" justify-content-center">
+            <div class="banner-1 bg-size-cover bg-no-repeat">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6 video-contact">
+                                <iframe width="1250" height="80%"
+                                    src="https://www.youtube.com/embed/uuGP6UxGYmo?autoplay=1&mute=1"
+                                    title="Công ty cổ phần Hupuna Group [240204]" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-6 wrap-ceo position-relative">
+                                <div class="box-ceo text-center rounded overflow-hidden">
+                                    <div class="info-block bg-ceo pb-3">
+                                        <img src="images/ceo-120x120.png" alt="">
                                     </div>
-                                    <div class="info-content-text">
-                                        <p class="text-white p-4 lh-lg text-justify">``Luôn đặt lợi ích khách hàng lên
-                                            hàng đầu, việc
-                                            thấu hiểu mong muốn và nhu cầu quý khách
-                                            là trách nhiệm và mục tiêu chính của HUPUNA.
-                                            Thông qua mỗi sản phẩm để mang lại những trải nghiệm tốt đẹp và giá trị thực
-                                            sự cho khách hàng.``
-                                        </p>
+                                    <div class="text-block-content">
+                                        <div class="info-content-title">
+                                            <h2 class="text-white fs-28">CEO NGUYỄN TIẾN HUY</h2>
+                                            <h4 class="text-white fs-16">Tổng Giám Đốc Hupuna</h4>
+                                        </div>
+                                        <div class="info-content-text">
+                                            <p class="text-white pb-4 pt-3 px-3 lh-lg text-justify fs-18">``Luôn đặt lợi ích khách hàng lên
+                                                hàng đầu, việc
+                                                thấu hiểu mong muốn và nhu cầu quý khách
+                                                là trách nhiệm và mục tiêu chính của HUPUNA.
+                                                Thông qua mỗi sản phẩm để mang lại những trải nghiệm tốt đẹp và giá trị thực
+                                                sự cho khách hàng.``
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 category-right align-items-center d-flex position-relative">
-                            <div class="box-categories text-center">
-                                <div class="row">
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-chuyen-nha.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2 pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton chuyển nhà</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-hop-carton.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-banh-trung-thu.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-hop-carton.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-hop-qua.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 item-categories p-3">
-                                        <div class="item-categories-content">
-                                            <div class="item-categories-icon">
-                                                <img src="images/img-chuyen-nha.png" alt="">
-                                            </div>
-                                            <div class="item-categories-title pt-2">
-                                                <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container container-home">
+        <section class="section ceo-box py-5">
+            <div class="justify-content-center">
+                <h2 class="title-box-category-mobile fs-22 fw-700 d-none text-center pb-4">SẢN PHẨM IN ẤN</h2>
+                <div class="category-right align-items-center position-relative">
+                    <div class="box-categories text-center d-grid">
+                        <div class="info-content-category text-start p-3">
+                            <p class="mb-0 fs-18 fw-500">Tiết kiệm chi phí cùng</p>
+                            <h2 class="fs-28">Hapuna</h2>
+                            <p>Công nghệ dẫn đầu, Chất lượng số một, Dịch vụ tức thời, Hỗ trợ khách hàng 24/7...</p>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-hop-carton.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Hộp Carton</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-banh-trung-thu.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-hop-carton.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-hop-qua.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-chuyen-nha.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-banh-trung-thu.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Hộp in Offset</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-hop-carton.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Túi giấy Kraft</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-hop-qua.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Hộp nắp gài</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-categories p-5">
+                            <div class="item-categories-content">
+                                <div class="item-categories-icon">
+                                    <img src="images/img-chuyen-nha.png" alt="">
+                                </div>
+                                <div class="item-categories-title pt-3">
+                                    <a href="#" class="text-black fs-16 fw-600">Xốp khí - Bóng khí</a>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +200,7 @@
                     <div class="carousel-container overflow-hidden position-relative w-100">
                         <!-- <button class="navigation prev">❮</button> -->
                         <div class="custom_slider d-flex w-100 w-100" data-slides-to-show="4" data-slides-to-scroll="1"
-                            data-slides-to-show-mobile="1" data-slides-to-show-tablet="2">
+                            data-slides-to-show-mobile="2" data-slides-to-show-tablet="2">
                             <div class="item-category col-4 text-center w-100">
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
@@ -837,7 +882,7 @@
             </div>
 
         </section>
-    </div>              
+    </div>
     </section>
     <section class="section box-active position-relative">
         <div class="banner-box-active">
@@ -849,7 +894,7 @@
                     <div class="cutomer-feedback">
                         <div class="text-title text-center">
                             <p class="text-white">10 NĂM HOẠT ĐỘNG HUPUNA ĐÃ</p>
-                            <h2 class="text-white fs-24">CUNG CẤP SẢN PHẨM, DỊCH VỤ ĐẾN HƠN 350 DOANH NGHIỆP</h2>
+                            <h2 class="text-white fs-26">CUNG CẤP SẢN PHẨM, DỊCH VỤ ĐẾN HƠN 350 DOANH NGHIỆP</h2>
                             <P class="text-white">LỚN NHỎ TỪ NAM RA BẮC</P>
                         </div>
                         <div class="brands">
@@ -971,6 +1016,7 @@
             <div class="row justify-content-center py-5">
                 <div class="col-12">
                     <div class=" row benefit-buy-product">
+                        <h2 class="fs-26 text-white text-center pb-4">Sứ Mệnh – Đổi Mới – Phát Triển</h2>
                         <div class="col-6 video-contact">
                             <iframe width="1250" height="100%"
                                 src="https://www.youtube.com/embed/uuGP6UxGYmo?autoplay=1&mute=1"
@@ -984,7 +1030,7 @@
                                     <img src="images/group.png" alt="" height="60">
                                 </div>
                                 <div class="col-10">
-                                    <h2 class="text-white">1. Thấu hiểu</h2>
+                                    <h2 class="text-white fs-20">1. Thấu hiểu</h2>
                                     <p class="text-white">Đội ngũ nhân viên trẻ trung, năng động, sẵn sàng lắng nghe &
                                         tư vấn giải pháp tối ưu nhất.</p>
                                 </div>
@@ -994,7 +1040,7 @@
                                     <img src="images/solution.png" alt="" height="60">
                                 </div>
                                 <div class="col-10">
-                                    <h2 class="text-white">2. Sáng tạo</h2>
+                                    <h2 class="text-white fs-20">2. Sáng tạo</h2>
                                     <p class="text-white">Không ngừng cải tiến cập nhật công nghệ trong sản xuất & kinh
                                         doanh</p>
                                 </div>
@@ -1004,7 +1050,7 @@
                                     <img src="images/check-mark.png" alt="" height="60">
                                 </div>
                                 <div class="col-10">
-                                    <h2 class="text-white">3. Thuận tiện</h2>
+                                    <h2 class="text-white fs-20">3. Thuận tiện</h2>
                                     <p class="text-white">Đội ngũ nhân viên trẻ trung, năng động, sẵn sàng lắng nghe &
                                         tư vấn giải pháp tối ưu nhất.</p>
                                 </div>
@@ -1014,7 +1060,7 @@
                                     <img src="images/brand.png" alt="" height="60px">
                                 </div>
                                 <div class="col-10">
-                                    <h2 class="text-white">1. Thấu hiểu</h2>
+                                    <h2 class="text-white fs-20">1. Thấu hiểu</h2>
                                     <p class="text-white">Đội ngũ nhân viên trẻ trung, năng động, sẵn sàng lắng nghe &
                                         tư vấn giải pháp tối ưu nhất.</p>
                                 </div>
@@ -1032,7 +1078,7 @@
                 <div class="col-12">
                     <div class="news-title text-center">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
-                        <h2 class="fs-22">CÂU CHUYỆN ĐỒ HỌA</h2>
+                        <h2 class="fs-28">CÂU CHUYỆN ĐỒ HỌA</h2>
                         <div class="border-bottom"></div>
                     </div>
                     <div class="news-content d-flex">
