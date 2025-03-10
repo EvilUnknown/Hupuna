@@ -3,14 +3,6 @@ $('.banner').slick({
     slidesToScroll: 1,
     dots: true,
     arrows: false,
-    responsive: [
-        {
-            breakpoint: 1280,
-            settings: {
-                slidesToShow: 4
-            }
-        },
-    ]
 });
 
 $('.design-slide').slick({
@@ -19,7 +11,12 @@ $('.design-slide').slick({
     dots: false,
     arrows: false,
     responsive: [
-
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2
+            }
+        },
     ]
 });
 
