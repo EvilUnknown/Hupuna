@@ -29,11 +29,11 @@
     <section class="section sc-box-banner">
         <div class="col-12">
             <div class="banner">
-                <div class="banner-bg-video">
-                    <iframe width="1250" height="703" src="https://www.youtube.com/embed/uuGP6UxGYmo?autoplay=1&mute=1"
-                        title="Công ty cổ phần Hupuna Group [240204]" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="custom_slider img-100" data-slides-to-show="1" data-slides-to-scroll="1" data-slides-to-show-tablet="1" data-slides-to-show-mobile="1">
+                    <img src="images/banner-top.jpg" width="100%" alt="banner1">
+                    <img src="images/banner-a-hieu-240606-ngang-02-d.jpg" alt="banner2">
+                    <img src="images/banner-ngang-240601-01-1536x864.jpg" alt="banner3">
+                    <img src="images/banner-gia-240605-ngang-01-1536x864.png" alt="banner4">
                 </div>
             </div>
         </div>

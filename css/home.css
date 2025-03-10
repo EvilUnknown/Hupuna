@@ -8,6 +8,22 @@ h1, h2, h3, h4, h5,h6 {
 p {
     color: #4b4b4b;
 }
+.banner .custom_slider {
+    padding-bottom: 42%;
+    margin: 0;
+}
+.banner .custom_slider .slick-slide {
+    margin: 0;
+}
+.banner .custom_slider .slick-track {
+    padding: 0!important; 
+}
+.banner .custom_slider .slick-next {
+    right: 11px;
+}
+.banner .custom_slider .slick-prev {
+    left: 11px;
+}
 .item-categories:hover a{
     color: #0a58ca;
 }
@@ -663,6 +679,7 @@ p {
     }
     .ceo-box {
         padding-bottom: 0!important;
+        padding-top: 20px!important;
     }
     .box-categories {
         grid-template-columns: repeat(3, 1fr);
