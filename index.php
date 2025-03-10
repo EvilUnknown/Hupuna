@@ -200,14 +200,14 @@
                     <div class="carousel-container overflow-hidden position-relative w-100">
                         <!-- <button class="navigation prev">❮</button> -->
                         <div class="custom_slider d-flex w-100 w-100" data-slides-to-show="4" data-slides-to-scroll="1"
-                            data-slides-to-show-mobile="2" data-slides-to-show-tablet="2">
+                            data-slides-to-show-mobile="2" data-slides-to-show-tablet="3">
                             <div class="item-category col-4 text-center w-100">
                                 <div class="zoom-img overflow-hidden">
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
-                                <button class="carousel-button text-white blue-button fs-14 cursor-pointer">Bao bì mỹ
+                                <button class="carousel-button text-white fs-14 cursor-pointer">Bao bì mỹ
                                     phẩm</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -217,7 +217,7 @@
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế bao bì</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -227,7 +227,7 @@
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế lịch Tết</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -237,7 +237,7 @@
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
                                 <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Bao
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Bao
                                     bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -247,7 +247,7 @@
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
                                 <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế bao bì</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -257,7 +257,7 @@
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
                                 <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white blue-button fs-14 cursor-pointer d-inline-block">Thiết
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế lịch Tết</button>
                             </div>
                         </div>
@@ -899,7 +899,7 @@
                         </div>
                         <div class="brands">
                             <ul class="custom_slider d-flex w-100" data-slides-to-show="8" data-slides-to-scroll="1"
-                                data-slides-to-show-mobile="3" data-slides-to-scroll-mobile="6"
+                                data-slides-to-show-mobile="3" data-slides-to-show-min-mobile="2" data-slides-to-scroll-min-mobile="2" data-slides-to-scroll-mobile="6"
                                 data-slides-to-show-tablet="5">
                                 <li class="img-brand w-100 overflow-hidden"><img
                                         src="images/brands-dt-giao-hang-tiet-kiem-1000x400-1-300x120.jpg" alt=""></li>
@@ -929,7 +929,7 @@
                             </ul>
                         </div>
                         <div class="feedback wrap-content-feedback custom_slider d-flex w-100 flex-wrap" data-slides-to-show="3"
-                            data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                            data-slides-to-scroll="1" data-slides-to-show-tablet="2" data-slides-to-show-mobile="1">
                             <div class="col-4 box-feedback bg-white position-relative">
                                 <p class="text-line-clamp-3 ps-3 text-justify">“Hộp Carton chất liệu chắc chắn, thiết kế đẹp đúng theo ý
                                     mình.
@@ -940,8 +940,8 @@
                                         <img src="images/khach-hang-11-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>Mrs. Hoàng Thu Thảo</h4>
-                                        <p>Chủ cửa hàng bánh kẹo</p>
+                                        <h4 class="text-line-clamp-1">Mrs. Hoàng Thu Thảo</h4>
+                                        <p class="text-line-clamp-1">Chủ cửa hàng bánh kẹo</p>
                                     </li>
                                 </ul>
                             </div>
@@ -955,8 +955,8 @@
                                         <img src="images/khach-hang-12-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>Mrs. Hương Nguyễn</h4>
-                                        <p>Chủ shop quà lưu niệm</p>
+                                        <h4 class="text-line-clamp-1">Mrs. Hương Nguyễn</h4>
+                                        <p class="text-line-clamp-1">Chủ shop quà lưu niệm</p>
                                     </li>
                                 </ul>
                             </div>
@@ -969,8 +969,8 @@
                                         <img src="images/khach-hang-15-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>Mrs. Lan Hoàng</h4>
-                                        <p>Chủ shop mỹ phẩm</p>
+                                        <h4 class="text-line-clamp-1">Mrs. Lan Hoàng</h4>
+                                        <p class="text-line-clamp-1">Chủ shop mỹ phẩm</p>
                                     </li>
                                 </ul>
                             </div>
@@ -985,8 +985,8 @@
                                         <img src="images/ceo-giaohangtietkiem-pham-hong-quan-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>Mr. Phạm Hồng Quân</h4>
-                                        <p>CEO giao hàng tiết kiệm</p>
+                                        <h4 class="text-line-clamp-1">Mr. Phạm Hồng Quân</h4>
+                                        <p class="text-line-clamp-1">CEO giao hàng tiết kiệm</p>
                                     </li>
                                 </ul>
                             </div>
@@ -1000,8 +1000,8 @@
                                         <img src="images/ceo-giaohangnhanh-luong-duy-hoai-100x100.jpg" alt="">
                                     </li>
                                     <li class="col-9 p-0">
-                                        <h4>Mr. Lương Duy Hoài</h4>
-                                        <p>CEO giao hàng nhanh</p>
+                                        <h4 class="text-line-clamp-1">Mr. Lương Duy Hoài</h4>
+                                        <p class="text-line-clamp-1">CEO giao hàng nhanh</p>
                                     </li>
                                 </ul>
                             </div>
@@ -1084,7 +1084,7 @@
                     <div class="news-content d-flex">
                         <div class="col-9">
                             <div class="custom_slider d-flex w-100 news-content d-flex gap-3" data-slides-to-show="3"
-                                data-slides-to-scroll="1" data-slides-to-show-mobile="1">
+                                data-slides-to-scroll="1" data-slides-to-show-mobile="2">
                                 <div class="card col-4 overflow-hidden d-flex justify-content-between">
                                     <div class="date text-white fs-14 position-absolute">30 Jan</div>
                                     <div class="zoom-img overflow-hidden">

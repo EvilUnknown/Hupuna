@@ -5,10 +5,12 @@ $(document).ready(function(){
         var $this = $(this);
         var slidesToShow = $this.data('slides-to-show') || 4;
         var slidesToScroll = $this.data('slides-to-scroll') || 4;
-        var slidesToShowMobile = $this.data('slides-to-show-mobile') || 1;
-        var slidesToScrollMobile = $this.data('slides-to-scroll-mobile') || 1;
-        var slidesToShowTablet = $this.data('slides-to-show-tablet') || 2;
-        var slidesToScrollTablet = $this.data('slides-to-scroll-tablet') || 2;
+        var slidesToShowTablet = $this.data('slides-to-show-tablet') || 3;
+        var slidesToScrollTablet = $this.data('slides-to-scroll-tablet') || 3;
+        var slidesToShowMobile = $this.data('slides-to-show-mobile') || 2;
+        var slidesToScrollMobile = $this.data('slides-to-scroll-mobile') || 2;
+        var slidesToShowMinMobile = $this.data('slides-to-show-min-mobile') || 1;
+        var slidesToScrollMinMobile = $this.data('slides-to-scroll-min-mobile') || 1;
         var slidesSpeed = $this.data('slides-to-speed') || 3000;
 
         $this.slick({
@@ -34,6 +36,14 @@ $(document).ready(function(){
                     settings: {
                         slidesToShow: slidesToShowMobile,
                         slidesToScroll: slidesToScrollMobile,
+                    }
+                },
+
+                {
+                    breakpoint: 320,
+                    settings: {
+                        slidesToShow: slidesToShowMinMobile,
+                        slidesToScroll: slidesToScrollMinMobile,
                     }
                 }
             ]
