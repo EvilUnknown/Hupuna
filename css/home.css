@@ -254,9 +254,6 @@ p {
 /* css section box-benefit */
 .box-benefit {
     background-image: url('../images/banner-ceo-1920x537.png');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .slick-slide img {
     border-radius: 5px;

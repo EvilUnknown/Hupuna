@@ -1011,7 +1011,7 @@
             </div>
         </div>
     </section>
-    <section class="section box-benefit">
+    <section class="section box-benefit bg-no-repeat bg-position-right bg-size-cover">
         <div class="container">
             <div class="row justify-content-center py-5">
                 <div class="col-12">
