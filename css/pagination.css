@@ -1,0 +1,18 @@
+.pagination a {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+  }
+  .pagination a.active {
+    background: #003366 !important;
+    color: var(--third-color);
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  @media all and (max-width: 767px) {
+    .pagination a{
+      font-size: 12px !important;
+      padding: 8px 15px !important;
+      margin: 2px !important;
+    }
+  }
