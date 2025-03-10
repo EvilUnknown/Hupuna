@@ -40,7 +40,7 @@
     </section>
     <section class="section ceo-box py-5">
         <div class=" justify-content-center">
-            <div class="banner-1 bg-size-cover bg-no-repeat">
+            <div class="banner-1 bg-size-cover bg-no-repeat bg-position-right">
                 <div class="container">
                     <div class="col-12">
                         <div class="row">
@@ -194,7 +194,7 @@
                         </div>
                         <div class="title-degin">
                             <h2 class="fs-28">SÀN THIẾT KẾ</h2>
-                            <div class="border-bottom"></div>
+                            <div class="border-bottom bg-black"></div>
                         </div>
                     </div>
                     <div class="carousel-container overflow-hidden position-relative w-100">
@@ -206,7 +206,7 @@
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
-                                <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">121 sản phẩm đã thiết kế</div>
                                 <button class="carousel-button text-white fs-14 cursor-pointer">Bao bì mỹ
                                     phẩm</button>
                             </div>
@@ -215,7 +215,7 @@
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
-                                <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">140 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế bao bì</button>
@@ -225,7 +225,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
-                                <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">200 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế lịch Tết</button>
@@ -235,9 +235,9 @@
                                     <img src="images/bao-bi-my-pham-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">BAO BÌ MỸ PHẨM</a>
-                                <div class="carousel-text fs-14">121 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">121 sản phẩm đã thiết kế</div>
                                 <button
-                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Bao
+                                    class="carousel-button text-white fs-14 cursor-pointer d-inline-block ">Bao
                                     bì mỹ phẩm</button>
                             </div>
                             <div class="item-category col-4 text-center w-100">
@@ -245,7 +245,7 @@
                                     <img src="images/bao-bi-thuc-pham-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ BAO BÌ OCOP</a>
-                                <div class="carousel-text fs-14">140 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">140 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế bao bì</button>
@@ -255,7 +255,7 @@
                                     <img src="images/bao-bi-tet-750x531.jpg" alt="">
                                 </div>
                                 <a href="#" class="carousel-title text-black fw-700 fs-18 text-line-clamp-1">THIẾT KẾ ẤN PHẨM LỊCH TẾT</a>
-                                <div class="carousel-text fs-14">200 sản phẩm đã thiết kế</div>
+                                <div class="carousel-text fs-14 text-line-clamp-1">200 sản phẩm đã thiết kế</div>
                                 <button
                                     class="carousel-button text-white fs-14 cursor-pointer d-inline-block">Thiết
                                     kế lịch Tết</button>
@@ -279,13 +279,13 @@
                                         href="#see-more">XEM THÊM</a></li>
                             </div>
                             <ul class="nav nav-tabs tab-title align-items-center fs-16 d-flex" id="productTabs">
-                                <li class="nav-item"><a class="nav-link fw-700 active" data-bs-toggle="tab"
+                                <li class="nav-item"><a class="nav-link fw-700 text-black active" data-bs-toggle="tab"
                                         href="#product-popular">MẪU MÃ PHONG PHÚ</a></li>
-                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                                <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                         href="#product-easy">ĐƠN GIẢN TIỆN LỢI</a></li>
-                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                                <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                         href="#product-price">GIÁ TỐT</a></li>
-                                <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                                <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                         href="#product-pay">THANH TOÁN ONLINE</a></li>
                             </ul>
                         </div>
@@ -583,17 +583,17 @@
                                     href="#see-more">XEM THÊM</a></li>
                         </div>
                         <ul class="nav nav-tabs tab-title align-items-center d-flex fs-16" id="productTabs">
-                            <li class="nav-item"><a class="nav-link fw-700 active" data-bs-toggle="tab"
+                            <li class="nav-item"><a class="nav-link fw-700 text-black active" data-bs-toggle="tab"
                                     href="#product-most">SẢN PHẨM NỔI BẬT</a></li>
-                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                            <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                     href="#product-calendar">LỊCH TẾT</a></li>
-                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                            <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                     href="#product-gift">HỘP QUÀ TẾT</a></li>
-                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                            <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                     href="#product-li-xi">LÌ XÌ</a></li>
-                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab" href="#product-tea">HỘP
+                            <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab" href="#product-tea">HỘP
                                     TRÀ</a></li>
-                            <li class="nav-item"><a class="nav-link fw-700" data-bs-toggle="tab"
+                            <li class="nav-item"><a class="nav-link fw-700 text-black" data-bs-toggle="tab"
                                     href="#product-wine">HỘP RƯỢU</a></li>
                         </ul>
                     </div>
@@ -796,7 +796,7 @@
             <div class="col-12">
                 <div class="besiness-title py-4">
                     <h2 class="fs-28 d-flex justify-content-center">LĨNH VỰC KINH DOANH</h2>
-                    <div class="border-bottom"></div>
+                    <div class="border-bottom bg-black"></div>
                 </div>
                 <div class="wrap-content-besiness d-flex gap-4 justify-content-between flex-wrap">
                     <div class="col-4 content-besiness content-besiness1">
@@ -1079,7 +1079,7 @@
                     <div class="news-title text-center">
                         <p> CẬP NHẬT TIN TỨC, XU HƯỚNG THIẾT KẾ</p>
                         <h2 class="fs-28">CÂU CHUYỆN ĐỒ HỌA</h2>
-                        <div class="border-bottom"></div>
+                        <div class="border-bottom bg-black"></div>
                     </div>
                     <div class="news-content d-flex">
                         <div class="col-9">
@@ -1266,7 +1266,7 @@
         <div class="col-12">
             <div class="container">
                 <div class="banner-bg-footer">
-                    <img src="images/banner-3.png" alt="" class="position-absolute start-0 z-n1 object-fit-cover">
+                    <img src="images/banner-3.png" alt="" class="position-absolute start-0 z-n1 object-fit-cover w-100">
                 </div>
                 <div class="row py-4 info-block">
                     <div class="col-3 d-flex justify-content-center info-block-content">
