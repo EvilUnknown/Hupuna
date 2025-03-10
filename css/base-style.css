@@ -70,7 +70,7 @@ body {
     color: var(--second-color);
     margin: 0;
     font-size: 15px;
-    list-style: none;
+    line-height: 1.4;
 }
 
 html{
@@ -85,6 +85,7 @@ img {
 
 a{
     text-decoration: none;
+    transition: .3s;
 }
 
 a:hover, a:focus {
@@ -128,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 h1, h2, h3, h4, h5, h6{
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .stop-scroll {
