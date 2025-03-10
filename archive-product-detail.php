@@ -43,12 +43,12 @@
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="1500">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                                <div class="item text-center cursor-pointer">
-                                    <div class="img-100 imgdetaisCategory">
-                                        <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                                    </div>
-                                    <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
+                            <div class="item text-center cursor-pointer">
+                                <div class="img-100 imgdetaisCategory">
+                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
+                            </div>
                             <?php endfor; ?>
                         </div>
                     </div>
@@ -69,12 +69,12 @@
                         <div class="custom_slider" data-slides-to-show="3" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-scroll-mobile="1" data-slides-to-speed="2000">
                             <?php for ($i = 0; $i < 9; $i++) : ?>
-                                <div class="item text-center cursor-pointer">
-                                    <div class="img-100 imgdetaisCategory">
-                                        <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
-                                    </div>
-                                    <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
+                            <div class="item text-center cursor-pointer">
+                                <div class="img-100 imgdetaisCategory">
+                                    <img src="./images/bannerhopcarton.jfif" alt="HỘP SIZE NHỎ">
                                 </div>
+                                <p class="fw-600 mt-2 mb-2 fs-18 text-line-clamp-2">HỘP SIZE NHỎ</p>
+                            </div>
                             <?php endfor; ?>
                         </div>
                     </div>
@@ -873,21 +873,13 @@
                     <div class="row listProduct mt-3">
                         <ul class=" d-flex align-items-center ">
                             <?php for ($i = 0; $i < 15; $i++) : ?>
-                                <li class="cursor-pointer">
-                                    <?php include 'product-item.php'; ?>
-                                </li>
+                            <li class="cursor-pointer">
+                                <?php include 'product-item.php'; ?>
+                            </li>
                             <?php endfor; ?>
 
                         </ul>
-                        <div class=" pagination d-flex justify-content-center align-items-center mt-3">
-                            <a class="ms-1 me-1" href="#">&laquo;</a>
-                            <a class="ms-1 me-1 active" href="#">1</a>
-                            <a class="ms-1 me-1" href="#" class="active">2</a>
-                            <a class="ms-1 me-1" href="#">3</a>
-                            <a class="ms-1 me-1" href="#">4</a>
-                            <a class="ms-1 me-1" href="#">5</a>
-                            <a class="ms-1 me-1" href="#">&raquo;</a>
-                        </div>
+                        <?php include "pagination.php" ?>
                     </div>
                     <!-- end listProduct -->
 
