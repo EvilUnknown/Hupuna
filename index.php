@@ -29,7 +29,7 @@
     <section class="section sc-box-banner">
         <div class="col-12">
             <div class="banner">
-                <div class="custom_slider img-100" data-slides-to-show="1" data-slides-to-scroll="1" data-slides-to-show-tablet="1" data-slides-to-show-mobile="1">
+                <div class="custom_slider img-100 m-0" data-slides-to-show="1" data-slides-to-scroll="1" data-slides-to-show-tablet="1" data-slides-to-show-mobile="1">
                     <img src="images/banner-top.jpg" width="100%" alt="banner1">
                     <img src="images/banner-a-hieu-240606-ngang-02-d.jpg" alt="banner2">
                     <img src="images/banner-ngang-240601-01-1536x864.jpg" alt="banner3">
@@ -197,7 +197,7 @@
                             <div class="border-bottom bg-black"></div>
                         </div>
                     </div>
-                    <div class="carousel-container overflow-hidden position-relative w-100">
+                    <div class="carousel-container overflow-hidden position-relative w-100 m-auto">
                         <!-- <button class="navigation prev">❮</button> -->
                         <div class="custom_slider d-flex w-100 w-100" data-slides-to-show="4" data-slides-to-scroll="1"
                             data-slides-to-show-mobile="2" data-slides-to-show-tablet="3">
@@ -273,7 +273,7 @@
                     <div class="d-flex justify-content-between pb-3">
                         <div class="pro-tab-title d-flex align-items-center">
                             <h2 class="fs-24 library">SẢN PHẨM BÁN CHẠY</h2>
-                            <div class="mobile-library d-flex justify-content-between px-2 py-2">
+                            <div class="mobile-library d-none justify-content-between px-2 py-2">
                                 <h2 class="fs-18">SẢN PHẨM BÁN CHẠY</h2>
                                 <li class="see-more fw-700"><a class="text-black fw-700" data-bs-toggle="tab"
                                         href="#see-more">XEM THÊM</a></li>
@@ -576,7 +576,7 @@
                     <div class="d-flex gap-5 title-library">
                         <h2 class="fs-24 library d-flex"><img src="images/music-library.png" width="28px" height="25px"
                                 alt="">THƯ VIỆN</h2>
-                        <div class="mobile-library d-flex justify-content-between px-2 py-2">
+                        <div class="mobile-library d-none justify-content-between px-2 py-2">
                             <h2 class="fs-18"><img src="images/music-library.png" width="28px" height="25px" alt="">THƯ
                                 VIỆN</h2>
                             <li class="see-more fw-700"><a class=" text-black fw-700" data-bs-toggle="tab"
