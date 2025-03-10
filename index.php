@@ -980,7 +980,7 @@
                                     Họ có thể tùy chỉnh kích thước, hình dạng và màu sắc của hộp carton theo bất kỳ yêu
                                     cầu nào.”
                                 </p>
-                                <ul class="row align-items-center pt-2">
+                                <ul class="row align-items-center pt-3">
                                     <li class="col-3">
                                         <img src="images/ceo-giaohangtietkiem-pham-hong-quan-100x100.jpg" alt="">
                                     </li>
