@@ -806,7 +806,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">MỸ PHẨM</h3>
-                                <P class="text-justify">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
+                                <P class="text-justify text-line-clamp-3">Mỹ phẩm là ngành hàng luôn đòi hỏi có sự cải tiến và thay
                                     đổi.
                                     Đầu tư bao bì mỹ phẩm giúp sản phẩm không bị biến đổi tính chất theo thời
                                     gian...</P>
@@ -820,7 +820,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">NÔNG SẢN - OCOP</h3>
-                                <P class="text-justify">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
+                                <P class="text-justify text-line-clamp-3">Nông sản là mặt hàng xuất khẩu chủ lực của Việt Nam tới
                                     nhiều thị trường thế giới.
                                     Bao bì nông sản tác động trực tiếp đến hành vi mua hàng...</P>
                             </div>
@@ -833,7 +833,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">DƯỢC</h3>
-                                <P class="text-justify">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
+                                <P class="text-justify text-line-clamp-3">Dược phẩm là ngành hàng thiết yếu và quan trọng để chăm sóc
                                     sức khỏe con người.
                                     Bao bì dược phẩm giúp bảo quản tốt thuốc bên trong, ...</P>
                             </div>
@@ -846,7 +846,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">THỜI TRANG</h3>
-                                <P class="text-justify">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
+                                <P class="text-justify text-line-clamp-3">Thời trang là ngành có sự biến đổi nhanh chóng theo xu hướng
                                     của thị trường.
                                     Giá trị của món hàng thời trang được nâng lên khi mẫu mã được ...</P>
                             </div>
@@ -859,7 +859,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">SỰ KIỆN</h3>
-                                <P class="text-justify">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
+                                <P class="text-justify text-line-clamp-3">Sự kiện đang dần trở thành một lĩnh vực hot, có nhu cầu cao
                                     trong xã hội.
                                     Khi thực hiện tổ chức sự kiện thì ấn phẩm chính là điểm nhấn truyền tải ...</P>
                             </div>
@@ -872,7 +872,7 @@
                             </div>
                             <div class="col-9">
                                 <h3 class="fs-18">LỄ TẾT</h3>
-                                <P class="text-justify">Lễ Tết là một trong những ngày quan trọng đối với người dân
+                                <P class="text-justify text-line-clamp-3">Lễ Tết là một trong những ngày quan trọng đối với người dân
                                     Việt Nam.
                                     Ấn phẩm Lễ Tết được xem như là “chiến dịch” mà hầu hết các doanh nghiệp ...</P>
                             </div>
